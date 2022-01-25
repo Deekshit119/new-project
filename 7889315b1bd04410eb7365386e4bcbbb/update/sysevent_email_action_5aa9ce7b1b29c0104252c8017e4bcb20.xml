@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>problem_task</collection>
+        <condition table="problem_task">x_sksw_uk_itsm_scope=Skanska UK^assigned_toISNOTEMPTY^assigned_toVALCHANGES^EQ<item display_value="Skanska UK" endquery="false" field="x_sksw_uk_itsm_scope" goto="false" newquery="false" operator="=" or="false" value="Skanska UK"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>label.notify</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<table style="width: 394px; border-collapse: collapse; border: none; margin-left: 6.75pt; margin-right: calc(23%); height: 425px;" border="0" width="545" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td width="57">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td colspan="2" width="307">
+<p><img src="/sys_attachment.do?sys_id=8d200a531b6d00104252c8017e4bcbfd" width="157" height="54" /></p>
+</td>
+<td style="width: 136.4pt; padding: 4.25pt 5.4pt 4.25pt 5.4pt;" colspan="2" width="33.333333333333336%">
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif;"><span style="font-size: 19px; line-height: 120%;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 396.95pt; background: #293E6B; padding: 4.25pt 5.4pt 4.25pt 5.4pt;" colspan="4" width="97.06422018348624%">
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif; text-align: right;"><span style="font-size: 15px; line-height: 120%; color: #f2efed;">IT Notification &nbsp; &nbsp;&nbsp;</span></p>
+</td>
+<td style="width: 12.15pt; background: #293E6B; padding: 4.25pt 5.4pt 4.25pt 5.4pt;" width="2.9357798165137616%">
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif; text-align: right;"><span style="font-size: 15px; line-height: 120%;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 409.1pt; padding: 4.25pt 5.4pt; vertical-align: top;" colspan="5" valign="top" width="100%">
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif;"><span style="font-size: 13px;">&nbsp;</span></p>
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif;"><span style="font-size: 15px; line-height: 120%;">Short description: ${short_description}</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">Click here to view Problem Task: ${URI_REF}</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">State: ${state}<br /></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">Priority: ${priority}<br /></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">Configuration item: ${cmdb_ci}<br /></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">Assignment group: ${assignment_group}<br /></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">Assigned to: ${assigned_to}</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">Description: ${description}<br /></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">${mail_script:attach_links}</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;"><span style="font-size: 15px; line-height: 120%;">Comments and Work notes: ${comments_and_work_notes}<br /></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif;">&nbsp;&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 204.55pt; background: #e6e6e6; padding: 4.25pt 5.4pt; vertical-align: top;" colspan="2" valign="top" width="50%">
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif;"><span style="color: black;">Contact Us: <u>Self Service</u>&nbsp;</span></p>
+</td>
+<td style="width: 204.55pt; background: #e6e6e6; padding: 4.25pt 5.4pt; vertical-align: top;" colspan="3" valign="top" width="50%">
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif; text-align: right;"><span style="color: black;">Unsubscribe | Notification Preferences</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 396.95pt; background: #293E6B; padding: 4.25pt 5.4pt 4.25pt 5.4pt;" colspan="4" width="97.06422018348624%">
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif;"><span style="font-size: 9px; line-height: 120%; color: #f2efed;">Skanska Plc, Registered Office: Maple Cross House, Denham Way, Maple Cross, Herts. WD3 9SW. Registered in England &ndash; Registrations Number: 784752</span></p>
+</td>
+<td style="width: 12.15pt; background: #293E6B; padding: 4.25pt 5.4pt 4.25pt 5.4pt;" width="2.9357798165137616%">
+<p style="margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif; text-align: right;"><span style="font-size: 15px; line-height: 120%;">&nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>FF_UK_Problem Task assigned to me</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Problem task ${number} has been assigned to you</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-13 02:11:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5aa9ce7b1b29c0104252c8017e4bcb20</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>FF_UK_Problem Task assigned to me</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysevent_email_action_5aa9ce7b1b29c0104252c8017e4bcb20</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-19 00:38:13</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

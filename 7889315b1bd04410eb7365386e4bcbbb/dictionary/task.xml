@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="reference_index_include=active,all_tables.live_feed=true,all_tables.detail_row=short_description,all_tables.display_color=priority,text_index_translations=true,extension_model=hierarchy,hasLabels=true,hasListeners=true,largeTable=true" audit="true" label="Task" max_length="40" name="task" sizeclass="322613" text_index="true" type="collection">
+        <element label="UK Assignment Group" max_length="32" name="x_sksw_uk_itsm_assignment_group" reference="sys_user_group" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^typeLIKE1cb8ab9bff500200158bffffffffff62^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^typeLIKE1cb8ab9bff500200158bffffffffff62^EQ" type="reference"/>
+        <element label="Business Service" max_length="32" name="x_sksw_uk_itsm_business_service" reference="cmdb_ci_service" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="reference"/>
+        <element label="Configuration Item" max_length="32" name="x_sksw_uk_itsm_cmdb_ci" reference="cmdb_ci" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="reference"/>
+        <element label="Outage" max_length="40" name="x_sksw_uk_itsm_outage" read_only="true" type="boolean"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="x_sksw_uk_itsm_uk_assigned_to" reference="sys_user" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Vendor" max_length="40" name="x_sksw_uk_itsm_vendor" type="string"/>
+        <element label="Vendor Ref" max_length="40" name="x_sksw_uk_itsm_vendor_ref" type="string"/>
+        <index name="index">
+            <element name="x_sksw_uk_itsm_cmdb_ci"/>
+            <element name="active"/>
+        </index>
+        <index name="index2">
+            <element name="x_sksw_uk_itsm_uk_assigned_to"/>
+            <element name="active"/>
+        </index>
+    </element>
+</database>

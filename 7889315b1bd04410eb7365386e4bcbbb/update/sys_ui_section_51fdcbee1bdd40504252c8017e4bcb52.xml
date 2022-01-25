@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="51fdcbee1bdd40504252c8017e4bcb52" sys_domain="global" table="x_sksw_uk_itsm_catalog_item_approvals" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sc_cat_item</element>
+            <position>0</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>216ec3221b1180504252c8017e4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>a56ec3221b1180504252c8017e4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>2</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>2d6ec3221b1180504252c8017e4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>a16ec3221b1180504252c8017e4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>296ec3221b1180504252c8017e4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <position>5</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>ad6ec3221b1180504252c8017e4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_condition</element>
+            <position>6</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>256ec3221b1180504252c8017e4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>a96ec3221b1180504252c8017e4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <position>8</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>216ec3221b1180504252c8017e4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>a56ec3221b1180504252c8017e4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group</element>
+            <position>10</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:43:31</sys_created_on>
+            <sys_id>2d6ec3221b1180504252c8017e4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_uk_itsm_catalog_item_approvals" sys_domain="global" view="Default view">51fdcbee1bdd40504252c8017e4bcb52</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:43:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_sksw_uk_itsm_catalog_item_approvals</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:41:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51fdcbee1bdd40504252c8017e4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_uk_itsm_catalog_item_approvals</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_51fdcbee1bdd40504252c8017e4bcb52</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:41:36</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>x_sksw_uk_itsm_leased_frequency</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-04 00:08:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f577b49b1b704010445f3150cd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sksw_uk_itsm_leased_frequency</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f577b49b1b704010445f3150cd4bcbd4</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-11-04 00:08:08</sys_updated_on>
+        <table>alm_hardware</table>
+        <ui_policy display_value="FF_EP_STRY0013520_5">3457fc5b1b704010445f3150cd4bcbfd</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

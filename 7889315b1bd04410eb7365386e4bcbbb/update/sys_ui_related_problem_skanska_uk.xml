@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="problem" version="2" view="skanska_uk">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Skanska UK" name="problem" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">f4990dfa1b4684904d21ed3fad4bcbcc</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>incident.problem_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 15:28:46</sys_created_on>
+            <sys_id>f4990dfa1b4684904d21ed3fad4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 15:28:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Skanska UK" name="problem" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">f4990dfa1b4684904d21ed3fad4bcbcc</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>problem_task.problem</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 15:28:46</sys_created_on>
+            <sys_id>b0990dfa1b4684904d21ed3fad4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 15:28:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Skanska UK" name="problem" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">f4990dfa1b4684904d21ed3fad4bcbcc</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>cmdb_ci_outage.task_number</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 15:28:46</sys_created_on>
+            <sys_id>38990dfa1b4684904d21ed3fad4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 15:28:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Skanska UK" name="problem" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">f4990dfa1b4684904d21ed3fad4bcbcc</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>change_request.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 15:28:46</sys_created_on>
+            <sys_id>bc990dfa1b4684904d21ed3fad4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 15:28:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Problem - Skanska UK</calculated_name>
+            <filter/>
+            <name>problem</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 15:28:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4990dfa1b4684904d21ed3fad4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Problem - Skanska UK</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_related_problem_skanska_uk</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 15:28:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

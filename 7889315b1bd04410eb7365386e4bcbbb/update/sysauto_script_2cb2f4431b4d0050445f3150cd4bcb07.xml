@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>FF RQ STRY0013713  EOL Send Invite for device expiry</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator (admin)">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-11-15 15:24:30</run_start>
+        <run_time>1970-01-01 10:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[runCheck();
+function runCheck()
+{
+	var curDevice;
+	var newDevice;
+	var warExpDate;
+	var userID;
+	var inviteDate;
+	
+	/*  31Jan2020
+	var gdt = new GlideDateTime();
+	gdt.addDaysLocalTime(90);
+	var today =  new GlideDateTime();
+	var grAsset = new GlideRecord('alm_hardware');
+	var grOr = grAsset.addQuery('warranty_expiration','<',gdt);
+	grOr.addOrCondition('warranty_expiration','>',gdt);
+	grAsset.addNotNullQuery('ci.owned_by.user_name');
+	grAsset.addQuery('x_sksw_uk_itsm_scope','Skanska UK');
+	grAsset.addQuery('acquisition_method','lease');
+	//grAsset.addQuery('ci.assigned_to.active','true');
+	grAsset.addEncodedQuery('x_sksw_uk_itsm_storm_statusNOT INCollection in Progress,Collection in Progress Hold,Collection in Transit,Disposed,In Stock,Lost / Stolen,Recovered to VAR,Replaced,Replacement In Progress,Return in Progress,Returned,Returned to Leassor');	grAsset.addQuery('ci.model_id.ref_cmdb_hardware_product_model.x_sksw_uk_itsm_computer_type','IN','Desktop,Laptop,Hybrid');	
+	grAsset.query();
+	gs.addInfoMessage(grAsset.getRowCount());	*/
+	
+	var gdt = new GlideDateTime();
+var gdtS = new GlideDateTime();
+	gdt.addDaysLocalTime(90);
+        gdtS.addDaysLocalTime(-90);   
+gs.addInfoMessage(gdtS);
+	var today =  new GlideDateTime();
+	var grAsset = new GlideRecord('alm_hardware');
+	grAsset.addQuery('warranty_expiration','<',gdt);
+        grAsset.addQuery('warranty_expiration','>',gdtS);
+	grAsset.addNotNullQuery('ci.owned_by.user_name');
+	grAsset.addQuery('x_sksw_uk_itsm_scope','Skanska UK');
+	grAsset.addQuery('acquisition_method','lease');
+	//grAsset.addQuery('ci.assigned_to.active','true');
+	grAsset.addEncodedQuery('x_sksw_uk_itsm_storm_statusNOT INCollection in Progress,Collection in Progress Hold,Collection in Transit,Disposed,In Stock,Lost / Stolen,Recovered to VAR,Replaced,Replacement In Progress,Return in Progress,Returned,Returned to Leassor');	grAsset.addQuery('ci.model_id.ref_cmdb_hardware_product_model.x_sksw_uk_itsm_computer_type','IN','Desktop,Laptop,Hybrid');	
+	grAsset.query();
+	//gs.addInfoMessage(grAsset.getRowCount());	
+	
+	
+	
+	while (grAsset.next())
+		{
+			var grEOLFind = new GlideRecord('x_sksw_uk_itsm_eol_pc_refresh');
+			grEOLFind.addQuery('device',grAsset.ci.sys_id);
+			grEOLFind.addQuery('u_user_id',grAsset.ci.owned_by.sys_id);
+			grEOLFind.query();
+			if (grEOLFind.getRowCount() == 0)
+				{
+					var grEOLNew = new GlideRecord('x_sksw_uk_itsm_eol_pc_refresh');
+					grEOLNew.initialize();
+					grEOLNew.setValue('device',grAsset.ci.sys_id);
+					grEOLNew.setValue('u_warranty_expiry_date',grAsset.warranty_expiration);
+					grEOLNew.setValue('u_user_id',grAsset.ci.owned_by.sys_id);
+					grEOLNew.setValue('u_invitation_email_sent_date',today);
+					grEOLNew.insert();
+				}
+			
+		}
+	
+	
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-15 15:25:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2cb2f4431b4d0050445f3150cd4bcb07</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>FF RQ STRY0013713  EOL Send Invite for device expiry</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_2cb2f4431b4d0050445f3150cd4bcb07</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-31 11:31:07</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

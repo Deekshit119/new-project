@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Cases">b917b83d1be540904252c8017e4bcb55</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Case - Standard Carry Case Dicota</strong></p>
+<p><strong>ID : D30446</strong></p>
+<p><strong>£ 9.14</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Case - Standard Carry Case Dicota</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>86b95c991bae00904d21ed3fad4bcb8a</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f25910d91bae00904d21ed3fad4bcb6a&amp;sysparm_preview=true", "summary");</preview>
+        <price>12.4</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Case - Standard Carry Case Dicota</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:38:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f25910d91bae00904d21ed3fad4bcb6a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Case - Standard Carry Case Dicota</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_f25910d91bae00904d21ed3fad4bcb6a</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:40:12</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>D30446</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="Dicota">8f7ecdd31b5ac4504d21ed3fad4bcb73</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=f25910d91bae00904d21ed3fad4bcb6a"/>
+    <fx_price action="delete_multiple" query="id=f25910d91bae00904d21ed3fad4bcb6a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>9.14</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>f25910d91bae00904d21ed3fad4bcb6a</id>
+        <parent/>
+        <reference_amount>12.0005</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:38:36</sys_created_on>
+        <sys_id>f65910d91bae00904d21ed3fad4bcb6d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:40:12</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>f25910d91bae00904d21ed3fad4bcb6a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:38:36</sys_created_on>
+        <sys_id>325910d91bae00904d21ed3fad4bcb6e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:38:38</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#323230</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>78</image_height>
+        <image_width>101</image_width>
+        <size_bytes>2854</size_bytes>
+        <size_compressed>2719</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:40:12</sys_created_on>
+        <sys_id>86b95c991bae00904d21ed3fad4bcb8a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:40:13</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>f25910d91bae00904d21ed3fad4bcb6a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="86b95c991bae00904d21ed3fad4bcb8a">86b95c991bae00904d21ed3fad4bcb8a</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:40:12</sys_created_on>
+        <sys_id>c6b95c991bae00904d21ed3fad4bcb8a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3612</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="86b95c991bae00904d21ed3fad4bcb8a">86b95c991bae00904d21ed3fad4bcb8a</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:40:12</sys_created_on>
+        <sys_id>4ab95c991bae00904d21ed3fad4bcb8a</sys_id>
+    </sys_attachment_doc>
+</record_update>

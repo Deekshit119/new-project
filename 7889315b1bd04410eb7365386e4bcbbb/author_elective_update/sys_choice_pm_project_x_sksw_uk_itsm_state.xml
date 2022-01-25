@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_sksw_uk_itsm_state" table="pm_project" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_state</element>
+            <name>pm_project</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:02:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1bf8c5341bf9c4104252c8017e4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_uk_itsm_state</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_choice_pm_project_x_sksw_uk_itsm_state</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:02:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>-5</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ff8c5341bf9c4104252c8017e4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:02:41</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:03:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c119c9f41bf9c4104252c8017e4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:03:04</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Awaiting approval</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f10985741bf9c4104252c8017e4bcbff</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:46:31</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:03:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5549c9f41bf9c4104252c8017e4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:03:55</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:03:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f1909f41bf9c4104252c8017e4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:03:14</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:03:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8229c9f41bf9c4104252c8017e4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:03:24</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Skipped</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:03:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>603989f41bf9c4104252c8017e4bcbc6</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:46:28</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>incident</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>${mail_script:incident_assigned_to}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>test</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups>894e9a6c1b51c450445f3150cd4bcbc6,c3594cd01b74c450eb7365386e4bcb49,eba3eab11bfc8c50445f3150cd4bcbe0,7ff2e6711bfc8c50445f3150cd4bcb0a,7dc16e311bfc8c50445f3150cd4bcb8d,a1d422f11bfc8c50445f3150cd4bcbdb,2fadcefd1b3c8c50445f3150cd4bcbf6,00ea8ebd1b3c8c50445f3150cd4bcbe1,f00e4a311b7c8c50445f3150cd4bcb4a,bc359ef51b7c8c50445f3150cd4bcb8d,c59eca711b7c8c50445f3150cd4bcb92,8038012a1bd540504252c8017e4bcbb1,35e316751b7c8c50445f3150cd4bcb54,156a5e931b6140104252c8017e4bcb2d,c6dad6d31b6140104252c8017e4bcb18,a89dd61b1b6140104252c8017e4bcb1e,3f8e925b1b6140104252c8017e4bcb90,6a4f1e9b1b6140104252c8017e4bcbdf,2defdadb1b6140104252c8017e4bcbba,c9206adf1b6140104252c8017e4bcb55,d244acb41b79c4104252c8017e4bcb75,f9502a131ba140104252c8017e4bcbd0,7db0e2531ba140104252c8017e4bcb68,cee0aa531ba140104252c8017e4bcbd5,51c8d2131b6140104252c8017e4bcb88,a0916e931ba140104252c8017e4bcb3b,b7f0eefd1bbc8c50445f3150cd4bcbd8,17e7527d1b7c8c50445f3150cd4bcb63,849126311bfc8c50445f3150cd4bcb34,7e05aef11bfc8c50445f3150cd4bcb94,ab7326711bfc8c50445f3150cd4bcbfc,0c746eb11bfc8c50445f3150cd4bcb2b,47e36ab11bfc8c50445f3150cd4bcbe9,2854d9e61b1940504252c8017e4bcbae,134d3c8a1b8d0c10eb7365386e4bcb1c,3167963d1b7c8c50445f3150cd4bcbaa,fd961af91b7c8c50445f3150cd4bcb07,f2f122711bfc8c50445f3150cd4bcb17,521422f11bfc8c50445f3150cd4bcbd5,99399b141b01c410eb7365386e4bcbb9,a7c41af51b7c8c50445f3150cd4bcb1c</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-19 09:54:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffa96e391b3d4c104252c8017e4bcb5f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysevent_email_action_ffa96e391b3d4c104252c8017e4bcb5f</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-19 10:42:43</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="test template">12bceefd1b3d4c104252c8017e4bcba8</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

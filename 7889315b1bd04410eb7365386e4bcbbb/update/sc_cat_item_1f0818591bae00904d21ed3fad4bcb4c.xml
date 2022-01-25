@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Cases">b917b83d1be540904252c8017e4bcb55</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Backpack - HP Professional Series - Suitable for 12.1&#34; or 15.6&#34; Screen</strong></p>
+<p><strong>ID : H1D24AA</strong></p>
+<p><strong>£26.16</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Backpack - HP Professional Series - Suitable for 12.1" or 15.6" Screen</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>21681c591bae00904d21ed3fad4bcbc0</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=1f0818591bae00904d21ed3fad4bcb4c&amp;sysparm_preview=true", "summary");</preview>
+        <price>35.5</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Backpack - HP Professional Series - Suitable for 12.1" or 15.6" Screen</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:32:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1f0818591bae00904d21ed3fad4bcb4c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Backpack - HP Professional Series - Suitable for 12.1" or 15.6" Screen</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_1f0818591bae00904d21ed3fad4bcb4c</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:34:26</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>H1D24AA</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="HP">c1158c021b34cc50445f3150cd4bcb74</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=1f0818591bae00904d21ed3fad4bcb4c"/>
+    <fx_price action="delete_multiple" query="id=1f0818591bae00904d21ed3fad4bcb4c"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>26.16</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>1f0818591bae00904d21ed3fad4bcb4c</id>
+        <parent/>
+        <reference_amount>34.3472</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:32:54</sys_created_on>
+        <sys_id>1b0818591bae00904d21ed3fad4bcb4f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:34:26</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>1f0818591bae00904d21ed3fad4bcb4c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:32:54</sys_created_on>
+        <sys_id>530818591bae00904d21ed3fad4bcb50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:32:56</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#545454</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>101</image_height>
+        <image_width>81</image_width>
+        <size_bytes>2181</size_bytes>
+        <size_compressed>2020</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:34:26</sys_created_on>
+        <sys_id>21681c591bae00904d21ed3fad4bcbc0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:34:27</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>1f0818591bae00904d21ed3fad4bcb4c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="21681c591bae00904d21ed3fad4bcbc0">21681c591bae00904d21ed3fad4bcbc0</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:34:26</sys_created_on>
+        <sys_id>61681c591bae00904d21ed3fad4bcbc0</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>nZN7NNTrGsff31yMGWNnDDVqaoaZNNnCMCLkmjHslBENaucYJ4Rd0sXIfYTSRSqXbKVcoqbSuJR7ykShUrOz3U4ZpUS509AwZ3T2Puf8cf4453zf9V3ru9bzrGetz3qeV94l7wdqLkxnJoAgCLAUD8glwMeRty8AAGdnPaAMAEACCK6wIrkoDIdD3/OS1Nj/yJDVHALHRnzPeBUA1P8tL+lqMgTShIrZvcABKCspoZSQyigUCo1WxmA1VLEqKlgtdfwyjdUrSWtWryQSyVSDdWQdfQqRSDNbr29EZzAYpHWbNpsbWxmYMIyXhkBoNBqrgiWoqhKMtYnaxv+z5I0Apwz2AjYc0gEwHATHQXIRIClQkNB3/UEIIBgcgVRCKaMxKoqGSjUAg+BwGAKORCIQimqMog4QOKS6Nt1OCc/2Q+kc1DBOSL+mTLEXPtR0fzlONeGG89GY5SsIWivX6q6jrddjmG40M99k4bDFkenEcnbZ4eG5k+Pl7eP/170BgUH7gg8dPnI0ghd5LPF4UnLKiZOp5y9czMjMyr6Uk19QWHS9uOTGzbLyisp796uqax41iR43tzx52vpK/Nvrzt+7unskA+/eD374OPRpeGJyanpm9qt0bn6JCwJw6E/9Ry6cgguGQMARqCUuCBax1IBDILXpSup2bJTfQbyOcYKyhn36NeFDNMXEfVyTG/4Ss5zKkKydWEL7TvbfgfH/L7J/gv2LqwdgFbcIw8FxwAZ8nafd2o7n5bmOX7/Yk1ykja7SP3i1jdVylW276nAKgluXPPKOT4w55ZiecqvMfw7ztEoqLjW+m/hT5c4nzc5kDJgxxEv5MXQ/cUUVpaZzzHOxbf9YZViBfnsUNJ/LwUveakkTmyyOH4tI+8Kt3NVN6P2ZyWzkteauyT0b8oI6MVt66F2UDf5Nr+iVd/NLR2ykp57diDQnq+WK5QHip6OZZfvaQkwrGrjtpbUl5NP+soF46wz7ovBCtUhU5+U9ZtdkgUKhOPTz2HRvweAWYcXLu6Hn6LmcqHyeHDRZzKq3eZzYypvcO0eybpyR0eDF+RcoGhWA7agBLj2OHpyg7Lkg2kM/b7ruc02kkahwotY8YP73St6Y969240kLM0JYP43VJQcq9OY4zNxTbfUAZ61LXYPZueejLtiqQiukF2MZ2auzSc1FQVnE1xEnw7YzwB2naI8tum8STRFfVlKI6W7Uz3fYd+OKgHcmfVBWUOQ+6GVM57hjysY9ZnXu7KeG8W4iBrPTdruhxCSslZ8coH2TWnp2r3Z5WncqY/TgV98JUolpH6eVpBrtHm0yAdNNn+1+Y3Q/N/Bs7Ccbh9T5KmI8kwYF5aeCqbHTOwh1uIo11Ooz24fjinhnaj/o+5uXcqUSHYf+kX3EcUO1qGnTgdlJPTLVZmEqB+Re0bs16W9Kr0rZZ/nAyDHQlfFL3htDMQPyGXBtXAjKG6xyfSCqW9Qk1pXF273/Yf2UQMAcTYokB6aCcpJ2cLaEKgextxsdaGDRlJNvbYG31VrhtOK5xjkWMa0o5tD4W19r6rjBpRhKgMR/MkAOYqx3zL2zORN9MnbjW/gwv/7jbNTr+z7BPQ5mtJGDhFkKag4DZudp+fFWpe/qb/7U/80yOaDd7EYSis/aLGj58kGVEMoRREe4Hz5j+SHMShwP9WyznC3VqRxY9ijeYE93X0+vT98LNa8Dmjmo5xFQZznV42F/rCcjjXKTUlvWcjm1nbV7pvHmsz43hEvBF3p6d4LAokT/hvbn195OYysWJD4+fLT+7jj10x1IFd/sjGldQcK363JwrFDo33D0BYDP7/CI7b8wkgPaOzes5t6rk4PM8OWnrJPC4tI1h2yg0ei8NYW253TvpbNmhkLUR0U/ywyqq9lTXcNBorTRGv+51F8lyGEvma24MPqLnw5J5IbqvOjhG7T9GA3e3mDOspGsKk+p3bZrUnOgg7g2yqaZJ2vbbIV9H5kyXUo4rsqP13zMOTKyc1dppb2sA+lbmzjUNNcpJmcqEYavC5/YlCweqYedKehIBR9ve9rXxIczl9WT5cAtOOjibZHg7PHfcMTeHDAiMwk1bFglffW3B3zl677cwinvPMQAXuZ8F5vwyJGixrQdEEo671SErBq63Xpi7NrGydEXmKgFXqnrwpVQRmeWZwPUs7hBCOMMelhfeZ8Kvl4u6Ij12FFy9QfUQMypPi/v3XrLWYU/6iqFEY6Y9mfRKzPEdjoSu1YS29fnGYKDqwjPrws1am0ipxWF5xQ3GaoEV0/pY502LbRlgAULN9TzRGz1M+ZA/b04vgUd0TNsdjePqZ0yeStkjM8ZMvETPDT8ZtLMmdFa9IDed/VJZ0zLlyFgIRx3aeDAM6PIFNdvW/+SWNPdNDE9Mr8zOt1KvSK8wIlsJTiNm+tQ2jLEra5pqSZlBOwyG900vVgpuHXgrHuX5R6DqmFHV0keOrhB9/KG6d6AvYuburjmi8XzbkrFTQ9UfXjlolddb5o/dP/S3V0QqrEZko0MGWKkDi7jsZn6h6tS+RHOP05OmglWtoyTmtq2I6lileSa+iq3MhYTwHNpd3riMYqj/tN4TZ+xrcIH9llHw7YVl14iMNi2RN8Tip0EDGrrtLSqWuz36otnHuPWbjDbWvYq1L9ceJ9FtkvaQlD88erUP4bYyLv/DnuyzrqFCAAA</data>
+        <length>2680</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="21681c591bae00904d21ed3fad4bcbc0">21681c591bae00904d21ed3fad4bcbc0</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:34:26</sys_created_on>
+        <sys_id>e1681c591bae00904d21ed3fad4bcbc0</sys_id>
+    </sys_attachment_doc>
+</record_update>

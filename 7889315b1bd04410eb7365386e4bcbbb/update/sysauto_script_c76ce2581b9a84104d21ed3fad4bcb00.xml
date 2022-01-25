@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function runs only on August.
+
+function checkquarterly() {
+
+
+var now = new Date();
+
+
+var month = now.getMonth();
+
+
+var result = false;
+
+
+if(month == 8) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkquarterly();]]></condition>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>[UK JW] Expenses OnlineXrefCheck Report</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>4</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'Expenses OnlineXrefCheck Report',   
+	
+'description': "Task no 7 refers - Daily ExpensesOnline documentation located in located in R:\ITSD Applications\Scheduled Tasks.                                                                                       Daily task:                                                                                                         Check that the daily Excel report totals and transactions comparison report totals e-mail is received from iTrent.Support at 08.30.                                                                                               If the totals are different consider rerunning the reports to see if results change, moving them to the on hold folder on uk-su-ap295 before 09.30 to prevent the import of the files into iCON until resolved and advise Ramesh. The interface files can be found on the BI server in \\uk-su-ap295\c$\bo_output\OnLine Expenses. (These files are moved by a daily automated task to the temp-archive folder at 09.30.)",
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-08 14:31:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c76ce2581b9a84104d21ed3fad4bcb00</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[UK JW] Expenses OnlineXrefCheck Report</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_c76ce2581b9a84104d21ed3fad4bcb00</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:11:05</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

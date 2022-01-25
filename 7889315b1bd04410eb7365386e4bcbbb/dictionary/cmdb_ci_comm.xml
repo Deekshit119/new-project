@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Komunikační zařízení" max_length="40" name="cmdb_ci_comm" sizeclass="8847" text_index="true" type="collection">
+        <element label="Operating System" max_length="100" name="x_sksw_uk_itsm_operating_system" type="string"/>
+        <element label="VSDM Last Import Date" max_length="40" name="x_sksw_uk_itsm_vsdm_last_import_date" type="glide_date"/>
+    </element>
+</database>

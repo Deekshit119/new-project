@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Import Printer Skanka UK">be4216a71bb88010445f3150cd4bcb97</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+	
+	
+	var cmdb = new GlideRecord('cmdb_ci');
+	cmdb.addEncodedQuery('serial_number='+source.u_serial+'^x_sksw_uk_itsm_scope=UK ITSM');
+	cmdb.query();
+	if(cmdb.getRowCount()>0){
+		if (action == "insert") {
+			ignore = true;
+		}
+	}else{
+	
+	var printer = new GlideRecord('cmdb_ci_printer');
+	printer.addQuery('sys_id',target.ci);
+	printer.query();
+	if(printer.next()){
+		//ci.serial_number = source.u_serial;
+		printer.name = source.u_hostname;
+		printer.ip_address = source.u_ip_address;
+		printer.mac_address = source.u_mac_address;
+		printer.operational_status = source.u_operational_status;
+		printer.x_sksw_uk_itsm_scope = "UK ITSM";
+		printer.update();
+	}}
+	
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-05 01:30:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>26b356e71bb88010445f3150cd4bcb0f</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_transform_script_26b356e71bb88010445f3150cd4bcb0f</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-11-06 00:53:03</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

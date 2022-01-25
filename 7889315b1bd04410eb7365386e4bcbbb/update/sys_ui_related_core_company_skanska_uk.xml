@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="core_company" version="2" view="skanska_uk">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Company - Skanska UK" name="core_company" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">cbf4d5fe1bc9cc10445f3150cd4bcb2f</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sys_user.company</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-14 23:15:50</sys_created_on>
+            <sys_id>47f4d5fe1bc9cc10445f3150cd4bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-14 23:15:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Company - Skanska UK" name="core_company" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">cbf4d5fe1bc9cc10445f3150cd4bcb2f</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>cmn_department.company</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-14 23:15:50</sys_created_on>
+            <sys_id>cbf4d5fe1bc9cc10445f3150cd4bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-14 23:15:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Company - Skanska UK</calculated_name>
+            <filter/>
+            <name>core_company</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-14 23:15:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbf4d5fe1bc9cc10445f3150cd4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Company - Skanska UK</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_related_core_company_skanska_uk</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-14 23:15:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

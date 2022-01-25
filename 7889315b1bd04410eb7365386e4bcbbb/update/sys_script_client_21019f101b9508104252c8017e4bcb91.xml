@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>FF JH 1/30/20 updating script to remove P5 priority as not needed for incident</description>
+        <field>impact</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>FF_EP_STRY0013608_2</name>
+        <order>1000</order>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	//g_form.addInfoMessage('impact='+newValue);
+	//g_form.addInfoMessage('urgency='+g_form.getValue('urgency'));
+	
+   if(newValue == 3 && g_form.getValue('urgency') == 3) g_form.setValue('x_sksw_uk_itsm_priority',4);
+   if(newValue == 3 && g_form.getValue('urgency') == 2) g_form.setValue('x_sksw_uk_itsm_priority',4);	
+   if(newValue == 3 && g_form.getValue('urgency') == 1) g_form.setValue('x_sksw_uk_itsm_priority',3);	  
+   if(newValue == 2 && g_form.getValue('urgency') == 1) g_form.setValue('x_sksw_uk_itsm_priority',2);
+   if(newValue == 2 && g_form.getValue('urgency') == 2) g_form.setValue('x_sksw_uk_itsm_priority',3);	
+   if(newValue == 2 && g_form.getValue('urgency') == 3) g_form.setValue('x_sksw_uk_itsm_priority',4);	
+   if(newValue == 1 && g_form.getValue('urgency') == 1) g_form.setValue('x_sksw_uk_itsm_priority',1);
+   if(newValue == 1 && g_form.getValue('urgency') == 2) g_form.setValue('x_sksw_uk_itsm_priority',2);	
+   if(newValue == 1 && g_form.getValue('urgency') == 3) g_form.setValue('x_sksw_uk_itsm_priority',3);		
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-20 00:13:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21019f101b9508104252c8017e4bcb91</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>FF_EP_STRY0013608_2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_client_21019f101b9508104252c8017e4bcb91</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 13:34:14</sys_updated_on>
+        <table>incident</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view>skanska_uk</view>
+    </sys_script_client>
+</record_update>

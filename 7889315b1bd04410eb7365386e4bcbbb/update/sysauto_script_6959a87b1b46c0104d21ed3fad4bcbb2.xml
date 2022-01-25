@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Log a call aginst UK_HR_Systems Template</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Joshua Welbelove (bc966073)">776128c3db4ed700b44772b10f96199b</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+//'requested_for': '776128c3db4ed700b44772b10f96199b',
+'short_description': 'Generic Report for Request',           
+'description': ' Description Generic Report for Request',
+//'genericRequest_contact_number': '11111111',
+	'assignment_group': '35e316751b7c8c50445f3150cd4bcb54',
+//'genericRequest_anything_else_we_need_to_know': 'Weekly Report for Request' 
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-06 16:02:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6959a87b1b46c0104d21ed3fad4bcbb2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Log a call aginst UK_HR_Systems Template</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_6959a87b1b46c0104d21ed3fad4bcbb2</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-01-08 09:46:57</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

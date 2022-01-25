@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Lync Accessories">7ee87cbd1be540904252c8017e4bcb63</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>VOYAGER 5200 UC Bluetooth Headset</strong></p>
+<p><strong>ID : 206110-101</strong></p>
+<p><strong>£75.27</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>VOYAGER 5200 UC Bluetooth Headset</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>b8630d5d1b6240904d21ed3fad4bcb81</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e513855d1b6240904d21ed3fad4bcbfc&amp;sysparm_preview=true", "summary");</preview>
+        <price>102.14</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>VOYAGER 5200 UC Bluetooth Headset</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:40:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e513855d1b6240904d21ed3fad4bcbfc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>VOYAGER 5200 UC Bluetooth Headset</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_e513855d1b6240904d21ed3fad4bcbfc</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:42:15</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>206110-101</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="Plantronics">d2016e181b058410eb7365386e4bcbb0</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=e513855d1b6240904d21ed3fad4bcbfc"/>
+    <fx_price action="delete_multiple" query="id=e513855d1b6240904d21ed3fad4bcbfc"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>75.27</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>e513855d1b6240904d21ed3fad4bcbfc</id>
+        <parent/>
+        <reference_amount>98.7952</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:40:56</sys_created_on>
+        <sys_id>6913855d1b6240904d21ed3fad4bcbff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:42:15</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>e513855d1b6240904d21ed3fad4bcbfc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:40:56</sys_created_on>
+        <sys_id>a113c55d1b6240904d21ed3fad4bcb00</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:40:57</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>4814</size_bytes>
+        <size_compressed>4555</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:42:15</sys_created_on>
+        <sys_id>b8630d5d1b6240904d21ed3fad4bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:42:16</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>e513855d1b6240904d21ed3fad4bcbfc</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="b8630d5d1b6240904d21ed3fad4bcb81">b8630d5d1b6240904d21ed3fad4bcb81</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:42:15</sys_created_on>
+        <sys_id>f8630d5d1b6240904d21ed3fad4bcb81</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6060</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="b8630d5d1b6240904d21ed3fad4bcb81">b8630d5d1b6240904d21ed3fad4bcb81</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:42:15</sys_created_on>
+        <sys_id>7c630d5d1b6240904d21ed3fad4bcb81</sys_id>
+    </sys_attachment_doc>
+</record_update>

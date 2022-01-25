@@ -1,0 +1,2546 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"subflows":[],"stages":{},"ends":["0087c7d71b6a88904d21ed3fad4bcb25"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description>FF JH STRY0013636</description>
+        <expected_sequences>8087c7d71b6a88904d21ed3fad4bcb24,c087c7d71b6a88904d21ed3fad4bcb22,5c87c7d71b6a88904d21ed3fad4bcb86,4087c7d71b6a88904d21ed3fad4bcb23,4c87c7d71b6a88904d21ed3fad4bcb25,5487c7d71b6a88904d21ed3fad4bcb2a,40878b971b6a88904d21ed3fad4bcbfb,0087c7d71b6a88904d21ed3fad4bcb25</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>8087c7d71b6a88904d21ed3fad4bcb24,c087c7d71b6a88904d21ed3fad4bcb22,5c87c7d71b6a88904d21ed3fad4bcb86,4087c7d71b6a88904d21ed3fad4bcb23,4c87c7d71b6a88904d21ed3fad4bcb25,5487c7d71b6a88904d21ed3fad4bcb2a,d887c7d71b6a88904d21ed3fad4bcb87,40878b971b6a88904d21ed3fad4bcbfb,0087c7d71b6a88904d21ed3fad4bcb25</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>iCON Access Request UK</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">8087c7d71b6a88904d21ed3fad4bcb24</start>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>c0878b971b6a88904d21ed3fad4bcbf8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 11:17:37</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="iCON Access Request UK">4de949451b7584104d21ed3fad4bcbe9</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>FF JH STRY0013636</description>
+        <name>iCON Access Request UK</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-16 18:45:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4de949451b7584104d21ed3fad4bcbe9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>iCON Access Request UK</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>wf_workflow_4de949451b7584104d21ed3fad4bcbe9</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-17 12:05:02</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>80878b971b6a88904d21ed3fad4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>08878b971b6a88904d21ed3fad4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>84878b971b6a88904d21ed3fad4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>8c878b971b6a88904d21ed3fad4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>04878b971b6a88904d21ed3fad4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>00878b971b6a88904d21ed3fad4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - Group">354e911f0a0a029a00e6a0e6ad74206f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approvals</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4c87c7d71b6a88904d21ed3fad4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>443</x>
+        <y>190</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4c87c7d71b6a88904d21ed3fad4bcb25"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>0087c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>0487c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1487c7d71b6a88904d21ed3fad4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1887c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1c87c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">1bd4c8c00a0a0b26635e191420fd194c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4087c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a8a89323c0a80066046c6c1fd0df6475</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4c87c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">c35dc8950a0a0ba96248a70936f964a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5087c7d71b6a88904d21ed3fad4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a8a29434c0a80066575097078b386f8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5487c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5887c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>8487c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>8887c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9087c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9c87c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+var answer = [];&#13;
+//gs.info('Jesse approval array length ' + workflow.scratchpad.answer.length );&#13;
+&#13;
+  for (var i=0 ; i &lt; workflow.scratchpad.answer.length ; i++) {&#13;
+	//g_form.addInfoMessage(companyArraySplit[i]);&#13;
+			&#13;
+			answer.push(workflow.scratchpad.answer[i]);&#13;
+	//  gs.info('jesse approval array sys id ' + answer[i]);&#13;
+					}&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+/*&#13;
+//var companyArray = current.variables.please_select_icon_company_s_that_access_should_be_added;&#13;
+/*while(companyArray.Next());&#13;
+	{&#13;
+		var ou = companyArray;&#13;
+		var grGroup = new GlideRecord('sys_user_group');&#13;
+		grGroup.addQuery('x_sksw_uk_itsm_operating_unit', ou);&#13;
+		grGroup.query();&#13;
+		answer.push(grGroup);&#13;
+	}*/&#13;
+/*&#13;
+var grGroup = new GlideRecord('sys_user_group');&#13;
+//var companyArray = current.variables.please_select_icon_company_s_that_access_should_be_added.toString();&#13;
+&#13;
+var companyArraySplit = workflow.scratchpad.array.split(',');&#13;
+	//var companyArraySplit = companyArray.split(',');&#13;
+//	alert('array.length' + companyArraySplit.length);&#13;
+gs.debug('jesse' + companyArraySplit.length);&#13;
+	    for (var i=0 ; i &lt; companyArraySplit.length; i++) {&#13;
+	//g_form.addInfoMessage(companyArraySplit[i]);&#13;
+			gs.debug('jesse array ' + companyArraySplit[i]);&#13;
+			&#13;
+		grGroup.addQuery('x_sksw_uk_itsm_operating_unit', companyArraySplit[i]);&#13;
+		grGroup.query();&#13;
+			if(grGroup.next()){&#13;
+		answer.push(grGroup.sys_id);&#13;
+			}&#13;
+		}&#13;
+*/</value>
+        <variable display_value="Additional groups script">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>c087c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a8a16056c0a800660449c1bbc94d797f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>c487c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&#13;
+//&#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&#13;
+// returning the overall approval state for all of the group(s).&#13;
+//&#13;
+// When called, the following variables are available to the script:&#13;
+//&#13;
+//    Overall for all of the groups that are part of this approval activity:&#13;
+//        counts.total = total number of groups that are part of this approval&#13;
+//        counts.approved = # of groups that approved so far&#13;
+//        counts.rejected = # of groups that rejected so far&#13;
+//        counts.requested = # of groups that are pending approval&#13;
+//        counts.not_requested = # of groups that are not pending approval&#13;
+//        counts.not_required = # of groups that approval is not required&#13;
+//&#13;
+//    And for each group:&#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&#13;
+//        groups[group_id].approved = # of users that approved so far&#13;
+//        groups[group_id].rejected = # of users that rejected so far&#13;
+//        groups[group_id].requested = # of users that are pending approval&#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&#13;
+//        groups[group_id].not_required = # of users that approval is not required&#13;
+//&#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&#13;
+//&#13;
+//        Note: Iterate the groups using:&#13;
+//            for (var id in groups) {&#13;
+//                 var group = groups[id];&#13;
+//                 ...  group.total ...&#13;
+//            }&#13;
+</value>
+        <variable display_value="Approval script">069e81530a0a0b264289c1e23fe52558</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d887c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Wait for">0698d53c0a0a0b2627f7cf654de211b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>dc87c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1c87c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">1bd4c8c00a0a0b26635e191420fd194c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d887c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Wait for">0698d53c0a0a0b2627f7cf654de211b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4087c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a8a89323c0a80066046c6c1fd0df6475</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5087c7d71b6a88904d21ed3fad4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a8a29434c0a80066575097078b386f8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>0087c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4c87c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">c35dc8950a0a0ba96248a70936f964a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>8487c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1887c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5487c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5887c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9087c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1487c7d71b6a88904d21ed3fad4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>8887c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>dc87c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>c087c7d71b6a88904d21ed3fad4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a8a16056c0a800660449c1bbc94d797f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>c487c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&#13;
+//&#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&#13;
+// returning the overall approval state for all of the group(s).&#13;
+//&#13;
+// When called, the following variables are available to the script:&#13;
+//&#13;
+//    Overall for all of the groups that are part of this approval activity:&#13;
+//        counts.total = total number of groups that are part of this approval&#13;
+//        counts.approved = # of groups that approved so far&#13;
+//        counts.rejected = # of groups that rejected so far&#13;
+//        counts.requested = # of groups that are pending approval&#13;
+//        counts.not_requested = # of groups that are not pending approval&#13;
+//        counts.not_required = # of groups that approval is not required&#13;
+//&#13;
+//    And for each group:&#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&#13;
+//        groups[group_id].approved = # of users that approved so far&#13;
+//        groups[group_id].rejected = # of users that rejected so far&#13;
+//        groups[group_id].requested = # of users that are pending approval&#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&#13;
+//        groups[group_id].not_required = # of users that approval is not required&#13;
+//&#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&#13;
+//&#13;
+//        Note: Iterate the groups using:&#13;
+//            for (var id in groups) {&#13;
+//                 var group = groups[id];&#13;
+//                 ...  group.total ...&#13;
+//            }&#13;
+</value>
+        <variable display_value="Approval script">069e81530a0a0b264289c1e23fe52558</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>0487c7d71b6a88904d21ed3fad4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c87c7d71b6a88904d21ed3fad4bcb25</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9c87c7d71b6a88904d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+var answer = [];&#13;
+//gs.info('Jesse approval array length ' + workflow.scratchpad.answer.length );&#13;
+&#13;
+  for (var i=0 ; i &lt; workflow.scratchpad.answer.length ; i++) {&#13;
+	//g_form.addInfoMessage(companyArraySplit[i]);&#13;
+			&#13;
+			answer.push(workflow.scratchpad.answer[i]);&#13;
+	//  gs.info('jesse approval array sys id ' + answer[i]);&#13;
+					}&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+/*&#13;
+//var companyArray = current.variables.please_select_icon_company_s_that_access_should_be_added;&#13;
+/*while(companyArray.Next());&#13;
+	{&#13;
+		var ou = companyArray;&#13;
+		var grGroup = new GlideRecord('sys_user_group');&#13;
+		grGroup.addQuery('x_sksw_uk_itsm_operating_unit', ou);&#13;
+		grGroup.query();&#13;
+		answer.push(grGroup);&#13;
+	}*/&#13;
+/*&#13;
+var grGroup = new GlideRecord('sys_user_group');&#13;
+//var companyArray = current.variables.please_select_icon_company_s_that_access_should_be_added.toString();&#13;
+&#13;
+var companyArraySplit = workflow.scratchpad.array.split(',');&#13;
+	//var companyArraySplit = companyArray.split(',');&#13;
+//	alert('array.length' + companyArraySplit.length);&#13;
+gs.debug('jesse' + companyArraySplit.length);&#13;
+	    for (var i=0 ; i &lt; companyArraySplit.length; i++) {&#13;
+	//g_form.addInfoMessage(companyArraySplit[i]);&#13;
+			gs.debug('jesse array ' + companyArraySplit[i]);&#13;
+			&#13;
+		grGroup.addQuery('x_sksw_uk_itsm_operating_unit', companyArraySplit[i]);&#13;
+		grGroup.query();&#13;
+			if(grGroup.next()){&#13;
+		answer.push(grGroup.sys_id);&#13;
+			}&#13;
+		}&#13;
+*/</value>
+        <variable display_value="Additional groups script">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approvals">4c87c7d71b6a88904d21ed3fad4bcb25</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586cdc4c0a0a0b5c00888cdfcb07778b</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d887c7d71b6a88904d21ed3fad4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approvals">4c87c7d71b6a88904d21ed3fad4bcb25</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586d9d960a0a0b5c00509314d15d50d8</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5c87c7d71b6a88904d21ed3fad4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>8087c7d71b6a88904d21ed3fad4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8087c7d71b6a88904d21ed3fad4bcb24"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">8087c7d71b6a88904d21ed3fad4bcb24</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>8887c7d71b6a88904d21ed3fad4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Catalog Task">38891b6f0a0a0b1e00efdfdd77602027</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create Task</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5487c7d71b6a88904d21ed3fad4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>692</x>
+        <y>173</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5487c7d71b6a88904d21ed3fad4bcb2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1087c7d71b6a88904d21ed3fad4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1087c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1487c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1887c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1c87c7d71b6a88904d21ed3fad4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1c87c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5087c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5487c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5887c7d71b6a88904d21ed3fad4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5887c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5c87c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5c87c7d71b6a88904d21ed3fad4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9087c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>c59eca711b7c8c50445f3150cd4bcb92</value>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9487c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9887c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9887c7d71b6a88904d21ed3fad4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9c87c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d087c7d71b6a88904d21ed3fad4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d087c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+/*&#13;
+var grNew = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+		grNew.addQuery('sys_id',  '1844165d1bfd88104252c8017e4bcb5c');&#13;
+		grNew.query();&#13;
+&#13;
+if (current.variables.access_request_type == 'NEW'){&#13;
+	&#13;
+	companysc = &#13;
+	&#13;
+}&#13;
+*/&#13;
+var companysc;&#13;
+for(var i = 0; i &lt; workflow.scratchpad.company.length; i++){&#13;
+	if(!companysc)&#13;
+		{&#13;
+			companysc = workflow.scratchpad.company[i];&#13;
+		}&#13;
+	else companysc = companysc + workflow.scratchpad.company[i];&#13;
+	&#13;
+}&#13;
+task.description = companysc;&#13;
+</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d487c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d487c7d71b6a88904d21ed3fad4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d887c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>Provide iCON Access as per the details</value>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>dc87c7d71b6a88904d21ed3fad4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>dc87c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9887c7d71b6a88904d21ed3fad4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d087c7d71b6a88904d21ed3fad4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5087c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1c87c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d487c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d487c7d71b6a88904d21ed3fad4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5c87c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1c87c7d71b6a88904d21ed3fad4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5887c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5c87c7d71b6a88904d21ed3fad4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9c87c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5487c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>dc87c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1087c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9087c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>c59eca711b7c8c50445f3150cd4bcb92</value>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1087c7d71b6a88904d21ed3fad4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d887c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>Provide iCON Access as per the details</value>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9487c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1887c7d71b6a88904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9887c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>dc87c7d71b6a88904d21ed3fad4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d087c7d71b6a88904d21ed3fad4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+/*&#13;
+var grNew = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+		grNew.addQuery('sys_id',  '1844165d1bfd88104252c8017e4bcb5c');&#13;
+		grNew.query();&#13;
+&#13;
+if (current.variables.access_request_type == 'NEW'){&#13;
+	&#13;
+	companysc = &#13;
+	&#13;
+}&#13;
+*/&#13;
+var companysc;&#13;
+for(var i = 0; i &lt; workflow.scratchpad.company.length; i++){&#13;
+	if(!companysc)&#13;
+		{&#13;
+			companysc = workflow.scratchpad.company[i];&#13;
+		}&#13;
+	else companysc = companysc + workflow.scratchpad.company[i];&#13;
+	&#13;
+}&#13;
+task.description = companysc;&#13;
+</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5887c7d71b6a88904d21ed3fad4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5487c7d71b6a88904d21ed3fad4bcb2a</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1487c7d71b6a88904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create Task">5487c7d71b6a88904d21ed3fad4bcb2a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9487c7d71b6a88904d21ed3fad4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>0087c7d71b6a88904d21ed3fad4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>678</x>
+        <y>570</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=0087c7d71b6a88904d21ed3fad4bcb25"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>scratchpad</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4087c7d71b6a88904d21ed3fad4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>226</x>
+        <y>191</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4087c7d71b6a88904d21ed3fad4bcb23"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4087c7d71b6a88904d21ed3fad4bcb23</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4487c7d71b6a88904d21ed3fad4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>var company  = current.variables.please_select_icon_company_s_that_access_should_be_added + '';&#13;
+var OU = current.variables.which_ou_does_this_person_work_in;&#13;
+var noo = current.variables.access_request_type;&#13;
+var iport = current.variables.iport_access_check;&#13;
+workflow.scratchpad.answer = [];&#13;
+workflow.scratchpad.company = [];&#13;
+&#13;
+var companyArraySplit = [];&#13;
+&#13;
+//gs.info('jesseC ' + company );&#13;
+&#13;
+//gs.info('Riz add info ' + current.variables.any_additional_information);&#13;
+&#13;
+var ouArray = [];&#13;
+&#13;
+&#13;
+companyArraySplit = company.split(",");&#13;
+&#13;
+//fetch Operating unit sys id&#13;
+//var grOu = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+//gs.info('jesse companyArraySplit length' + companyArraySplit.length);&#13;
+if(!company){&#13;
+	ouArray.push(OU.toString());&#13;
+	//gs.info('jesse OU question 3 ' + OU);&#13;
+}&#13;
+else{&#13;
+	for (var j=0 ; j &lt; companyArraySplit.length ; j++) {&#13;
+	//gs.info('jesse companyArraySplit array' + companyArraySplit[j]);&#13;
+		var grOu = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+		grOu.addQuery('sys_id',  companyArraySplit[j].toString());&#13;
+		grOu.query();&#13;
+		//gs.info('jesse count of grOu' + grOu.getRowCount());&#13;
+		if (grOu.next())&#13;
+			{&#13;
+				workflow.scratchpad.company.push(grOu.getValue('security_groups'));&#13;
+				if(grOu.getValue('operating_unit').toString() == 'eab9e25b1be140104252c8017e4bcbf5'){&#13;
+					ouArray = [];&#13;
+					ouArray.push(grOu.getValue('operating_unit').toString());&#13;
+						j = companyArraySplit.length;&#13;
+					}&#13;
+				else ouArray.push(grOu.getValue('operating_unit').toString());&#13;
+				&#13;
+			}&#13;
+	}&#13;
+}&#13;
+&#13;
+var grNew = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+		grNew.addQuery('sys_id',  '1844165d1bfd88104252c8017e4bcb5c');&#13;
+		grNew.query();&#13;
+//gs.info('jesse access type' + current.variables.access_request_type);&#13;
+if (noo == 'New'){&#13;
+	//gs.info('jesse in here now');&#13;
+	if(grNew.next()){&#13;
+	//gs.info('jesse1 ' + workflow.scratchpad.company);&#13;
+	workflow.scratchpad.company.push(grNew.getValue('security_groups'));&#13;
+	//gs.info('jesse2 ' + workflow.scratchpad.company);&#13;
+	}&#13;
+}&#13;
+&#13;
+var grPort = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+		grPort.addQuery('sys_id',  '3ac9a04b1b2d84904252c8017e4bcb24');&#13;
+		grPort.query();&#13;
+//gs.info('jesse access type' + current.variables.access_request_type);&#13;
+if (iport){&#13;
+	//gs.info('jesse in here now');&#13;
+	if(grPort.next()){&#13;
+	//gs.info('jesse1 ' + workflow.scratchpad.company);&#13;
+	workflow.scratchpad.company.push(grPort.getValue('security_groups'));&#13;
+	//gs.info('jesse2 ' + workflow.scratchpad.company);&#13;
+	}&#13;
+}&#13;
+//var companyArray  current.variables.please_select_icon_company_s_that_access_should_be_added.toString();&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+//companyArraySplit = workflow.scratchpad.array.split(',');&#13;
+&#13;
+	//var companyArraySplit = companyArray.split(',');&#13;
+//	alert('array.length' + companyArraySplit.length);&#13;
+//gs.info('jesse split done ');&#13;
+//gs.info('jesse ' + ouArray.length);&#13;
+	    for (var i=0 ; i &lt; ouArray.length ; i++) {&#13;
+	//g_form.addInfoMessage(companyArraySplit[i]);&#13;
+			//gs.info('jesse array ' + ouArray[i]);&#13;
+		var grGroup = new GlideRecord('sys_user_group');	&#13;
+		grGroup.addQuery('x_sksw_uk_itsm_operating_unit', ouArray[i]);&#13;
+		grGroup.query();&#13;
+		//gs.info('Jesse query count ' + grGroup.getRowCount());	&#13;
+			if (grGroup.next())&#13;
+			{&#13;
+				&#13;
+			 workflow.scratchpad.answer.push(grGroup.sys_id);&#13;
+			}&#13;
+		}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4087c7d71b6a88904d21ed3fad4bcb23</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4487c7d71b6a88904d21ed3fad4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>var company  = current.variables.please_select_icon_company_s_that_access_should_be_added + '';&#13;
+var OU = current.variables.which_ou_does_this_person_work_in;&#13;
+var noo = current.variables.access_request_type;&#13;
+var iport = current.variables.iport_access_check;&#13;
+workflow.scratchpad.answer = [];&#13;
+workflow.scratchpad.company = [];&#13;
+&#13;
+var companyArraySplit = [];&#13;
+&#13;
+//gs.info('jesseC ' + company );&#13;
+&#13;
+//gs.info('Riz add info ' + current.variables.any_additional_information);&#13;
+&#13;
+var ouArray = [];&#13;
+&#13;
+&#13;
+companyArraySplit = company.split(",");&#13;
+&#13;
+//fetch Operating unit sys id&#13;
+//var grOu = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+//gs.info('jesse companyArraySplit length' + companyArraySplit.length);&#13;
+if(!company){&#13;
+	ouArray.push(OU.toString());&#13;
+	//gs.info('jesse OU question 3 ' + OU);&#13;
+}&#13;
+else{&#13;
+	for (var j=0 ; j &lt; companyArraySplit.length ; j++) {&#13;
+	//gs.info('jesse companyArraySplit array' + companyArraySplit[j]);&#13;
+		var grOu = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+		grOu.addQuery('sys_id',  companyArraySplit[j].toString());&#13;
+		grOu.query();&#13;
+		//gs.info('jesse count of grOu' + grOu.getRowCount());&#13;
+		if (grOu.next())&#13;
+			{&#13;
+				workflow.scratchpad.company.push(grOu.getValue('security_groups'));&#13;
+				if(grOu.getValue('operating_unit').toString() == 'eab9e25b1be140104252c8017e4bcbf5'){&#13;
+					ouArray = [];&#13;
+					ouArray.push(grOu.getValue('operating_unit').toString());&#13;
+						j = companyArraySplit.length;&#13;
+					}&#13;
+				else ouArray.push(grOu.getValue('operating_unit').toString());&#13;
+				&#13;
+			}&#13;
+	}&#13;
+}&#13;
+&#13;
+var grNew = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+		grNew.addQuery('sys_id',  '1844165d1bfd88104252c8017e4bcb5c');&#13;
+		grNew.query();&#13;
+//gs.info('jesse access type' + current.variables.access_request_type);&#13;
+if (noo == 'New'){&#13;
+	//gs.info('jesse in here now');&#13;
+	if(grNew.next()){&#13;
+	//gs.info('jesse1 ' + workflow.scratchpad.company);&#13;
+	workflow.scratchpad.company.push(grNew.getValue('security_groups'));&#13;
+	//gs.info('jesse2 ' + workflow.scratchpad.company);&#13;
+	}&#13;
+}&#13;
+&#13;
+var grPort = new GlideRecord('x_sksw_uk_itsm_icon_settings');&#13;
+		grPort.addQuery('sys_id',  '3ac9a04b1b2d84904252c8017e4bcb24');&#13;
+		grPort.query();&#13;
+//gs.info('jesse access type' + current.variables.access_request_type);&#13;
+if (iport){&#13;
+	//gs.info('jesse in here now');&#13;
+	if(grPort.next()){&#13;
+	//gs.info('jesse1 ' + workflow.scratchpad.company);&#13;
+	workflow.scratchpad.company.push(grPort.getValue('security_groups'));&#13;
+	//gs.info('jesse2 ' + workflow.scratchpad.company);&#13;
+	}&#13;
+}&#13;
+//var companyArray  current.variables.please_select_icon_company_s_that_access_should_be_added.toString();&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+//companyArraySplit = workflow.scratchpad.array.split(',');&#13;
+&#13;
+	//var companyArraySplit = companyArray.split(',');&#13;
+//	alert('array.length' + companyArraySplit.length);&#13;
+//gs.info('jesse split done ');&#13;
+//gs.info('jesse ' + ouArray.length);&#13;
+	    for (var i=0 ; i &lt; ouArray.length ; i++) {&#13;
+	//g_form.addInfoMessage(companyArraySplit[i]);&#13;
+			//gs.info('jesse array ' + ouArray[i]);&#13;
+		var grGroup = new GlideRecord('sys_user_group');	&#13;
+		grGroup.addQuery('x_sksw_uk_itsm_operating_unit', ouArray[i]);&#13;
+		grGroup.query();&#13;
+		//gs.info('Jesse query count ' + grGroup.getRowCount());	&#13;
+			if (grGroup.next())&#13;
+			{&#13;
+				&#13;
+			 workflow.scratchpad.answer.push(grGroup.sys_id);&#13;
+			}&#13;
+		}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="scratchpad">4087c7d71b6a88904d21ed3fad4bcb23</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>0c87c7d71b6a88904d21ed3fad4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set to Close Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>40878b971b6a88904d21ed3fad4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>762</x>
+        <y>373</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=40878b971b6a88904d21ed3fad4bcbfb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>40878b971b6a88904d21ed3fad4bcbfb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4c87c7d71b6a88904d21ed3fad4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>40878b971b6a88904d21ed3fad4bcbfb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4c87c7d71b6a88904d21ed3fad4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set to Close Complete">40878b971b6a88904d21ed3fad4bcbfb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4887c7d71b6a88904d21ed3fad4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set to Close Incomplete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>d887c7d71b6a88904d21ed3fad4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>552</x>
+        <y>376</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d887c7d71b6a88904d21ed3fad4bcb87"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d887c7d71b6a88904d21ed3fad4bcb87</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5c87c7d71b6a88904d21ed3fad4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>state=4^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d887c7d71b6a88904d21ed3fad4bcb87</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5c87c7d71b6a88904d21ed3fad4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>state=4^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set to Close Incomplete">d887c7d71b6a88904d21ed3fad4bcb87</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9087c7d71b6a88904d21ed3fad4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Values</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>c087c7d71b6a88904d21ed3fad4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>18</x>
+        <y>135</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c087c7d71b6a88904d21ed3fad4bcb22"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c087c7d71b6a88904d21ed3fad4bcb22</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4487c7d71b6a88904d21ed3fad4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>contact_type=self-service^x_sksw_uk_itsm_assignment_group=c59eca711b7c8c50445f3150cd4bcb92^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c087c7d71b6a88904d21ed3fad4bcb22</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>4487c7d71b6a88904d21ed3fad4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <value>contact_type=self-service^x_sksw_uk_itsm_assignment_group=c59eca711b7c8c50445f3150cd4bcb92^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Values">c087c7d71b6a88904d21ed3fad4bcb22</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>8887c7d71b6a88904d21ed3fad4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Write to request variables field</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5c87c7d71b6a88904d21ed3fad4bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:29:18</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+        <x>50</x>
+        <y>258</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5c87c7d71b6a88904d21ed3fad4bcb86"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5c87c7d71b6a88904d21ed3fad4bcb86</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>dc87c7d71b6a88904d21ed3fad4bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:29:18</sys_updated_on>
+        <value>current.x_sksw_uk_itsm_request_variables = &#13;
+	'Access Type: ' + current.variables.access_request_type + '\n' +&#13;
+	'User Account: ' + current.variables.please_select_the_user_account_you_would_like_to_modify.getDisplayValue() + '\n' +&#13;
+	'OU: ' + current.variables.which_ou_does_this_person_work_in.getDisplayValue() + '\n' +&#13;
+	'company numbers: ' + current.variables.icon_company_numbers + '\n' +&#13;
+	'functional area access: ' +  current.variables.icon_functional_area_access + '\n' +&#13;
+	'iport access: ' + current.variables.iport_access_check + '\n' +&#13;
+	'DB Archive: ' + current.variables.db_archive_check + '\n' +&#13;
+	'Printer: ' + current.variables.printer + '\n' + '\n' + '\n' +&#13;
+	&#13;
+	//company &#13;
+	&#13;
+	'Company fields- ' + '\n' +&#13;
+	'OU: ' + current.variables.filter_operating_unit.getDisplayValue() + '\n' +&#13;
+'Companies to add: ' + current.variables.please_select_icon_company_s_that_access_should_be_added.getDisplayValue() + '\n' +&#13;
+'Contract Range: ' + current.variables.contract_range + '\n' +&#13;
+'Justification for access to company 90: ' + current.variables.justification_for_access_to_company_90 + '\n' +	'Companies to remove: ' + current.variables.please_select_icon_company_s_that_access_should_be_removed.getDisplayValue() + '\n' +&#13;
+	'Default: ' + current.variables.default_company.getDisplayValue() + '\n' + '\n' +&#13;
+	&#13;
+	//function&#13;
+	'Function fields- ' + '\n' +&#13;
+	'Role: ' + current.variables.role + '\n' +&#13;
+'Functional Areas to add: ' + current.variables.please_select_functional_areas_access_should_be_added.getDisplayValue() + '\n' +&#13;
+	'Functional Areas to remove: ' + current.variables.please_select_functional_areas_access_should_be_removed.getDisplayValue() + '\n' +&#13;
+	'Procurement Order types: ' + current.variables.procurement_order_types_required + '\n' +&#13;
+	'Authorisation level required: ' + current.variables.authorisation_level_required + '\n' +&#13;
+	'Value Limit: ' + current.variables.value_limit + '\n' +&#13;
+	'Contract sales workbench csw options: ' + current.variables.contract_sales_workbench_csw_options + '\n' +&#13;
+	'CVR: ' + current.variables.cvr + '\n' +&#13;
+	'PFFR: ' + current.variables.pffr + '\n' +&#13;
+	'PF: ' + current.variables.pf + '\n' +&#13;
+	'CF: ' + current.variables.cf + '\n' +&#13;
+	'Authorisation level required sc: ' + current.variables.authorisation_level_required_sc + '\n' + '\n' +&#13;
+	&#13;
+	//iport&#13;
+	&#13;
+	'iPORT fields- ' + '\n' +&#13;
+	'iport access level: ' + current.variables.iport_access_level.getDisplayValue() + '\n' +&#13;
+	'procurement access level: ' + current.variables.procurement_access_level.getDisplayValue() + '\n' +&#13;
+	'Access iPORT through iCON system: ' + current.variables.access_iport_through_icon_system + '\n' +&#13;
+	'Access iPORT separately through Citrix: ' + current.variables.access_iport_separately_through_citrix + '\n' +&#13;
+	'special requirements: ' + current.variables.iport_special_requirements + '\n' + '\n' +&#13;
+	&#13;
+	//db archive&#13;
+	&#13;
+	'DB Archive fields- ' + '\n' +&#13;
+	'DB Archive Access: ' + current.variables.db_archive_access.getDisplayValue() + '\n' + '\n' /*+&#13;
+	&#13;
+	//training - this has been disabled as training is not booked and provided via URL&#13;
+	&#13;
+	'Training fields- ' + '\n' +&#13;
+	'subcontract input date: ' + current.variables.subcontract_input_date + '\n' +&#13;
+	'goods receipt input date: ' + current.variables.goods_receipt_input_date + '\n' +&#13;
+	'procurement input date: ' + current.variables.procurement_date + '\n' +&#13;
+	'contract sales workbench date: ' + current.variables.contract_sales_workbench + '\n' +&#13;
+	'cvr input periodic: ' + current.variables.cvr_input_periodic + '\n' +&#13;
+	'craft commercial: ' + current.variables.craft_commercial + '\n' +&#13;
+	'craft buyer: ' + current.variables.craft_buyer + '\n' + '\n' +&#13;
+		&#13;
+	'Additional Info: ' + current.variables.any_additional_information*/&#13;
+	&#13;
+	;</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5c87c7d71b6a88904d21ed3fad4bcb86</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>dc87c7d71b6a88904d21ed3fad4bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:29:18</sys_updated_on>
+        <value>current.x_sksw_uk_itsm_request_variables = &#13;
+	'Access Type: ' + current.variables.access_request_type + '\n' +&#13;
+	'User Account: ' + current.variables.please_select_the_user_account_you_would_like_to_modify.getDisplayValue() + '\n' +&#13;
+	'OU: ' + current.variables.which_ou_does_this_person_work_in.getDisplayValue() + '\n' +&#13;
+	'company numbers: ' + current.variables.icon_company_numbers + '\n' +&#13;
+	'functional area access: ' +  current.variables.icon_functional_area_access + '\n' +&#13;
+	'iport access: ' + current.variables.iport_access_check + '\n' +&#13;
+	'DB Archive: ' + current.variables.db_archive_check + '\n' +&#13;
+	'Printer: ' + current.variables.printer + '\n' + '\n' + '\n' +&#13;
+	&#13;
+	//company &#13;
+	&#13;
+	'Company fields- ' + '\n' +&#13;
+	'OU: ' + current.variables.filter_operating_unit.getDisplayValue() + '\n' +&#13;
+'Companies to add: ' + current.variables.please_select_icon_company_s_that_access_should_be_added.getDisplayValue() + '\n' +&#13;
+'Contract Range: ' + current.variables.contract_range + '\n' +&#13;
+'Justification for access to company 90: ' + current.variables.justification_for_access_to_company_90 + '\n' +	'Companies to remove: ' + current.variables.please_select_icon_company_s_that_access_should_be_removed.getDisplayValue() + '\n' +&#13;
+	'Default: ' + current.variables.default_company.getDisplayValue() + '\n' + '\n' +&#13;
+	&#13;
+	//function&#13;
+	'Function fields- ' + '\n' +&#13;
+	'Role: ' + current.variables.role + '\n' +&#13;
+'Functional Areas to add: ' + current.variables.please_select_functional_areas_access_should_be_added.getDisplayValue() + '\n' +&#13;
+	'Functional Areas to remove: ' + current.variables.please_select_functional_areas_access_should_be_removed.getDisplayValue() + '\n' +&#13;
+	'Procurement Order types: ' + current.variables.procurement_order_types_required + '\n' +&#13;
+	'Authorisation level required: ' + current.variables.authorisation_level_required + '\n' +&#13;
+	'Value Limit: ' + current.variables.value_limit + '\n' +&#13;
+	'Contract sales workbench csw options: ' + current.variables.contract_sales_workbench_csw_options + '\n' +&#13;
+	'CVR: ' + current.variables.cvr + '\n' +&#13;
+	'PFFR: ' + current.variables.pffr + '\n' +&#13;
+	'PF: ' + current.variables.pf + '\n' +&#13;
+	'CF: ' + current.variables.cf + '\n' +&#13;
+	'Authorisation level required sc: ' + current.variables.authorisation_level_required_sc + '\n' + '\n' +&#13;
+	&#13;
+	//iport&#13;
+	&#13;
+	'iPORT fields- ' + '\n' +&#13;
+	'iport access level: ' + current.variables.iport_access_level.getDisplayValue() + '\n' +&#13;
+	'procurement access level: ' + current.variables.procurement_access_level.getDisplayValue() + '\n' +&#13;
+	'Access iPORT through iCON system: ' + current.variables.access_iport_through_icon_system + '\n' +&#13;
+	'Access iPORT separately through Citrix: ' + current.variables.access_iport_separately_through_citrix + '\n' +&#13;
+	'special requirements: ' + current.variables.iport_special_requirements + '\n' + '\n' +&#13;
+	&#13;
+	//db archive&#13;
+	&#13;
+	'DB Archive fields- ' + '\n' +&#13;
+	'DB Archive Access: ' + current.variables.db_archive_access.getDisplayValue() + '\n' + '\n' /*+&#13;
+	&#13;
+	//training - this has been disabled as training is not booked and provided via URL&#13;
+	&#13;
+	'Training fields- ' + '\n' +&#13;
+	'subcontract input date: ' + current.variables.subcontract_input_date + '\n' +&#13;
+	'goods receipt input date: ' + current.variables.goods_receipt_input_date + '\n' +&#13;
+	'procurement input date: ' + current.variables.procurement_date + '\n' +&#13;
+	'contract sales workbench date: ' + current.variables.contract_sales_workbench + '\n' +&#13;
+	'cvr input periodic: ' + current.variables.cvr_input_periodic + '\n' +&#13;
+	'craft commercial: ' + current.variables.craft_commercial + '\n' +&#13;
+	'craft buyer: ' + current.variables.craft_buyer + '\n' + '\n' +&#13;
+		&#13;
+	'Additional Info: ' + current.variables.any_additional_information*/&#13;
+	&#13;
+	;</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Write to request variables field">5c87c7d71b6a88904d21ed3fad4bcb86</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1487c7d71b6a88904d21ed3fad4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">d887c7d71b6a88904d21ed3fad4bcb29</condition>
+        <from display_value="Approvals">4c87c7d71b6a88904d21ed3fad4bcb25</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1887c7d71b6a88904d21ed3fad4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="Create Task">5487c7d71b6a88904d21ed3fad4bcb2a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4887c7d71b6a88904d21ed3fad4bcb21</condition>
+        <from display_value="Set to Close Complete">40878b971b6a88904d21ed3fad4bcbfb</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>1c87c7d71b6a88904d21ed3fad4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="End">0087c7d71b6a88904d21ed3fad4bcb25</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8887c7d71b6a88904d21ed3fad4bcb24</condition>
+        <from display_value="Begin">8087c7d71b6a88904d21ed3fad4bcb24</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5087c7d71b6a88904d21ed3fad4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="Set Values">c087c7d71b6a88904d21ed3fad4bcb22</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9087c7d71b6a88904d21ed3fad4bcb88</condition>
+        <from display_value="Set to Close Incomplete">d887c7d71b6a88904d21ed3fad4bcb87</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>5487c7d71b6a88904d21ed3fad4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="End">0087c7d71b6a88904d21ed3fad4bcb25</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1487c7d71b6a88904d21ed3fad4bcb87</condition>
+        <from display_value="Write to request variables field">5c87c7d71b6a88904d21ed3fad4bcb86</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9087c7d71b6a88904d21ed3fad4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="scratchpad">4087c7d71b6a88904d21ed3fad4bcb23</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0c87c7d71b6a88904d21ed3fad4bcb23</condition>
+        <from display_value="scratchpad">4087c7d71b6a88904d21ed3fad4bcb23</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9487c7d71b6a88904d21ed3fad4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="Approvals">4c87c7d71b6a88904d21ed3fad4bcb25</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">5c87c7d71b6a88904d21ed3fad4bcb29</condition>
+        <from display_value="Approvals">4c87c7d71b6a88904d21ed3fad4bcb25</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9487c7d71b6a88904d21ed3fad4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="Set to Close Incomplete">d887c7d71b6a88904d21ed3fad4bcb87</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8887c7d71b6a88904d21ed3fad4bcb22</condition>
+        <from display_value="Set Values">c087c7d71b6a88904d21ed3fad4bcb22</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9887c7d71b6a88904d21ed3fad4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="Write to request variables field">5c87c7d71b6a88904d21ed3fad4bcb86</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9487c7d71b6a88904d21ed3fad4bcb86</condition>
+        <from display_value="Create Task">5487c7d71b6a88904d21ed3fad4bcb2a</from>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>9c87c7d71b6a88904d21ed3fad4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <to display_value="Set to Close Complete">40878b971b6a88904d21ed3fad4bcbfb</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-30 10:27:19</sys_created_on>
+        <sys_id>c4878b971b6a88904d21ed3fad4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:27:19</sys_updated_on>
+        <workflow_version display_value="iCON Access Request UK">c0878b971b6a88904d21ed3fad4bcbf8</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=4de949451b7584104d21ed3fad4bcbe9^sys_id!=c0878b971b6a88904d21ed3fad4bcbf8">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_sksw_uk_itsm_icon_authorization" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="iCON Authorization - Default view" name="x_sksw_uk_itsm_icon_authorization" related_list="NULL" sys_domain="global" view="Default view">4187dd891bb584104d21ed3fad4bcba4</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sys_user_group.x_sksw_uk_itsm_operating_unit</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 19:44:37</sys_created_on>
+            <sys_id>0587dd891bb584104d21ed3fad4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 19:44:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="iCON Authorization - Default view" name="x_sksw_uk_itsm_icon_authorization" related_list="NULL" sys_domain="global" view="Default view">4187dd891bb584104d21ed3fad4bcba4</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_sksw_uk_itsm_icon_settings.operating_unit</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 19:44:37</sys_created_on>
+            <sys_id>0187dd891bb584104d21ed3fad4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 19:44:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>iCON Authorization - Default view</calculated_name>
+            <filter/>
+            <name>x_sksw_uk_itsm_icon_authorization</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 19:44:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4187dd891bb584104d21ed3fad4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>iCON Authorization - Default view</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_related_x_sksw_uk_itsm_icon_authorization_null</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 19:44:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

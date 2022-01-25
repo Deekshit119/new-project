@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sim Card" max_length="40" name="x_sksw_uk_itsm_sim_card" sizeclass="2" type="collection">
+        <element label="Mobile Number" max_length="32" name="mobile_number" reference="x_sksw_uk_itsm_mobile_number" type="reference"/>
+        <element label="Sim Card Number" max_length="100" name="sim_card_number" type="string"/>
+        <index name="index">
+            <element name="mobile_number"/>
+        </index>
+    </element>
+</database>

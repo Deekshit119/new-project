@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="iCON Access Request">38bae61f1be140104252c8017e4bcb79</catalog_item>
+        <catalog_variable>IO:508f21081b7d04104252c8017e4bcbb7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-10 12:43:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>77b6e8c91b1688104d21ed3fad4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>authorisation_level_required_sc</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_77b6e8c91b1688104d21ed3fad4bcb73</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-10 12:43:04</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Authorisation Level Required">64cfa1581b3d44104252c8017e4bcbf8</ui_policy>
+        <variable>authorisation_level_required_sc</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

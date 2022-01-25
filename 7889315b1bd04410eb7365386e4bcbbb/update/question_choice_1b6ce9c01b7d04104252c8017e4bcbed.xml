@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="CF">1a4ce9c01b7d04104252c8017e4bcb3b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-13 18:42:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1b6ce9c01b7d04104252c8017e4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorisation Level 2</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>question_choice_1b6ce9c01b7d04104252c8017e4bcbed</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-13 18:42:16</sys_updated_on>
+        <text>Authorisation Level 2</text>
+        <value>authorisation level 2</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=1b6ce9c01b7d04104252c8017e4bcbed"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>1b6ce9c01b7d04104252c8017e4bcbed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-13 18:42:16</sys_created_on>
+        <sys_id>9e7ca1441b7d04104252c8017e4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-13 18:42:16</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>1b6ce9c01b7d04104252c8017e4bcbed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-13 18:42:16</sys_created_on>
+        <sys_id>567ca1441b7d04104252c8017e4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-13 18:42:16</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

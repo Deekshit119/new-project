@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Conflicts" section_id="ce975ca91b3cc850eb7365386e4bcb8c" sys_domain="global" table="change_request" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change_request_conflict_progress.xml</element>
+            <position>0</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-29 11:19:33</sys_created_on>
+            <sys_id>2297dca91b3cc850eb7365386e4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Conflict Checker Progress">f6764f93efa002008e4c36caa5c0fb67</sys_ui_formatter>
+            <sys_ui_section caption="Conflicts" display_value="Conflicts" name="change_request" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">ce975ca91b3cc850eb7365386e4bcb8c</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 11:19:33</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Conflicts</caption>
+            <header>false</header>
+            <name>change_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-29 11:19:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce975ca91b3cc850eb7365386e4bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>change_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_ce975ca91b3cc850eb7365386e4bcb8c</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 11:19:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

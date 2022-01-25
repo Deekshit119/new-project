@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Catalog Item Approvals" max_length="40" name="x_sksw_uk_itsm_catalog_item_approvals" sizeclass="2" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element dependent="table" dependent_on_field="table" label="Approval Condition" max_length="4000" name="approval_condition" type="conditions" use_dependent_field="true"/>
+        <element label="Group" max_length="4000" name="group" reference="sys_user_group" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="glide_list"/>
+        <element default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Sc cat item" max_length="32" name="sc_cat_item" reference="sc_cat_item" type="reference"/>
+        <element default="sc_req_item" label="Table" max_length="80" name="table" type="table_name"/>
+        <element label="User" max_length="4000" name="user" reference="sys_user" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="glide_list"/>
+        <index name="index">
+            <element name="sc_cat_item"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Mobile Number" max_length="40" name="x_sksw_uk_itsm_mobile_number" sizeclass="4423" type="collection">
+        <element label="Communication Device" max_length="32" name="communication_device" reference="cmdb_ci_comm" reference_floats="true" type="reference"/>
+        <element display="true" label="Mobile Number" max_length="100" name="mobile_number" type="string"/>
+        <element default="Skanska UK" label="Scope" max_length="100" name="scope" type="string"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="communication_device"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

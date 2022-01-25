@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>test itrent template</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Do itrent check</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>bc970139</sys_created_by>
+        <sys_created_on>2020-01-03 13:36:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d70e20fa1b8284904d21ed3fad4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test itrent template</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_template_d70e20fa1b8284904d21ed3fad4bcb1e</sys_update_name>
+        <sys_updated_by>bc970139</sys_updated_by>
+        <sys_updated_on>2020-01-03 13:36:51</sys_updated_on>
+        <table>sc_request</table>
+        <template>requested_for=f00ecc8bdbcad700b44772b10f9619a4^x_sksw_uk_itsm_assignment_group=35e316751b7c8c50445f3150cd4bcb54^cmdb_ci=d9b201021b850c10445f3150cd4bcb89^x_sksw_uk_itsm_scope=Skanska UK^description=Do the Itrent Check^EQ</template>
+        <user display_value="Scott Gamble (bc970139)">98e61447db0ed700b44772b10f96195b</user>
+        <view/>
+    </sys_template>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="iCON Settings" max_length="40" name="x_sksw_uk_itsm_icon_settings" sizeclass="254" type="collection">
+        <element label="PK Auto ID" max_length="40" name="ad_group" type="integer"/>
+        <element display="true" label="Description" max_length="60" name="description" type="string"/>
+        <element label="Item" max_length="40" name="item" type="string"/>
+        <element label="Operating Unit" max_length="32" name="operating_unit" reference="x_sksw_uk_itsm_icon_authorization" type="reference"/>
+        <element choice="1" label="Parents/Filters" max_length="4000" name="parents_filters" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="FS" value="fs"/>
+                <element inactive_on_update="false" label="STL" value="stl"/>
+                <element inactive_on_update="false" label="Commercial" sequence="1" value="commercial"/>
+                <element inactive_on_update="false" label="Procurement" sequence="2" value="procurement"/>
+                <element inactive_on_update="false" label="Finance" sequence="3" value="finance"/>
+                <element inactive_on_update="false" label="UTILITIES" sequence="4" value="utilities"/>
+                <element inactive_on_update="false" label="SCE" sequence="5" value="sce"/>
+                <element inactive_on_update="false" label="NLGA" sequence="6" value="nlga"/>
+                <element inactive_on_update="false" label="IS" sequence="7" value="is"/>
+                <element inactive_on_update="false" label="CAR" sequence="8" value="car"/>
+                <element inactive_on_update="false" label="LSE" sequence="9" value="lse"/>
+                <element inactive_on_update="false" label="SKAUKPLC" sequence="10" value="skaukplc"/>
+                <element inactive_on_update="false" label="SRW" sequence="11" value="srw"/>
+                <element inactive_on_update="false" label="FA" sequence="12" value="fa"/>
+                <element inactive_on_update="false" label="Finance FBSBY" sequence="13" value="finance fbsby"/>
+                <element inactive_on_update="false" label="Superuser Procurement" sequence="14" value="superuser procurement"/>
+                <element inactive_on_update="false" label="Finance FBS" sequence="15" value="finance fbs"/>
+                <element inactive_on_update="false" label="GRN" sequence="16" value="grn"/>
+                <element inactive_on_update="false" label="GRU" sequence="17" value="gru"/>
+                <element inactive_on_update="false" label="Superuser Commercial" sequence="18" value="superuser commercial"/>
+                <element inactive_on_update="false" label="Superuser Finance" sequence="19" value="superuser finance"/>
+                <element inactive_on_update="false" label="Finance FBSMX" sequence="20" value="finance fbsmx"/>
+                <element inactive_on_update="false" label="C/S WBENCH" sequence="21" value="cs wbench"/>
+                <element inactive_on_update="false" label="S/C CERT 1" sequence="22" value="sc cert 1"/>
+                <element inactive_on_update="false" label="S/C CERT 2" sequence="23" value="sc cert 2"/>
+                <element inactive_on_update="false" label="S/C CERT 3" sequence="24" value="sc cert 3"/>
+                <element inactive_on_update="false" label="SINGLEREV1" sequence="25" value="singlerev1"/>
+                <element inactive_on_update="false" label="SINGLEREV2" sequence="26" value="singlerev2"/>
+                <element inactive_on_update="false" label="SINGLEREV3" sequence="27" value="singlerev3"/>
+                <element inactive_on_update="false" label="SPM CERTS" sequence="28" value="spm certs"/>
+                <element inactive_on_update="false" label="SPM WBS" sequence="29" value="spm wbs"/>
+                <element inactive_on_update="false" label="SPMPEREND" sequence="30" value="spmperend"/>
+                <element inactive_on_update="false" label="SPMQS1" sequence="31" value="spmqs1"/>
+                <element inactive_on_update="false" label="SPMQSCOMM" sequence="32" value="spmqscomm"/>
+                <element inactive_on_update="false" label="SPMSCBUYER" sequence="33" value="spmscbuyer"/>
+                <element inactive_on_update="false" label="GRN1" sequence="34" value="grn1"/>
+                <element inactive_on_update="false" label="GRN2" sequence="35" value="grn2"/>
+                <element inactive_on_update="false" label="PROC INPUT" sequence="36" value="proc input"/>
+                <element inactive_on_update="false" label="PD" sequence="37" value="pd"/>
+                <element inactive_on_update="false" label="CEMSKAN" sequence="38" value="cemskan"/>
+            </choice>
+        </element>
+        <element label="Security Groups" max_length="100" name="security_groups" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="iCON Function" sequence="1" value="icon function"/>
+                <element inactive_on_update="false" label="iCON Company" sequence="2" value="icon company"/>
+                <element inactive_on_update="false" label="iPORT Access" sequence="3" value="iport access"/>
+                <element inactive_on_update="false" label="CSW options" sequence="4" value="csw options"/>
+                <element inactive_on_update="false" label="Training Course" sequence="5" value="training course"/>
+                <element inactive_on_update="false" label="iCON Role" sequence="6" value="icon role"/>
+                <element inactive_on_update="false" label="Procurement Order T" sequence="7" value="procurement order t"/>
+                <element inactive_on_update="false" label="DB Archive Access" sequence="8" value="db archive access"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="operating_unit"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-01-24 08:33:50">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order>200</order>
+        <read_roles>x_sksw_uk_itsm.dashboard_reader</read_roles>
+        <roles>dashboard_admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+        <sys_created_on>2020-01-21 12:58:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67a31d6c1b6ecc504252c8017e4bcb12</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>UK ITIL Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_portal_page_67a31d6c1b6ecc504252c8017e4bcb12</sys_update_name>
+        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+        <sys_updated_on>2020-01-21 13:27:45</sys_updated_on>
+        <title>UK ITIL Homepage</title>
+        <user/>
+        <view>uk_itil</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone4</dropzone>
+                <offset>2</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>SLA over 80% (My Groups)</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 15:19:22</sys_created_on>
+                <sys_id>0d04f16c1b6200904252c8017e4bcba2</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 15:22:17</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 16:19:22">0d04f16c1b6200904252c8017e4bcba2</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:21:55</sys_created_on>
+                        <sys_id>3594b5ac1b6200904252c8017e4bcb01</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:49:03</sys_updated_on>
+                        <value>d78712341b6a40904252c8017e4bcb1e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 16:19:22">0d04f16c1b6200904252c8017e4bcba2</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:20:41</sys_created_on>
+                        <sys_id>4454fd6c1b6200904252c8017e4bcb36</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:20:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 16:19:22">0d04f16c1b6200904252c8017e4bcba2</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:21:08</sys_created_on>
+                        <sys_id>a664f1ac1b6200904252c8017e4bcb08</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:21:08</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 16:19:22">0d04f16c1b6200904252c8017e4bcba2</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:21:19</sys_created_on>
+                        <sys_id>b5747d6c1b6200904252c8017e4bcbe7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:21:19</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 16:19:22">0d04f16c1b6200904252c8017e4bcba2</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:20:54</sys_created_on>
+                        <sys_id>c35471ac1b6200904252c8017e4bcb62</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:20:54</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 16:19:22">0d04f16c1b6200904252c8017e4bcba2</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:22:17</sys_created_on>
+                        <sys_id>e3a475ac1b6200904252c8017e4bcbe0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:22:17</sys_updated_on>
+                        <value>SLA over 80% (My Groups)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 16:19:22">0d04f16c1b6200904252c8017e4bcba2</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:21:34</sys_created_on>
+                        <sys_id>f98435ac1b6200904252c8017e4bcbd2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:21:34</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>0</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>Open Incidents older than 30 days (My Groups)</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 14:41:16</sys_created_on>
+                <sys_id>0f4beda81b2200904252c8017e4bcbd0</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 15:07:16</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:05:04</sys_created_on>
+                        <sys_id>0bb0bda41b6200904252c8017e4bcb3c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:05:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:06:16</sys_created_on>
+                        <sys_id>300139e41b6200904252c8017e4bcbfd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:06:16</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:07:05</sys_created_on>
+                        <sys_id>371139e41b6200904252c8017e4bcb2f</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:47:13</sys_updated_on>
+                        <value>21385a741b6a40904252c8017e4bcb31</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:06:32</sys_created_on>
+                        <sys_id>4011b9e41b6200904252c8017e4bcb5b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:06:32</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:05:48</sys_created_on>
+                        <sys_id>5ee071e41b6200904252c8017e4bcbc3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:05:48</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:07:16</sys_created_on>
+                        <sys_id>8841f1281b6200904252c8017e4bcb09</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:07:16</sys_updated_on>
+                        <value>Open Incidents older than 30 days (My Groups)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:05:38</sys_created_on>
+                        <sys_id>9dd071e41b6200904252c8017e4bcbd1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:05:38</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:06:04</sys_created_on>
+                        <sys_id>a1f0b1e41b6200904252c8017e4bcbbe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:06:04</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 15:41:16">0f4beda81b2200904252c8017e4bcbd0</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:05:14</sys_created_on>
+                        <sys_id>e6c071e41b6200904252c8017e4bcb40</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:05:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone4</dropzone>
+                <offset>1</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>My Groups Incidents</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 15:15:19</sys_created_on>
+                <sys_id>3c13f9e81b6200904252c8017e4bcb7f</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 15:17:25</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 16:15:19">3c13f9e81b6200904252c8017e4bcb7f</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:16:14</sys_created_on>
+                        <sys_id>4f43fde81b6200904252c8017e4bcb86</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:16:14</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 16:15:19">3c13f9e81b6200904252c8017e4bcb7f</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:17:13</sys_created_on>
+                        <sys_id>6d83f52c1b6200904252c8017e4bcb52</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:48:47</sys_updated_on>
+                        <value>65e7da341b6a40904252c8017e4bcb19</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 16:15:19">3c13f9e81b6200904252c8017e4bcb7f</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:16:58</sys_created_on>
+                        <sys_id>7073352c1b6200904252c8017e4bcb5a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:16:58</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 16:15:19">3c13f9e81b6200904252c8017e4bcb7f</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:17:25</sys_created_on>
+                        <sys_id>7493b52c1b6200904252c8017e4bcbfe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:17:25</sys_updated_on>
+                        <value>My Groups Incidents</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 16:15:19">3c13f9e81b6200904252c8017e4bcb7f</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:16:04</sys_created_on>
+                        <sys_id>7a23f9e81b6200904252c8017e4bcb90</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:16:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 16:15:19">3c13f9e81b6200904252c8017e4bcb7f</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:16:45</sys_created_on>
+                        <sys_id>de63fde81b6200904252c8017e4bcbd8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:16:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 16:15:19">3c13f9e81b6200904252c8017e4bcb7f</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:16:34</sys_created_on>
+                        <sys_id>e753f12c1b6200904252c8017e4bcbfd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:16:34</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>My Active Incidents</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 14:33:01</sys_created_on>
+                <sys_id>55692da41b2200904252c8017e4bcb14</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 14:35:50</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:35:03</sys_created_on>
+                        <sys_id>1bd9e5e41b2200904252c8017e4bcb63</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:35:03</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:34:47</sys_created_on>
+                        <sys_id>2fc961e41b2200904252c8017e4bcbe9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:34:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:35:50</sys_created_on>
+                        <sys_id>570a6de41b2200904252c8017e4bcb52</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:35:50</sys_updated_on>
+                        <value>My Active Incidents</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:34:09</sys_created_on>
+                        <sys_id>66a9a1e41b2200904252c8017e4bcb09</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:34:09</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:34:35</sys_created_on>
+                        <sys_id>78c9e1e41b2200904252c8017e4bcb2c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:34:35</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:33:20</sys_created_on>
+                        <sys_id>9a79eda41b2200904252c8017e4bcb1b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:33:20</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:34:25</sys_created_on>
+                        <sys_id>9eb925e41b2200904252c8017e4bcbde</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:34:25</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:35:29</sys_created_on>
+                        <sys_id>d7e961e41b2200904252c8017e4bcbee</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:46:38</sys_updated_on>
+                        <value>67785e741b6a40904252c8017e4bcbe6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 15:33:01">55692da41b2200904252c8017e4bcb14</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:33:31</sys_created_on>
+                        <sys_id>dd892da41b2200904252c8017e4bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:33:31</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>New Incidents (My groups)</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 14:37:21</sys_created_on>
+                <sys_id>796aede41b2200904252c8017e4bcb19</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 14:40:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:38:58</sys_created_on>
+                        <sys_id>18ca6d281b2200904252c8017e4bcba6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:38:58</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:39:27</sys_created_on>
+                        <sys_id>23daad281b2200904252c8017e4bcb71</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:39:27</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:40:19</sys_created_on>
+                        <sys_id>420be5a81b2200904252c8017e4bcbe3</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:46:56</sys_updated_on>
+                        <value>d559d2f41b6a40904252c8017e4bcb1b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:39:39</sys_created_on>
+                        <sys_id>5aea6d281b2200904252c8017e4bcb63</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:39:39</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:38:07</sys_created_on>
+                        <sys_id>609a69e41b2200904252c8017e4bcb46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:38:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:39:52</sys_created_on>
+                        <sys_id>6dfae5a81b2200904252c8017e4bcb9b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:39:52</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:39:13</sys_created_on>
+                        <sys_id>9bca6d281b2200904252c8017e4bcb5b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:39:13</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:38:17</sys_created_on>
+                        <sys_id>af9a2d281b2200904252c8017e4bcb8d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:38:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 15:37:21">796aede41b2200904252c8017e4bcb19</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:40:35</sys_created_on>
+                        <sys_id>fc2ba9a81b2200904252c8017e4bcb0f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:40:35</sys_updated_on>
+                        <value>New Incidents (My groups)</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone4</dropzone>
+                <offset>0</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>My Work</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 15:08:25</sys_created_on>
+                <sys_id>b88179281b6200904252c8017e4bcb9a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 15:11:16</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 16:08:25">b88179281b6200904252c8017e4bcb9a</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:11:05</sys_created_on>
+                        <sys_id>17f179681b6200904252c8017e4bcb8d</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:47:25</sys_updated_on>
+                        <value>f6515a741b2a40904252c8017e4bcbeb</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 16:08:25">b88179281b6200904252c8017e4bcb9a</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:11:16</sys_created_on>
+                        <sys_id>2a2271a81b6200904252c8017e4bcb4d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:11:16</sys_updated_on>
+                        <value>My Work</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 16:08:25">b88179281b6200904252c8017e4bcb9a</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:09:52</sys_created_on>
+                        <sys_id>4fc131681b6200904252c8017e4bcbeb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:09:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 16:08:25">b88179281b6200904252c8017e4bcb9a</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:10:14</sys_created_on>
+                        <sys_id>8be179681b6200904252c8017e4bcb8a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:10:14</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 16:08:25">b88179281b6200904252c8017e4bcb9a</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:09:31</sys_created_on>
+                        <sys_id>b2b17d281b6200904252c8017e4bcbf6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:09:31</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 16:08:25">b88179281b6200904252c8017e4bcb9a</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:10:04</sys_created_on>
+                        <sys_id>b4e135681b6200904252c8017e4bcb4e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:10:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 16:08:25">b88179281b6200904252c8017e4bcb9a</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:09:11</sys_created_on>
+                        <sys_id>cba131681b6200904252c8017e4bcbe1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:09:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone6</dropzone>
+                <offset>0</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>Change Calendar</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 15:26:13</sys_created_on>
+                <sys_id>bc95f1201ba200904252c8017e4bcbce</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 15:27:43</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 16:26:13">bc95f1201ba200904252c8017e4bcbce</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:27:43</sys_created_on>
+                        <sys_id>07e5f1601ba200904252c8017e4bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:27:43</sys_updated_on>
+                        <value>Change Calendar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 16:26:13">bc95f1201ba200904252c8017e4bcbce</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:27:12</sys_created_on>
+                        <sys_id>3bc5f9201ba200904252c8017e4bcbfc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:27:12</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 16:26:13">bc95f1201ba200904252c8017e4bcbce</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:27:02</sys_created_on>
+                        <sys_id>61b5b9201ba200904252c8017e4bcb35</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:27:02</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 16:26:13">bc95f1201ba200904252c8017e4bcbce</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:27:20</sys_created_on>
+                        <sys_id>82d531601ba200904252c8017e4bcbea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:27:20</sys_updated_on>
+                        <value>calendar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 16:26:13">bc95f1201ba200904252c8017e4bcbce</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:26:25</sys_created_on>
+                        <sys_id>8ca539201ba200904252c8017e4bcb47</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:26:25</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 16:26:13">bc95f1201ba200904252c8017e4bcbce</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:27:34</sys_created_on>
+                        <sys_id>a0e531601ba200904252c8017e4bcbc3</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:49:28</sys_updated_on>
+                        <value>008952381b6a40904252c8017e4bcba3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 16:26:13">bc95f1201ba200904252c8017e4bcbce</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:26:36</sys_created_on>
+                        <sys_id>bea539201ba200904252c8017e4bcb5d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:26:36</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone5</dropzone>
+                <offset>0</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>My Groups Active Incidents by Priority and State</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 15:22:48</sys_created_on>
+                <sys_id>d3c4bdac1b6200904252c8017e4bcbba</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 15:25:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 16:22:48">d3c4bdac1b6200904252c8017e4bcbba</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:24:45</sys_created_on>
+                        <sys_id>1045f9ec1b6200904252c8017e4bcb65</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:24:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 16:22:48">d3c4bdac1b6200904252c8017e4bcbba</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:24:24</sys_created_on>
+                        <sys_id>3625b9ec1b6200904252c8017e4bcbcc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:24:24</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 16:22:48">d3c4bdac1b6200904252c8017e4bcbba</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:25:33</sys_created_on>
+                        <sys_id>436531201ba200904252c8017e4bcb46</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:49:16</sys_updated_on>
+                        <value>f8295eb41b6a40904252c8017e4bcbeb</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 16:22:48">d3c4bdac1b6200904252c8017e4bcbba</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:25:18</sys_created_on>
+                        <sys_id>44557dec1b6200904252c8017e4bcb66</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:25:18</sys_updated_on>
+                        <value>heatmap</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 16:22:48">d3c4bdac1b6200904252c8017e4bcbba</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:25:44</sys_created_on>
+                        <sys_id>6e75f1201ba200904252c8017e4bcb61</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:25:44</sys_updated_on>
+                        <value>My Groups Active Incidents by Priority and State</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 16:22:48">d3c4bdac1b6200904252c8017e4bcbba</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:23:59</sys_created_on>
+                        <sys_id>9815f5ec1b6200904252c8017e4bcba6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:23:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 16:22:48">d3c4bdac1b6200904252c8017e4bcbba</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 15:24:35</sys_created_on>
+                        <sys_id>e9353dec1b6200904252c8017e4bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 15:24:35</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="UK ITIL Homepage">67a31d6c1b6ecc504252c8017e4bcb12</page>
+                <summary>Critical Open Incidents</summary>
+                <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                <sys_created_on>2020-01-21 13:30:58</sys_created_on>
+                <sys_id>ef2bd5281baecc504252c8017e4bcb9b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                <sys_updated_on>2020-01-21 14:26:34</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:25:28</sys_created_on>
+                        <sys_id>00a76da01b2200904252c8017e4bcb19</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-22 12:46:06</sys_updated_on>
+                        <value>52f016341b2a40904252c8017e4bcb19</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 13:34:35</sys_created_on>
+                        <sys_id>090c91a81baecc504252c8017e4bcbef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 13:34:35</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 13:35:30</sys_created_on>
+                        <sys_id>141c1d681baecc504252c8017e4bcb0c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 13:35:30</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 13:34:20</sys_created_on>
+                        <sys_id>35fbd9681baecc504252c8017e4bcb4d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 13:34:20</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 13:35:42</sys_created_on>
+                        <sys_id>3a4c95a81baecc504252c8017e4bcbde</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 13:35:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 14:26:34</sys_created_on>
+                        <sys_id>72e725e01b2200904252c8017e4bcbe0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 14:26:34</sys_updated_on>
+                        <value>Critical Open Incidents</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 13:32:52</sys_created_on>
+                        <sys_id>db9b11681baecc504252c8017e4bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 13:32:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 13:34:07</sys_created_on>
+                        <sys_id>f2eb95681baecc504252c8017e4bcb08</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 13:34:07</sys_updated_on>
+                        <value>67a31d6c1b6ecc504252c8017e4bcb12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2020-01-21 14:30:58">ef2bd5281baecc504252c8017e4bcb9b</portal_section>
+                        <sys_created_by>krzysztof.stanczyk</sys_created_by>
+                        <sys_created_on>2020-01-21 13:31:24</sys_created_on>
+                        <sys_id>fd4b5d281baecc504252c8017e4bcb32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>krzysztof.stanczyk</sys_updated_by>
+                        <sys_updated_on>2020-01-21 13:31:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

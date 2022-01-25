@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Power Supply">0989b4311b2940904252c8017e4bcbaa</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>AC Adaptor &amp; Cable for HP 820/840 G1,G2,G3</strong></p>
+<p><strong>ID : H6Y89AA</strong></p>
+<p><strong>£41.87</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AC Adaptor &amp; Cable for HP 820/840 G1,G2,G3</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>76a050dd1b6e00904d21ed3fad4bcb37</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=316fcc1d1b6e00904d21ed3fad4bcb37&amp;sysparm_preview=true", "summary");</preview>
+        <price>56.81</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>AC Adaptor &amp; Cable for HP 820/840 G1,G2,G3</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 15:55:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>316fcc1d1b6e00904d21ed3fad4bcb37</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AC Adaptor &amp; Cable for HP 820/840 G1,G2,G3</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_316fcc1d1b6e00904d21ed3fad4bcb37</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:00:40</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>H6Y89AA</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="HP">c1158c021b34cc50445f3150cd4bcb74</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=316fcc1d1b6e00904d21ed3fad4bcb37"/>
+    <fx_price action="delete_multiple" query="id=316fcc1d1b6e00904d21ed3fad4bcb37"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>41.87</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>316fcc1d1b6e00904d21ed3fad4bcb37</id>
+        <parent/>
+        <reference_amount>54.9739</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 15:55:07</sys_created_on>
+        <sys_id>f16f885d1b6e00904d21ed3fad4bcba5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:00:40</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>316fcc1d1b6e00904d21ed3fad4bcb37</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 15:55:07</sys_created_on>
+        <sys_id>3d6f885d1b6e00904d21ed3fad4bcba5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 15:55:09</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#202020</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>4815</size_bytes>
+        <size_compressed>4632</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:00:39</sys_created_on>
+        <sys_id>76a050dd1b6e00904d21ed3fad4bcb37</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:00:40</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>316fcc1d1b6e00904d21ed3fad4bcb37</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="76a050dd1b6e00904d21ed3fad4bcb37">76a050dd1b6e00904d21ed3fad4bcb37</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:00:39</sys_created_on>
+        <sys_id>b6a050dd1b6e00904d21ed3fad4bcb37</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6164</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="76a050dd1b6e00904d21ed3fad4bcb37">76a050dd1b6e00904d21ed3fad4bcb37</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:00:39</sys_created_on>
+        <sys_id>3aa050dd1b6e00904d21ed3fad4bcb37</sys_id>
+    </sys_attachment_doc>
+</record_update>

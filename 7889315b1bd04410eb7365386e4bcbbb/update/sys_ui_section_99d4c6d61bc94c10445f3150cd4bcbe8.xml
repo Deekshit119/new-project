@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contract" section_id="99d4c6d61bc94c10445f3150cd4bcbe8" sys_domain="global" table="cmdb_ci_computer" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>warranty_expiration</element>
+            <position>0</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>e27efde11bfd88104d21ed3fad4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_sccm_last_import_date</element>
+            <position>1</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>6e7efde11bfd88104d21ed3fad4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_last_hw_scan</element>
+            <position>2</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>e27efde11bfd88104d21ed3fad4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_last_sw_scan</element>
+            <position>3</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>6a7efde11bfd88104d21ed3fad4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_last_login</element>
+            <position>4</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>ee7efde11bfd88104d21ed3fad4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>667efde11bfd88104d21ed3fad4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_contract_end_date</element>
+            <position>6</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>ea7efde11bfd88104d21ed3fad4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_number</element>
+            <position>7</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>627efde11bfd88104d21ed3fad4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_contract</element>
+            <position>8</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>e67efde11bfd88104d21ed3fad4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <position>9</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>6e7efde11bfd88104d21ed3fad4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_monthly_cost</element>
+            <position>10</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-18 11:51:49</sys_created_on>
+            <sys_id>e27efde11bfd88104d21ed3fad4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_computer" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">99d4c6d61bc94c10445f3150cd4bcbe8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-18 11:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contract</caption>
+            <header>false</header>
+            <name>cmdb_ci_computer</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-13 13:27:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99d4c6d61bc94c10445f3150cd4bcbe8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>cmdb_ci_computer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_99d4c6d61bc94c10445f3150cd4bcbe8</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-13 13:30:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

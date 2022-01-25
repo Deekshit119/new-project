@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_announcement_portal">
+    <m2m_announcement_portal action="INSERT_OR_UPDATE">
+        <announcement display_value="test uk">5034b5431b9e44504252c8017e4bcb87</announcement>
+        <order>100</order>
+        <sp_portal display_value="UK Service Portal">89d6328c1bcd0410445f3150cd4bcb64</sp_portal>
+        <sys_class_name>m2m_announcement_portal</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-16 23:29:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3434bd031b9e44504252c8017e4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.UK Service Portal</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>m2m_announcement_portal_3434bd031b9e44504252c8017e4bcb4c</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-16 23:29:38</sys_updated_on>
+    </m2m_announcement_portal>
+</record_update>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_sksw_uk_itsm.UKRequestUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>This ensure that location details are enteretd only once in any accessories cat item which then replicates the same location across any otheraccessory cat item added to cart. User don;t have to add location details in each cat item they are adding to cart. Just onnce is enough.</description>
+        <name>UKRequestUtil</name>
+        <script><![CDATA[var UKRequestUtil = Class.create();
+UKRequestUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getUserNum:function(){
+		
+		var gruser = new GlideRecord('sys_user'); 
+		gruser.get(this.getParameter('sysparm_user_id'));
+		//if(grprb.next()){
+			//gs.addInfoMessage('found record');
+			if(gruser) { 
+					return gruser.phone;
+			}
+		//}
+	},
+	
+	getCartLocation:function(){
+		var sccartitem = new GlideRecord("sc_cart_item");
+		sccartitem.addQuery("sys_created_by",this.getParameter('sysparm_username'));
+		sccartitem.addQuery("active",true);
+		sccartitem.query();	
+		if(sccartitem.next()){
+			var sccartitemopt = new GlideRecord("sc_item_option");
+			sccartitemopt.addEncodedQuery("cart_item="+sccartitem.sys_id+"^item_option_new.name=location");
+			sccartitemopt.query();	
+			if(sccartitemopt.next()){
+			return sccartitemopt.value;
+			}
+		}
+	},
+	
+	
+	getCartLocAddress:function(){
+		var sccartitem = new GlideRecord("sc_cart_item");
+		sccartitem.addQuery("sys_created_by",this.getParameter('sysparm_username'));
+		sccartitem.addQuery("active",true);
+		sccartitem.query();	
+		if(sccartitem.next()){
+			var sccartitemopt = new GlideRecord("sc_item_option");
+			sccartitemopt.addEncodedQuery("cart_item="+sccartitem.sys_id+"^item_option_new.name=location_address");
+			sccartitemopt.query();	
+			if(sccartitemopt.next()){
+			return sccartitemopt.value;
+			}
+		}
+	},
+	
+	
+	
+	getCartLocCity:function(){
+		var sccartitem = new GlideRecord("sc_cart_item");
+		sccartitem.addQuery("sys_created_by",this.getParameter('sysparm_username'));
+		sccartitem.addQuery("active",true);
+		sccartitem.query();	
+		if(sccartitem.next()){
+			var sccartitemopt = new GlideRecord("sc_item_option");
+			sccartitemopt.addEncodedQuery("cart_item="+sccartitem.sys_id+"^item_option_new.name=location_city");
+			sccartitemopt.query();	
+			if(sccartitemopt.next()){
+			return sccartitemopt.value;
+			}
+		}
+	},
+	
+	
+	getCartLocCounty:function(){
+		var sccartitem = new GlideRecord("sc_cart_item");
+		sccartitem.addQuery("sys_created_by",this.getParameter('sysparm_username'));
+		sccartitem.addQuery("active",true);
+		sccartitem.query();	
+		if(sccartitem.next()){
+			var sccartitemopt = new GlideRecord("sc_item_option");
+			sccartitemopt.addEncodedQuery("cart_item="+sccartitem.sys_id+"^item_option_new.name=location_county");
+			sccartitemopt.query();	
+			if(sccartitemopt.next()){
+			return sccartitemopt.value;
+			}
+		}
+	},
+	
+	
+	getCartLocPost:function(){
+		var sccartitem = new GlideRecord("sc_cart_item");
+		sccartitem.addQuery("sys_created_by",this.getParameter('sysparm_username'));
+		sccartitem.addQuery("active",true);
+		sccartitem.query();	
+		if(sccartitem.next()){
+			var sccartitemopt = new GlideRecord("sc_item_option");
+			sccartitemopt.addEncodedQuery("cart_item="+sccartitem.sys_id+"^item_option_new.name=location_post_code");
+			sccartitemopt.query();	
+			if(sccartitemopt.next()){
+			return sccartitemopt.value;
+			}
+		}
+	},
+	
+	
+	
+		getCartRequester:function(){
+		var sccartitem = new GlideRecord("sc_cart_item");
+		sccartitem.addQuery("sys_created_by",this.getParameter('sysparm_username'));
+		sccartitem.addQuery("active",true);
+		sccartitem.query();	
+		if(sccartitem.next()){
+			var sccartitemopt = new GlideRecord("sc_item_option");
+			sccartitemopt.addEncodedQuery("cart_item="+sccartitem.sys_id+"^item_option_new.name=requested_for");
+			sccartitemopt.query();	
+			if(sccartitemopt.next()){
+				//gs.info('riz sccartitemopt ' + sccartitemopt.value);
+			return sccartitemopt.value;
+				
+			}
+		}
+	},
+	
+	
+	getCartPhone:function(){
+		var sccartitem = new GlideRecord("sc_cart_item");
+		sccartitem.addQuery("sys_created_by",this.getParameter('sysparm_username'));
+		sccartitem.addQuery("active",true);
+		sccartitem.query();	
+		if(sccartitem.next()){
+			var sccartitemopt = new GlideRecord("sc_item_option");
+			sccartitemopt.addEncodedQuery("cart_item="+sccartitem.sys_id+"^item_option_new.name=contact_number");
+			sccartitemopt.query();	
+			if(sccartitemopt.next()){
+				//gs.info('riz sccartitemopt ' + sccartitemopt.value);
+			return sccartitemopt.value;
+				
+			}
+		}
+	},
+	
+	
+	
+	getCartSpecial:function(){
+		var sccartitem = new GlideRecord("sc_cart_item");
+		sccartitem.addQuery("sys_created_by",this.getParameter('sysparm_username'));
+		sccartitem.addQuery("active",true);
+		sccartitem.query();	
+		if(sccartitem.next()){
+			var sccartitemopt = new GlideRecord("sc_item_option");
+			sccartitemopt.addEncodedQuery("cart_item="+sccartitem.sys_id+"^item_option_new.name=additional_information");
+			sccartitemopt.query();	
+			if(sccartitemopt.next()){
+				//gs.info('riz sccartitemopt ' + sccartitemopt.value);
+			return sccartitemopt.value;
+				
+			}
+		}
+	},
+	
+	
+    type: 'UKRequestUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-22 10:14:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>41de2b891b910c104252c8017e4bcb03</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>UKRequestUtil</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_include_41de2b891b910c104252c8017e4bcb03</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 18:29:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

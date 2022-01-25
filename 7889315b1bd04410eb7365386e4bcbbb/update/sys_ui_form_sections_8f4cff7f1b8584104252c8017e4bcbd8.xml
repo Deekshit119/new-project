@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8f4cff7f1b8584104252c8017e4bcbd8" sys_domain="global" table="x_sksw_cz_itsm_cz_incident" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:00:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab4cb3bf1b8584104252c8017e4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sksw_cz_itsm_cz_incident" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">8f4cff7f1b8584104252c8017e4bcbd8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">9f4cb3bf1b8584104252c8017e4bcb28</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:00:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:00:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db4cb3bf1b8584104252c8017e4bcb21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sksw_cz_itsm_cz_incident" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">8f4cff7f1b8584104252c8017e4bcbd8</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">534cb3bf1b8584104252c8017e4bcb1a</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:00:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:00:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b4cb3bf1b8584104252c8017e4bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sksw_cz_itsm_cz_incident" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">8f4cff7f1b8584104252c8017e4bcbd8</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">534cb3bf1b8584104252c8017e4bcb13</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:00:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:00:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d34cb3bf1b8584104252c8017e4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sksw_cz_itsm_cz_incident" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">8f4cff7f1b8584104252c8017e4bcbd8</sys_ui_form>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">934cff7f1b8584104252c8017e4bcbdc</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:00:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:00:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>974cb3bf1b8584104252c8017e4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sksw_cz_itsm_cz_incident" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">8f4cff7f1b8584104252c8017e4bcbd8</sys_ui_form>
+            <sys_ui_section caption="Major Incident" display_value="Major Incident" name="x_sksw_cz_itsm_cz_incident" sys_domain="global" view="1da245e4db633300efc1fd871d96199c">d34cb3bf1b8584104252c8017e4bcb22</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:00:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_sksw_cz_itsm_cz_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:00:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f4cff7f1b8584104252c8017e4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_cz_itsm_cz_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8f4cff7f1b8584104252c8017e4bcbd8</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:00:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">1da245e4db633300efc1fd871d96199c</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

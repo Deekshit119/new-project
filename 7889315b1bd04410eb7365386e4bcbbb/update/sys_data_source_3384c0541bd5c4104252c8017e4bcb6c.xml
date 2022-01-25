@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <batch_size>1000</batch_size>
+        <category>SCCM 2016 Integration</category>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>jdbc:sqlserver://UK-SU-SQ093.ukbu.ukroot.net;selectMethod=cursor;databaseName=cm_gp1;integratedSecurity=true</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table) {
+
+	// Add your code here to insert data to import_set_table
+
+})(import_set_table);]]></data_loader>
+        <database_name>cm_gp1</database_name>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>com.microsoft.sqlserver.jdbc.SQLServerDriver</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>Skanska UK SCCM Custom Fields</import_set_table_label>
+        <import_set_table_name>x_sksw_uk_itsm_skanska_uk_sccm_custom_fields</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server>UK-SU-SQ093.ukbu.ukroot.net</jdbc_server>
+        <jdbc_user_name/>
+        <jdbcprobe_result_set_rows/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time/>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit/>
+        <maximum_rows/>
+        <mid_server display_value="Skanska_Dev_Orig_TEST-SN-VM01">84e9e5001b1244104d21ed3fad4bcbac</mid_server>
+        <name>Skanska UK SCCM 2016 Custom Fields</name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>Specific SQL</query>
+        <query_timeout>0</query_timeout>
+        <request_action/>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>0</sheet_number>
+        <sql_statement>SELECT DISTINCT&#13;
+IPA.IPADDRESSTEXT as adaptiva_ip,&#13;
+                SYS.Operating_System_Name_and0 as WinNT,&#13;
+                SYS.Last_Logon_Timestamp0 as LastLogin,&#13;
+                DATEDIFF(s, '1970-01-01 00:00:00', SYS.Last_Logon_Timestamp0) as LastLoginx,&#13;
+                SYS.ResourceID,&#13;
+                LSS.LastScanDate AS LastSWScan,&#13;
+                WSS.LastHWScan,&#13;
+                DATEDIFF(s, '1970-01-01 00:00:00', WSS.LastHWScan) AS LastHWScanx,&#13;
+                SYS.Distinguished_Name0 AS AD_OU,&#13;
+                SYS.Netbios_Name0 AS PCname,&#13;
+                SYS.User_Name0 AS Username,&#13;
+                SYS.Resource_Domain_OR_Workgr0 AS Domain,&#13;
+                OPSYS.Caption0 AS OS, OPSYS.Version0 AS OS_Version,&#13;
+                MEM.TotalPhysicalMemory0 / 1024 AS RAM,&#13;
+                CSYS.Manufacturer0 AS Manufacturer,&#13;
+                CSYS.Model0 AS Model,&#13;
+                LTRIM(CPU.Name0) AS CPU,&#13;
+                CPU.MaxClockSpeed0 AS CPU_Speed,&#13;
+                SYS.Is_AOAC_Capable0,&#13;
+                ENC.ChassisTypes0 AS ChassisType,&#13;
+                ENC.SerialNumber0 AS SerialNumber,&#13;
+                ISNULL(STUFF(&#13;
+                                (&#13;
+                                                SELECT TOP 1 ',' + CASE WHEN System_Group_Name0 like '%PHASE1%' Then 'Phase 1'&#13;
+                                                WHEN System_Group_Name0 like '%PHASE2%' Then 'Phase 2'&#13;
+                                                WHEN System_Group_Name0 like '%PHASE3%' Then 'Phase 3'&#13;
+                                                WHEN System_Group_Name0 like '%UPDATES-MANUAL%' Then 'Final Phase (Manual Restart)'&#13;
+                                                WHEN System_Group_Name0 like '%DEPLOYMENT-MANUAL%' Then 'Manual Update'&#13;
+                                                WHEN System_Group_Name0 like '%EXCLUSIONS%' Then 'EXCLUDED'&#13;
+                                                ELSE 'Final Phase (Auto)'&#13;
+                                                END AS System_Group_Name0&#13;
+                                                FROM dbo.v_RA_System_SystemGroupName SGRP&#13;
+                                                WHERE SGRP.ResourceID = SYS.ResourceID AND System_Group_Name0 LIKE '%S-SCCM-SECURITY-UPDATES%'&#13;
+                                                ORDER BY system_group_name0&#13;
+                                ),1,1,''&#13;
+                ),'Final Phase (Auto)') AS [PatchingGroup]&#13;
+FROM dbo.v_R_System AS SYS LEFT OUTER JOIN&#13;
+                dbo.v_GS_X86_PC_MEMORY AS MEM ON SYS.ResourceID = MEM.ResourceID LEFT OUTER JOIN&#13;
+                dbo.v_GS_COMPUTER_SYSTEM AS CSYS ON SYS.ResourceID = CSYS.ResourceID LEFT OUTER JOIN&#13;
+                dbo.v_GS_PROCESSOR AS CPU ON CPU.ResourceID = SYS.ResourceID LEFT OUTER JOIN&#13;
+                dbo.v_GS_OPERATING_SYSTEM AS OPSYS ON SYS.ResourceID = OPSYS.ResourceID LEFT OUTER JOIN&#13;
+                dbo.v_GS_SYSTEM_ENCLOSURE AS ENC ON SYS.ResourceID = ENC.ResourceID LEFT OUTER JOIN&#13;
+                dbo.v_GS_WORKSTATION_STATUS AS WSS ON SYS.ResourceID = WSS.ResourceID LEFT OUTER JOIN&#13;
+                dbo.v_GS_LastSoftwareScan AS LSS ON SYS.ResourceID = LSS.ResourceID LEFT OUTER JOIN&#13;
+                dbo.v_UserMachineRelationship AS UMR ON SYS.ResourceID = UMR.MachineResourceID LEFT OUTER JOIN&#13;
+                (SELECT MACHINE_NAME, [IPADDRESSTEXT] FROM [adaptiva].[dbo].[CLIENT_IP_INFO_TABLE] AS CIIT&#13;
+                                INNER JOIN [adaptiva].[dbo].[CLIENT_MACHINE_NAMES] AS CMN ON CMN.CLIENT_ID = CIIT.CLIENT_ID&#13;
+                ) AS IPA ON SYS.Netbios_Name0=IPA.MACHINE_NAME&#13;
+                           WHERE SYS.Operating_System_Name_and0 like ('%Workstation%') AND&#13;
+                SYS.Client0 = 1 AND&#13;
+                SYS.Resource_Domain_OR_Workgr0 = 'UKBU' AND&#13;
+                (ENC.SerialNumber0 &lt;&gt; 'None' OR ENC.SerialNumber0 is null)&#13;
+ORDER BY PCname</sql_statement>
+        <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-19 09:16:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3384c0541bd5c4104252c8017e4bcb6c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Skanska UK SCCM 2016 Custom Fields</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_data_source_3384c0541bd5c4104252c8017e4bcb6c</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-07 15:38:46</sys_updated_on>
+        <table_name/>
+        <type>JDBC</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>true</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+</record_update>

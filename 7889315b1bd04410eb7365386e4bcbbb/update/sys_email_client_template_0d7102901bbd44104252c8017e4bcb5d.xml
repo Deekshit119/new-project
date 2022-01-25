@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p>Hello,</p>
+<p>Number: ${number}</p>
+<p>Priority: ${priority}</p>
+<p>Impact: ${impact}</p>
+<p>Short description: ${short_description}</p>
+<p>Description: ${description}</p>
+<p>&nbsp;</p>]]></body_html>
+        <condition/>
+        <content_type>text/html</content_type>
+        <copied/>
+        <email_client_from_address/>
+        <from/>
+        <from_generation_type>smtp_email_account</from_generation_type>
+        <name>Skanska UK Issue Email</name>
+        <order>100</order>
+        <recipients/>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>Skanska UK Issue Number: ${number}</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-14 14:52:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0d7102901bbd44104252c8017e4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skanska UK Issue Email</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_email_client_template_0d7102901bbd44104252c8017e4bcb5d</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-14 14:52:25</sys_updated_on>
+        <table>issue</table>
+    </sys_email_client_template>
+</record_update>

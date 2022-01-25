@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_config">
+    <ldap_server_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes>objectGUID,distinguishedName,name,sAMAccountName,mail,company,department,physicalDeliveryOfficeName,streetAddress,l,st,postalCode,telephoneNumber,mobile,extensionAttribute1,co,title,givenName,manager,sn,Enabled</attributes>
+        <authenticate>true</authenticate>
+        <connect_timeout>60</connect_timeout>
+        <dn>UKBU\service.servicenow</dn>
+        <dn_field/>
+        <listen_interval>5</listen_interval>
+        <listener>false</listener>
+        <map/>
+        <mid_server display_value="Skanska_Dev_Orig_TEST-SN-VM01">84e9e5001b1244104d21ed3fad4bcbac</mid_server>
+        <name>UK AD Users</name>
+        <paging>true</paging>
+        <password>K1o/f0yUOw1cHeikhcptgXsxpJr4TKMY</password>
+        <rdn>DC=ukbu,DC=ukroot,DC=net</rdn>
+        <read_timeout>60</read_timeout>
+        <server_url>LDAP://uk-suh-dc001.ukbu.ukroot.net/ LDAP://UK-SU-DC010.ukbu.ukroot.net/ LDAP://uk-su-dc014.ukbu.ukroot.net/ </server_url>
+        <ssl>false</ssl>
+        <sys_class_name>ldap_server_config</sys_class_name>
+        <sys_created_by>patrick.bordier</sys_created_by>
+        <sys_created_on>2019-11-27 12:39:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ca1046f61bd980504252c8017e4bcb85</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>UK AD Users</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>ldap_server_config_ca1046f61bd980504252c8017e4bcb85</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-09 15:43:48</sys_updated_on>
+        <system_id>app131146.ams7.service-now.com:skanskadev1008</system_id>
+        <vendor>active_directory</vendor>
+    </ldap_server_config>
+</record_update>

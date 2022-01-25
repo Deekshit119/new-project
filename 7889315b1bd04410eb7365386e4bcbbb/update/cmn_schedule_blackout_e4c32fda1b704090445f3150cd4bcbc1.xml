@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule_blackout">
+    <cmn_schedule_blackout action="INSERT_OR_UPDATE">
+        <applies_to>change_request</applies_to>
+        <calendar_name/>
+        <condition/>
+        <description>Change Freeze dates as follows &#13;
+Wednesday 18th December 00:01 – Wednesday 8th January 23:59 (inclusive)&#13;
+&#13;
+FF JH STRY0013581</description>
+        <document/>
+        <document_key/>
+        <is_legacy_schedule>true</is_legacy_schedule>
+        <label/>
+        <name>Christmas Change Freeze</name>
+        <parent/>
+        <plural_label/>
+        <read_only>false</read_only>
+        <source>change_request</source>
+        <sys_class_name>cmn_schedule_blackout</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-01 10:10:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e4c32fda1b704090445f3150cd4bcbc1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Christmas Change Freeze</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>cmn_schedule_blackout_e4c32fda1b704090445f3150cd4bcbc1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-06 19:11:32</sys_updated_on>
+        <time_zone/>
+        <type>blackout</type>
+    </cmn_schedule_blackout>
+</record_update>

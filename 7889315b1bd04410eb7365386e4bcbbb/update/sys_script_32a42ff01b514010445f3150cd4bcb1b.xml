@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>problem</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="problem">x_sksw_uk_itsm_scope=Skanska UK^EQ<item display_value="Skanska UK" endquery="false" field="x_sksw_uk_itsm_scope" goto="false" newquery="false" operator="=" or="false" value="Skanska UK"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>FF_JH_STRY0013600</name>
+        <order>1000</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+   if(current.urgency == 3 && current.impact == 3){
+	 current.priority = 4;
+   }else if(current.urgency ==  3 && current.impact == 2){
+	 current.priority = 4;	   	
+   }else if(current.urgency ==  3 && current.impact == 1){
+	   current.priority = 4;
+   }else if(current.urgency ==  3 && current.impact == 0){
+	   current.priority = 4;	   
+   }else if(current.urgency ==  2 && current.impact == 3){
+	   current.priority = 4;	   
+   }else if(current.urgency ==  2 && current.impact == 2){
+	   current.priority = 4;	   
+   }else if(current.urgency == 2 && current.impact == 1){
+	   current.priority = 3;	   
+   }else if(current.urgency == 2 && current.impact == 0){
+	   current.priority = 3;	   
+   }else if(current.urgency == 1 && current.impact == 3){
+	   current.priority = 4;	   
+   }else if(current.urgency ==  1 && current.impact == 2){
+	   current.priority = 3;	   
+   }else if(current.urgency ==  1 && current.impact == 1){
+	   current.priority = 2;	   
+   }else if(current.urgency ==  1 && current.impact == 0){
+	   current.priority = 2;	   
+   }else if(current.urgency == 0 && current.impact == 3){
+	   current.priority = 4;
+   }else if(current.urgency == 0 && current.impact == 2){
+	   current.priority = 3;
+   }else if(current.urgency == 0 && current.impact == 1){
+	   current.priority = 2;
+   }else if(current.urgency == 0 && current.impact == 0){
+	   current.priority = 1;
+   }
+	
+	
+	
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-21 14:51:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32a42ff01b514010445f3150cd4bcb1b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FF_JH_STRY0013600</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_32a42ff01b514010445f3150cd4bcb1b</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-11-21 15:05:19</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=32a42ff01b514010445f3150cd4bcb1b"/>
+</record_update>

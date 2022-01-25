@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="04fe37011b3c8850eb7365386e4bcbb6" sys_domain="global" table="cmn_location" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_site_code</element>
+            <position>0</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>4879805d1b3c8850eb7365386e4bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>cc79805d1b3c8850eb7365386e4bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>2</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>4479805d1b3c8850eb7365386e4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>3</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>c879805d1b3c8850eb7365386e4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>5079805d1b3c8850eb7365386e4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>5</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>d479805d1b3c8850eb7365386e4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>5c79805d1b3c8850eb7365386e4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_created_on</element>
+            <position>7</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>d079805d1b3c8850eb7365386e4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_site_status</element>
+            <position>8</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>5879805d1b3c8850eb7365386e4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_site_type</element>
+            <position>9</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>dc79805d1b3c8850eb7365386e4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_google_maps_location</element>
+            <position>10</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 15:39:12</sys_created_on>
+            <sys_id>5479805d1b3c8850eb7365386e4bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">04fe37011b3c8850eb7365386e4bcbb6</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 15:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmn_location</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-28 14:53:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04fe37011b3c8850eb7365386e4bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmn_location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_04fe37011b3c8850eb7365386e4bcbb6</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 14:53:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

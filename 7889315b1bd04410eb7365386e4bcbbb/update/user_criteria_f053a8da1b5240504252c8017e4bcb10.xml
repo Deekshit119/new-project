@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location>fb27eea3db119fc08b19b6bffe96198f</location>
+        <match_all>false</match_all>
+        <name>UK users</name>
+        <role name="x_sksw_uk_itsm.ukitsm">e0c2b82d1bbcc850eb7365386e4bcb83</role>
+        <script/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>patrick.bordier</sys_created_by>
+        <sys_created_on>2020-01-14 09:41:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f053a8da1b5240504252c8017e4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UK users</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>user_criteria_f053a8da1b5240504252c8017e4bcb10</sys_update_name>
+        <sys_updated_by>patrick.bordier</sys_updated_by>
+        <sys_updated_on>2020-01-14 09:41:33</sys_updated_on>
+        <user/>
+    </user_criteria>
+</record_update>

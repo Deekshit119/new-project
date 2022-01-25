@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="alm_hardware" version="2" view="skanska_uk">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset_tag</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>a8a94ba21b5204504d21ed3fad4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>model_category</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>20a94ba21b5204504d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>display_name</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>a0a94ba21b5204504d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>24a94ba21b5204504d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>company</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>a4a94ba21b5204504d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>install_status</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>28a94ba21b5204504d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>substatus</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>a8a94ba21b5204504d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cost</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>2ca94ba21b5204504d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ci</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>aca94ba21b5204504d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>serial_number</element>
+            <list_id display_value="alm_hardware" element="NULL" name="alm_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2ca94ba21b5204504d21ed3fad4bcbdf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_id>20a94ba21b5204504d21ed3fad4bcbe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>alm_hardware</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-15 16:25:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ca94ba21b5204504d21ed3fad4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alm_hardware</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_list_alm_hardware_skanska_uk</sys_update_name>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-15 16:25:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

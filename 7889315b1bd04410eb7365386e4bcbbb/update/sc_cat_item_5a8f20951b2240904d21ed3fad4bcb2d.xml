@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Lync Accessories">7ee87cbd1be540904252c8017e4bcb63</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Lync Headset Monoaural 3215</strong></p>
+<p><strong>ID : 209746-101</strong></p>
+<p><strong>£25.61</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Lync Headset Monoaural 3215</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>90efa0951b2240904d21ed3fad4bcb4b</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=5a8f20951b2240904d21ed3fad4bcb2d&amp;sysparm_preview=true", "summary");</preview>
+        <price>34.75</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Lync Headset Monoaural 3215</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:15:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5a8f20951b2240904d21ed3fad4bcb2d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Lync Headset Monoaural 3215</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_5a8f20951b2240904d21ed3fad4bcb2d</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:17:01</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>209746-101</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="Plantronics">d2016e181b058410eb7365386e4bcbb0</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a8f20951b2240904d21ed3fad4bcb2d"/>
+    <fx_price action="delete_multiple" query="id=5a8f20951b2240904d21ed3fad4bcb2d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>25.61</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>5a8f20951b2240904d21ed3fad4bcb2d</id>
+        <parent/>
+        <reference_amount>33.6143</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:15:30</sys_created_on>
+        <sys_id>da8f20951b2240904d21ed3fad4bcb30</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:17:01</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>5a8f20951b2240904d21ed3fad4bcb2d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:15:30</sys_created_on>
+        <sys_id>168f20951b2240904d21ed3fad4bcb31</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:15:32</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>4388</size_bytes>
+        <size_compressed>4119</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:17:01</sys_created_on>
+        <sys_id>90efa0951b2240904d21ed3fad4bcb4b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:17:02</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>5a8f20951b2240904d21ed3fad4bcb2d</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="90efa0951b2240904d21ed3fad4bcb4b">90efa0951b2240904d21ed3fad4bcb4b</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:17:01</sys_created_on>
+        <sys_id>d0efa0951b2240904d21ed3fad4bcb4b</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5480</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="90efa0951b2240904d21ed3fad4bcb4b">90efa0951b2240904d21ed3fad4bcb4b</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:17:01</sys_created_on>
+        <sys_id>54efa0951b2240904d21ed3fad4bcb4b</sys_id>
+    </sys_attachment_doc>
+</record_update>

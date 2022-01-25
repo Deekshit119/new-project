@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,query_hints=true,hasLabels=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="56876" text_index="true" type="collection">
+        <element default="0" label="End User Update Count" max_length="40" name="x_sksw_uk_itsm_end_user_update_count" type="integer"/>
+        <element choice="3" label="On Hold Reason" max_length="40" name="x_sksw_uk_itsm_hold_reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting Caller" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Awaiting Change" sequence="2" value="5"/>
+                <element inactive_on_update="false" label="Awaiting Problem" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Awaiting Vendor" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Last Comment" max_length="255" name="x_sksw_uk_itsm_last_comment" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="x_sksw_uk_itsm_priority" read_only="true" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Moderate" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Planning" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+        <element choice="3" default="1" label="State" max_length="40" name="x_sksw_uk_itsm_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="4" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="800" sequence="0" value="800"/>
+                <element inactive_on_update="false" label="820" sequence="0" value="820"/>
+                <element inactive_on_update="false" label="830" sequence="0" value="830"/>
+                <element inactive_on_update="false" label="New" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Resolved" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Closed" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="8" value="8"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Missing CI" max_length="40" name="x_sksw_uk_itsm_u_missing_ci" type="string"/>
+        <element label="Security Incident" max_length="40" name="x_sksw_uk_itsm_u_security_incident" type="boolean"/>
+    </element>
+</database>

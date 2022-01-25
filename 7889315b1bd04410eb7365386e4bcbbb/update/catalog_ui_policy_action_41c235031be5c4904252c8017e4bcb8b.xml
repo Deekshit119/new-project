@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:f4c235031be5c4904252c8017e4bcb64</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-10 16:35:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>41c235031be5c4904252c8017e4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cost_center</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_41c235031be5c4904252c8017e4bcb8b</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-10 16:35:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make Cost Center Read Only">05c235031be5c4904252c8017e4bcb7b</ui_policy>
+        <variable>cost_center</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

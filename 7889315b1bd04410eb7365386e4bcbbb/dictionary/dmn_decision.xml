@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="planned_task" label="Beslut" max_length="40" name="dmn_decision" sizeclass="390" text_index="true" type="collection">
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" value="Skanska UK"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cab_definition">
+    <cab_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_add_agenda_decisions>true</auto_add_agenda_decisions>
+        <auto_add_changes>true</auto_add_changes>
+        <board_groups>eba3eab11bfc8c50445f3150cd4bcbe0,2fadcefd1b3c8c50445f3150cd4bcbf6,00ea8ebd1b3c8c50445f3150cd4bcbe1,f00e4a311b7c8c50445f3150cd4bcb4a,c59eca711b7c8c50445f3150cd4bcb92,a7c41af51b7c8c50445f3150cd4bcb1c,b7f0eefd1bbc8c50445f3150cd4bcbd8,a1d422f11bfc8c50445f3150cd4bcbdb,bc359ef51b7c8c50445f3150cd4bcb8d,17e7527d1b7c8c50445f3150cd4bcb63,3167963d1b7c8c50445f3150cd4bcbaa</board_groups>
+        <board_members/>
+        <cab_type>normal</cab_type>
+        <calendar_name/>
+        <change_condition table="change_request">active=true^state=-3^cab_required=true^start_dateRELATIVEGE@dayofweek@ago@30^x_sksw_uk_itsm_scope=Skanska UK^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="Authorize" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-3"/>
+            <item endquery="false" field="cab_required" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="start_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GE@dayofweek@ago@30"/>
+            <item display_value="Skanska UK" endquery="false" field="x_sksw_uk_itsm_scope" goto="false" newquery="false" operator="=" or="false" value="Skanska UK"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </change_condition>
+        <complete_preapproved_changes>false</complete_preapproved_changes>
+        <conference_details/>
+        <create_meetings_for>365</create_meetings_for>
+        <delegates>cc8d1c8fdb0ed700b44772b10f961982</delegates>
+        <description/>
+        <document/>
+        <document_key/>
+        <ignore_change_date_range>true</ignore_change_date_range>
+        <is_legacy_schedule>true</is_legacy_schedule>
+        <label/>
+        <locations/>
+        <manager display_value="Tracey Harness (bc972241)">dfc7d487db0ed700b44772b10f961963</manager>
+        <name>UK ITSM CAB</name>
+        <notification_lead_time>5</notification_lead_time>
+        <organizer display_value="Krzysztof Stanczyk (krzysztof.stanczyk)">fa6c17b6db3ea3008b19b6bffe961998</organizer>
+        <parent/>
+        <plural_label/>
+        <read_only>false</read_only>
+        <sys_class_name>cab_definition</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-13 16:17:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1bbb66561b8d4c10445f3150cd4bcb44</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>UK ITSM CAB</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>cab_definition_1bbb66561b8d4c10445f3150cd4bcb44</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-06 19:11:32</sys_updated_on>
+        <table_name>change_request</table_name>
+        <time_per_agenda_item>1970-01-01 00:05:00</time_per_agenda_item>
+        <time_zone>Europe/London</time_zone>
+        <type/>
+    </cab_definition>
+</record_update>

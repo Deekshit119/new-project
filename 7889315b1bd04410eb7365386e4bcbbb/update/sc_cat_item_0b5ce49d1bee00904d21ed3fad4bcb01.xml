@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Keyboard">1bb8b8bd1be540904252c8017e4bcbb3</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Keyboard - Wireless 850 AES</strong></p>
+<p><strong>ID : PZ3-00006</strong></p>
+<p><strong>£15.16</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Keyboard - Wireless 850 AES</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>013d2c911b2240904d21ed3fad4bcb2e</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=0b5ce49d1bee00904d21ed3fad4bcb01&amp;sysparm_preview=true", "summary");</preview>
+        <price>20.57</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Keyboard - Wireless 850 AES</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:01:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0b5ce49d1bee00904d21ed3fad4bcb01</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Keyboard - Wireless 850 AES</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_0b5ce49d1bee00904d21ed3fad4bcb01</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:05:20</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>PZ3-00006</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="Microsoft">afae2203db7167008b19b6bffe96191f</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b5ce49d1bee00904d21ed3fad4bcb01"/>
+    <fx_price action="delete_multiple" query="id=0b5ce49d1bee00904d21ed3fad4bcb01"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>15.16</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>0b5ce49d1bee00904d21ed3fad4bcb01</id>
+        <parent/>
+        <reference_amount>19.8982</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:01:38</sys_created_on>
+        <sys_id>cf5ca8911b2240904d21ed3fad4bcb03</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:05:20</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>0b5ce49d1bee00904d21ed3fad4bcb01</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:01:38</sys_created_on>
+        <sys_id>0b5ca8911b2240904d21ed3fad4bcb04</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:01:39</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#1c2021</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>4003</size_bytes>
+        <size_compressed>3669</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:05:19</sys_created_on>
+        <sys_id>013d2c911b2240904d21ed3fad4bcb2e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:05:21</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>0b5ce49d1bee00904d21ed3fad4bcb01</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="013d2c911b2240904d21ed3fad4bcb2e">013d2c911b2240904d21ed3fad4bcb2e</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:05:19</sys_created_on>
+        <sys_id>413d2c911b2240904d21ed3fad4bcb2e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>4880</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="013d2c911b2240904d21ed3fad4bcb2e">013d2c911b2240904d21ed3fad4bcb2e</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:05:19</sys_created_on>
+        <sys_id>c13d2c911b2240904d21ed3fad4bcb2e</sys_id>
+    </sys_attachment_doc>
+</record_update>

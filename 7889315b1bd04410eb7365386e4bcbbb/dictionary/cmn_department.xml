@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element create_roles="user_admin" label="Osasto" max_length="40" name="cmn_department" sizeclass="4159" type="collection">
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" value="Skanska UK"/>
+            </choice>
+        </element>
+    </element>
+</database>

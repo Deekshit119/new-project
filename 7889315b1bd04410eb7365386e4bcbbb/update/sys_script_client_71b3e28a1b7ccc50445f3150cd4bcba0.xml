@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Close Code and Notes set mandatory when state is review</description>
+        <field>u_action_needed</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>FF_JH_STRY0013569</name>
+        <order>200</order>
+        <script><![CDATA[function onLoad() {
+	
+	g_form.addInfoMessage('FF_JH_STRY0013569');
+	
+// 	var myScope = "x_sksw_uk_itsm";
+	
+// 	var field = "close_code";
+// 	var field2 = "close_notes";
+	
+// 	var fElement = g_form.getGlideUIElement(field);
+// 	var f2Element = g_form.getGlideUIElement(field2);
+	
+// 	var originalScope = fElement.getScope() + "";
+// 	var originalScope2 = f2Element.getScope() + "";
+	
+	
+// 	fElement.scope = myScope;
+// 	g_form.setMandatory(field, true);
+// 	fElement.scope = originalScope;
+	
+// 	f2Element.scope = myScope;
+// 	g_form.setMandatory(field2, true);
+// 	f2Element.scope = originalScope2;
+	
+	var myScope = "x_sksw_uk_itsm";
+       
+        //Set the field you want to edit
+        var field1 = "close_code";
+        var field2 = "close_notes";
+        //var field3 = "cab_recommendation";
+       
+       
+        //then find the variable and store its original scope so we can revert it later
+       
+        var fElement1 = g_form.getGlideUIElement(field1);
+        var fElement2 = g_form.getGlideUIElement(field2);
+       // var fElement3 = g_form.getGlideUIElement(field3);
+       
+       
+        var originalScope1 = fElement1.getScope() + "";
+        var originalScope2 = fElement2.getScope() + "";
+       // var originalScope3 = fElement3.getScope() + "";
+       
+       
+        //Update the fields scope to your scope
+        fElement1.scope = myScope;
+        //Then do whatever it is you wanted to do
+        g_form.setMandatory(field1, true);
+        //Reset the scope for the next script
+        fElement1.scope = originalScope1;
+       
+        fElement2.scope = myScope;
+        g_form.setMandatory(field2, true);
+        fElement2.scope = originalScope2;
+       
+       // fElement3.scope = myScope;
+       // g_form.setMandatory(field3, true);
+       // fElement3.scope = originalScope3;
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-10-31 10:53:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71b3e28a1b7ccc50445f3150cd4bcba0</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>FF_JH_STRY0013569</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_client_71b3e28a1b7ccc50445f3150cd4bcba0</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-10-31 12:18:35</sys_updated_on>
+        <table>change_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view>skanska_uk</view>
+    </sys_script_client>
+</record_update>

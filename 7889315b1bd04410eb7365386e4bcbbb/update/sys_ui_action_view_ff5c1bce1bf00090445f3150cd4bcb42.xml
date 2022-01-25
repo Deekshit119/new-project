@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-10-31 14:56:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ff5c1bce1bf00090445f3150cd4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New.Skanska UK</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_ui_action display_value="New">5354db821bf00090445f3150cd4bcb2f</sys_ui_action>
+        <sys_ui_view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_ff5c1bce1bf00090445f3150cd4bcb42</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-10-31 14:56:13</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>

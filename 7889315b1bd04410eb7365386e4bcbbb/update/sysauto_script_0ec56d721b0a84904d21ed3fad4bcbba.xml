@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Skanska UK Create Generic Request For Report</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Joshua Welbelove (bc966073)">776128c3db4ed700b44772b10f96199b</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-03 17:32:01</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[createRequest();
+
+function createRequest() {
+
+	
+var cart = new sn_sc.CartJS();
+
+
+
+var item =
+
+
+{
+
+
+'sysparm_id': '1f77511c1b194450445f3150cd4bcb2e',
+
+
+'sysparm_quantity': '1',
+
+
+'variables':
+
+
+{
+
+'generic_contact_type' : 'automated_job',
+'requested_for': '776128c3db4ed700b44772b10f96199b',
+'genericRequest_short_description': 'Generic Report for Request',	
+'genericRequest_description': ' Description Generic Report for Request',
+'genericRequest_contact_number': '11111111',
+'genericRequest_anything_else_we_need_to_know': 'Weekly Report for Request'
+	
+}
+	
+};
+
+
+var cartDetails = cart.addToCart(item);
+
+var checkoutInfo = cart.checkoutCart();
+
+return(checkoutInfo.request_number);
+
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-03 17:35:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ec56d721b0a84904d21ed3fad4bcbba</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Skanska UK Create Generic Request For Report</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_0ec56d721b0a84904d21ed3fad4bcbba</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-06 18:01:04</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

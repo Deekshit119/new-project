@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="std_change_template">
+    <std_change_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>testep1234</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>testep1234</short_description>
+        <show_on_template_bar>false</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>std_change_template</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-06 11:49:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9c247fe31b02c0104d21ed3fad4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testep1234</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>std_change_template_9c247fe31b02c0104d21ed3fad4bcb6b</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-06 11:49:23</sys_updated_on>
+        <table>change_request</table>
+        <template>u_action_needed=true^x_sksw_uk_itsm_assignment_group=2fadcefd1b3c8c50445f3150cd4bcbf6^short_description=test^description=test^implementation_plan=test^backout_plan=test^test_plan=test^EQ</template>
+        <user display_value="Erdinc Pinar (erdinc.pinar@flyform.com)">74d0a61b1bdc4410445f3150cd4bcbc7</user>
+        <view/>
+    </std_change_template>
+</record_update>

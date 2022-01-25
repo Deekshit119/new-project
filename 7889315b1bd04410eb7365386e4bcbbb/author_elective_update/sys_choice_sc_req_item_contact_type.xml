@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="contact_type" table="sc_req_item" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>contact_type</element>
+            <name>sc_req_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-08 00:51:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>24a03f841bda44104d21ed3fad4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>contact_type</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_choice_sc_req_item_contact_type</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-08 00:51:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-08 00:51:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8a03f841bda44104d21ed3fad4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-08 00:51:04</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phone</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-08 00:51:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28a03f841bda44104d21ed3fad4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-08 00:51:04</sys_updated_on>
+            <value>phone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self-service</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-08 00:51:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0a03f841bda44104d21ed3fad4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-08 00:51:04</sys_updated_on>
+            <value>self-service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Virtual Agent</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-08 00:51:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ca03f841bda44104d21ed3fad4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-08 00:51:04</sys_updated_on>
+            <value>virtual_agent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Walk-in</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-08 00:51:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4a03f841bda44104d21ed3fad4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-08 00:51:04</sys_updated_on>
+            <value>walk-in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Automated Job</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-08 00:51:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20a03f841bda44104d21ed3fad4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-08 00:51:04</sys_updated_on>
+            <value>automated_job</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

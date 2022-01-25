@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8f7935a31b788010445f3150cd4bcbf8" sys_domain="global" table="cmdb_ci_switch" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>e36c35671b788010445f3150cd4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>1</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>6b6c35671b788010445f3150cd4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>ef6c35671b788010445f3150cd4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fault_count</element>
+            <position>3</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>676c35671b788010445f3150cd4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_date</element>
+            <position>4</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>eb6c35671b788010445f3150cd4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_max_stacked_units</element>
+            <position>5</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>636c35671b788010445f3150cd4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_configured_stacked_units</element>
+            <position>6</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>e76c35671b788010445f3150cd4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ip_address</element>
+            <position>7</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>6f6c35671b788010445f3150cd4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mac_address</element>
+            <position>8</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>e36c35671b788010445f3150cd4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>6b6c35671b788010445f3150cd4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>10</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>ef6c35671b788010445f3150cd4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>11</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>676c35671b788010445f3150cd4bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>max_ports</element>
+            <position>12</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>eb6c35671b788010445f3150cd4bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_ports</element>
+            <position>13</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>636c35671b788010445f3150cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_in_use_ports</element>
+            <position>14</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>e76c35671b788010445f3150cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_available_ports</element>
+            <position>15</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>6f6c35671b788010445f3150cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_damaged_ports</element>
+            <position>16</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>e36c35671b788010445f3150cd4bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_power_consumption_w</element>
+            <position>17</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:47:55</sys_created_on>
+            <sys_id>6b6c35671b788010445f3150cd4bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_switch" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">8f7935a31b788010445f3150cd4bcbf8</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:47:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmdb_ci_switch</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-04 23:35:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f7935a31b788010445f3150cd4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_switch</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_8f7935a31b788010445f3150cd4bcbf8</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-04 23:35:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="General" section_id="2e0a58621be284904d21ed3fad4bcb6a" sys_domain="global" table="alm_hardware" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>0</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ee0a58621be284904d21ed3fad4bcb6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>1</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>660a58621be284904d21ed3fad4bcb6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_system_used_as</element>
+            <position>2</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ea0a58621be284904d21ed3fad4bcb6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_carrier_imei</element>
+            <position>3</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>620a58621be284904d21ed3fad4bcb6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_imei</element>
+            <position>4</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>e60a58621be284904d21ed3fad4bcb6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_imei2</element>
+            <position>5</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>6e0a58621be284904d21ed3fad4bcb6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>e20a58621be284904d21ed3fad4bcb6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>7</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>6a0a58621be284904d21ed3fad4bcb6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>substatus</element>
+            <position>8</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ee0a58621be284904d21ed3fad4bcb6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_project_name</element>
+            <position>9</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>660a58621be284904d21ed3fad4bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_memory</element>
+            <position>10</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ea0a58621be284904d21ed3fad4bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_ram</element>
+            <position>11</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>620a58621be284904d21ed3fad4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_colour</element>
+            <position>12</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>e60a58621be284904d21ed3fad4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>6e0a58621be284904d21ed3fad4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_storm_status</element>
+            <position>14</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>e20a58621be284904d21ed3fad4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>15</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>6a0a58621be284904d21ed3fad4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>16</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ee0a58621be284904d21ed3fad4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>660a58621be284904d21ed3fad4bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_date</element>
+            <position>18</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ea0a58621be284904d21ed3fad4bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>620a58621be284904d21ed3fad4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_last_physical_audit_date</element>
+            <position>20</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>e60a58621be284904d21ed3fad4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>21</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>6e0a58621be284904d21ed3fad4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>owned_by</element>
+            <position>22</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>e20a58621be284904d21ed3fad4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reserved_for</element>
+            <position>23</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>6a0a58621be284904d21ed3fad4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>24</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ee0a58621be284904d21ed3fad4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>managed_by</element>
+            <position>25</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>660a58621be284904d21ed3fad4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>26</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ea0a58621be284904d21ed3fad4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>27</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>620a58621be284904d21ed3fad4bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">2e0a58621be284904d21ed3fad4bcb6a</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>General</caption>
+            <header>false</header>
+            <name>alm_hardware</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e0a58621be284904d21ed3fad4bcb6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alm_hardware</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_2e0a58621be284904d21ed3fad4bcb6a</sys_update_name>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

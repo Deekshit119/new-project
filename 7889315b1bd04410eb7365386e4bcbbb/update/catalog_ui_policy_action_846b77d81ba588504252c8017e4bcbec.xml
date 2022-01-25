@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:b13697901ba188504252c8017e4bcbbf</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-02 13:29:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>846b77d81ba588504252c8017e4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>application_description</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_846b77d81ba588504252c8017e4bcbec</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-02 13:29:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set Read-Only on RITM and Tasks">8b1b3b981ba588504252c8017e4bcbfd</ui_policy>
+        <variable>application_description</variable>
+        <variable_set display_value="Software Request">06719b981b6188504252c8017e4bcb98</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

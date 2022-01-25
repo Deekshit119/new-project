@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Product Model" max_length="40" name="x_sksw_uk_itsm_import_product_model" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Computer Type" max_length="40" name="u_computer_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Make" max_length="40" name="u_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Type" max_length="40" name="u_mobile_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model Cat" max_length="40" name="u_model_cat" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model Name" label="Model Name" max_length="40" name="u_model_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Scope" max_length="40" name="u_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Suportworks Model" label="Suportworks Model" max_length="40" name="u_suportworks_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

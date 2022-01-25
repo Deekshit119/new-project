@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Cases">b917b83d1be540904252c8017e4bcb55</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Case - HP Essential Messenger Case - Up to 17.3&#34;</strong></p>
+<p><strong>ID : H1D25AA</strong></p>
+<p><strong>£20.86</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Case - HP Essential Messenger Case - Up to 17.3"</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>05291c991bae00904d21ed3fad4bcb6a</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=91c894991bae00904d21ed3fad4bcb29&amp;sysparm_preview=true", "summary");</preview>
+        <price>28.31</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Case - HP Essential Messenger Case - Up to 17.3"</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:36:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>91c894991bae00904d21ed3fad4bcb29</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Case - HP Essential Messenger Case - Up to 17.3"</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_91c894991bae00904d21ed3fad4bcb29</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:37:40</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>H1D25AA</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="HP">c1158c021b34cc50445f3150cd4bcb74</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=91c894991bae00904d21ed3fad4bcb29"/>
+    <fx_price action="delete_multiple" query="id=91c894991bae00904d21ed3fad4bcb29"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>20.86</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>91c894991bae00904d21ed3fad4bcb29</id>
+        <parent/>
+        <reference_amount>27.3885</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:36:03</sys_created_on>
+        <sys_id>15c894991bae00904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:37:40</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>91c894991bae00904d21ed3fad4bcb29</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:36:03</sys_created_on>
+        <sys_id>5dc894991bae00904d21ed3fad4bcb2c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:36:05</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#3f3f3f</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>86</image_height>
+        <image_width>100</image_width>
+        <size_bytes>3444</size_bytes>
+        <size_compressed>3314</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:37:40</sys_created_on>
+        <sys_id>05291c991bae00904d21ed3fad4bcb6a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:37:41</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>91c894991bae00904d21ed3fad4bcb29</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="05291c991bae00904d21ed3fad4bcb6a">05291c991bae00904d21ed3fad4bcb6a</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:37:40</sys_created_on>
+        <sys_id>45291c991bae00904d21ed3fad4bcb6a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>4408</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="05291c991bae00904d21ed3fad4bcb6a">05291c991bae00904d21ed3fad4bcb6a</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:37:40</sys_created_on>
+        <sys_id>c5291c991bae00904d21ed3fad4bcb6a</sys_id>
+    </sys_attachment_doc>
+</record_update>

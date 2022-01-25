@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes=",text_index_translations,email_client=true" audit="true" create_roles="catalog_admin" extends="task" label="Catalog Task" max_length="40" name="sc_task" read_roles="itil" sizeclass="9976" text_index="true" type="collection">
+        <element label="License Rejection Reason" max_length="500" name="x_sksw_uk_itsm_license_approval_rejection" type="string"/>
+        <element choice="1" label="License Available" max_length="40" name="x_sksw_uk_itsm_license_available" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element label="SCCM RequestGUID" max_length="40" name="x_sksw_uk_itsm_sccm_requestguid" type="string"/>
+        <element choice="1" label="SCCM Status" max_length="40" name="x_sksw_uk_itsm_sccm_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ready to Deploy" sequence="1" value="ready to deploy"/>
+                <element inactive_on_update="false" label="SCCM Processed" sequence="2" value="sccm processed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+        <element choice="3" default="1" label="State" max_length="40" name="x_sksw_uk_itsm_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="-5" value="-5"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Work In Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Closed Skipped" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vendor status" max_length="40" name="x_sksw_uk_itsm_u_vendor_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Acknowledged" sequence="0" value="Acknowledged"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="1" value="Cancelled"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+                <element inactive_on_update="false" label="Dispatched" sequence="3" value="Dispatched"/>
+                <element inactive_on_update="false" label="Held" sequence="4" value="Held"/>
+                <element inactive_on_update="false" label="HeldRequest" sequence="5" value="HeldRequest"/>
+                <element inactive_on_update="false" label="InPool" sequence="6" value="InPool"/>
+                <element inactive_on_update="false" label="InProgress" sequence="7" value="InProgress"/>
+                <element inactive_on_update="false" label="InTransit" sequence="8" value="InTransit"/>
+                <element inactive_on_update="false" label="OnHold" sequence="9" value="OnHold"/>
+                <element inactive_on_update="false" label="Returned" sequence="10" value="Returned"/>
+                <element inactive_on_update="false" label="DispatchedToLessor" sequence="11" value="DispatchedToLessor"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_sksw_uk_itsm_power_consumption_w" label="Power Consumption(W)" language="en" table="cmdb_ci_ip_switch">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_power_consumption_w</element>
+            <help/>
+            <hint/>
+            <label>Power Consumption(W)</label>
+            <language>en</language>
+            <name>cmdb_ci_ip_switch</name>
+            <plural>Power Consumption(W)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-13 23:58:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>441598621b058c10445f3150cd4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Power Consumption(W)</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_documentation_cmdb_ci_ip_switch_x_sksw_uk_itsm_power_consumption_w_en</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-13 23:58:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

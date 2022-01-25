@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>More than 100 users/Don't know</display>
+        <metric display_value="Users Impacted">32ba173b1bcdc050445f3150cd4bcb79</metric>
+        <normalization_input>0</normalization_input>
+        <order>100</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-03 11:45:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>661d24f41bedc8504252c8017e4bcb55</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>More than 100 users/Don't know</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>asmt_metric_definition_661d24f41bedc8504252c8017e4bcb55</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-03 11:45:53</sys_updated_on>
+        <unselected_image/>
+        <value>200</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=661d24f41bedc8504252c8017e4bcb55"/>
+</record_update>

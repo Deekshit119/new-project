@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>aaaaaaa.dummy.event</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<h1>Purchase Order Request</h1>
+<p>&nbsp;</p>
+<table class="PurchaseOrderRequestDetails" border="1" cellpadding="10">
+<tbody>
+<tr>
+<td>Client UID</td>
+<td class="CustomerID">387</td>
+</tr>
+<tr>
+<td>Client Name</td>
+<td class="CustomerName">Skanska</td>
+</tr>
+<tr>
+<td>Hardware PO Reference</td>
+<td class="CustomerHwPO">${workflow.scratchpad.po}</td>
+</tr>
+<tr>
+<td>Accessories PO Reference</td>
+<td class="CustomerAcPO">&nbsp;</td>
+</tr>
+<tr>
+<td>Cost Centre</td>
+<td class="CostCentre">${opened_by}</td>
+</tr>
+<tr>
+<td>Required Date</td>
+<td class="Date">${workflow.scratchpad.created}</td>
+</tr>
+<tr>
+<td>General Notes</td>
+<td class="GeneralNotes">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h1>Order Delivery Address</h1>
+<p>&nbsp;</p>
+<table class="PurchaseOrderRequestDeliveryAddress" border="1" cellpadding="10">
+<tbody>
+<tr>
+<td>ContactName</td>
+<td class="ContactName">Radice, Rhian (HR)</td>
+</tr>
+<tr>
+<td>ContactNumber</td>
+<td class="ContactNumber">+44 330 105 3998</td>
+</tr>
+<tr>
+<td>Address Line</td>
+<td class="AddressLine">Skanska, Maple Cross House, Denham Way, Maple Cross</td>
+</tr>
+<tr>
+<td>City</td>
+<td class="City">Rickmansworth</td>
+</tr>
+<tr>
+<td>State</td>
+<td class="State">Hertfordshire</td>
+</tr>
+<tr>
+<td>PostCode</td>
+<td class="PostCode">WD3 9SW</td>
+</tr>
+<tr>
+<td>Country</td>
+<td class="Country">UK</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h1>Purchase Order Line Items</h1>
+<p>&nbsp;</p>
+<table class="PurchaseOrderRequestItems" border="1" cellpadding="10">
+<thead>
+<tr>
+<td><br /> Type</td>
+<td><br /> PartNo</td>
+<td><br /> Manufacturer</td>
+<td><br /> Description</td>
+<td><br /> Quantity</td>
+<td><br /> Unit Price</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="Type">Hardware</td>
+<td class="PartNo">SK740021-I7V3</td>
+<td class="Manufacturer">Dell</td>
+<td class="Description">Latitude 7400 2 in1</td>
+<td class="Quantity">1</td>
+<td class="UnitPrice">172420</td>
+</tr>
+<tr>
+<td class="Type">Accessory</td>
+<td class="PartNo">XXXX</td>
+<td class="Manufacturer">XX</td>
+<td class="Description">XXX</td>
+<td class="Quantity">1</td>
+<td class="UnitPrice">172420</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h1>Build Request</h1>
+<p>&nbsp;</p>
+<table class="PurchaseOrderBuildRequest" border="1" cellpadding="10">
+<tbody>
+<tr>
+<td>Call Type</td>
+<td class="CallType"><br /> Build Request (EOL Replacement)</td>
+</tr>
+<tr>
+<td>Contact Name</td>
+<td class="ContactName">Customer (Self Service)</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>riz test</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>test</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-08 16:37:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72e803541bda84104252c8017e4bcbcb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>riz test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysevent_email_action_72e803541bda84104252c8017e4bcbcb</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-08 16:38:57</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

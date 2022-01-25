@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Lync Accessories">7ee87cbd1be540904252c8017e4bcb63</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Lync Jabra 810 Speakerphone</strong></p>
+<p><strong>ID : 7810-109</strong></p>
+<p><strong>£315.24</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Lync Jabra 810 Speakerphone</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>4850fc551b2240904d21ed3fad4bcb30</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=96ffe4951b2240904d21ed3fad4bcbd2&amp;sysparm_preview=true", "summary");</preview>
+        <price>427.76</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Lync Jabra 810 Speakerphone</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:17:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>96ffe4951b2240904d21ed3fad4bcbd2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Lync Jabra 810 Speakerphone</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_96ffe4951b2240904d21ed3fad4bcbd2</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:18:54</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>7810-109</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="GN NETCOM">a6fb94a81bee0c504d21ed3fad4bcb9e</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=96ffe4951b2240904d21ed3fad4bcbd2"/>
+    <fx_price action="delete_multiple" query="id=96ffe4951b2240904d21ed3fad4bcbd2"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>315.24</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>96ffe4951b2240904d21ed3fad4bcbd2</id>
+        <parent/>
+        <reference_amount>413.7665</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:17:26</sys_created_on>
+        <sys_id>1affe4951b2240904d21ed3fad4bcbd5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:18:54</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>96ffe4951b2240904d21ed3fad4bcbd2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:17:26</sys_created_on>
+        <sys_id>52ffe4951b2240904d21ed3fad4bcbd6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:17:27</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#181818</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>355</image_height>
+        <image_width>355</image_width>
+        <size_bytes>12018</size_bytes>
+        <size_compressed>10370</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:18:54</sys_created_on>
+        <sys_id>4850fc551b2240904d21ed3fad4bcb30</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:18:55</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>96ffe4951b2240904d21ed3fad4bcbd2</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="4850fc551b2240904d21ed3fad4bcb30">4850fc551b2240904d21ed3fad4bcb30</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:18:54</sys_created_on>
+        <sys_id>8850fc551b2240904d21ed3fad4bcb30</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>13816</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="4850fc551b2240904d21ed3fad4bcb30">4850fc551b2240904d21ed3fad4bcb30</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:18:54</sys_created_on>
+        <sys_id>0c50fc551b2240904d21ed3fad4bcb30</sys_id>
+    </sys_attachment_doc>
+</record_update>

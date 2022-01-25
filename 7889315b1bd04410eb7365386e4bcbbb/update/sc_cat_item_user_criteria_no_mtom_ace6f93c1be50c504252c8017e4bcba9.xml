@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="2. EOL – I don't have this computer">d4e6f53c1be50c504252c8017e4bcb3a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-03 17:07:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ace6f93c1be50c504252c8017e4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of EOL - Return a Computer.SNC External</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_ace6f93c1be50c504252c8017e4bcba9</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-03 17:07:30</sys_updated_on>
+        <user_criteria display_value="SNC External">9cf2fde9db6d13005d59b14ffe9619d7</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

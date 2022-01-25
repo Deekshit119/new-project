@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>FF_EP_SetCountryCodeEmpty</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Erdinc Pinar (erdinc.pinar@flyform.com)">74d0a61b1bdc4410445f3150cd4bcbc7</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-18 01:46:33</run_start>
+        <run_time>1970-01-01 04:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[	var userMember = new GlideRecord('sys_user_grmember');
+//Find users in UK Project Management Office, UK Solutions & Planning, and UK Project Delivery
+//Also make sure user is in 'Skanska UK' scope
+userMember.addEncodedQuery('group=0c746eb11bfc8c50445f3150cd4bcb2b^ORgroup=47e36ab11bfc8c50445f3150cd4bcbe9^ORgroup=521422f11bfc8c50445f3150cd4bcbd5^user.x_sksw_uk_itsm_scope=Skanska UK');
+	userMember.query();
+	while(userMember.next()){
+		//gs.addInfoMessage('user='+user.user_id);
+		//var grUser = userMember.user;
+		var grUser = new GlideRecord('sys_user');
+		grUser.addQuery('sys_id', userMember.user);
+		grUser.query();
+		while(grUser.next()){
+			grUser.country = 'US';
+			grUser.update();
+		}
+	}
+//all other users will be set to United Kingdom
+		var grUser2 = new GlideRecord('sys_user');
+		grUser2.addEncodedQuery('x_sksw_uk_itsm_scope=Skanska UK^country=NULL');
+		grUser2.query();
+		while(grUser2.next()){
+			grUser2.country = 'GB';
+			grUser2.update();
+		}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-18 01:47:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6e3d9fd71b1208504252c8017e4bcb8d</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>FF_EP_SetCountryCodeEmpty</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_6e3d9fd71b1208504252c8017e4bcb8d</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-31 09:40:34</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

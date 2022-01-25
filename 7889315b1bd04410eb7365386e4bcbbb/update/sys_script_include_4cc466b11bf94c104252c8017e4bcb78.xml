@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_sksw_uk_itsm.iCONUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>iCONUtils</name>
+        <script><![CDATA[var iCONUtils = Class.create();
+iCONUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+splitCompany : function(){
+	
+	var company=[];
+	company= this.getParameter('sysparm_company');
+	var contractRange = '';
+	var ukcompany = company.split(',');
+	
+	for (var j=0 ; j < ukcompany.length ; j++) {
+
+	var grOu = new GlideRecord('x_sksw_uk_itsm_icon_settings');
+		grOu.addQuery('sys_id', ukcompany[j].toString() );
+		grOu.query();
+		if(grOu.next()){	
+	
+		contractRange = contractRange + grOu.getValue('description') + ':' + '\n';
+		}
+	}
+	//var intNow = '5';
+	
+	return contractRange;
+},
+	
+	
+// 	splitCompany : function(sysparm_company, sysparm_split){
+	
+	
+// 	var contractRange = '';
+// 	gs.info('jesse ' + sysparm_split);
+// 	for (var j=0 ; j < sysparm_split.length ; j++) {
+// 	var grOu = new GlideRecord('x_sksw_uk_itsm_icon_settings');
+// 		grOu.addQuery('sys_id', sysparm_split[j].toString() );
+// 		grOu.query();
+// 		gs.info('jesse query count ' + grOu.getRowCount());
+// 		if(grOu.next()){
+// 		contractRange = contractRange + grOu.getValue('description') + ':' + '\n';
+// 		}
+// 	}
+// 	//var intNow = '5';
+	
+// 	return contractRange;
+// },
+	
+   type: 'iCONUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-19 09:29:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4cc466b11bf94c104252c8017e4bcb78</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>iCONUtils</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_include_4cc466b11bf94c104252c8017e4bcb78</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-09 22:47:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

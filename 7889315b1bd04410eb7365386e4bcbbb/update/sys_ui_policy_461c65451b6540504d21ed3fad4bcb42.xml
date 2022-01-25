@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="sc_task">request_item.cat_item!=00cfb6101bed48504252c8017e4bcbf1^x_sksw_uk_itsm_scope=Skanska UK^EQ<item display_table="sc_cat_item" display_value="Software Request" endquery="false" field="request_item.cat_item" goto="false" newquery="false" operator="!=" or="false" value="00cfb6101bed48504252c8017e4bcbf1"/>
+            <item display_value="Skanska UK" endquery="false" field="x_sksw_uk_itsm_scope" goto="false" newquery="false" operator="=" or="false" value="Skanska UK"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>false</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>FF JH STRY0013641 Hide Software Request Fields</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-04 11:01:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>461c65451b6540504d21ed3fad4bcb42</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FF JH STRY0013641 Hide Software Request Fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_ui_policy_461c65451b6540504d21ed3fad4bcb42</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-04 11:49:34</sys_updated_on>
+        <table>sc_task</table>
+        <ui_type>0</ui_type>
+        <view display_value="" name="skanska_uk">skanska_uk</view>
+    </sys_ui_policy>
+</record_update>

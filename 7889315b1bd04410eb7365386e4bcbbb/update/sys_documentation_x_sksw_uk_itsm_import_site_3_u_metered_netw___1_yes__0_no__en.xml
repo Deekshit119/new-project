@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_metered_netw___1_yes__0_no_" label="Metered Network (1 Yes, 0 No)" language="en" table="x_sksw_uk_itsm_import_site_3">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_metered_netw___1_yes__0_no_</element>
+            <help/>
+            <hint/>
+            <label>Metered Network (1 Yes, 0 No)</label>
+            <language>en</language>
+            <name>x_sksw_uk_itsm_import_site_3</name>
+            <plural>Metered Network (1 Yes, 0 No)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-30 11:39:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>12a565311bb88c50445f3150cd4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Metered Network (1 Yes, 0 No)</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_documentation_x_sksw_uk_itsm_import_site_3_u_metered_netw___1_yes__0_no__en</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-30 11:39:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

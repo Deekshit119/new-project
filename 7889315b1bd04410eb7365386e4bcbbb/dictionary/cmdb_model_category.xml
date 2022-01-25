@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Model Category" max_length="40" name="cmdb_model_category" sizeclass="132" type="collection">
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+    </element>
+</database>

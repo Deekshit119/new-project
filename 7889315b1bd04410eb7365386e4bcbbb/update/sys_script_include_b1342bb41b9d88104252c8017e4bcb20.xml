@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sksw_uk_itsm.EOLgetNewDevice</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>STRY0013713  : Fetch Device an populate field "This is the replacement device" on portal catalog item form for "Order a Replacement Computer"</description>
+        <name>EOLgetNewDevice</name>
+        <script><![CDATA[var EOLgetNewDevice = Class.create();
+EOLgetNewDevice.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getNewDevice : function(){
+		
+		
+		var par = this.getParameter('oldDevice');	
+		var oldModel;
+		var grC = new GlideRecord('cmdb_ci_computer');
+		grC.addQuery('sys_id', par);
+		grC.query();			
+		if (grC.next())
+			{
+			oldModel= grC.getValue('model_id');
+			var gr = new GlideRecord('x_sksw_uk_itsm_pc_model_mapping');
+			gr.addQuery('from_model',oldModel);
+			gr.query();			
+			if (gr.next())
+				{
+				//alert('in if');
+				return	gr.getValue('u_to_model');				
+			}
+		}
+		
+	},
+	
+	getNewDeviceDesc : function(){
+		var par = this.getParameter('newDevice');
+		var grDesc = new GlideRecord('sc_cat_item');
+		grDesc.addQuery('sys_id', par);	
+		grDesc.query();	
+		if (grDesc.next())
+			{
+		return grDesc.description.toString();
+			}
+		
+		
+		
+	},
+	
+	type: 'EOLgetNewDevice'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-21 14:50:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b1342bb41b9d88104252c8017e4bcb20</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>EOLgetNewDevice</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_include_b1342bb41b9d88104252c8017e4bcb20</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-11-21 18:59:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

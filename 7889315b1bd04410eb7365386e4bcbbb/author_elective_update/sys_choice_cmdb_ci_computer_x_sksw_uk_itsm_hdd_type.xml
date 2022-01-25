@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_sksw_uk_itsm_hdd_type" table="cmdb_ci_computer" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_hdd_type</element>
+            <name>cmdb_ci_computer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-13 14:49:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6987561e1b0d4c10445f3150cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_uk_itsm_hdd_type</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_choice_cmdb_ci_computer_x_sksw_uk_itsm_hdd_type</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-13 14:49:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_hdd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HDD</label>
+            <language>en</language>
+            <name>cmdb_ci_computer</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-13 14:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e77da1e1b0d4c10445f3150cd4bcb6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-13 14:49:35</sys_updated_on>
+            <value>HDD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_hdd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAS</label>
+            <language>en</language>
+            <name>cmdb_ci_computer</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-13 14:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0397d21e1b0d4c10445f3150cd4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-13 14:49:58</sys_updated_on>
+            <value>SAS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_hdd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSD</label>
+            <language>en</language>
+            <name>cmdb_ci_computer</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-13 14:49:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88979a1e1b0d4c10445f3150cd4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-13 14:49:45</sys_updated_on>
+            <value>SSD</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

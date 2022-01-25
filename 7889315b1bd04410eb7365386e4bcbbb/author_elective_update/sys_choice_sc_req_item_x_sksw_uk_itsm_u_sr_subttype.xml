@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_sksw_uk_itsm_u_sr_subttype" table="sc_req_item" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <name>sc_req_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:01:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f0a5ebf11bfd4c104d21ed3fad4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_uk_itsm_u_sr_subttype</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_choice_sc_req_item_x_sksw_uk_itsm_u_sr_subttype</sys_update_name>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-19 14:01:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Procurement</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardware purchase</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:02:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfe52ff11bfd4c104d21ed3fad4bcba5</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Hardware purchase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Repair</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:07:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1272f751bfd4c104d21ed3fad4bcb56</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Repair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Procurement</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corporate Order</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:01:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ac527f11bfd4c104d21ed3fad4bcb25</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Corporate Order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Disposal</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:06:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bff663b51bfd4c104d21ed3fad4bcb26</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Disposal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Procurement</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Faulty Goods Return</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:01:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65d523f11bfd4c104d21ed3fad4bcb99</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Faulty Goods Return</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Procurement</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General query</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:02:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4e56ff11bfd4c104d21ed3fad4bcbfa</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>General query</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Procurement</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quote request</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:02:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c0627351bfd4c104d21ed3fad4bcbf2</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Quote request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Procurement</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contract termination</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:01:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f0523f11bfd4c104d21ed3fad4bcbb4</sys_id>
+            <sys_mod_count>13</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Contract termination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Procurement</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile Admin</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9f5e3351bfd4c104d21ed3fad4bcb8c</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Mobile Admin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Device Leasing</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Device return</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:04:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a5663751bfd4c104d21ed3fad4bcb20</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Device return</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Device Leasing</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Replacement device</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5786e3751bfd4c104d21ed3fad4bcbaa</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Replacement device</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Device Leasing</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Query</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:04:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6666f351bfd4c104d21ed3fad4bcbba</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>General Query</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Device Leasing</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Device Admin</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:03:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29366f351bfd4c104d21ed3fad4bcb14</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Device Admin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Re-Assign Request</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:07:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87172f751bfd4c104d21ed3fad4bcb6d</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Re-Assign Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lost / Stolen</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:07:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9417e3b51bfd4c104d21ed3fad4bcbb1</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Lost / Stolen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bulk Uploads</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:06:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80f623b51bfd4c104d21ed3fad4bcb59</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Bulk Uploads</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Return Of Asset/s</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:08:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2947e3b51bfd4c104d21ed3fad4bcbfe</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Return Of Asset/s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Return To Lessor</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:08:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d576fb51bfd4c104d21ed3fad4bcb1e</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Return To Lessor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdb6a3751bfd4c104d21ed3fad4bcbd3</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Audit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Asset Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Report Request</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:07:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d37ab751bfd4c104d21ed3fad4bcb53</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Report Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Config Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equipment Request</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:10:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14d7aff51bfd4c104d21ed3fad4bcb57</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Equipment Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Config Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contract / Warranty Request</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:09:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21a7efb51bfd4c104d21ed3fad4bcbe4</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Contract / Warranty Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Config Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software Request</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:10:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fee7e7391bfd4c104d21ed3fad4bcb9c</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Software Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Config Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decomission</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:10:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02b723f51bfd4c104d21ed3fad4bcb01</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Decomission</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Config Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Capability Request</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:09:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc97efb51bfd4c104d21ed3fad4bcbcb</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 17:19:51</sys_updated_on>
+            <value>Capability Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Config Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Repair</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:10:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94e767f51bfd4c104d21ed3fad4bcb1a</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 13:14:25</sys_updated_on>
+            <value>Repair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Config Mgmt</dependent_value>
+            <element>x_sksw_uk_itsm_u_sr_subttype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disposal</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-19 14:10:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1dc7abf51bfd4c104d21ed3fad4bcb57</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-20 13:14:31</sys_updated_on>
+            <value>Disposal</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

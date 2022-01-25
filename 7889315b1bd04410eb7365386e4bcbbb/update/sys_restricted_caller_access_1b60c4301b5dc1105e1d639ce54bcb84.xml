@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source>f8168600eb3311001c13abf11206fe55</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_script_include</source_table>
+        <source_type>2</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>deekshitulu.malladi@snc</sys_created_by>
+        <sys_created_on>2022-01-24 06:58:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1b60c4301b5dc1105e1d639ce54bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7889315b1bd04410eb7365386e4bcbbb</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_1b60c4301b5dc1105e1d639ce54bcb84</sys_update_name>
+        <sys_updated_by>deekshitulu.malladi@snc</sys_updated_by>
+        <sys_updated_on>2022-01-24 06:58:52</sys_updated_on>
+        <target>7889315b1bd04410eb7365386e4bcbbb</target>
+        <target_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</target_scope>
+        <target_table>sys_app</target_table>
+        <target_type>3</target_type>
+    </sys_restricted_caller_access>
+</record_update>

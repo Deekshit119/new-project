@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="iCON Access Request">38bae61f1be140104252c8017e4bcb79</catalog_item>
+        <catalog_variable>IO:33a3b10c1b7d04104252c8017e4bcbd6</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-14 12:39:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>00f2ad941bf944104252c8017e4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>db_archive</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_00f2ad941bf944104252c8017e4bcb2c</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-14 12:39:14</sys_updated_on>
+        <table/>
+        <ui_policy display_value="DB Archive">8ae225941bf944104252c8017e4bcba8</ui_policy>
+        <variable>db_archive</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

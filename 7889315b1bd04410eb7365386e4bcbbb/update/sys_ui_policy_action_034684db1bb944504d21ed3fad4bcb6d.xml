@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>x_sksw_uk_itsm_u_sr_type</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-23 13:36:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>034684db1bb944504d21ed3fad4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sksw_uk_itsm_u_sr_type</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_ui_policy_action_034684db1bb944504d21ed3fad4bcb6d</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-23 13:36:14</sys_updated_on>
+        <table>sc_req_item</table>
+        <ui_policy display_value="Show SR Type Level 1">0ec5889b1bb944504d21ed3fad4bcbb0</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

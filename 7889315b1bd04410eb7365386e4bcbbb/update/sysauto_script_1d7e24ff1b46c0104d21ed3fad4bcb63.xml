@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>[UK JW] iTrent Expenses User Access Review Report</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+ 
+//Set  Catalog Item's variables
+
+'short_description': 'iTrent Expenses User Access Review Report',           
+
+	'description': "Task no 19 refers Monthly task: Check that the BI report: iTrent Expenses User Access Review located in the TLIVE\Batched Reports\ITSD folder has run and output to the HR-RESTRICTED R: drive HR Systems\iTrent User Access Reviews folder. An email reminder is sent from BI to Joanna Sackett, cc'ing hr.systems and iTrent.Support group mailbox for review/update within a week. If changes are required as a result, a new call should be raised to cover and ensure the security User Changes Log s/sheet is updated accordingly. Chase for response if none received.",
+
+	'assignment_group': '35e316751b7c8c50445f3150cd4bcb54',
+
+	'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-06 16:04:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1d7e24ff1b46c0104d21ed3fad4bcb63</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>[UK JW] iTrent Expenses User Access Review Report</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_1d7e24ff1b46c0104d21ed3fad4bcb63</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:11:32</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

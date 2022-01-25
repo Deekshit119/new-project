@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="short_description" label="Short Description" language="en" table="x_sksw_uk_itsm_catalog_item_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <help/>
+            <hint/>
+            <label>Short Description</label>
+            <language>en</language>
+            <name>x_sksw_uk_itsm_catalog_item_task</name>
+            <plural>Short Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-26 23:51:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b74097a21b1180504252c8017e4bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Short Description</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_documentation_x_sksw_uk_itsm_catalog_item_task_short_description_en</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-26 23:51:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

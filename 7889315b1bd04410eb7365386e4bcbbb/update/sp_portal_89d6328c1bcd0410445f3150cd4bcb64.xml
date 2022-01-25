@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary:#428bca;
+$body-bg:#f0f3f4;
+$state-success-text:#5cb85c;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#ffffff;
+$text-color:#717171;
+$sp-logo-margin-y:.5rem;
+$navbar-inverse-link-hover-color:#ffffff;
+$panel-bg:#fff;
+$brand-success:#5cb85c;
+$navbar-inverse-bg:#c0e6ef;
+$brand-warning:#f0ad4e;
+$brand-danger:#d9534f;
+$sp-tagline-color:#ffffff;
+$navbar-inverse-link-color:#275493;
+$brand-info:#5bc0de;
+$link-color:#428bca;
+$sp-logo-margin-x:15px;
+$btn-default-bg:#fff;
+$text-muted:#979797;
+$grid-gutter-width: 15px !default;</css_variables>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="skanskauk_index">66b754d81b054410445f3150cd4bcbde</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <login_page display_value="landing">36c61807cb31120000f8d856634c9ca9</login_page>
+        <logo>095210fc1bc5c410445f3150cd4bcbca</logo>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config>[{&#13;
+	"tagline": {&#13;
+		"table" : "sp_instance",&#13;
+		"sys_id" : "34fe3d96cb20020000f8d856634c9cf4",&#13;
+		"field" : "title"&#13;
+	},&#13;
+	"hero_background": {&#13;
+		"table" : "sp_container",&#13;
+		"sys_id" : "2d0854d81b054410445f3150cd4bcbe1",&#13;
+		"field" : "background_image"&#13;
+	},&#13;
+	"readonly_variable_editor": "false"&#13;
+}]</quick_start_config>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Skanska UK SP Header Menu">8a99c4bc1b85c410445f3150cd4bcb1c</sp_rectangle_menu>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-06 17:22:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>89d6328c1bcd0410445f3150cd4bcb64</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>UK Service Portal</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sp_portal_89d6328c1bcd0410445f3150cd4bcb64</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-06 19:52:46</sys_updated_on>
+        <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
+        <title>UK Service Portal</title>
+        <ts_index_group display_value="portal_index_group">2c3e7d1513c93300e618bfd63244b0d7</ts_index_group>
+        <url_suffix>uksp</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=89d6328c1bcd0410445f3150cd4bcb64"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#263f6c</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/gif</content_type>
+        <encryption_context/>
+        <file_name>logo</file_name>
+        <hash/>
+        <image_height>352</image_height>
+        <image_width>1030</image_width>
+        <size_bytes>4147</size_bytes>
+        <size_compressed>4170</size_compressed>
+        <state>available</state>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-12 01:11:21</sys_created_on>
+        <sys_id>9a52342f1b2d40104252c8017e4bcb4b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-12 01:11:56</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>89d6328c1bcd0410445f3150cd4bcb64</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="9a52342f1b2d40104252c8017e4bcb4b">9a52342f1b2d40104252c8017e4bcb4b</sys_attachment>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-12 01:11:21</sys_created_on>
+        <sys_id>9652342f1b2d40104252c8017e4bcb4c</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5548</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="9a52342f1b2d40104252c8017e4bcb4b">9a52342f1b2d40104252c8017e4bcb4b</sys_attachment>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-12 01:11:21</sys_created_on>
+        <sys_id>1a52342f1b2d40104252c8017e4bcb4c</sys_id>
+    </sys_attachment_doc>
+</record_update>

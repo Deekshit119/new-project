@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>laptop</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Order Desktop/Laptop/Tablet">6fb8a3621b05cc10445f3150cd4bcb3b</sc_category>
+        <short_description>E.g. Laptop and Smartphone</short_description>
+        <size>md</size>
+        <sp_column display_value="3">6f4704b41b9e08104d21ed3fad4bcbfc</sp_column>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-07 00:36:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>faba58dc1b054410445f3150cd4bcbfb</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Order Hardware</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sp_instance_link_faba58dc1b054410445f3150cd4bcbfb</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-24 11:42:56</sys_updated_on>
+        <title>Order Hardware</title>
+        <type>sc_category</type>
+        <u_html/>
+        <u_location/>
+        <url>?id=sqa_tagged_questions</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=faba58dc1b054410445f3150cd4bcbfb"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:468834331b82c0104252c8017e4bcbf4=true^EQ</condition>
+        <guide display_value="HP Elite Slice 1.0 Desktop">c1eec50f1b21c4904252c8017e4bcbd5</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="DUAL Universal Docking Station">074e94dd1bae00904d21ed3fad4bcbb9</item>
+        <order>40</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-10 14:55:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9c9b9d031be1c4904252c8017e4bcbc7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>c1eec50f1b21c4904252c8017e4bcbd5</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_9c9b9d031be1c4904252c8017e4bcbc7</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 20:14:27</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

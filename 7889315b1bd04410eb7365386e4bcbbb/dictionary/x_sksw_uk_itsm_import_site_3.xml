@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Site 3" max_length="40" name="x_sksw_uk_itsm_import_site_3" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address" label="Address" max_length="127" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CIDR Address" max_length="40" name="u_cidr_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=County" label="County" max_length="40" name="u_county" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created on" label="Created on" max_length="40" name="u_created_on" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End IP Address" max_length="40" name="u_end_ip_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Field" max_length="40" name="u_field" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Google Maps Location" label="Google Maps Location" max_length="40" name="u_google_maps_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hosts Profile" max_length="40" name="u_hosts_profile" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Metered Network (1 Yes, 0 No)" max_length="40" name="u_metered_netw___1_yes__0_no_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Postcode" label="Postcode" max_length="40" name="u_postcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Site Code" label="Site Code" max_length="40" name="u_site_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Site Name" label="Site Name" max_length="60" name="u_site_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Site Status" label="Site Status" max_length="40" name="u_site_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Site Type" label="Site Type" max_length="40" name="u_site_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start IP Address" max_length="40" name="u_start_ip_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subnet Mask" max_length="40" name="u_subnet_mask" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Value" max_length="40" name="u_value" type="string"/>
+    </element>
+</database>

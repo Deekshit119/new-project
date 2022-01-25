@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Closure Information" section_id="73179ecc1b4d0410445f3150cd4bcbc7" sys_domain="global" table="problem" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>0</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-22 11:48:32</sys_created_on>
+            <sys_id>8964041d1b550c104252c8017e4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">73179ecc1b4d0410445f3150cd4bcbc7</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-22 11:48:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-22 11:48:32</sys_created_on>
+            <sys_id>0164041d1b550c104252c8017e4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">73179ecc1b4d0410445f3150cd4bcbc7</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-22 11:48:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>2</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-22 11:48:32</sys_created_on>
+            <sys_id>8564041d1b550c104252c8017e4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">73179ecc1b4d0410445f3150cd4bcbc7</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-22 11:48:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-22 11:48:32</sys_created_on>
+            <sys_id>0d64041d1b550c104252c8017e4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">73179ecc1b4d0410445f3150cd4bcbc7</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-22 11:48:32</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>4</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-22 11:48:32</sys_created_on>
+            <sys_id>8164041d1b550c104252c8017e4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">73179ecc1b4d0410445f3150cd4bcbc7</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-22 11:48:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Closure Information</caption>
+            <header>false</header>
+            <name>problem</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-06 15:01:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73179ecc1b4d0410445f3150cd4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>problem</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_73179ecc1b4d0410445f3150cd4bcbc7</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-06 15:01:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

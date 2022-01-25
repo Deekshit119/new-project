@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true" audit="true" label="Risiko" max_length="40" name="risk" sizeclass="46" type="collection">
+        <element choice="1" label="Impact" mandatory="true" max_length="40" name="x_sksw_uk_itsm_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Very Low" sequence="1" value="5"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="4"/>
+                <element inactive_on_update="false" label="Moderate" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="High" sequence="4" value="2"/>
+                <element inactive_on_update="false" label="Very High" sequence="5" value="1"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="x_sksw_uk_itsm_number" read_only="true" type="string"/>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+        <element choice="1" default="3" label="Status" max_length="40" name="x_sksw_uk_itsm_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Yellow" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Red" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element label="Work notes" max_length="4000" name="x_sksw_uk_itsm_work_notes" type="journal_input"/>
+        <element label="Work notes History" max_length="8000" name="x_sksw_uk_itsm_work_notes_history" read_only="true" type="translated_html"/>
+    </element>
+</database>

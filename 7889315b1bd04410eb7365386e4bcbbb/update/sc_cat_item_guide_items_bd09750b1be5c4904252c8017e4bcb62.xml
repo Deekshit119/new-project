@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:55c630bf1b42c0104252c8017e4bcb82=true^EQ</condition>
+        <guide display_value="Dell Latitude 7400 2 in 1 Tablet">29097dc71be5c4904252c8017e4bcb54</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Case - Standard Carry Case Dicota">f25910d91bae00904d21ed3fad4bcb6a</item>
+        <order>80</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-10 17:03:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bd09750b1be5c4904252c8017e4bcb62</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>29097dc71be5c4904252c8017e4bcb54</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_bd09750b1be5c4904252c8017e4bcb62</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 20:10:54</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function only runs on December
+
+function checkquarterly() {
+
+
+var now = new Date();
+
+
+var month = now.getMonth();
+
+
+var result = false;
+
+
+if(month == 12) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkquarterly();]]></condition>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>[UK JW] User Email Differs To GAL Check</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>14</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'User Email Differs To GAL Check',   
+	
+'description': "Task no 45 refers                                                                                   Check the iTrent.support mailbox for receit of a User Differs To GAL Message. Review content and update employees User account email in iTrent > Security > Users > User Details if appropriate ",
+
+'assignment_group': '35e316751b7c8c50445f3150cd4bcb54',
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-20 17:01:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9bd149181b220c504d21ed3fad4bcb3b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>[UK JW] User Email Differs To GAL Check</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_9bd149181b220c504d21ed3fad4bcb3b</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:20:07</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

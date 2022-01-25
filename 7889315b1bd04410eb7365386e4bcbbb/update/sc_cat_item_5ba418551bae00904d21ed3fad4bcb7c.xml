@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Power Supply">0989b4311b2940904252c8017e4bcbaa</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>AC Adaptor HP Elite X 1012</strong></p>
+<p><strong>ID : 828769-001</strong></p>
+<p><strong>£41.87</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AC Adaptor HP Elite X 1012</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>231594551bae00904d21ed3fad4bcb75</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=5ba418551bae00904d21ed3fad4bcb7c&amp;sysparm_preview=true", "summary");</preview>
+        <price>56.81</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>AC Adaptor HP Elite X 1012</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:18:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5ba418551bae00904d21ed3fad4bcb7c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AC Adaptor HP Elite X 1012</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_5ba418551bae00904d21ed3fad4bcb7c</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:20:06</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>828769-001</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="HP">c1158c021b34cc50445f3150cd4bcb74</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ba418551bae00904d21ed3fad4bcb7c"/>
+    <fx_price action="delete_multiple" query="id=5ba418551bae00904d21ed3fad4bcb7c"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>41.87</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>5ba418551bae00904d21ed3fad4bcb7c</id>
+        <parent/>
+        <reference_amount>54.9739</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:18:10</sys_created_on>
+        <sys_id>dba418551bae00904d21ed3fad4bcb7f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:20:06</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>5ba418551bae00904d21ed3fad4bcb7c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:18:10</sys_created_on>
+        <sys_id>17a418551bae00904d21ed3fad4bcb80</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:18:11</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>5104</size_bytes>
+        <size_compressed>4916</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:20:05</sys_created_on>
+        <sys_id>231594551bae00904d21ed3fad4bcb75</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:20:06</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>5ba418551bae00904d21ed3fad4bcb7c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="231594551bae00904d21ed3fad4bcb75">231594551bae00904d21ed3fad4bcb75</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:20:05</sys_created_on>
+        <sys_id>631594551bae00904d21ed3fad4bcb75</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>lVgHUFPdl3+hhF4ChN6LIiEgHQGB0ItUKSaI0gk9dPhAughIERSUJiBYQBIkBgQBEaUEIfTeOyodlCIIi9+3/53d2d2Z3XPv/M5759753fvmvfebc+7Z2NkcwGykZ6gHgEAAADpvwNkkkADQgKlYWFigrKysUCiUnZ2DnZOD/dxxQDk4zvEcODn5xAU5ucV4oJxCskJil2BSUtIcAorKcnClS3ApGIiWlpaBgYHp3GBcUC4YDH7e4XCYEvzcwWBKfwJw+LmDncOfsfOQ0j+zYH/b2UcAQg3MA/PkIGGADAIih4DOWgHeP1uk/LPV/zAqEBklmJqC/HxUkxkAkYMoKSmoKcnAZOTAnwciI4dQULIIyYARFo7+VKzCsWyyWk4BmdUtIpZxJdtZ/XLa1/Gf5h+WiorFnzOwg0D/hfwPBdmfOOS/xyFnEwA9+fkKEHIIoAEUWEBAEGbI/wQ0NyJ8h8Yc5bOG6czoHTKXJMzdII6S+fYOD/pznvReT4ic1nxrghEuvWxu/b8wQEDsuTV8pUjvhPbejkeeI5C7L2ej4ovLUfT5/pF2U3auzjHYS+7pxZGWHwhqu7YUCylMvm23Bw/LMkm4b3Apjbc0oFuqVz84k/CEooB+EbMtXYqJ6tHfe9B0DpNLpXrxEekr7/KSSDt3po+6ZuYE1uRNBArSuqMtWzZyBk3CHKQ/80M0+wxTCzcZF4knwy2+Qz7DFZMXuB98Qo+hDBzmUzNu7uC0sz6pO/J4mZsxg6PJTRGNPXc4cMPo+9Qp4nk9GyUvtGCiGdGVq6qY52hwzNaw92i060iXzrUCQ3KKVK+8UedWbl0UAw/i8bAVOrWJDzU8Kxv12n+M1JBD3I9bN3+or6T38+WbTaeYLSqLmOb9qAiR7kA5uvZgj1cigfekoow52Jgkg3LZCTVVL7Ct6E/zHwuqPVDkWrraFeuKtSY8LqnDOCjV8d7Uh+8S65ZngBTLjZlA9JbIYRBmt9PotYSwMJmw4L8AZtzmYWEd8M/NvdoDPzEC0duGZWEAc2WdtKe8HKeCnon4JTnrNWnjkIQUDhbLrQmnOlEmXKV7ywfrvBNxaWzHLQn13G/RYBYQUS5VYTQLeUn0x/KbZKzjxT9mTRoKvEoQ+OzeYbbDdxw8bMisNSKvkMaAJioUA1QA+P7XlPOVa37x38+RVg28+8ICkdB0dF2CLKAz2GiZVF3N6RMofyzbsGxZyS6fzGNj+2LHlCqs19SrTPHWbmK/W/J23ZUSrLtiDoFslKFVyjGyDeulq8u/SjjxcRA5A+yiXL3zuWrwN5a3kPkmFP22F98lzc3X/U6pYY2aXB/0GQnoR8hJfC06sjezOsb13e0NMTZ71sO/H6ZmQRLgnMKYCVi8WuEMlcpvkKbegMiiC5MzoFTrYcwBIlmxDVYNCbYJc/Rl9AVMqezEyJk+q5Q978oP9yJ0+k5MvFd4nfWrW9+oljBSBjktNeCcBnne4fUyfxmIfH3/RWmIvJV8z0hKR/dfHz2b9IQ7eiDX3rWaeKOdZVzMcefqZ+ER1XH0QKmsHmEUveHsfYdFQP/u7ElybLcX218cAf7dTHL1mt2eeLqy3E3lglUOf9GHe1ewKXOTrz91anZO7TPtLp/oBUGV838ZoH5CPSsu5N+r5ZF/5FOhpLnVM9EpQKTXXvqrHLzZWEKQ45XF2+w4x9/TNmES+0Ko+NDpnUNF9VlkMXrF+b5Ztydby4ixzQaVp25ct7HB1i1qh/m2oaVSuviaYxd5n+dpBLk9V97my5cbfulbV25EDarMomXfl3zoMsODY2WQ9inOVTwDIp5SjxofN/ZxJ00Yax+AreSvF8+8F9MvTF8fLR1Pe76448MmMp30V2nv7awHQ8VJSdRJMSVR476ScjQft4ly32U1/L5f1/rsY/8FHhKqnyOz4KjiRK5NjEOsdVLJtE6c8uBFhmHTgdWF8+lOXKnmBkHJp63pL6rzcup8GXFY2rWRLUl/D8rnOBENZDp3zdTp6+7xtksXdND6QwEovTNgvGdQpcUjOKffRudgPtD+VGfCdv4KWdBP02yxyev3XhL8ftiMngFy5T8sftfubWEWoHAH19B67E/QYoILI6F4CuoH+26snfft5s2VdmKsSo5snT/f6tXQfsTKm5TBBQ3rEXbQocUJwxmAvvn2bUig5I6eQlCaX37B++pncQUsFa+Siv/+HSVNh273j3lvPTVzscDOHBRZl5Yf0WY/ypwvrm8FQKIFMeSyRqvq/fuEGfYikHoG1I75ZDZPS7lwilL5UTwo4pblxIvI3QKz8PI5ZXkM4KIiHUPbfteyNkW5QoIlpvhDxbB5kiTcZt72EQjs5b7/ftLpC00BF+rAd6c92piw+ywrJLr2RqHepJBM0U/h1+NDbw7zl5O1fW2gl4ODe+8gN651uOdmEbwSht49TMSqpRzgjN9LIysfKqL5kSJBqkkqNZ8nPOZszddJ6/AQA7ig45azV1cwgz+/IOM2n8USvjLvj8ZQd9SQ8n3JvVMTGy4YTA/YXsjcsj1qZ3iUl4fL2EB9WR2jS8wkdtRF1L8pknQ4kgprQurbZoxG7+W9CduByZy/BFt9COY2+gnT3c8aKyml34JmpOPQK25mafOLgoHg169xxqHR7onezSyKGnCJlbjo4M6N6vgH6nB9Kqbq00B76fHXvJP4L3xVobey/QWDn6WMZ0I0dXQodCtCkmuwDeutcfS71tXyOzO7GrDoQEQTuHBSatych0Kqe7AZM8XoJK2WvIxofBVbgf+yWte0VN8j1nPR0rD8YqE5ZTnkh4fWK+ZsC60YQWtKNitbCcGam+U6z0B0Kz8jHpPaEN7m6vq1ivRmEfEo5Yf7M2ZiQ8cCofevJpKoFVpYeW5dyL7YPfTq+tuI9JhJUf438AS+7v6BqNIHy8OmB9qvKdyn/L7kXrJe/1s0wqt4eNxSDAq/Ezsu/8CIbNarojlXjL5OPywVS+ffFhUotg8qjhpTlDXAyk6iQHHmvIsWNsaaE5ByxucInjWUq3m694VSaeT7jO7Z1fE7PvSvGP0eT0HT4yxHyRSoDtktlqiuj0c5Z764Pbn06lDFiKDsKXc6b1yY4YPzqb62Rdfc4j+1cc09s6dgd4ZNs1+ffaeX9Jdkd6SPN1bUUot7/rWoG9UR95WyIDUIH+Y+cv0M8LQLQ+okxtlY4Am+wbIYgezxozgleK7uufoFnE7OVtVOimW35txj11NSSBMFVNZW3scG4sa8/eP6xVOXZ66SGLs+HXAATIIeS5VGgxPQOdiLtx/k9AmEPe4fC1gUwrxi2CYJTm09BzOitba2sIYaVVRIPNLF3SIVvWfAhbQ9cccK8TxhEGdcWHywp5qjrh+sluiyDfhb4jpvPr0PMJ4B7EYqWkoCrjHb6C6cSJNR5QwAOGsyALQM5JqlqCsWBo/RJ+Kn4N9k/bgGSJ5Nu/xwqy/6eTT+AaoPIEdkfan4W7Kenc74Xe6SNCcvyJDWoKNUx/1+VFzfXNO1NYDd+uRJLGeNNlTO+Ml6LNiX+MFLCK0Ofkpx2nOLI0W1dxPvm45Fr2iE2n59hZ+YUOZn/FXZ1ksV7larX+4sUnMZs+myuaRxuEH1S6tt8q1r2IPogNqm2OpkOGPSN4W8QZqvh4ZnQIrwzBe/QZd3rTRlgU/nTyT2Dt07j4L87Xnr9ZSTQBvyGKGP28IJAnnf8+XrxkZP3e5FtlnZ9kOYrfWaXiAMyesIly6hf7/UnnN+nwBJKmGTF4nthvnwCK6+Mebh7QuaYVLhPTWexkz7PjUHtlOnwjHfre56FGhzycMZAHBsEh/JS58FDeC2cc/oa6ev667J9/lxZVxdJIWDLKc3eC30XAoYf85cBBfEypdy683J4n6HYqUGnVKuTX1hbapXDlAtCH+AezIigUUamxB3ClzUMD/td1WOoPczy7iZEXO6tMWvrdES2QhUBUul/20vysw9IrH051M040razb3OUo0shvsOuKj92wZh2zqR/D8awxNtfyXNlXlWQWddvGVqxds4+xP8u2TNWAxF92DO48bvmh42YrblTH2HmJo7He34SdNN3dahuDOAtR7j9/gA6aJDoXMuDdybs7dn7jplmUe6OGQshmge0RaJdd8Zz3G7DLEltlt3SJphoBfvGmU1ODebvBibFLXGJCTO80/tMl9Od8L6obCqXvtRxgzFOhP1/XNiHyN0seEi2YYvdfUahVu3wbt49lxAnge/d4UpJ1psL8Xho/0GBNGVtzc++1SkbrQ3QERILSzJYZ+bN8qx2ZayKcRR4AxwdF8Su/gSM3+AYkjU1lcuuhE7tGpWbtfzcZKLbSR5ao6HMsdSwgPJd7cSvWIgSGFD+EJ9cu/Y1sR+h12XxxTrbLeLpisKkVhTbPC2ANkokCIOwZfjvEaeRFt+LWPT0aW0ueiBy0E5BPKuU7iNDtSZyTTyLW5p4btW1YQW6d5Sy3ulr20Ko1/o225GrCWcpNurDfvRmZgEtPB5FFXuZIZenupAbVO6+iF5aCS9CgJeeSgABWfAhqfMWNm7rq/9ddVp0CxNqtiGeL0nyYPdxQPS9/smxPyr5gkPZsO+miFO+sNLCFaMsd6PV93Z15QrEbVP2hM16GMC0zo0Bhb7PSVbP98lBd6UhWPgmCVUID9aNi3Txq1mIQP0eWa67ztHcsbu7WuuVmEbtiKM/s00J1Xd4coeK29yiPasb9Rj+vgQxK8BMDSLpP0qHa8nimZRV49dmHduStNqoL4wnFJ4PZs4Rr483LudsmTHCQxmXpRbUoKrb6ZhQzQZ4xWEprNOOdf2uaLVv1u7lKQNqOm1LPgD4b/fFanTXmvwNklUbJ8GundUO7/bNFVz2LDnzqiZdhbkN81EI0g+nv8k2Z820k4mGbLstMttUmSa8/Rd2k/21GKRz8n3qwjgSR+fHAHekFAHIDoX7f9J82skn79gA54neeS1FzZgmBSTS6M+/cwo5wwwEJs2Zot/lw+GrzamI3gfMYQIGt8E35Nsmd5FFqbW8Tji9YESDGdZ6ErmeOMPnPYDOuX4B1V2sJLcHYMBet9Ag77hsgz8oULJx9XEBPPr5l6Wpt8t6v3autSTJ5+SFt41f0hbuGSGtVnw+lYi383vKTzxO6ZmzNSngwu6dYPGYYFp+ao1d5fPlZS/KgdzF7Au96BevfZHay3e+TJvahsiH6Wrb6p1Zm5Ipgb4IreLsezHb5vug9VURuVu9XlNt/LK7AZOa1EJwroFv4TwBaqoyuc8TuGaIoed5sOK8u835rHlVCZeqC7BgrBoABAHyGJAdbAhNh0dqFUw2gO3bIWomLRTY3hI75M9wE1m6lDnuGZyFEhyVfRc8clhbsnvTdH3C0x/uY4nxlSPtnW41SjR78ic0LAFRnHQd2Qi2RActwsfZdoixc6AvcensqBjyAoBNvGNgLRPDCsSINNFRXEw0ezCSh/3hKH2c5pKSFfY68io5xDE4hV/id3JlHy/me7Kh9Z9D92jGxbSm0FXorLOuUNCw1oD7n3wXdXRfv3LhJcpq/Q6XlXhgrfJlI+U19XMhfCD6PpBkpeSkvu71CryOhmliOdCxeFui0ts4/hJ9S42YcUC0ytNS9chS0qgOjGukMsAwAaYMwJonI75nzohfIvOG6N35Ipx8fYILAgCouURlfu5NeqxLspMi6Qb8zwtL1NM08BNxno/n+1L4w+XFTspkRB4+oepVoveXvM+j+GOuFG4Tb7uUVhcn13GZ1ZTJ2ruSLOQdeTQjijt15fHzzbSSfQYHXHiBHd/M9xQtVNBdEu04mrSvyeowsK05/3Zf64f/4G+kC3C5NUkFXE6d8K3BG68SLstw+IufS/c3I+967qw83lt7sxJV7DKDY4tF31F56fYbjfi1kJ+++v8nD4nFd8Lkx7MlLL8t/Le4dbJqrX23c3KvWuu0g9bmD9+PKg79DcHNKft2brG91v0Q981ZmWhboqvHsvEr+vaU3F4htNnC/j27F99Fyn6IZ1gBMr8rBdb5n2gvxk4b1L/d3Kn8zcgdKz/dfkvoKzyiRpD+q445Q6HU+Av9BFP4wPvLGYNq+pvqPZNrSnk3h1MLRTpmG83qEqIfvKdP/6pIyKky6U2mU80IyhLbbjXv1zjJ9FFSXCstspvo3a1wFJF/Adz66pCDCacTZbfXQrh4Hss1zUxIsdaoI3qkzC8EAMaqkBKLvd6+7/phKVxj8QZqgHc2Ur7zuMN6+fZ1Qji6T0KZ8W2JPPHfFvP9ZC0haEWP9eP315AGvsovjdEU1zBDj/IfHL4lPE3eEOi7JHu/3YM8wfYOdAhiariz2UMdLVDQSgq5U0oFZbdw2mrK47uBt+c0AaFrB6vrCwBx+EHjsMKEvqs2Jhn+m+yzMj9ZYhxCOZedbzIRZbmYpG6FAxwhWe/muIR86np8d7RuoHygM3a1Apt5XltpvZeGzWyD1UVKinP0rx8kPE5SWmXIA+ubsyjDB2qTGP2PGZ9U+tV8xSU7iR+VKCmn4Te5yGGD/uI/8mXkv6/EJdU8X+bGH82/m/Og5O68BMAAA==</data>
+        <length>6544</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="231594551bae00904d21ed3fad4bcb75">231594551bae00904d21ed3fad4bcb75</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:20:05</sys_created_on>
+        <sys_id>e31594551bae00904d21ed3fad4bcb75</sys_id>
+    </sys_attachment_doc>
+</record_update>

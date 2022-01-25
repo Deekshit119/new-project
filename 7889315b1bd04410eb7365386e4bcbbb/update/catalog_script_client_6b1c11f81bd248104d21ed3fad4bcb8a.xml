@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="iCON Access Request">38bae61f1be140104252c8017e4bcb79</cat_item>
+        <cat_variable>IO:1597dba71ba980104252c8017e4bcb30</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Company List Filter</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading) {
+      return;
+   }
+	if(newValue != ''){
+	//g_form.addInfoMessage(g_form.getValue('filter_operating_unit'));
+	//g_form.clearValue('please_select_icon_company_s_that_access_should_be_added');
+	//g_form.clearValue('please_select_icon_company_s_that_access_should_be_removed');
+		
+	var myListCollector = g_list.get("please_select_icon_company_s_that_access_should_be_added");
+	myListCollector.reset();
+	if (g_form.getValue('filter_operating_unit') == '62b9e25b1be140104252c8017e4bcbf7'){
+	myListCollector.setQuery('type=icon company^parents_filters=utilities');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '66b9e25b1be140104252c8017e4bcbf3'){
+	myListCollector.setQuery('type=icon company^parents_filters=cemskan');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '6ab9e25b1be140104252c8017e4bcbf1'){
+	myListCollector.setQuery('type=icon company^parents_filters=candf');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '6ab9e25b1be140104252c8017e4bcbf4'){
+	myListCollector.setQuery('type=icon company^parents_filters=lse');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'eeb9e25b1be140104252c8017e4bcbf4'){
+	myListCollector.setQuery('type=icon company^parents_filters=nlga');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '6ab9e25b1be140104252c8017e4bcbf6'){
+	myListCollector.setQuery('type=icon company^parents_filters=stl');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'e2b9e25b1be140104252c8017e4bcbf4'){
+	myListCollector.setQuery('type=icon company^parents_filters=is');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'e2b9e25b1be140104252c8017e4bcbf5'){
+	myListCollector.setQuery('type=icon company^parents_filters=sce');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'e2b9e25b1be140104252c8017e4bcbf6'){
+	myListCollector.setQuery('type=icon company^parents_filters=srw');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'eab9e25b1be140104252c8017e4bcbf3'){
+	myListCollector.setQuery('type=icon company^parents_filters=fs');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'eab9e25b1be140104252c8017e4bcbf5'){
+	myListCollector.setQuery('type=icon company^parents_filters=skaukplc');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'eeb9e25b1be140104252c8017e4bcbf2'){
+	myListCollector.setQuery('type=icon company^parents_filters=car');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'db346cb41b79c4104252c8017e4bcb8b'){
+	myListCollector.setQuery('type=icon company^parents_filters=pd');
+	}
+	//g_form.getValue('filter_operating_unit'));
+	
+	var myListCollector2 = g_list.get("please_select_icon_company_s_that_access_should_be_removed");
+	myListCollector2.reset();
+	if (g_form.getValue('filter_operating_unit') == '62b9e25b1be140104252c8017e4bcbf7'){
+	myListCollector2.setQuery('type=icon company^parents_filters=utilities');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '66b9e25b1be140104252c8017e4bcbf3'){
+	myListCollector2.setQuery('type=icon company^parents_filters=cemskan');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '6ab9e25b1be140104252c8017e4bcbf1'){
+	myListCollector2.setQuery('type=icon company^parents_filters=candf');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '6ab9e25b1be140104252c8017e4bcbf4'){
+	myListCollector2.setQuery('type=icon company^parents_filters=lse');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '66b9e25b1be140104252c8017e4bcbf3'){
+	myListCollector2.setQuery('type=icon company^parents_filters=utilities');
+	}
+	else if (g_form.getValue('filter_operating_unit') == '6ab9e25b1be140104252c8017e4bcbf6'){
+	myListCollector2.setQuery('type=icon company^parents_filters=stl');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'e2b9e25b1be140104252c8017e4bcbf4'){
+	myListCollector2.setQuery('type=icon company^parents_filters=is');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'e2b9e25b1be140104252c8017e4bcbf5'){
+	myListCollector2.setQuery('type=icon company^parents_filters=sce');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'e2b9e25b1be140104252c8017e4bcbf6'){
+	myListCollector2.setQuery('type=icon company^parents_filters=srw');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'eab9e25b1be140104252c8017e4bcbf3'){
+	myListCollector2.setQuery('type=icon company^parents_filters=fs');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'eab9e25b1be140104252c8017e4bcbf5'){
+	myListCollector2.setQuery('type=icon company^parents_filters=skaukplc');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'eeb9e25b1be140104252c8017e4bcbf2'){
+	myListCollector2.setQuery('type=icon company^parents_filters=car');
+	}
+	else if (g_form.getValue('filter_operating_unit') == 'db346cb41b79c4104252c8017e4bcb8b'){
+	myListCollector.setQuery('type=icon company^parents_filters=pd');
+	}}
+	else if(newValue == ''){
+		
+	//g_form.clearValue('please_select_icon_company_s_that_access_should_be_added');
+	//g_form.clearValue('please_select_icon_company_s_that_access_should_be_removed');	
+		
+	var myListCollector3 = g_list.get("please_select_icon_company_s_that_access_should_be_added");
+	myListCollector3.reset();
+	myListCollector3.setQuery('type=icon company');
+		
+	var myListCollector4 = g_list.get("please_select_icon_company_s_that_access_should_be_removed");
+	myListCollector4.reset();
+	myListCollector4.setQuery('type=icon company');	
+	}
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-09 21:58:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b1c11f81bd248104d21ed3fad4bcb8a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Company List Filter</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>catalog_script_client_6b1c11f81bd248104d21ed3fad4bcb8a</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-21 14:32:33</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

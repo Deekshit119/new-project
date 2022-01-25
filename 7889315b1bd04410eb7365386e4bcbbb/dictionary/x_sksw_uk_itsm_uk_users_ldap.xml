@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="UK AD Users/Users - IT" max_length="40" name="x_sksw_uk_itsm_uk_users_ldap" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=co" label="co" max_length="40" name="u_co" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=company" label="company" max_length="40" name="u_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=department" label="department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=distinguishedName" label="distinguishedName" max_length="255" name="u_distinguishedname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dn" label="dn" max_length="255" name="u_dn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=extensionAttribute1" label="extensionAttribute1" max_length="40" name="u_extensionattribute1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=givenName" label="givenName" max_length="40" name="u_givenname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=l" label="l" max_length="40" name="u_l" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mail" label="mail" max_length="40" name="u_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=manager" label="manager" max_length="255" name="u_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mobile" label="mobile" max_length="40" name="u_mobile" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectGUID" label="objectGUID" max_length="40" name="u_objectguid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=physicalDeliveryOfficeName" label="physicalDeliveryOfficeName" max_length="40" name="u_physicaldeliveryofficename" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=postalCode" label="postalCode" max_length="40" name="u_postalcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sAMAccountName" label="sAMAccountName" max_length="40" name="u_samaccountname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sn" label="sn" max_length="40" name="u_sn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=source" label="source" max_length="255" name="u_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=st" label="st" max_length="40" name="u_st" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=streetAddress" label="streetAddress" max_length="40" name="u_streetaddress" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=telephoneNumber" label="telephoneNumber" max_length="40" name="u_telephonenumber" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=title" label="title" max_length="40" name="u_title" type="string"/>
+    </element>
+</database>

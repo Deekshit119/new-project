@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function doesn't run on Sunday, Saturday.
+
+function checkWeekdays() {
+
+
+var now = new Date();
+
+
+var day = now.getDay();
+
+
+var result = false;
+
+
+if(day != 0 && day != 6) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkWeekdays();]]></condition>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>[UK JW] Workflows Checks - Expense claims and Managers</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>19</run_dayofmonth>
+        <run_dayofweek>5</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'Workflows Checks - Expense claims and Managers',   
+	
+'description': "Task no 16 refers - Friday Workflows require aborting & with manager check document located in R:\ITSD Applications\Scheduled Tasks.                                                                                   Workflows Checks - Expense claims and Managers                                                                         1. Run the BI report located in TLIVE>ITSD>(P) Live Reports>Validation Reports>SS Expenses Workflows Requiring Aborting and using output check whether claim has been processed in iTrent and can be aborted.                                  2. Run the BI report located in TLIVE>ITSD>(P) Live Reports>Validation Reports>Workflows Sitting With Manager Ended or Inactive and using output check for leavers and redirect tasks where appropriate.",
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-09 10:42:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d9810f6c1b9608104d21ed3fad4bcba1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[UK JW] Workflows Checks - Expense claims and Managers</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_d9810f6c1b9608104d21ed3fad4bcba1</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:20:15</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

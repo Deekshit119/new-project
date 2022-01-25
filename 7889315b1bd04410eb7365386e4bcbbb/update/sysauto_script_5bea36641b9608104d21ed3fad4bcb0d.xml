@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function runs in March, June, September & December
+
+function checkquarterly() {
+
+
+var now = new Date();
+
+
+var month = now.getMonth();
+
+
+var result = false;
+
+
+if(month == 3 || month == 6 || month == 9 || month == 12) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkquarterly();]]></condition>
+        <conditional>true</conditional>
+        <entered_time/>
+        <name>[UK JW] Payroll Plus User Access Review Report</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>4</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'Payroll Plus User Access Review Report',   
+	
+'description': "Task no 21 refers                                                                               Quarterly task:                                                                                                       Run the User Access Security Report log into Payroll Plus>Payroll>Functions>SKANSKA Menu, amend dates and save output as excel to R:\ITSD Applications\Reports\Payroll+ User Access Security Reports folder. Check output and zzzz's and then email to Joanna Sackett and hr.Systems for review/update within a week. Chase for response if none received.",
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-09 10:13:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5bea36641b9608104d21ed3fad4bcb0d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[UK JW] Payroll Plus User Access Review Report</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_5bea36641b9608104d21ed3fad4bcb0d</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:16:22</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

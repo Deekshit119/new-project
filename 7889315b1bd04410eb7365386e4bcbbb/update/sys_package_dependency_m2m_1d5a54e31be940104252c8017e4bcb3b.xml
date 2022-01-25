@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Project Portfolio Suite with Financials" source="com.snc.financial_planning_pmo">6301a52fdba1ef00efc1fd871d9619da</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-11 23:26:26</sys_created_on>
+        <sys_id>1d5a54e31be940104252c8017e4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-11 23:26:26</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

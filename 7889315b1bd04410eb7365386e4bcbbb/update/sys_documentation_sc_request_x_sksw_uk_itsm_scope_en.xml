@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_sksw_uk_itsm_scope" label="Scope" language="en" table="sc_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_scope</element>
+            <help/>
+            <hint/>
+            <label>Scope</label>
+            <language>en</language>
+            <name>sc_request</name>
+            <plural>Scopes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-10-29 13:48:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>499934251bfcc850eb7365386e4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Scope</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_documentation_sc_request_x_sksw_uk_itsm_scope_en</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 13:48:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

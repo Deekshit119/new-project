@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="planned_task" label="Projektipäällikön projekti" max_length="40" name="pm_project" sizeclass="238" text_index="true" type="collection">
+        <element label="Business Applications" max_length="8000" name="x_sksw_uk_itsm_business_applications" type="html"/>
+        <element label="Business Capabilities" max_length="8000" name="x_sksw_uk_itsm_business_capabilities" type="html"/>
+        <element label="Business Unit" max_length="32" name="x_sksw_uk_itsm_business_unit" reference="business_unit" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="reference"/>
+        <element label="Department" max_length="32" name="x_sksw_uk_itsm_department" reference="cmn_department" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="reference"/>
+        <element label="Dependencies" max_length="8000" name="x_sksw_uk_itsm_dependencies" type="html"/>
+        <element label="Funding arrangement" max_length="8000" name="x_sksw_uk_itsm_funding_arrangement" type="html"/>
+        <element label="Goals" max_length="4000" name="x_sksw_uk_itsm_goals" reference="goal" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="glide_list"/>
+        <element label="Options" max_length="8000" name="x_sksw_uk_itsm_options" type="html"/>
+        <element label="Recommendations" max_length="8000" name="x_sksw_uk_itsm_recommendations" type="html"/>
+        <element label="Return of Investment" max_length="8000" name="x_sksw_uk_itsm_return_of_investment" type="html"/>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+        <element default="0" label="Score" max_length="20" name="x_sksw_uk_itsm_score" type="decimal"/>
+        <element choice="1" label="PMO Status" max_length="40" name="x_sksw_uk_itsm_skanska_uk_phase" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Cancelled by TEG" sequence="0" value="Cancelled by TEG"/>
+                <element inactive_on_update="false" label="Pipeline" sequence="0" value="Pipeline"/>
+                <element inactive_on_update="false" label="Awaiting PRF Approval" sequence="1" value="Awaiting PRF Approval"/>
+                <element inactive_on_update="false" label="Awaiting TEG Approval" sequence="2" value="Awaiting TEG Approval"/>
+                <element inactive_on_update="false" label="Business Case Backlog" sequence="3" value="Business Case Backlog"/>
+                <element inactive_on_update="false" label="Business Case Development" sequence="4" value="Business Case Development"/>
+                <element inactive_on_update="false" label="Business Case Awaiting PRF Approval" sequence="5" value="Business Case Awaiting PRF Approval"/>
+                <element inactive_on_update="false" label="Business Case Awaiting TEG Approval" sequence="6" value="Business Case Awaiting TEG Approval"/>
+                <element inactive_on_update="false" label="Backlog - Design" sequence="7" value="Backlog - Design"/>
+                <element inactive_on_update="false" label="Backlog - Build" sequence="8" value="Backlog - Build"/>
+                <element inactive_on_update="false" label="Backlog -Test" sequence="9" value="Backlog -Test"/>
+                <element inactive_on_update="false" label="Backlog - Implementation" sequence="10" value="Backlog - Implementation"/>
+                <element inactive_on_update="false" label="Delivery - Design" sequence="11" value="Delivery - Design"/>
+                <element inactive_on_update="false" label="Delivery - Build" sequence="12" value="Delivery - Build"/>
+                <element inactive_on_update="false" label="Delivery - Test" sequence="13" value="Delivery - Test"/>
+                <element inactive_on_update="false" label="Delivery - Implementation" sequence="14" value="Delivery - Implementation"/>
+                <element inactive_on_update="false" label="Pending Closure" sequence="15" value="Pending Closure"/>
+                <element inactive_on_update="false" label="Completed" sequence="16" value="Completed"/>
+                <element inactive_on_update="false" label="Cancelled by PRF" sequence="17" value="Cancelled by PRF"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="19" value="Cancelled"/>
+                <element inactive_on_update="false" label="Cancelled by TEG" sequence="20" value="Cancelled by TEG"/>
+            </choice>
+        </element>
+        <element choice="3" default="1" label="State" max_length="40" name="x_sksw_uk_itsm_state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="-5" value="-5"/>
+                <element inactive="true" inactive_on_update="true" label="Awaiting approval" sequence="1" value="7"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Closed Skipped" sequence="5" value="7"/>
+            </choice>
+        </element>
+        <element label="Strategies" max_length="4000" name="x_sksw_uk_itsm_strategies" reference="strategic_objective" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="glide_list"/>
+        <element label="Awaiting Approval" max_length="40" name="x_sksw_uk_itsm_u_awaiting_approval" type="boolean"/>
+    </element>
+</database>

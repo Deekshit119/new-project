@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Skanska UK SCCM 2016 Custom Fields_2" max_length="40" name="x_sksw_uk_itsm_skanska_uk_sccm_custom_fields_2" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Computer_Name" label="Computer_Name" max_length="256" name="u_computer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User_Name" label="User_Name" max_length="256" name="u_user_name" type="string"/>
+    </element>
+</database>

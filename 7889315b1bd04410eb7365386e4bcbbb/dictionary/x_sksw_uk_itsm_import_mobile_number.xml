@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Mobile Number" max_length="40" name="x_sksw_uk_itsm_import_mobile_number" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Communication Device Serial No" label="Communication Device Serial No" max_length="40" name="u_communicatio_vice_serial_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="u_mobile_number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_sksw_uk_itsm_hold_reason" table="incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_hold_reason</element>
+            <name>incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:24:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>34d188441bd584104252c8017e4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_uk_itsm_hold_reason</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_choice_incident_x_sksw_uk_itsm_hold_reason</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:24:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_hold_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Caller</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:24:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72c14c441bd584104252c8017e4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:24:55</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_hold_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Change</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:25:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06e10c441bd584104252c8017e4bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:25:17</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_hold_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Problem</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:25:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>180200841bd584104252c8017e4bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:25:42</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_hold_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Vendor</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 14:25:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af028c441bd584104252c8017e4bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 14:25:56</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

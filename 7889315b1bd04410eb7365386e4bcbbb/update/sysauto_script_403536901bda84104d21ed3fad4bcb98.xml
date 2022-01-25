@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function runs only on August.
+
+function checkquarterly() {
+
+
+var now = new Date();
+
+
+var month = now.getMonth();
+
+
+var result = false;
+
+
+if(month == 8) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkquarterly();]]></condition>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>[UK JW] Compression of IIS web log files</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>4</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'Compression of IIS web log files',   
+	
+'description': "Task no 13 refers - Tuesday Web logs compression document located in R:\ITSD Applications\Scheduled Tasks.\n \nCompression of IIS web log files on UK-SU-AP306 & T-UK-SU-AP287, T-UK-SU-AP288, T-UK-SU-AP308 - automated tasks to zip files run on the 4 servers weekly on Monday nights.\n \nCheck for 4 e-mails received Monday nights from iTrent.Support for AP306 and review content: Zip Inetpub-tlive-unavailable Files from UK-SU-AP306, Zip Inetpub-mydetails Files from UK-SU-AP306, Zip Inetpub-live Files from UK-SU-AP306, Zip Catalina-live Files from UK-SU-AP306.\n \nThen check for 4 e-mails received for T-UK-SU-AP287 and review content: Zip Inetpub-tdev1 Files from T-UK-SU-AP287, Zip Inetpub-tdev2 Files from T-UK-SU-AP287, Zip Catalina-tdev1 Files from T-UK-SU-AP287, Zip Catalina-tdev2 Files from T-UK-SU-AP287 .\n \nThen check for 2 emails are received for T-UK-SU-AP288 and review content: Zip Inetpub-tuat Files and Zip Catalina-tuat Files.\n \nThen check for 4 emails from T-UK-SU-AP308 and review content: Zip Inetpub-tpilot-unavailable Files, Zip Inetpub-mydetailspilot Files, Zip Inetpub-tpilot files and Zip Catalina-tpilot Files.\n \nFinally check for 3 emails from T-UK-SU-AP382 and review content: Zip Inetpub-tdev3-unavailable Files, Zip Inetpub-trentdev3- Files and Zip Catalina-tdev3 Files.",
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-08 15:09:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>403536901bda84104d21ed3fad4bcb98</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>[UK JW] Compression of IIS web log files</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_403536901bda84104d21ed3fad4bcb98</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:10:51</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

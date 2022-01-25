@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="PC Model Mapping" max_length="40" name="x_sksw_uk_itsm_pc_model_mapping" sizeclass="70" type="collection">
+        <element label="From Model" mandatory="true" max_length="32" name="from_model" reference="cmdb_hardware_product_model" reference_qual="x_sksw_uk_itsm_computer_typeINDesktop,Laptop,Hybrid^ORcmdb_model_categoryLIKE81feb9c137101000deeabfc8bcbe5dc4^EQ" reference_qual_condition="x_sksw_uk_itsm_computer_typeINDesktop,Laptop,Hybrid^ORcmdb_model_categoryLIKE81feb9c137101000deeabfc8bcbe5dc4^EQ" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="To Model" mandatory="true" max_length="32" name="u_to_model" reference="sc_cat_item" reference_qual="active=true^categoryISEMPTY^sc_catalogsLIKE8db5a4d41b454410445f3150cd4bcba9^EQ" reference_qual_condition="active=true^categoryISEMPTY^sc_catalogsLIKE8db5a4d41b454410445f3150cd4bcba9^EQ" type="reference"/>
+        <index name="index">
+            <element name="from_model"/>
+        </index>
+        <index name="index2">
+            <element name="u_to_model"/>
+        </index>
+    </element>
+</database>

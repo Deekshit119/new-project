@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="planned_task" label="Požadavek" max_length="40" name="dmn_requirement" sizeclass="19" text_index="true" type="collection">
+        <element choice="1" label="MoSCoW" mandatory="true" max_length="40" name="x_sksw_uk_itsm_moscow" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Must haves" sequence="1" value="Must haves"/>
+                <element inactive_on_update="false" label="Should haves" sequence="2" value="Should haves"/>
+                <element inactive_on_update="false" label="Could haves" sequence="3" value="Could haves"/>
+                <element inactive_on_update="false" label="Would haves" sequence="4" value="Would haves"/>
+            </choice>
+        </element>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" value="Skanska UK"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="State" max_length="40" name="x_sksw_uk_itsm_state" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Pending" sequence="-5" value="-5"/>
+                <element inactive="true" inactive_on_update="true" label="Open" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="-5"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Work in Progress" sequence="2" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Closed Complete" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="3"/>
+                <element inactive="true" inactive_on_update="true" label="Closed Incomplete" sequence="4" value="4"/>
+                <element inactive="true" inactive_on_update="true" label="Closed Skipped" sequence="5" value="7"/>
+            </choice>
+        </element>
+    </element>
+</database>

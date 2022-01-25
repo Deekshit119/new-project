@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function doesn't run on Sunday, Saturday.
+
+function checkWeekdays() {
+
+
+var now = new Date();
+
+
+var day = now.getDay();
+
+
+var result = false;
+
+
+if(day != 0 && day != 6) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkWeekdays();]]></condition>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>[UK JW] BlackRock Contribution Changes Look Up file</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>14</run_dayofmonth>
+        <run_dayofweek>4</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'BlackRock Contribution Changes Look Up file',   
+	
+'description': "Task no 23 refers - Monthly BlackRock Changes Lookup document located in R:\ITSD Applications\Scheduled Tasks.                                                                                                            Monthly Task:                                                                                                       Check that the BI batch report BlackRock Contribution Changes Look Up (located in the Interface Reports\ITSD\(P-SU) Interface Reports folder in repository) has run (07.30) and refreshed output is available in R:\Pensions Area\BO Contribution File folder ready for Eamon McIntosh's routine (runs around 11.00) to pick up the file (along with the file downloaded from the BlackRock portal by Nigel Pitchers).                                                             Once confirmed report is available send an email to Nigel Pitchers cc'ing Dinah Fairhead, Pensions@skanska.co.uk and iTrent.Support@skanska.co.uk as a reminder for pensions to action the download from BR placing it in the R:\Pensions Area\BlackRock Contribution Changes folder, so that the process can continue.                                        Once both files are available Eamon's program creates 3 .csv output files and places them in R:\Pensions Area\Output_Contribution_Files. When the automated email notification is received from Eamon in to the iTrent.Support mailbox forward the notification email immediately to payroll@skanska.co.uk and cc iTrent.Support so that 2 of these files (BlackRock_PensionsRates and BlackRock_Salary_Sacrifice) can be loaded into iTrent via Data conversion - Pension Scheme Membership Details and Inheritance Salary sacrifice) by Payroll. No action is required with the Weekly_EXCEPTIONS .csv file as it is normally empty, if there is data in it then an email should be sent to Nigel and Judith advising them accordingly so that it can be dealt with manually. Check iTrent to confirm both files have been loaded successfully.",
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-09 10:30:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7deef2e41b9608104d21ed3fad4bcb7e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[UK JW] BlackRock Contribution Changes Look Up file</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_7deef2e41b9608104d21ed3fad4bcb7e</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:10:33</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="alm_asset" label="Hardware" max_length="40" name="alm_hardware" sizeclass="16573" type="collection">
+        <element label="Add Disposal Cert field" max_length="100" name="x_sksw_uk_itsm_add_disposal_cert_field" type="string"/>
+        <element label="Business" max_length="100" name="x_sksw_uk_itsm_business" type="string"/>
+        <element label="Carrier IMEI" max_length="100" name="x_sksw_uk_itsm_carrier_imei" type="string"/>
+        <element label="Colour" max_length="100" name="x_sksw_uk_itsm_colour" type="string"/>
+        <element label="Contract End Date" max_length="40" name="x_sksw_uk_itsm_contract_end_date" type="glide_date"/>
+        <element label="Contract Number" max_length="100" name="x_sksw_uk_itsm_contract_number" type="string"/>
+        <element label="DC / TH Name" max_length="100" name="x_sksw_uk_itsm_dc_th_name" type="string"/>
+        <element label="Fixed Penalty Fee" max_length="20" name="x_sksw_uk_itsm_fixed_penalty_fee" type="currency"/>
+        <element label="IMEI" max_length="100" name="x_sksw_uk_itsm_imei" type="string"/>
+        <element label="IMEI2" max_length="100" name="x_sksw_uk_itsm_imei2" type="string"/>
+        <element label="Last Physical Audit Date" max_length="40" name="x_sksw_uk_itsm_last_physical_audit_date" type="glide_date"/>
+        <element label="Leased Cost" max_length="20" name="x_sksw_uk_itsm_leased_cost" type="currency"/>
+        <element choice="1" label="Leased frequency" max_length="40" name="x_sksw_uk_itsm_leased_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="1" value="Monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="2" value="Quarterly"/>
+                <element inactive_on_update="false" label="Yearly" sequence="3" value="Yearly"/>
+                <element inactive_on_update="false" label="One off" sequence="4" value="One off"/>
+            </choice>
+        </element>
+        <element label="Memory" max_length="100" name="x_sksw_uk_itsm_memory" type="string"/>
+        <element label="Mobile Contract Vendor" max_length="32" name="x_sksw_uk_itsm_mobile_contract_vendor" reference="core_company" reference_qual="x_sksw_uk_itsm_scope=UK ITSM^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=UK ITSM^EQ" type="reference"/>
+        <element label="Order Number" max_length="100" name="x_sksw_uk_itsm_order_number" type="string"/>
+        <element label="Position" max_length="100" name="x_sksw_uk_itsm_position" type="string"/>
+        <element label="Product System No" max_length="100" name="x_sksw_uk_itsm_product_system_no" type="string"/>
+        <element label="Project Name" max_length="100" name="x_sksw_uk_itsm_project_name" type="string"/>
+        <element label="Rack" max_length="100" name="x_sksw_uk_itsm_rack" type="string"/>
+        <element label="RAM" max_length="100" name="x_sksw_uk_itsm_ram" type="string"/>
+        <element choice="1" label="Storm Status" max_length="40" name="x_sksw_uk_itsm_storm_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bought Out" value="Bought Out"/>
+                <element inactive_on_update="false" label="Cancelled" value="Cancelled"/>
+                <element inactive_on_update="false" label="Collection in Progress" value="Collection in Progress"/>
+                <element inactive_on_update="false" label="Collection in Progress Hold" value="Collection in Progress Hold"/>
+                <element inactive_on_update="false" label="Collection in Transit" value="Collection in Transit"/>
+                <element inactive_on_update="false" label="Decommissioned" value="Decommissioned"/>
+                <element inactive_on_update="false" label="Disconnected" value="Disconnected"/>
+                <element inactive_on_update="false" label="Disposed" value="Disposed"/>
+                <element inactive_on_update="false" label="In Stock" value="In Stock"/>
+                <element inactive_on_update="false" label="Lost / Stolen" value="Lost / Stolen"/>
+                <element inactive_on_update="false" label="Offline" value="Offline"/>
+                <element inactive_on_update="false" label="On Order" value="On Order"/>
+                <element inactive_on_update="false" label="Online" value="Online"/>
+                <element inactive_on_update="false" label="Operational" value="Operational"/>
+                <element inactive_on_update="false" label="Operational (HPSIM)" value="Operational (HPSIM)"/>
+                <element inactive_on_update="false" label="Recovered to VAR" value="Recovered to VAR"/>
+                <element inactive_on_update="false" label="Replaced" value="Replaced"/>
+                <element inactive_on_update="false" label="Replacement In Progress" value="Replacement In Progress"/>
+                <element inactive_on_update="false" label="Return in Progress" value="Return in Progress"/>
+                <element inactive_on_update="false" label="Returned" value="Returned"/>
+                <element inactive_on_update="false" label="Returned to Leassor" value="Returned to Leassor"/>
+                <element inactive_on_update="false" label="Under-Repair" value="Under-Repair"/>
+            </choice>
+        </element>
+        <element label="Sublocation" max_length="100" name="x_sksw_uk_itsm_sublocation" type="string"/>
+        <element choice="1" label="System Used As" max_length="40" name="x_sksw_uk_itsm_system_used_as" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Primary" sequence="1" value="Primary"/>
+                <element inactive_on_update="false" label="Secondary" sequence="2" value="Secondary"/>
+                <element inactive_on_update="false" label="Functional" sequence="3" value="Functional"/>
+            </choice>
+        </element>
+        <element label="U Space" max_length="100" name="x_sksw_uk_itsm_u_space" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_sksw_uk_itsm.all.modules.access" name="x_sksw_uk_itsm.all.modules.access">b5deacda1b9600504d21ed3fad4bcbdc</contains>
+        <role display_value="x_sksw_uk_itsm.application_admin" name="x_sksw_uk_itsm.application_admin">03f9359b1bd04410eb7365386e4bcbc3</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>tomasz.biolik</sys_created_by>
+        <sys_created_on>2020-01-14 10:43:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c1d1bc121bd600504d21ed3fad4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sksw_uk_itsm.all.modules.access.x_sksw_uk_itsm.application_admin</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_user_role_contains_c1d1bc121bd600504d21ed3fad4bcb4b</sys_update_name>
+        <sys_updated_by>tomasz.biolik</sys_updated_by>
+        <sys_updated_on>2020-01-14 10:43:45</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

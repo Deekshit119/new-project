@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a0516f781b66cc504d21ed3fad4bcba3" sys_domain="global" table="sc_cat_item_guide" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-22 17:55:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c516f781b66cc504d21ed3fad4bcbb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_cat_item_guide" name="sc_cat_item_guide" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">a0516f781b66cc504d21ed3fad4bcba3</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sc_cat_item_guide" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">30516f781b66cc504d21ed3fad4bcbb2</sys_ui_section>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-22 17:55:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-22 17:55:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78516f781b66cc504d21ed3fad4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_cat_item_guide" name="sc_cat_item_guide" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">a0516f781b66cc504d21ed3fad4bcba3</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="sc_cat_item_guide" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">34516f781b66cc504d21ed3fad4bcbb8</sys_ui_section>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-22 17:55:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-22 17:55:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41516f781b66cc504d21ed3fad4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_cat_item_guide" name="sc_cat_item_guide" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">a0516f781b66cc504d21ed3fad4bcba3</sys_ui_form>
+            <sys_ui_section caption="Costs" display_value="Costs" name="sc_cat_item_guide" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">70516f781b66cc504d21ed3fad4bcbcc</sys_ui_section>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-22 17:55:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sc_cat_item_guide</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-22 17:55:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0516f781b66cc504d21ed3fad4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_cat_item_guide</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a0516f781b66cc504d21ed3fad4bcba3</sys_update_name>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-22 17:55:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="Item Designer" name="sc_cat_item_designer">f5a795fceb3211003623666cd206fe19</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

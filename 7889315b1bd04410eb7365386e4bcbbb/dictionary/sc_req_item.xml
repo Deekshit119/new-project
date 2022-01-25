@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasWorkflow=true,text_index_translations" audit="true" create_roles="catalog_admin" extends="task" label="Forespurt element" max_length="40" name="sc_req_item" sizeclass="13287" text_index="true" type="collection">
+        <element label="request variables" max_length="5000" name="x_sksw_uk_itsm_request_variables" type="string"/>
+        <element label="SCCM RequestGUID" max_length="40" name="x_sksw_uk_itsm_sccm_requestguid" type="string"/>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type Level 2" max_length="40" name="x_sksw_uk_itsm_u_sr_subttype" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Procurement" inactive_on_update="false" label="Hardware purchase" sequence="0" value="Hardware purchase"/>
+                <element dependent_value="Asset Mgmt" inactive="true" inactive_on_update="true" label="Repair" sequence="0" value="Repair"/>
+                <element dependent_value="Procurement" inactive_on_update="false" label="Corporate Order" sequence="1" value="Corporate Order"/>
+                <element dependent_value="Asset Mgmt" inactive="true" inactive_on_update="true" label="Disposal" sequence="1" value="Disposal"/>
+                <element dependent_value="Procurement" inactive_on_update="false" label="Faulty Goods Return" sequence="2" value="Faulty Goods Return"/>
+                <element dependent_value="Procurement" inactive_on_update="false" label="General query" sequence="3" value="General query"/>
+                <element dependent_value="Procurement" inactive_on_update="false" label="Quote request" sequence="4" value="Quote request"/>
+                <element dependent_value="Procurement" inactive_on_update="false" label="Contract termination" sequence="5" value="Contract termination"/>
+                <element dependent_value="Procurement" inactive_on_update="false" label="Mobile Admin" sequence="6" value="Mobile Admin"/>
+                <element dependent_value="Device Leasing" inactive_on_update="false" label="Device return" sequence="7" value="Device return"/>
+                <element dependent_value="Device Leasing" inactive_on_update="false" label="Replacement device" sequence="8" value="Replacement device"/>
+                <element dependent_value="Device Leasing" inactive_on_update="false" label="General Query" sequence="9" value="General Query"/>
+                <element dependent_value="Device Leasing" inactive_on_update="false" label="Device Admin" sequence="10" value="Device Admin"/>
+                <element dependent_value="Asset Mgmt" inactive_on_update="false" label="Re-Assign Request" sequence="11" value="Re-Assign Request"/>
+                <element dependent_value="Asset Mgmt" inactive_on_update="false" label="Lost / Stolen" sequence="12" value="Lost / Stolen"/>
+                <element dependent_value="Asset Mgmt" inactive_on_update="false" label="Bulk Uploads" sequence="14" value="Bulk Uploads"/>
+                <element dependent_value="Asset Mgmt" inactive_on_update="false" label="Return Of Asset/s" sequence="15" value="Return Of Asset/s"/>
+                <element dependent_value="Asset Mgmt" inactive_on_update="false" label="Return To Lessor" sequence="17" value="Return To Lessor"/>
+                <element dependent_value="Asset Mgmt" inactive_on_update="false" label="Audit" sequence="18" value="Audit"/>
+                <element dependent_value="Asset Mgmt" inactive_on_update="false" label="Report Request" sequence="19" value="Report Request"/>
+                <element dependent_value="Config Mgmt" inactive_on_update="false" label="Equipment Request" sequence="20" value="Equipment Request"/>
+                <element dependent_value="Config Mgmt" inactive_on_update="false" label="Contract / Warranty Request" sequence="21" value="Contract / Warranty Request"/>
+                <element dependent_value="Config Mgmt" inactive_on_update="false" label="Software Request" sequence="22" value="Software Request"/>
+                <element dependent_value="Config Mgmt" inactive_on_update="false" label="Decomission" sequence="23" value="Decomission"/>
+                <element dependent_value="Config Mgmt" inactive_on_update="false" label="Capability Request" sequence="24" value="Capability Request"/>
+                <element dependent_value="Config Mgmt" inactive_on_update="false" label="Repair" sequence="25" value="Repair"/>
+                <element dependent_value="Config Mgmt" inactive_on_update="false" label="Disposal" sequence="26" value="Disposal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type Level 1" mandatory="true" max_length="40" name="x_sksw_uk_itsm_u_sr_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Access Request" sequence="0" value="Access Request"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+                <element inactive_on_update="false" label="Access/License" sequence="1" value="Access/License"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+                <element inactive_on_update="false" label="Account Management Request" sequence="2" value="Account Management Request"/>
+                <element inactive_on_update="false" label="Asset Mgmt" sequence="3" value="Asset Mgmt"/>
+                <element inactive_on_update="false" label="Batch" sequence="4" value="Batch"/>
+                <element inactive_on_update="false" label="Config Mgmt" sequence="5" value="Config Mgmt"/>
+                <element inactive_on_update="false" label="Device Leasing" sequence="6" value="Device Leasing"/>
+                <element inactive_on_update="false" label="Hardware" sequence="7" value="Hardware"/>
+                <element inactive_on_update="false" label="Hardware Request" sequence="8" value="Hardware Request"/>
+                <element inactive_on_update="false" label="Information/Data" sequence="9" value="Information/Data"/>
+                <element inactive_on_update="false" label="Mailbox Request" sequence="10" value="Mailbox Request"/>
+                <element inactive_on_update="false" label="Other" sequence="12" value="Other"/>
+                <element inactive_on_update="false" label="Password Reset" sequence="13" value="Password Reset"/>
+                <element inactive_on_update="false" label="PC Set Up Request" sequence="14" value="PC Set Up Request"/>
+                <element inactive_on_update="false" label="Procurement" sequence="15" value="Procurement"/>
+                <element inactive_on_update="false" label="Software" sequence="17" value="Software"/>
+                <element inactive_on_update="false" label="Software Packaging (to raise requests to package new or updated software)" sequence="18" value="Software Packaging (to raise requests to package new or updated software)"/>
+                <element inactive_on_update="false" label="Software Procurement (this would include raising PO’s for software requested via eReq and renewals)" sequence="19" value="Software Procurement (this would include raising PO’s for software requested via eReq and renewals)"/>
+                <element inactive_on_update="false" label="Software query" sequence="20" value="Software query"/>
+                <element inactive_on_update="false" label="Software Removals" sequence="21" value="Software Removals"/>
+                <element inactive_on_update="false" label="Software Request (for generic software requests)" sequence="22" value="Software Request (for generic software requests)"/>
+                <element inactive_on_update="false" label="Telephony/UC Request" sequence="23" value="Telephony/UC Request"/>
+                <element inactive_on_update="false" label="Web Access Request" sequence="24" value="Web Access Request"/>
+            </choice>
+        </element>
+    </element>
+</database>

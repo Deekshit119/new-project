@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="iCON Authorization" max_length="40" name="x_sksw_uk_itsm_icon_authorization" sizeclass="13" type="collection">
+        <element label="Approval Group" max_length="32" name="approval_group" reference="sys_user_group" reference_qual="nameSTARTSWITHiCON^x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="nameSTARTSWITHiCON^x_sksw_uk_itsm_scope=Skanska UK^EQ" type="reference"/>
+        <element display="true" label="Operating Unit" max_length="40" name="operating_unit" type="string"/>
+        <index name="index">
+            <element name="approval_group"/>
+        </index>
+    </element>
+</database>

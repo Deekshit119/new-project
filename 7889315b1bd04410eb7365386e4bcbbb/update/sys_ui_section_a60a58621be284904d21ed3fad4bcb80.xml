@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contracts" section_id="a60a58621be284904d21ed3fad4bcb80" sys_domain="global" table="alm_hardware" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_contract_number</element>
+            <position>0</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>6a0a58621be284904d21ed3fad4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">a60a58621be284904d21ed3fad4bcb80</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lease_id</element>
+            <position>1</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ee0a58621be284904d21ed3fad4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">a60a58621be284904d21ed3fad4bcb80</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>warranty_expiration</element>
+            <position>2</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>660a58621be284904d21ed3fad4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">a60a58621be284904d21ed3fad4bcb80</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>ea0a58621be284904d21ed3fad4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">a60a58621be284904d21ed3fad4bcb80</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_contract_end_date</element>
+            <position>4</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>620a58621be284904d21ed3fad4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">a60a58621be284904d21ed3fad4bcb80</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>support_group</element>
+            <position>5</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>e60a58621be284904d21ed3fad4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">a60a58621be284904d21ed3fad4bcb80</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supported_by</element>
+            <position>6</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_id>6e0a58621be284904d21ed3fad4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">a60a58621be284904d21ed3fad4bcb80</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contracts</caption>
+            <header>false</header>
+            <name>alm_hardware</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a60a58621be284904d21ed3fad4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alm_hardware</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_a60a58621be284904d21ed3fad4bcb80</sys_update_name>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_dcj" label="DCJ" language="en" table="x_sksw_uk_itsm_purchase_order_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_dcj</element>
+            <help/>
+            <hint/>
+            <label>DCJ</label>
+            <language>en</language>
+            <name>x_sksw_uk_itsm_purchase_order_import</name>
+            <plural>DCJs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-28 10:29:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>acfb62831b5108104d21ed3fad4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>DCJ</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_documentation_x_sksw_uk_itsm_purchase_order_import_u_dcj_en</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-28 10:29:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

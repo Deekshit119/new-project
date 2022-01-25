@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="STORM Audit" max_length="40" name="x_sksw_uk_itsm_eol_pc_refresh" sizeclass="766" type="collection">
+        <element label="Old Device" max_length="32" name="device" reference="cmdb_ci_computer" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Order Storm Ref " max_length="40" name="order_storm_ref" type="string"/>
+        <element label="Return Storm Ref" max_length="40" name="return_storm_ref" type="string"/>
+        <element label="Asset Status Changes for CTASK1" max_length="4000" name="u_ci_status_changes_for_ctask1" type="string"/>
+        <element label="Asset Status Changes for CTASK2" max_length="4000" name="u_ci_status_changes_for_ctask2" type="string"/>
+        <element label="CTASK1" max_length="32" name="u_ctask1" reference="sc_task" type="reference"/>
+        <element label="CTASK1 Create Date" max_length="40" name="u_ctask1_create_date" type="glide_date_time"/>
+        <element label="CTASK1 Emails received from Storm" max_length="4000" name="u_ctask1_emails_received_from_storm" type="string"/>
+        <element label="CTASK1 Email to Storm" max_length="240" name="u_ctask1_email_to_storm" type="string"/>
+        <element label="CTASK1 Status Changes" max_length="4000" name="u_ctask1_status_changes" type="string"/>
+        <element label="CTASK1 Storm Status received" max_length="4000" name="u_ctask1_storm_status_received" type="string"/>
+        <element label="CTASK1 Title" max_length="240" name="u_ctask1_title" type="string"/>
+        <element label="CTASK2" max_length="32" name="u_ctask2" reference="sc_task" type="reference"/>
+        <element label="CTASK2 Create Date" max_length="40" name="u_ctask2_create_date" type="glide_date_time"/>
+        <element label="CTASK2 Emails received from Storm" max_length="4000" name="u_ctask2_emails_received_from_storm" type="string"/>
+        <element label="CTASK2 Email to Storm" max_length="240" name="u_ctask2_email_to_storm" type="string"/>
+        <element label="CTASK2 Status Changes" max_length="4000" name="u_ctask2_status_changes" type="string"/>
+        <element label="CTASK2 Storm Status received" max_length="4000" name="u_ctask2_storm_status_received" type="string"/>
+        <element label="CTASK2 Title" max_length="240" name="u_ctask2_title" type="string"/>
+        <element label="CTASK3" max_length="32" name="u_ctask3" reference="sc_task" type="reference"/>
+        <element label="CTASK3 Create Date" max_length="40" name="u_ctask3_create_date" type="glide_date_time"/>
+        <element label="CTASK3 Status Changes" max_length="4000" name="u_ctask3_status_changes" type="string"/>
+        <element label="CTASK3 Title" max_length="240" name="u_ctask3_title" type="string"/>
+        <element label="Invitation email sent date" max_length="40" name="u_invitation_email_sent_date" type="glide_date_time"/>
+        <element label="New device" max_length="32" name="u_new_device" reference="cmdb_ci_computer" type="reference"/>
+        <element label="Reminder emails sent dates" max_length="4000" name="u_reminder_emails_sent_dates" type="string"/>
+        <element label="REQ" max_length="32" name="u_req" reference="sc_request" type="reference"/>
+        <element label="REQ Create Date" max_length="40" name="u_req_create_date" type="glide_date_time"/>
+        <element label="RITM" max_length="32" name="u_ritm" reference="sc_req_item" type="reference"/>
+        <element label="RITM Create Date" max_length="40" name="u_ritm_create_date" type="glide_date_time"/>
+        <element label="Serial Issue" max_length="40" name="u_serial_issue" type="boolean"/>
+        <element label="Serial Issue Callref" max_length="32" name="u_serial_issue_callref" reference="sc_task" type="reference"/>
+        <element label="Serial Issue Email" max_length="4000" name="u_serial_issue_email" type="string"/>
+        <element label="Serial Issue Number" max_length="40" name="u_serial_issue_number" type="string"/>
+        <element label="User ID" max_length="32" name="u_user_id" reference="sys_user" type="reference"/>
+        <element label="Warranty expiry date" max_length="40" name="u_warranty_expiry_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="u_serial_issue_callref"/>
+        </index>
+        <index name="index2">
+            <element name="u_user_id"/>
+        </index>
+        <index name="index3">
+            <element name="u_req"/>
+        </index>
+        <index name="index4">
+            <element name="u_ctask1"/>
+        </index>
+        <index name="index5">
+            <element name="u_new_device"/>
+        </index>
+        <index name="index6">
+            <element name="u_ctask3"/>
+        </index>
+        <index name="index7">
+            <element name="device"/>
+        </index>
+        <index name="index8">
+            <element name="u_ctask2"/>
+        </index>
+        <index name="index9">
+            <element name="u_ritm"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element defaultsort="-1" dynamic_creation_script="// default on the table level is to create a server&#13;&#10;&#13;&#10;var gr = new GlideRecord(&quot;cmdb_ci_server&quot;);&#13;&#10;gr.initialize();&#13;&#10;gr.name=value;&#13;&#10;gr.insert();" extends="cmdb" label="Položka konfigurace" max_length="40" name="cmdb_ci" sizeclass="436512" text_index="true" type="collection">
+        <element label="Contract End Date" max_length="40" name="x_sksw_uk_itsm_contract_end_date" type="glide_date"/>
+        <element choice="1" label="Environment" max_length="40" name="x_sksw_uk_itsm_environment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Development" sequence="1" value="Development"/>
+                <element inactive_on_update="false" label="Test" sequence="2" value="Test"/>
+                <element inactive_on_update="false" label="Production" sequence="3" value="Production"/>
+            </choice>
+        </element>
+        <element label="SCCM Last Import Date" max_length="40" name="x_sksw_uk_itsm_sccm_last_import_date" type="glide_date"/>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+    </element>
+</database>

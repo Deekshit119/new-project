@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="change_risk_asmt_threshold">
+    <change_risk_asmt_threshold action="INSERT_OR_UPDATE">
+        <assessment display_value="Skanska UK Risk Assessment">bf9c2a961b8d4c10445f3150cd4bcbb4</assessment>
+        <risk>3</risk>
+        <score_greater_than>900</score_greater_than>
+        <sys_class_name>change_risk_asmt_threshold</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-14 15:21:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e8782fa61b4d40104252c8017e4bcb7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>bf9c2a961b8d4c10445f3150cd4bcbb4</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>change_risk_asmt_threshold_e8782fa61b4d40104252c8017e4bcb7a</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-03 14:54:22</sys_updated_on>
+    </change_risk_asmt_threshold>
+</record_update>

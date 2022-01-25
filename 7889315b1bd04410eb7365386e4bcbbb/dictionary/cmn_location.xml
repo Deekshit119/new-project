@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes=",text_index_translations" label="Plats" max_length="40" name="cmn_location" sizeclass="332" text_index="true" type="collection">
+        <element label="Created On" max_length="40" name="x_sksw_uk_itsm_created_on" type="glide_date_time"/>
+        <element label="Google Maps Location" max_length="1024" name="x_sksw_uk_itsm_google_maps_location" type="url"/>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" value="Skanska UK"/>
+            </choice>
+        </element>
+        <element label="Site Code" max_length="40" name="x_sksw_uk_itsm_site_code" type="string"/>
+        <element choice="1" label="Site Status" max_length="40" name="x_sksw_uk_itsm_site_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="1" value="open"/>
+                <element inactive_on_update="false" label="Opening" sequence="2" value="opening"/>
+                <element inactive_on_update="false" label="Closing" sequence="3" value="closing"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Site Type" max_length="40" name="x_sksw_uk_itsm_site_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Platinum" sequence="1" value="platinum"/>
+                <element inactive_on_update="false" label="Gold" sequence="2" value="gold"/>
+                <element inactive_on_update="false" label="Silver" sequence="3" value="silver"/>
+                <element inactive_on_update="false" label="Bronze" sequence="4" value="bronze"/>
+                <element inactive_on_update="false" label="Custom" sequence="5" value="custom"/>
+            </choice>
+        </element>
+    </element>
+</database>

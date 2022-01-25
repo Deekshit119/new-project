@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Presentation Clicker Wireless">a08b78d11b6240904d21ed3fad4bcbc8</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-24 11:10:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>63e758a11bee40904d21ed3fad4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Presentation Clicker Wireless.IT Procurement Users</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_63e758a11bee40904d21ed3fad4bcb6e</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-24 11:10:51</sys_updated_on>
+        <user_criteria display_value="IT Procurement Users">104ebf461bf9cc104d21ed3fad4bcb72</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

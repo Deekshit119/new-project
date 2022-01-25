@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Skanska UK SCCM Custom Fields" max_length="40" name="x_sksw_uk_itsm_skanska_uk_sccm_custom_fields" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=adaptiva_ip" label="adaptiva_ip" max_length="8000" name="u_adaptiva_ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AD_OU" label="AD_OU" max_length="256" name="u_ad_ou" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ChassisType" label="ChassisType" max_length="255" name="u_chassistype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CPU" label="CPU" max_length="255" name="u_cpu" type="string"/>
+        <element attributes="import_attribute_name=CPU_Speed" label="CPU_Speed" max_length="40" name="u_cpu_speed" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Domain" label="Domain" max_length="256" name="u_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is_AOAC_Capable0" label="Is_AOAC_Capable0" max_length="40" name="u_is_aoac_capable0" type="string"/>
+        <element attributes="import_attribute_name=LastHWScan" label="LastHWScan" max_length="40" name="u_lasthwscan" type="datetime"/>
+        <element attributes="import_attribute_name=LastHWScanx" label="LastHWScanx" max_length="40" name="u_lasthwscanx" type="integer"/>
+        <element attributes="import_attribute_name=LastLogin" label="LastLogin" max_length="40" name="u_lastlogin" type="datetime"/>
+        <element attributes="import_attribute_name=LastLoginx" label="LastLoginx" max_length="40" name="u_lastloginx" type="integer"/>
+        <element attributes="import_attribute_name=LastSWScan" label="LastSWScan" max_length="40" name="u_lastswscan" type="datetime"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="255" name="u_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model" label="Model" max_length="255" name="u_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OS" label="OS" max_length="255" name="u_os" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OS_Version" label="OS_Version" max_length="255" name="u_os_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PatchingGroup" label="PatchingGroup" max_length="40" name="u_patchinggroup" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PCname" label="PCname" max_length="256" name="u_pcname" type="string"/>
+        <element attributes="import_attribute_name=RAM" label="RAM" max_length="40" name="u_ram" type="long"/>
+        <element attributes="edge_encryption_enabled=true" label="ResourceID" max_length="40" name="u_resourceid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SerialNumber" label="SerialNumber" max_length="255" name="u_serialnumber" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Username" label="Username" max_length="256" name="u_username" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=WinNT" label="WinNT" max_length="256" name="u_winnt" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>5000</order>
+        <sc_cat_item display_value="iCON Access Request">38bae61f1be140104252c8017e4bcb79</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-13 19:16:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8154310c1b7d04104252c8017e4bcbe4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Training.iCON Access Request</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>io_set_item_8154310c1b7d04104252c8017e4bcbe4</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-13 19:16:35</sys_updated_on>
+        <variable_set display_value="Training">66443d0c1b7d04104252c8017e4bcbb2</variable_set>
+    </io_set_item>
+</record_update>

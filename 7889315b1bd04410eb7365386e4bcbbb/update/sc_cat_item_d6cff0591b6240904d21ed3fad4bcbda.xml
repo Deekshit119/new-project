@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Adapters and Cables">52c6303d1be540904252c8017e4bcb4a</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>USB 4 Port Hub</strong></p>
+<p><strong>ID : ST4200MINI2</strong></p>
+<p><strong>£ 6.83</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>USB 4 Port Hub</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>12404d591b6240904d21ed3fad4bcb33</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d6cff0591b6240904d21ed3fad4bcbda&amp;sysparm_preview=true", "summary");</preview>
+        <price>9.27</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>USB 4 Port Hub</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:26:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d6cff0591b6240904d21ed3fad4bcbda</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>USB 4 Port Hub</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_d6cff0591b6240904d21ed3fad4bcbda</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:28:42</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>ST4200MINI2</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="StarTech">6e0d41931b5ac4504d21ed3fad4bcbfc</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6cff0591b6240904d21ed3fad4bcbda"/>
+    <fx_price action="delete_multiple" query="id=d6cff0591b6240904d21ed3fad4bcbda"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>6.83</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>d6cff0591b6240904d21ed3fad4bcbda</id>
+        <parent/>
+        <reference_amount>8.9647</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:26:30</sys_created_on>
+        <sys_id>56cf74591b6240904d21ed3fad4bcb9d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:28:42</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>d6cff0591b6240904d21ed3fad4bcbda</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:26:30</sys_created_on>
+        <sys_id>9ecf74591b6240904d21ed3fad4bcb9d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:26:32</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>4544</size_bytes>
+        <size_compressed>4222</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:28:42</sys_created_on>
+        <sys_id>12404d591b6240904d21ed3fad4bcb33</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:28:43</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>d6cff0591b6240904d21ed3fad4bcbda</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="12404d591b6240904d21ed3fad4bcb33">12404d591b6240904d21ed3fad4bcb33</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:28:42</sys_created_on>
+        <sys_id>52404d591b6240904d21ed3fad4bcb33</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5616</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="12404d591b6240904d21ed3fad4bcb33">12404d591b6240904d21ed3fad4bcb33</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:28:42</sys_created_on>
+        <sys_id>d2404d591b6240904d21ed3fad4bcb33</sys_id>
+    </sys_attachment_doc>
+</record_update>

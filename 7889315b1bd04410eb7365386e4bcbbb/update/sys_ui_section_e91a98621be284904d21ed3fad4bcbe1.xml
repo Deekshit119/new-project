@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Location" section_id="e91a98621be284904d21ed3fad4bcbe1" sys_domain="global" table="alm_hardware" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>0</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>ad1a98621be284904d21ed3fad4bcbe3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>1</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>251a98621be284904d21ed3fad4bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stockroom</element>
+            <position>2</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>a91a98621be284904d21ed3fad4bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_dc_th_name</element>
+            <position>3</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>211a98621be284904d21ed3fad4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>a51a98621be284904d21ed3fad4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_sublocation</element>
+            <position>5</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>2d1a98621be284904d21ed3fad4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>6</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>a11a98621be284904d21ed3fad4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_rack</element>
+            <position>7</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>291a98621be284904d21ed3fad4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_u_space</element>
+            <position>8</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>ad1a98621be284904d21ed3fad4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_position</element>
+            <position>9</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_id>251a98621be284904d21ed3fad4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="alm_hardware" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">e91a98621be284904d21ed3fad4bcbe1</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Location</caption>
+            <header>false</header>
+            <name>alm_hardware</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:54:12</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e91a98621be284904d21ed3fad4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alm_hardware</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_e91a98621be284904d21ed3fad4bcbe1</sys_update_name>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:54:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

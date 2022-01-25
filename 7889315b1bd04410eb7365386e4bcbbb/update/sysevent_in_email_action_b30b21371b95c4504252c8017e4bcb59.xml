@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>This inbound email action is for Skanska UK Scoped App&#13;
+This email will be coming from BuildRequest@storm-technologies.com to indicate the progress of BAU/EOL Return requests&#13;
+The Status will be mentioned in email subject, following which will be the SCTASK reference. The Vendor Status field on that SCTASK will get updated with relevant status as per subject.  </description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKE? New Return Request^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="? New Return Request"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>FF RQ STRY0013713 Storm Return Updates</name>
+        <order>30</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+	
+	// Implement email action here
+	gs.include('validators');
+	//logger.log("Riz " + email.body_text.UpdateType);
+	//if (current.getTableName() == "sc_task") {
+		//This gets you the SCTASK number similar code can be used to get the ref number in your case.
+		
+		var updateType;
+		var index = email.subject.indexOf("SCTASK");
+		var taskNumber = email.subject.substring(index,index+13);
+		var serialNoIndex;
+		var serialNo;
+		var grCI;
+		var grEOL;
+		var returnStormRef;
+		var stormRefIndex;
+		var emailBody;
+		
+		
+		emailBody  = "reply from: " + email.origemail + "\n\n" + email.body_text;
+		
+		stormRefIndex = email.body_text.indexOf("[StormRef]");
+		returnStormRef = email.body_text.substring(stormRefIndex+10,stormRefIndex+19);
+		returnStormRef= returnStormRef.toString().trim();
+		logger.log("Riz returnStormRef " + returnStormRef);
+		
+		var emailFromStorm;
+		var emailStormStatus;
+		var today =  new GlideDateTime();
+		//var newDevice;
+		logger.log("Riz " + taskNumber);
+		
+		
+		//var updateTypeIndex = email.body_text.indexOf("[UpdateType]");
+		// updateType = email.body_text.substring(updateTypeIndex+13,stormRefIndex+19);
+		
+		if(email.body_text.indexOf("Acknowledged") >= 0)
+			{
+			updateType = "Acknowledged";
+		}
+		else if(email.body_text.indexOf("Cancelled") >= 0)
+			{
+			updateType = "Cancelled";
+		}
+		else if(email.body_text.indexOf("Completed") >= 0)
+			{
+			updateType = "Completed";
+		}		
+		else if(email.body_text.indexOf("HeldRequest") >= 0)
+			{
+			updateType = "HeldRequest";
+		}
+		else if(email.body_text.indexOf("Held") >= 0)
+			{
+			updateType = "Held";
+		}
+		else if(email.body_text.indexOf("InPool") >= 0)
+			{
+			updateType = "InPool";
+		}
+		else if(email.body_text.indexOf("InProgress") >= 0)
+			{
+			updateType = "InProgress";
+		}
+		else if(email.body_text.indexOf("InTransit") >= 0)
+			{
+			updateType = "InTransit";
+		}
+		else if(email.body_text.indexOf("OnHold") >= 0)
+			{
+			updateType = "OnHold";
+		}
+		else if(email.body_text.indexOf("Returned") >= 0)
+			{
+			updateType = "Returned";
+		}
+		else if(email.body_text.indexOf("DispatchedToLessor") >= 0)
+			{
+			updateType = "DispatchedToLessor";
+		}
+	 else if(email.body_text.indexOf("Dispatched") >= 0)
+			{
+			updateType = "Dispatched";
+		}
+	
+	
+		
+		
+		
+		var oldDevice;
+		
+		grEOL = new GlideRecord('x_sksw_uk_itsm_eol_pc_refresh');
+		grEOL.addQuery('u_ctask2.number',taskNumber);
+		grEOL.query();
+		logger.log('Riz EOL Count ' + grEOL.getRowCount());
+		if(grEOL.next())
+			{
+			oldDevice = grEOL.getValue('device');
+			if(grEOL.getValue('u_ctask2_emails_received_from_storm'))
+				{
+				emailFromStorm = grEOL.getValue('u_ctask2_emails_received_from_storm');
+				emailFromStorm = emailFromStorm + '\n' + email.subject + " - " + today;
+				grEOL.setValue('u_ctask2_emails_received_from_storm',emailFromStorm);
+			}
+			else
+				{
+				emailFromStorm =  email.subject + " - " + today;
+				grEOL.setValue('u_ctask2_emails_received_from_storm',emailFromStorm);
+			}
+			if(grEOL.getValue('u_ctask2_storm_status_received'))
+				{
+				emailStormStatus= grEOL.getValue('u_ctask2_storm_status_received');
+				emailStormStatus = emailStormStatus + '\n' + updateType + " - " + today;
+				grEOL.setValue('u_ctask2_storm_status_received',emailStormStatus);
+			}
+			else
+				{
+				emailStormStatus =  updateType + " on " + today;
+				grEOL.setValue('u_ctask2_storm_status_received',emailStormStatus);
+			}
+			
+			//logger.log("Riz newDevice " + newDevice);
+			logger.log("Riz emailFromStorm  " + emailFromStorm);
+			logger.log("Riz emailStormStatus " + emailStormStatus);
+			
+			if(returnStormRef)
+				{
+				grEOL.setValue('return_storm_ref',returnStormRef);
+			}
+			
+				var assetStatusChanges;
+			if(updateType == "Dispatched")
+				{
+				assetStatusChanges = "Asset storm Status Changed to (Operational) and Asset Status Changed to (In Use)";
+				grEOL.setValue('u_ci_status_changes_for_ctask2',assetStatusChanges);
+			}
+			
+			if(updateType == "DispatchedToLessor")
+				{
+				assetStatusChanges = "Asset storm Status Changed to (Returned to Leassor) and Asset Status Changed to (Retired)";
+				grEOL.setValue('u_ci_status_changes_for_ctask2',assetStatusChanges);
+			}	
+			
+			grEOL.update();
+			
+		}
+		
+		 
+	
+		if(updateType == "Dispatched")
+			{
+			// Update Old Asset 'Storm Status' of CI to 'Operational' and 'Operational Status' to 'In Use'
+			var grAssetReturn24 = new GlideRecord('alm_hardware');
+			grAssetReturn24.addQuery('ci', oldDevice);
+			grAssetReturn24.query();
+			if (grAssetReturn24.next())
+				{
+				//	gs.addInfoMessage("inside InProgress ");
+			grAssetReturn24.x_sksw_uk_itsm_storm_status = "Operational";
+				grAssetReturn24.install_status = 1;   // In Use
+				grAssetReturn24.setValue('assigned_to','');
+				grAssetReturn24.update();
+				
+			}
+		}
+	
+	
+	if(updateType == "DispatchedToLessor")
+			{
+			// Update Old Asset 'Storm Status' of CI to 'Returned to Leassor' and 'Operational Status' to 'Retired'
+			var grAssetReturn25 = new GlideRecord('alm_hardware');
+			grAssetReturn25.addQuery('ci', oldDevice);
+			grAssetReturn25.query();
+			if (grAssetReturn25.next())
+				{
+				//	gs.addInfoMessage("inside InProgress ");
+			grAssetReturn25.x_sksw_uk_itsm_storm_status = "Returned to Leassor";
+				grAssetReturn25.install_status = 7;   // Retired
+				grAssetReturn25.setValue('assigned_to','');
+				grAssetReturn25.update();
+				
+			}
+		}
+		
+		
+		logger.log("Riz updateType " + updateType);
+		var gr = new GlideRecord('sc_task');
+		gr.addQuery('number',taskNumber);
+		gr.query();
+		logger.log("Riz gr Count " + gr.getRowCount());
+		if(gr.next())
+			{
+			gr.setValue('x_sksw_uk_itsm_u_vendor_status', updateType);
+			//gr.setValue('comments', emailBody);
+			gr.comments = emailBody;
+			
+			gr.update();
+		}
+		
+		//}
+		
+	})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-30 13:41:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b30b21371b95c4504252c8017e4bcb59</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>FF RQ STRY0013713 Storm Return Updates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysevent_in_email_action_b30b21371b95c4504252c8017e4bcb59</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 09:44:41</sys_updated_on>
+        <table>sc_task</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Catalog Item Task" max_length="40" name="x_sksw_uk_itsm_catalog_item_task" sizeclass="19" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="x_sksw_uk_itsm_scope=Skanska UK^EQ" reference_qual_condition="x_sksw_uk_itsm_scope=Skanska UK^EQ" type="reference"/>
+        <element dependent="table" dependent_on_field="table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Sc cat item" max_length="32" name="sc_cat_item" reference="sc_cat_item" type="reference"/>
+        <element label="Short Description" max_length="160" name="short_description" type="string"/>
+        <element default="sc_req_item" label="Table" max_length="80" name="table" type="table_name"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="sc_cat_item"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

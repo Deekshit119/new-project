@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_sksw_uk_itsm_eol_pc_refresh" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>723d85691b2680904d21ed3fad4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_user_id</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>f63d85691b2680904d21ed3fad4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>device</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>7a3d85691b2680904d21ed3fad4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>device.model_id</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>fa3d85691b2680904d21ed3fad4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_new_device</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>7e3d85691b2680904d21ed3fad4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_new_device.model_id</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>fe3d85691b2680904d21ed3fad4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_warranty_expiry_date</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>723d85691b2680904d21ed3fad4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_invitation_email_sent_date</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>f23d85691b2680904d21ed3fad4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_reminder_emails_sent_dates</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>763d85691b2680904d21ed3fad4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_req</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>f63d85691b2680904d21ed3fad4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_req_create_date</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>7a3d85691b2680904d21ed3fad4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ritm</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>fa3d85691b2680904d21ed3fad4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ritm_create_date</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>7e3d85691b2680904d21ed3fad4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order_storm_ref</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>fe3d85691b2680904d21ed3fad4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>return_storm_ref</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>723d85691b2680904d21ed3fad4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask1</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>f23d85691b2680904d21ed3fad4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask1_title</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>763d85691b2680904d21ed3fad4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask1_create_date</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>f63d85691b2680904d21ed3fad4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask1_email_to_storm</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>7a3d85691b2680904d21ed3fad4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ci_status_changes_for_ctask1</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>fa3d85691b2680904d21ed3fad4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask1_emails_received_from_storm</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>7e3d85691b2680904d21ed3fad4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask1_status_changes</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>fe3d85691b2680904d21ed3fad4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask1_storm_status_received</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>723d85691b2680904d21ed3fad4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask2</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>f23d85691b2680904d21ed3fad4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask2_title</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>763d85691b2680904d21ed3fad4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask2_create_date</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>f63d85691b2680904d21ed3fad4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask2_email_to_storm</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>7a3d85691b2680904d21ed3fad4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask2_emails_received_from_storm</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>fa3d85691b2680904d21ed3fad4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ci_status_changes_for_ctask2</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>7e3d85691b2680904d21ed3fad4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask2_status_changes</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>fe3d85691b2680904d21ed3fad4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask2_storm_status_received</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>723d85691b2680904d21ed3fad4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask3</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>f23d85691b2680904d21ed3fad4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask3_title</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>763d85691b2680904d21ed3fad4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask3_create_date</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>c73d85691b2680904d21ed3fad4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ctask3_status_changes</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>4b3d85691b2680904d21ed3fad4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_serial_issue_callref</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>cb3d85691b2680904d21ed3fad4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_serial_issue_email</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_id>4f3d85691b2680904d21ed3fad4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_serial_issue_number</element>
+            <list_id display_value="x_sksw_uk_itsm_eol_pc_refresh" element="NULL" name="x_sksw_uk_itsm_eol_pc_refresh" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b63d85691b2680904d21ed3fad4bcb0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>37</position>
+            <sum>false</sum>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:45</sys_created_on>
+            <sys_id>cf3d85691b2680904d21ed3fad4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_sksw_uk_itsm_eol_pc_refresh</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-24 15:03:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b63d85691b2680904d21ed3fad4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_uk_itsm_eol_pc_refresh</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_list_x_sksw_uk_itsm_eol_pc_refresh_null</sys_update_name>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-24 15:03:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

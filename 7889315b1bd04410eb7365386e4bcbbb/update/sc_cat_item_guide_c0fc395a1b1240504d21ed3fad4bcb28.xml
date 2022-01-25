@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide">
+    <sc_cat_item_guide action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <cascade>true</cascade>
+        <category display_value="Order Desktop/Laptop/Tablet">6fb8a3621b05cc10445f3150cd4bcb3b</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Include Monitor, Headset, Case and Docking Station</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>f4d0b5ae1bd2c0504d21ed3fad4bcb16</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <include_items>true</include_items>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Dell Latitude 5401 Laptop</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <order_to_cart>false</order_to_cart>
+        <ordered_item_link/>
+        <owner/>
+        <picture>751a55971b9ac4504d21ed3fad4bcb9e</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;sysparm_initial=true&amp;sysparm_guide=c0fc395a1b1240504d21ed3fad4bcb28&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script/>
+        <short_description>Please tick to include Monitor, Headset, Case and Docking Station</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_guide</sys_class_name>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-14 16:11:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c0fc395a1b1240504d21ed3fad4bcb28</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Dell Latitude 5401 Laptop</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_guide_c0fc395a1b1240504d21ed3fad4bcb28</sys_update_name>
+        <sys_updated_by>bc913849</sys_updated_by>
+        <sys_updated_on>2020-01-17 16:13:35</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <two_step>false</two_step>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr/>
+        <u_x_sksw_fi_atea_int_item_id/>
+        <use_sc_layout>true</use_sc_layout>
+        <validator/>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_guide>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0fc395a1b1240504d21ed3fad4bcb28"/>
+    <fx_price action="delete_multiple" query="id=c0fc395a1b1240504d21ed3fad4bcb28"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>c0fc395a1b1240504d21ed3fad4bcb28</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-14 16:11:54</sys_created_on>
+        <sys_id>84fc395a1b1240504d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bc913849</sys_updated_by>
+        <sys_updated_on>2020-01-14 16:11:57</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>recurring_price</field>
+        <id>c0fc395a1b1240504d21ed3fad4bcb28</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-14 16:11:54</sys_created_on>
+        <sys_id>ccfc395a1b1240504d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bc913849</sys_updated_by>
+        <sys_updated_on>2020-01-14 16:11:57</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#4f5a6e</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>5302</size_bytes>
+        <size_compressed>5015</size_compressed>
+        <state>available</state>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-17 16:13:35</sys_created_on>
+        <sys_id>751a55971b9ac4504d21ed3fad4bcb9e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-17 16:13:36</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_guide</table_name>
+        <table_sys_id>c0fc395a1b1240504d21ed3fad4bcb28</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="751a55971b9ac4504d21ed3fad4bcb9e">751a55971b9ac4504d21ed3fad4bcb9e</sys_attachment>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-17 16:13:35</sys_created_on>
+        <sys_id>b51a55971b9ac4504d21ed3fad4bcb9e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6676</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="751a55971b9ac4504d21ed3fad4bcb9e">751a55971b9ac4504d21ed3fad4bcb9e</sys_attachment>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-17 16:13:35</sys_created_on>
+        <sys_id>391a55971b9ac4504d21ed3fad4bcb9e</sys_id>
+    </sys_attachment_doc>
+</record_update>

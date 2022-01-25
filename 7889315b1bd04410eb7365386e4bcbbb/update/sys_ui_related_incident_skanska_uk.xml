@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="incident" version="2" view="skanska_uk">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Incident - Skanska UK" name="incident" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">20cf10061b16cc104d21ed3fad4bcb29</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:70e80f390a0a0b1b0035a51d8bbfd32c</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-13 14:46:20</sys_created_on>
+            <sys_id>a0cf10061b16cc104d21ed3fad4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-13 14:46:20</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Incident - Skanska UK" name="incident" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">20cf10061b16cc104d21ed3fad4bcb29</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-13 14:46:20</sys_created_on>
+            <sys_id>6ccf10061b16cc104d21ed3fad4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-13 14:46:20</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Incident - Skanska UK" name="incident" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">20cf10061b16cc104d21ed3fad4bcb29</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>incident.parent_incident</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-13 14:46:20</sys_created_on>
+            <sys_id>e0cf10061b16cc104d21ed3fad4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-13 14:46:20</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Incident - Skanska UK" name="incident" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">20cf10061b16cc104d21ed3fad4bcb29</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>incident_alert.source_incident</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-13 14:46:20</sys_created_on>
+            <sys_id>68cf10061b16cc104d21ed3fad4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-13 14:46:20</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Incident - Skanska UK" name="incident" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">20cf10061b16cc104d21ed3fad4bcb29</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>cmdb_ci_outage.task_number</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-13 14:46:20</sys_created_on>
+            <sys_id>a4cf10061b16cc104d21ed3fad4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-13 14:46:20</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Incident - Skanska UK" name="incident" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">20cf10061b16cc104d21ed3fad4bcb29</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>task_ci.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-13 14:46:20</sys_created_on>
+            <sys_id>2ccf10061b16cc104d21ed3fad4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-13 14:46:20</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Incident - Skanska UK</calculated_name>
+            <filter/>
+            <name>incident</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-13 14:46:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20cf10061b16cc104d21ed3fad4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Incident - Skanska UK</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_related_incident_skanska_uk</sys_update_name>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-13 14:46:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

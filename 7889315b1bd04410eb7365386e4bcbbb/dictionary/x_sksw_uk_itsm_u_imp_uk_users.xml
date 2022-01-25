@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="UK Users" max_length="40" name="x_sksw_uk_itsm_u_imp_uk_users" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=distinguishedName" label="distinguishedName" max_length="40" name="u_distinguishedname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dn" label="dn" max_length="40" name="u_dn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=givenName" label="givenName" max_length="40" name="u_givenname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mail" label="mail" max_length="40" name="u_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectGUID" label="objectGUID" max_length="40" name="u_objectguid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sAMAccountName" label="sAMAccountName" max_length="40" name="u_samaccountname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sn" label="sn" max_length="40" name="u_sn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=source" label="source" max_length="40" name="u_source" type="string"/>
+    </element>
+</database>

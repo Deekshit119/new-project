@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="iCON authorization import" max_length="40" name="x_sksw_uk_itsm_icon_authorization_import" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Approval Group" label="Approval Group" max_length="40" name="u_approval_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Authoriser Name" label="Authoriser Name" max_length="40" name="u_authoriser_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operating Unit" label="Operating Unit" max_length="40" name="u_operating_unit" type="string"/>
+    </element>
+</database>

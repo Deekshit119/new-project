@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function runs the script from Monday to Friday.
+
+function checkWeekdays() {
+
+
+var now = new Date();
+
+
+var day = now.getDay();
+
+
+var result = false;
+
+
+if(day != 0 && day != 6) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkWeekdays();
+
+]]></condition>
+        <conditional>true</conditional>
+        <entered_time/>
+        <name>[UK JW] iTrent Engines</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>14</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'iTrent Engines',   
+	
+'description': "Task no 1 refers - Daily iTrent Checks document located in R:\ITSD Applications\Scheduled Tasks.     Trent Engines:-                                                                                                     Check that the Workflow, Batch and Process engines are all running in LIVE, DEV1, DEV2, UAT and PILOT > System Admin,  Engine Control                                                                                                      Check there is Workflow in LIVE for the current day >Workflow>Workflow processes>search for all>select SS Holiday New V4>Process history                                                                                                  Check Batch processes are running > Batch processes> search for all                                                   100 Day Review Notification = T, AD Synch = T, Exp Occ end date = T-1, Hol Calc nightly = T-1, L&D - Course Reminder (3 days) = T, Learning Evaluations = T-1, Learning Evaluations - Reminders = T-1, Quals = T, Security nightly = T-1  Finally run out a Management Information report for eg. People>Organisation Leavers in all databases.                  The BI report 'Workflows & Batches Log' Report is emailed to the iTrent.Support mailbox daily for all iTrent environments and can be used in conjunction to provide a quick check on Status.",
+
+'assignment_group': '35e316751b7c8c50445f3150cd4bcb54',
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-08 10:18:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a882f9901b9684104d21ed3fad4bcbc9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[UK JW] iTrent Engines</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_a882f9901b9684104d21ed3fad4bcbc9</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:11:27</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="IP Subnets" max_length="40" name="x_sksw_uk_itsm_ip_subnets" sizeclass="283" type="collection">
+        <element display="true" label="CIDR Address" max_length="40" name="cidr_address" type="string"/>
+        <element display="true" label="End IP Address" max_length="40" name="end_ip_address" type="ip_addr"/>
+        <element choice="1" display="true" label="Hosts Profile" max_length="40" name="hosts_profile" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Wireless Only" sequence="0" value="Wireless Only"/>
+                <element inactive_on_update="false" label="Wired &amp; Wireless" sequence="1" value="wired_wireless"/>
+                <element inactive_on_update="false" label="Wired Only" sequence="2" value="wired_only"/>
+            </choice>
+        </element>
+        <element display="true" label="Metered Network" max_length="40" name="metered_network" type="boolean"/>
+        <element display="true" label="Site code" max_length="40" name="site_code" type="string"/>
+        <element label="Site Name" max_length="32" name="site_name" reference="cmn_location" type="reference"/>
+        <element choice="1" display="true" label="Site Status" max_length="40" name="site_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="1" value="open"/>
+                <element inactive_on_update="false" label="Opening" sequence="2" value="opening"/>
+                <element inactive_on_update="false" label="Closing" sequence="3" value="closing"/>
+            </choice>
+        </element>
+        <element display="true" label="Start IP Address" max_length="40" name="start_ip_address" type="ip_addr"/>
+        <element display="true" label="Subnet Mask" max_length="40" name="subnet_mask" type="ip_addr"/>
+        <element label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" read_only="true" type="string"/>
+        <index name="index">
+            <element name="site_name"/>
+        </index>
+    </element>
+</database>

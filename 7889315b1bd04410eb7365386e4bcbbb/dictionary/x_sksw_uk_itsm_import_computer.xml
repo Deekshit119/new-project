@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Computer" max_length="40" name="x_sksw_uk_itsm_import_computer" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=Asset Tag" label="Asset Tag" max_length="40" name="u_asset_tag" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned" max_length="40" name="u_assigned" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building" label="Building" max_length="40" name="u_building" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Class" max_length="40" name="u_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Configuration Item" max_length="40" name="u_configuration_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract#" max_length="40" name="u_contract_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract End Date" max_length="40" name="u_contract_end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract number" max_length="40" name="u_contract_number" type="string"/>
+        <element attributes="import_attribute_name=Cost" label="Cost" max_length="15" name="u_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost center" max_length="40" name="u_cost_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost Centre" label="Cost Centre" max_length="40" name="u_cost_centre" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CPU" label="CPU" max_length="40" name="u_cpu" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CPU Speed" label="CPU Speed" max_length="40" name="u_cpu_speed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Currancy" label="Currancy" max_length="40" name="u_currancy" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department" label="Department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Desk Number" label="Desk Number" max_length="40" name="u_desk_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Display name" max_length="40" name="u_display_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Expenditure type" label="Expenditure type" max_length="40" name="u_expenditure_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fixed Penalty Fee" max_length="40" name="u_fixed_penalty_fee" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Floor" label="Floor" max_length="40" name="u_floor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="GL account" max_length="40" name="u_gl_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=HostName" label="HostName" max_length="40" name="u_hostname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Invoice No#" label="Invoice No#" max_length="40" name="u_invoice_no_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Invoice number" max_length="40" name="u_invoice_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IP Address" label="IP Address" max_length="40" name="u_ip_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Physical Audit Date" max_length="40" name="u_last_physical_audit_date" type="string"/>
+        <element attributes="import_attribute_name=Leased Cost" label="Leased Cost" max_length="15" name="u_leased_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Leased frequency" label="Leased frequency" max_length="40" name="u_leased_frequency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Lease contract" max_length="40" name="u_lease_contract" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="LLU" max_length="40" name="u_llu" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Loaction" label="Loaction" max_length="40" name="u_loaction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location????" max_length="40" name="u_location____" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=MAC Address" label="MAC Address" max_length="40" name="u_mac_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Managed by" max_length="40" name="u_managed_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="MFU (Owner)" max_length="40" name="u_mfu__owner_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model" label="Model" max_length="40" name="u_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model category" max_length="40" name="u_model_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operating System" label="Operating System" max_length="40" name="u_operating_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operational Status" label="Operational Status" max_length="40" name="u_operational_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order No#" max_length="40" name="u_order_no_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order Number" max_length="40" name="u_order_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Owned by" max_length="40" name="u_owned_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ownership" label="Ownership" max_length="40" name="u_ownership" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owner User ID" label="Owner User ID" max_length="40" name="u_owner_user_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PO#" label="PO#" max_length="40" name="u_po_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO number" max_length="40" name="u_po_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=RAM" label="RAM" max_length="40" name="u_ram" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Request Line" label="Request Line" max_length="40" name="u_request_line" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SCCM Last Import Date" max_length="40" name="u_sccm_last_import_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial" label="Serial" max_length="40" name="u_serial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Service Pack" label="Service Pack" max_length="40" name="u_service_pack" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Storm Status" label="Storm Status" max_length="40" name="u_storm_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sub Location 1" label="Sub Location 1" max_length="40" name="u_sub_location_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sub State" max_length="40" name="u_sub_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Supported by" label="Supported by" max_length="40" name="u_supported_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Support group" max_length="40" name="u_support_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=System Used As" label="System Used As" max_length="40" name="u_system_used_as" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User ID" label="User ID" max_length="40" name="u_user_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor" label="Vendor" max_length="40" name="u_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor (AL)" label="Vendor (AL)" max_length="40" name="u_vendor__al_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Warranty End Date" max_length="40" name="u_warranty_end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Warranty expiration" max_length="40" name="u_warranty_expiration" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>This inbound email action is for Skanska UK Scoped App&#13;
+This email will be coming from BuildRequest@storm-technologies.com to indicate the progress of New Order Request.&#13;
+The Status will be mentioned in email subject, following which will be the SCTASK reference. The Vendor Status field on that SCTASK will get updated with relevant status as per subject.  </description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKE? [Hardware]^ORsubjectLIKE? New Hardware^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="? [Hardware]"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="true" value="? New Hardware"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>FF RQ STRY0013713 Storm Order Updates</name>
+        <order>20</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+	
+	// Implement email action here
+	gs.include('validators');
+	//logger.log("Riz " + email.body_text.UpdateType);
+	//if (current.getTableName() == "sc_task") {
+		//This gets you the SCTASK number similar code can be used to get the ref number in your case.
+		
+		var updateType;
+		var index = email.subject.indexOf("SCTASK");
+		var taskNumber = email.subject.substring(index,index+13);
+		var reqIndex = email.subject.indexOf("REQ");
+		var reqNumber = email.subject.substring(reqIndex,reqIndex+10);
+		var serialNoIndex;
+		var serialNo;
+		var assetNoIndex;
+		var assetNo;
+		var grCI;
+		var grEOL;
+		var orderStormRef;
+		var stormRefIndex;
+		var emailBody;
+		var serialIssueFlag = "No";
+		var orderFlag = "No";
+		
+		var stormAudit = new GlideRecord('x_sksw_uk_itsm_eol_pc_refresh');
+		stormAudit.addNullQuery('u_invitation_email_sent_date');
+		stormAudit.addNullQuery('u_reminder_emails_sent_dates');
+		stormAudit.addQuery('u_ctask1',taskNumber);
+		stormAudit.query();
+		if(stormAudit.next())
+			{
+			orderFlag = "Yes";
+		}
+		
+		
+		
+		emailBody  = "reply from: " + email.origemail + "\n\n" + email.body_text;
+		
+		stormRefIndex = email.body_text.indexOf("[StormRef]");
+		orderStormRef = email.body_text.substring(stormRefIndex+10,stormRefIndex+19);
+		orderStormRef= orderStormRef.toString().trim();
+		logger.log("Riz orderStormRef " + orderStormRef);
+		
+		var emailFromStorm;
+		var emailStormStatus;
+		var today =  new GlideDateTime();
+		var newDevice;
+		logger.log("Riz " + taskNumber);
+		
+		
+		if(email.subject.indexOf("Acknowledged") >= 0)
+			{
+			updateType = "Acknowledged";
+		}
+		else if(email.subject.indexOf("Cancelled") >= 0)
+			{
+			updateType = "Cancelled";
+		}
+		else if(email.subject.indexOf("Completed") >= 0)
+			{
+			updateType = "Completed";
+			serialNoIndex = email.body_text.indexOf("[SerialNo]");
+			serialNo = email.body_text.substring(serialNoIndex+10,serialNoIndex+23);
+			serialNo= serialNo.toString();
+			serialNo = serialNo.trim();
+			logger.log("Riz Serial No " + serialNo);
+			
+			assetNoIndex = email.body_text.indexOf("[AssetNo]");
+			assetNo = email.body_text.substring(assetNoIndex+9,assetNoIndex+17);
+			assetNo= assetNo.toString();
+			assetNo = assetNo.trim();
+			logger.log("Riz Asset No " + assetNo);
+			
+			grCI = new GlideRecord('cmdb_ci_computer');
+			grCI.addQuery('serial_number',serialNo);
+			grCI.query();
+			logger.log("Riz grCI Count " + grCI.getRowCount());
+			if(grCI.next())
+				{
+				serialIssueFlag = "No";
+				newDevice = grCI.getValue('sys_id');
+				grCI.setValue('asset_tag',assetNo);
+				grCI.update();
+			}
+			else
+				{
+				if(orderFlag == "No")
+					{
+					serialIssueFlag = "Yes";
+				}
+			}
+		}
+		else if(email.subject.indexOf("Dispatched") >= 0)
+			{
+			updateType = "Dispatched";
+			serialNoIndex = email.body_text.indexOf("[SerialNo]");
+			serialNo = email.body_text.substring(serialNoIndex+10,serialNoIndex+23);
+			serialNo= serialNo.toString();
+			serialNo = serialNo.trim();
+			logger.log("Riz Serial No " + serialNo);
+			
+			assetNoIndex = email.body_text.indexOf("[AssetNo]");
+			assetNo = email.body_text.substring(assetNoIndex+9,assetNoIndex+17);
+			assetNo= assetNo.toString();
+			assetNo = assetNo.trim();
+			logger.log("Riz Asset No " + assetNo);
+			
+			grCI = new GlideRecord('cmdb_ci_computer');
+			grCI.addQuery('serial_number',serialNo);
+			grCI.query();
+			logger.log("Riz grCI Count " + grCI.getRowCount());
+			if(grCI.next())
+				{
+				serialIssueFlag = "No";
+				newDevice = grCI.getValue('sys_id');
+				grCI.setValue('asset_tag',assetNo);
+				grCI.update();
+			}
+			else
+				{
+				if(orderFlag == "No")
+					{
+					serialIssueFlag = "Yes";
+				}
+			}
+		}
+		else if(email.subject.indexOf("HeldRequest") >= 0)  //  ONLY for return request
+			{
+			updateType = "HeldRequest";
+		}
+		else if(email.subject.indexOf("Held") >= 0)   // received information is correct. Issue with collections.  ONLY for return request
+			{
+			updateType = "Held";
+		}
+		else if(email.subject.indexOf("InPool") >= 0)
+			{
+			updateType = "InPool";
+		}
+		else if(email.subject.indexOf("InProgress") >= 0)
+			{
+			updateType = "InProgress";
+		}
+		else if(email.subject.indexOf("InTransit") >= 0)
+			{
+			updateType = "InTransit";
+		}
+		else if(email.subject.indexOf("OnHold") >= 0)   // request was  not accepted. ONLY for return request
+			{
+			updateType = "OnHold";
+		}
+		else if(email.subject.indexOf("Returned") >= 0)
+			{
+			updateType = "Returned";
+		}
+		else if(email.subject.indexOf("Error") >= 0)
+			{
+			updateType = "Cancelled";
+		}
+		
+		
+		
+		
+		if(!updateType)
+			{
+			if(email.body_text.indexOf("Acknowledged") >= 0)
+				{
+				updateType = "Acknowledged";
+			}
+			else if(email.body_text.indexOf("Cancelled") >= 0)
+				{
+				updateType = "Cancelled";
+			}
+			else if(email.body_text.indexOf("Completed") >= 0)
+				{
+				updateType = "Completed";
+				serialNoIndex = email.body_text.indexOf("[SerialNo]");
+				serialNo = email.body_text.substring(serialNoIndex+10,serialNoIndex+23);
+				serialNo= serialNo.toString();
+				serialNo = serialNo.trim();
+				logger.log("Riz Serial No " + serialNo);
+				
+				assetNoIndex = email.body_text.indexOf("[AssetNo]");
+				assetNo = email.body_text.substring(assetNoIndex+9,assetNoIndex+17);
+				assetNo= assetNo.toString();
+				assetNo = assetNo.trim();
+				logger.log("Riz Asset No " + assetNo);
+				
+				grCI = new GlideRecord('cmdb_ci_computer');
+				grCI.addQuery('serial_number',serialNo);
+				grCI.query();
+				logger.log("Riz grCI Count " + grCI.getRowCount());
+				if(grCI.next())
+					{
+					serialIssueFlag = "No";
+					newDevice = grCI.getValue('sys_id');
+					grCI.setValue('asset_tag',assetNo);
+					grCI.update();
+				}
+				else
+					{
+					if(orderFlag == "No")
+						{
+						serialIssueFlag = "Yes";
+					}
+				}
+			}
+			else if(email.body_text.indexOf("Dispatched") >= 0)
+				{
+				updateType = "Dispatched";
+				serialNoIndex = email.body_text.indexOf("[SerialNo]");
+				serialNo = email.body_text.substring(serialNoIndex+10,serialNoIndex+23);
+				serialNo= serialNo.toString();
+				serialNo = serialNo.trim();
+				logger.log("Riz Serial No " + serialNo);
+				
+				assetNoIndex = email.body_text.indexOf("[AssetNo]");
+				assetNo = email.body_text.substring(assetNoIndex+9,assetNoIndex+17);
+				assetNo= assetNo.toString();
+				assetNo = assetNo.trim();
+				logger.log("Riz Asset No " + assetNo);
+				
+				grCI = new GlideRecord('cmdb_ci_computer');
+				grCI.addQuery('serial_number',serialNo);
+				grCI.query();
+				logger.log("Riz grCI Count " + grCI.getRowCount());
+				if(grCI.next())
+					{
+					serialIssueFlag = "No";
+					newDevice = grCI.getValue('sys_id');
+					grCI.setValue('asset_tag',assetNo);
+					grCI.update();
+				}
+				else
+					{
+					if(orderFlag == "No")
+						{
+						serialIssueFlag = "Yes";
+					}
+				}
+			}
+			else if(email.body_text.indexOf("HeldRequest") >= 0)  //  ONLY for return request
+				{
+				updateType = "HeldRequest";
+			}
+			else if(email.body_text.indexOf("Held") >= 0)  // received information is correct. Issue with collections.  ONLY for return request
+				{
+				updateType = "Held";
+			}
+			else if(email.body_text.indexOf("InPool") >= 0)
+				{
+				updateType = "InPool";
+			}
+			else if(email.body_text.indexOf("InProgress") >= 0)
+				{
+				updateType = "InProgress";
+			}
+			else if(email.body_text.indexOf("InTransit") >= 0)
+				{
+				updateType = "InTransit";
+			}
+			else if(email.body_text.indexOf("OnHold") >= 0)   // request was  not accepted. ONLY for return request
+				{
+				updateType = "OnHold";
+			}
+			else if(email.body_text.indexOf("Returned") >= 0)
+				{
+				updateType = "Returned";
+			}
+			else if(email.body_text.indexOf("Error") >= 0)
+				{
+				updateType = "Cancelled";
+			}
+		}
+		
+		
+		
+		
+		
+		
+		grEOL = new GlideRecord('x_sksw_uk_itsm_eol_pc_refresh');
+		grEOL.addQuery('u_ctask1.number',taskNumber);
+		grEOL.query();
+		logger.log('Riz EOL Count ' + grEOL.getRowCount());
+		if(grEOL.next())
+			{
+			if(grEOL.getValue('u_ctask1_emails_received_from_storm'))
+				{
+				emailFromStorm = grEOL.getValue('u_ctask1_emails_received_from_storm');
+				emailFromStorm = emailFromStorm + '\n' + email.subject + " - " + today;
+				grEOL.setValue('u_ctask1_emails_received_from_storm',emailFromStorm);
+			}
+			else
+				{
+				emailFromStorm =  email.subject + " - " + today;
+				grEOL.setValue('u_ctask1_emails_received_from_storm',emailFromStorm);
+			}
+			if(grEOL.getValue('u_ctask1_storm_status_received'))
+				{
+				emailStormStatus= grEOL.getValue('u_ctask1_storm_status_received');
+				emailStormStatus = emailStormStatus + '\n' + updateType + " - " + today;
+				grEOL.setValue('u_ctask1_storm_status_received',emailStormStatus);
+			}
+			else
+				{
+				emailStormStatus =  updateType + " on " + today;
+				grEOL.setValue('u_ctask1_storm_status_received',emailStormStatus);
+			}
+			
+			logger.log("Riz newDevice " + newDevice);
+			logger.log("Riz emailFromStorm  " + emailFromStorm);
+			logger.log("Riz emailStormStatus " + emailStormStatus);
+			if(newDevice)
+				{
+				grEOL.setValue('u_new_device',newDevice);
+			}
+			if(orderStormRef)
+				{
+				grEOL.setValue('order_storm_ref',orderStormRef);
+			}
+			if(serialIssueFlag == 'No')
+				{
+				grEOL.setValue('u_serial_issue',false);
+				grEOL.setValue('u_serial_issue_email','');
+				grEOL.setValue('u_serial_issue_number','');
+			}
+			else if(serialIssueFlag == 'Yes')
+				{
+				grEOL.setValue('u_serial_issue',true);
+				grEOL.setValue('u_serial_issue_email',emailBody);
+				grEOL.setValue('u_serial_issue_callref',taskNumber);
+				grEOL.setValue('u_serial_issue_number',serialNo);
+				
+			}
+			
+			
+			grEOL.update();
+		}
+		
+		
+		
+		
+		
+			logger.log("Riz updateType " + updateType);
+			var gr = new GlideRecord('sc_task');
+			gr.addQuery('number',taskNumber);
+			gr.query();
+			logger.log("Riz gr Count " + gr.getRowCount());
+			if(gr.next())
+				{
+				if(serialIssueFlag == "No")
+					{
+					gr.setValue('x_sksw_uk_itsm_u_vendor_status', updateType);
+					if(newDevice)
+						{
+						logger.log("Riz newDevice " + newDevice);
+						gr.setValue('cmdb_ci',newDevice);
+						gr.setValue('x_sksw_uk_itsm_cmdb_ci',newDevice);
+						
+					}
+					//gr.setValue('comments', emailBody);
+				}
+				gr.comments = emailBody;
+				gr.update();
+			}
+			
+		
+		
+		
+		
+		//}
+		
+	})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-02 12:42:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1da07b581b6588504252c8017e4bcb9a</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>FF RQ STRY0013713 Storm Order Updates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysevent_in_email_action_1da07b581b6588504252c8017e4bcb9a</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 09:44:36</sys_updated_on>
+        <table>sc_task</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

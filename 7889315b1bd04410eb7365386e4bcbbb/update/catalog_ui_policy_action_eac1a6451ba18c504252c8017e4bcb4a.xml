@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Site Decommission">e78716cd1b218c504252c8017e4bcb76</catalog_item>
+        <catalog_variable>IO:5bfc5a891b618c504252c8017e4bcb4a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-04 14:53:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eac1a6451ba18c504252c8017e4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>site_contact</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_eac1a6451ba18c504252c8017e4bcb4a</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-04 14:53:26</sys_updated_on>
+        <table/>
+        <ui_policy display_value="FF_EP_STRY0013638">bb71aec11ba18c504252c8017e4bcb74</ui_policy>
+        <variable>site_contact</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

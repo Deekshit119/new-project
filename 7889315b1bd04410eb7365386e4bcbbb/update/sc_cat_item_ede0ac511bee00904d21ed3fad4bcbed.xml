@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Model : HP Elite Slice 1.0</strong></p>
+<p><strong>ID :  31551177 <br /></strong></p>
+<p><strong>Processor : Intel i7-6700 processor</strong></p>
+<p><strong>Memory : 8GB RAM</strong></p>
+<p><strong>HDD Size : 512GB</strong></p>
+<p><strong>OS : Microsoft Windows 10 Enterprise</strong></p>
+<p><strong>Notes:</strong></p>
+<p><strong>Includes Keyboard &amp; Mouse</strong></p>
+<p><strong>Wireless Enabled</strong></p>
+<p><strong>£767.21</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>HP Elite Slice 1.0</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>795164911bee00904d21ed3fad4bcb7a</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=ede0ac511bee00904d21ed3fad4bcbed&amp;sysparm_preview=true", "summary");</preview>
+        <price>1041.05</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>HP Elite Slice 1.0</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 17:11:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ede0ac511bee00904d21ed3fad4bcbed</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>HP Elite Slice 1.0</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_ede0ac511bee00904d21ed3fad4bcbed</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-24 10:51:09</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>31551177</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="HP">c1158c021b34cc50445f3150cd4bcb74</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=ede0ac511bee00904d21ed3fad4bcbed"/>
+    <fx_price action="delete_multiple" query="id=ede0ac511bee00904d21ed3fad4bcbed"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>767.21</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>ede0ac511bee00904d21ed3fad4bcbed</id>
+        <parent/>
+        <reference_amount>1006.9972</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 17:11:34</sys_created_on>
+        <sys_id>e9e020911bee00904d21ed3fad4bcbc9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-24 10:51:10</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>ede0ac511bee00904d21ed3fad4bcbed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 17:11:34</sys_created_on>
+        <sys_id>25e020911bee00904d21ed3fad4bcbca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 17:11:35</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#80000</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>2909</size_bytes>
+        <size_compressed>2631</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 17:13:29</sys_created_on>
+        <sys_id>795164911bee00904d21ed3fad4bcb7a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 17:13:31</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>ede0ac511bee00904d21ed3fad4bcbed</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="795164911bee00904d21ed3fad4bcb7a">795164911bee00904d21ed3fad4bcb7a</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 17:13:29</sys_created_on>
+        <sys_id>b95164911bee00904d21ed3fad4bcb7a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3496</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="795164911bee00904d21ed3fad4bcb7a">795164911bee00904d21ed3fad4bcb7a</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 17:13:29</sys_created_on>
+        <sys_id>3d5164911bee00904d21ed3fad4bcb7a</sys_id>
+    </sys_attachment_doc>
+</record_update>

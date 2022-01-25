@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="cmdb_ci_netgear" label="IP Router" max_length="40" name="cmdb_ci_ip_router" sizeclass="0" text_index="true" type="collection">
+        <element label="Available Ports" max_length="100" name="x_sksw_uk_itsm_available_ports" type="string"/>
+        <element label="In Use Ports" max_length="100" name="x_sksw_uk_itsm_in_use_ports" type="string"/>
+    </element>
+</database>

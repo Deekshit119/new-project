@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Detail" section_id="454b09241bb984104252c8017e4bcb63" sys_domain="global" table="pm_project_task" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>test_plan</element>
+            <position>0</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>c2ad493c1bf9c4104252c8017e4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>milestone</element>
+            <position>1</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>4ead493c1bf9c4104252c8017e4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>key_milestone</element>
+            <position>2</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>c2ad493c1bf9c4104252c8017e4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link</element>
+            <position>3</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>4aad493c1bf9c4104252c8017e4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>allow_dates_outside_schedule</element>
+            <position>4</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>cead493c1bf9c4104252c8017e4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>46ad493c1bf9c4104252c8017e4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_assignment_group</element>
+            <position>6</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>caad493c1bf9c4104252c8017e4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_uk_assigned_to</element>
+            <position>7</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>42ad493c1bf9c4104252c8017e4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_assignee_list</element>
+            <position>8</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>c6ad493c1bf9c4104252c8017e4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phase_type</element>
+            <position>9</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>06ad493c1bf9c4104252c8017e4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skills</element>
+            <position>10</position>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-16 00:23:04</sys_created_on>
+            <sys_id>8aad493c1bf9c4104252c8017e4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Detail" display_value="Detail" name="pm_project_task" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">454b09241bb984104252c8017e4bcb63</sys_ui_section>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-16 00:23:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Detail</caption>
+            <header>false</header>
+            <name>pm_project_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-12-15 05:34:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>454b09241bb984104252c8017e4bcb63</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>pm_project_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_454b09241bb984104252c8017e4bcb63</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-12-15 15:54:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

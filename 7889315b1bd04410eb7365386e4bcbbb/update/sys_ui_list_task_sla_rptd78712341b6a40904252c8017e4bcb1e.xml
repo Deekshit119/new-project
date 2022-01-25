@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="task_sla" version="2" view="RPTd78712341b6a40904252c8017e4bcb1e">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>task</element>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="b3af0bb81b2280904252c8017e4bcb36">48bf4bb81b2280904252c8017e4bcbde</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>bc970139</sys_created_by>
+            <sys_created_on>2020-01-22 16:38:17</sys_created_on>
+            <sys_id>00bf4bb81b2280904252c8017e4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bc970139</sys_updated_by>
+            <sys_updated_on>2020-01-22 16:38:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>task.short_description</element>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="b3af0bb81b2280904252c8017e4bcb36">48bf4bb81b2280904252c8017e4bcbde</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>bc970139</sys_created_by>
+            <sys_created_on>2020-01-22 16:38:17</sys_created_on>
+            <sys_id>80bf4bb81b2280904252c8017e4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bc970139</sys_updated_by>
+            <sys_updated_on>2020-01-22 16:38:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>task.state</element>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="b3af0bb81b2280904252c8017e4bcb36">48bf4bb81b2280904252c8017e4bcbde</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>bc970139</sys_created_by>
+            <sys_created_on>2020-01-22 16:38:17</sys_created_on>
+            <sys_id>04bf4bb81b2280904252c8017e4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bc970139</sys_updated_by>
+            <sys_updated_on>2020-01-22 16:38:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>planned_end_time</element>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="b3af0bb81b2280904252c8017e4bcb36">48bf4bb81b2280904252c8017e4bcbde</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>bc970139</sys_created_by>
+            <sys_created_on>2020-01-22 16:38:17</sys_created_on>
+            <sys_id>84bf4bb81b2280904252c8017e4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bc970139</sys_updated_by>
+            <sys_updated_on>2020-01-22 16:38:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>task_sla</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>bc970139</sys_created_by>
+            <sys_created_on>2020-01-22 16:38:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48bf4bb81b2280904252c8017e4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>task_sla</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_list_task_sla_RPTd78712341b6a40904252c8017e4bcb1e</sys_update_name>
+            <sys_updated_by>bc970139</sys_updated_by>
+            <sys_updated_on>2020-01-22 16:38:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptd78712341b6a40904252c8017e4bcb1e" name="RPTd78712341b6a40904252c8017e4bcb1e">b3af0bb81b2280904252c8017e4bcb36</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

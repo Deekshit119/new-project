@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Import Communication Device Skanska UK">cd14c1571bb04010445f3150cd4bcbd5</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	var cmdb = new GlideRecord('cmdb_ci');
+	cmdb.addEncodedQuery('serial_number='+source.u_serial+'^x_sksw_uk_itsm_scope=UK ITSM');
+	cmdb.query();
+	if(cmdb.getRowCount()>0){
+		if (action == "insert") {
+			ignore = true;
+		}
+	}else{
+		
+		var comm = new GlideRecord('cmdb_ci_comm');
+		comm.addQuery('sys_id',target.ci);
+		comm.query();
+		if(comm.next()){
+			comm.name = source.u_hostname;
+			comm.x_sksw_uk_itsm_vsdm_last_import_date = source.u_vsdm_last_import_date;
+			comm.x_sksw_uk_itsm_operating_system = source.u_operating_system;
+			comm.x_sksw_uk_itsm_scope = "Skanska UK";
+			comm.operational_status = source.u_operational_status;			
+			comm.update();
+		}}
+		
+		
+	})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-04 11:19:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>031fc3571bf84010445f3150cd4bcbbd</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_transform_script_031fc3571bf84010445f3150cd4bcbbd</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-11-11 11:22:10</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="global_search_config_handler=CompanySearchConfig,text_index_translations=true" create_roles="user_admin" label="Company" max_length="40" name="core_company" sizeclass="32789" text_index="true" type="collection">
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+    </element>
+</database>

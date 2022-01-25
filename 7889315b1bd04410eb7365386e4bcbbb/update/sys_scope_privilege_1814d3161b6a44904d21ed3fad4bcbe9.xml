@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>tomasz.biolik</sys_created_by>
+        <sys_created_on>2020-01-27 08:48:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1814d3161b6a44904d21ed3fad4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sksw_no_map_supp_case</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_scope_privilege_1814d3161b6a44904d21ed3fad4bcbe9</sys_update_name>
+        <sys_updated_by>tomasz.biolik</sys_updated_by>
+        <sys_updated_on>2020-01-27 08:48:17</sys_updated_on>
+        <target_name>x_sksw_no_map_supp_case</target_name>
+        <target_scope display_value="NO MAP Support">7ae1a930dbd5abc0efc1fd871d96199e</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

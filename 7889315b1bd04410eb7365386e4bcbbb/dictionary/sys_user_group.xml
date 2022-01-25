@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true,ih_process_sync_enabled=true,iterativeDelete=true,text_index_translations=true" defaultsort="-1" label="Ryhmä" max_length="40" name="sys_user_group" sizeclass="835" text_index="true" type="collection">
+        <element label="Operating Unit" max_length="32" name="x_sksw_uk_itsm_operating_unit" reference="x_sksw_uk_itsm_icon_authorization" type="reference"/>
+        <element choice="1" label="Scope" max_length="40" name="x_sksw_uk_itsm_scope" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Skanska UK" sequence="1" value="Skanska UK"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="x_sksw_uk_itsm_operating_unit"/>
+        </index>
+    </element>
+</database>

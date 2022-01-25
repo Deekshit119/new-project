@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="alm_asset" version="2" view="RPT809f507f1b260c904d21ed3fad4bcba8">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset_tag</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>809f507f1b260c904d21ed3fad4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>serial_number</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>049f507f1b260c904d21ed3fad4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>managed_by</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>849f507f1b260c904d21ed3fad4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>089f507f1b260c904d21ed3fad4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>invoice_number</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>889f507f1b260c904d21ed3fad4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>warranty_expiration</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>0c9f507f1b260c904d21ed3fad4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cost_center</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>8c9f507f1b260c904d21ed3fad4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vendor</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>009f507f1b260c904d21ed3fad4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>model</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>809f507f1b260c904d21ed3fad4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>model_category</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>049f507f1b260c904d21ed3fad4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>department</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>849f507f1b260c904d21ed3fad4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>089f507f1b260c904d21ed3fad4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="alm_asset" element="NULL" name="alm_asset" parent="NULL" relationship="NULL" sys_domain="global" view="cc9f507f1b260c904d21ed3fad4bcbb1">c89f507f1b260c904d21ed3fad4bcbb2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_id>889f507f1b260c904d21ed3fad4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>alm_asset</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-31 11:30:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c89f507f1b260c904d21ed3fad4bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alm_asset</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_list_alm_asset_RPT809f507f1b260c904d21ed3fad4bcba8</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-31 11:30:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt809f507f1b260c904d21ed3fad4bcba8" name="RPT809f507f1b260c904d21ed3fad4bcba8">cc9f507f1b260c904d21ed3fad4bcbb1</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

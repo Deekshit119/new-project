@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Lync Accessories">7ee87cbd1be540904252c8017e4bcb63</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Plantronics Headset Bundle for hard of hearing - EncorePro 520V&#43; USB Adapter</strong></p>
+<p><strong>ID : 89436-02 &#43; 201853-02</strong></p>
+<p><strong>£122.66</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Plantronics Headset Bundle for hard of hearing - EncorePro 520V+ USB Adapter</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>8b3bf4151b6240904d21ed3fad4bcb4d</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=7af930d11b6240904d21ed3fad4bcb68&amp;sysparm_preview=true", "summary");</preview>
+        <price>166.44</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Plantronics Headset Bundle for hard of hearing - EncorePro 520V+ USB Adapter</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:01:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7af930d11b6240904d21ed3fad4bcb68</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Plantronics Headset Bundle for hard of hearing - EncorePro 520V+ USB Adapter</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_7af930d11b6240904d21ed3fad4bcb68</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:06:38</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>89436-02 + 201853-02</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="Plantronics">d2016e181b058410eb7365386e4bcbb0</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7af930d11b6240904d21ed3fad4bcb68"/>
+    <fx_price action="delete_multiple" query="id=7af930d11b6240904d21ed3fad4bcb68"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>122.66</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>7af930d11b6240904d21ed3fad4bcb68</id>
+        <parent/>
+        <reference_amount>160.9967</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:01:09</sys_created_on>
+        <sys_id>72f930d11b6240904d21ed3fad4bcb6c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:06:38</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>7af930d11b6240904d21ed3fad4bcb68</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:01:09</sys_created_on>
+        <sys_id>bef930d11b6240904d21ed3fad4bcb6c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:01:11</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2694</size_bytes>
+        <size_compressed>2389</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:06:38</sys_created_on>
+        <sys_id>8b3bf4151b6240904d21ed3fad4bcb4d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:06:39</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>7af930d11b6240904d21ed3fad4bcb68</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="8b3bf4151b6240904d21ed3fad4bcb4d">8b3bf4151b6240904d21ed3fad4bcb4d</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:06:38</sys_created_on>
+        <sys_id>cb3bf4151b6240904d21ed3fad4bcb4d</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>rVR5UNPnFv0liCwVNbFhCdAIiix5SZQtbCVqHyhQtoRNKFBMKUsMSMQISKDPorwqizWJUWQpYIIGQiQYwq5gBZGKlZ0gICAgoSAEIgSBNPbNmzdvav/ruTN3vnvvzLnnnj8+xaDiFbDb3dXNFQCBAACkDEAxDGQAGtvVoGrbYepqUBgMqqOjraunq62tC9ODw/bq6BoaGCMQenutjQz1TfVhCCNLIxMUEo1G6yKs7KwwdmYoNBKkqamppaWls0sLhkUY6iGRKBTKUpmskNZIJBKLUiaUJRar7KKwBz9UytmHjP3jqSwUDwGIOjAOjKuAjAEwBKQCASl+BgyUAsEqoA9a/wtVtW3b1VXAH6aHdwNgkAoYrKaqqrpd7Y8pCKyyDaK6HWqktufQEd+IhE+NLf/1I+wovrhl30nKBcEX11pfdC/t9ysprap+pGTQBv0f938YlH19iLKtooz/AQICG0GNDynEwA4VpSiICgTAAY2Hgb8D6jyPhJAYkXtX05f9JAvGnru+/M90p9jTi9mk9IWUFf7sPJmXeT68hsa96CzHjbaSk0wmM2beVQ6V1lQ4XDnVdbuuj4dLYZ9YfYpPHXNeeOVEinsS0jMXx6sc3yl3z8GHYS6KLhw73j8v43pxWMGwQ2L6DMJPzr+5N/r88DeOP2zWCRG+6d6o0+e5ZeevhN5MSy1Kv6y1CD93TF/sKGjzi5vsG/VdJRF+m8lP2C9nMy8V2TWHaS3s/fg1O0K93jlQixyfjly9kvQ2vg5ju9j8ra//SnmlX5YkxKfQvDtLR5OcEJA6QFz4JWHmqkmKdbcJXjpJkTjLUqoZnzacZjRtJKFtHs166ss1BDwTovBNSEAcPgtKXiaviiTSrW8GAcBA3p1zM4T8VlThszUkuz8tYEHHJ664TdLd5JyimDOnnrUYdvxEeFC2RNwTKiHRN15kdnuNhWTG9pbqTvNw4u6lycupD/JQ7dOBtF2xY1ESyVPvd/79xI2YtHKEq6r446ed6bp7d/NB7Sw+066vlhm4oSFCLJasDaBpuS78s2vmfqxura1Mu8RIBGmU4dewT2fT53DiM6EzZ9SalYhf3/erkkIVxg2ifV9LIpR13qn13zflTvb4pONoae6TJvdcttj5Wa2RPzVQlI9YOho+RZCC+6r487anK5tXCPLVrai68pX49HeXetj40LsR6+NYeQ35ozqPxLdn56YObPDat+4yMP9cHB/pXR5lyX5+Yzh8TGzLG1Fd5c1hePbGV4cHBWOJ5bQh0+fX3nLe14F+/emDRFIPTft+eciTzeFMnQ0rNq7fTJC9h8NNHrRBpmneN1EAKRAFoKsbqvFSlvfpG1z9mOz5SrRAM/0nUqHA5uui0SIFgF0XvPqYMpUJoU0wnU2o4hSVBtlLJLcEDcJy50Ghxpnnzmo6CsDfqkRTh9ZDzcseKfW25sp+TUrfcZtLVQCO4T4YD/fRFyTNzreuluu3FQBhsI/KeV0T8m0GP86cwALnmOIPpdahPddMZLYhpBuhPXOoKL32Nkt8uJ/ane3OxYkVpyxCe9ciNDzXXbDroOJEevcpqjC+2rq2jde/h6WdZG469DiHQv9qjfBVnWgoLz54LCWn4ShVzEtzsGqH2ai7GuSRqqLobsvx9zIaGwvZ5x3fD+QxTcw7tpaT09FJYcfXs/kGdv/mrRZvPo4vjr0WGOebIaeW6bpNjpIMgqayZj55+OZ4h5eFT7J3HunhZB6F2rc2EOuAKN6kSYKRPeWNT3PswrNNh1ZSm+Bm9wDQn90D542I/IRbV5GzVAhjqtcC73abHeDkOYkyvWiiU7gm1zE8IUt8+f70LXusW3/5rMNrGy4pp4R1Ai0zRVOe47Q9KyYmwu6tevI8nSVZ8ScZBepOZY9vLLn9Q/p6YCd8ZjCSXNAR7lIfCCe7HVkdl5JaKtsab85wJbBz2hxu6O3rUS0wA7M2AuNeg3iCPg9ve1l486RQM3xnIHTxebKNtHAsMCZpVutiY0T9/Y0Os4FLdhMN8A1fqXQh/cD0OcPypuFVbcaW+YtymORVtz3/6wW96Po+xyfYjM2pyV2NzaTl4xI7Ny/N08mekSnwyLYxGDpsm7DJBT/ihfvtVIHFvN78s7RA6mJaZ7CXTwwla8z+yFrEFB/jGj03Mn1hEhPCYfvfD2kC95xp4oXUW5c0U1iYN5GOXfhWh8CSAhHqQU1PY65WLM/Ll1aV8/ngA2vB2Pd0lURg25+NTgp3xQvyoze8oO2Vn+GsGFDeMcti9d4LU62lb10w6GXeZVEa2Tx4lMbjHJm0j0OiP9+ShlYt0ka+w/ee1Qy0IcLTXi8zC908NoqIMmlQVz8WIYzZ2Ue1+YVZSiQm3GkoiKsutZ1B1+gWYA/IE74QRuDq3wuIc7fisn9he3jy3XmP8iM1jlb4IfEJq9cIqaGxLEq8PUn4DTOYk3uAy/9xQGyc8CKaW9Dk77S+uK/AATfkLyT36CPrKRnmE2dr6TlGhW5RzUGt8mp2d2urhZPNJ/BgZn7F23E443WVWUekdaBD5tHrWNh6p0PfLKblRhey57JTeECnHYhNDsuqoE61NlxmxnZMeVV7X9z6De/r/VxLfuvOx39FIGbEaD4PnpMbsInPve+KgwfRc4neCOij+KIIPjnssnUnzzh783g/y9DO3Yfpfe6HxwmYs6ZZM9c9LBcu1AsLmrw6XB6v2+T2Xhpcod2KaxN7ijSZr5anwkrWibrSh3pFXwfznG13F6t6QcYveBggOypJop9byzihs1c9vqzkHkmPCrWnLBLCpLJU14dAhmggH4mk4S+6W9Hm3jGGpYxkBZBsfJIZ1J8JMz/QWOg91OKXu6Ob1LJ8kBTjS5kzw2okcRTA2DL4MCR9yXbjugXmWvpX/A2rcQmT3l7diXu2lQ9Cq+s/iGuuYSLD4NAYNrb1ZZi907cn2i9BCorFAYKePkN3USgBVbdYW4Ht2D+c2jgI/ZhR25yHg8rCH4lJxPcvFYDTNRaM2aQRwF3S5YyVnDhIndfw6SYOpFLO3MWc6CK0d15B7N3/3V94rsRBm13R5b4+VeMZwavcjmmPpwfb9JfjP/tyB801PCYMZcuyc2k7W0Tx2HlQRn9EWuRbe9x4p+1zT+QXHWUwTJ7G06dfFqXemh66+tcr/n6oKYZ+B80irUmGCgAA</data>
+        <length>3172</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="8b3bf4151b6240904d21ed3fad4bcb4d">8b3bf4151b6240904d21ed3fad4bcb4d</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:06:38</sys_created_on>
+        <sys_id>4f3bf4151b6240904d21ed3fad4bcb4d</sys_id>
+    </sys_attachment_doc>
+</record_update>

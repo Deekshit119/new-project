@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_sksw_uk_itsm_skanska_uk_phase" table="pm_project" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <name>pm_project</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:09:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>51d061161b5e00504d21ed3fad4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_uk_itsm_skanska_uk_phase</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_choice_pm_project_x_sksw_uk_itsm_skanska_uk_phase</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-14 14:09:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Cancelled by TEG</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:13:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2c12d961b5e00504d21ed3fad4bcb95</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:52</sys_updated_on>
+            <value>Cancelled by TEG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pipeline</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccd06d561b5e00504d21ed3fad4bcbee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Pipeline</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting PRF Approval</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:09:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbd06d561b5e00504d21ed3fad4bcbf2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Awaiting PRF Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting TEG Approval</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:09:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bee0a1161b5e00504d21ed3fad4bcb44</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Awaiting TEG Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Case Backlog</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:09:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35f0ed561b5e00504d21ed3fad4bcb3d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Business Case Backlog</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Case Development</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:09:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e90161161b5e00504d21ed3fad4bcb25</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Business Case Development</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Case Awaiting PRF Approval</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:10:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a811e1161b5e00504d21ed3fad4bcbb8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Business Case Awaiting PRF Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Case Awaiting TEG Approval</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:10:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b1125961b5e00504d21ed3fad4bcb34</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Business Case Awaiting TEG Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Backlog - Design</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:10:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb21e1961b5e00504d21ed3fad4bcb6d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Backlog - Design</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Backlog - Build</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:10:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6631ad561b5e00504d21ed3fad4bcb5f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Backlog - Build</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Backlog -Test</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:11:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a541a1961b5e00504d21ed3fad4bcb53</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Backlog -Test</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Backlog - Implementation</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b851a5961b5e00504d21ed3fad4bcb86</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Backlog - Implementation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivery - Design</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:11:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c61a1161b5e00504d21ed3fad4bcb2d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Delivery - Design</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivery - Build</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:11:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90716d561b5e00504d21ed3fad4bcba4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Delivery - Build</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivery - Test</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:12:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f7169d21b5e00504d21ed3fad4bcb7a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Delivery - Test</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivery - Implementation</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0491e1161b5e00504d21ed3fad4bcbe9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Delivery - Implementation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Closure</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ca121961b5e00504d21ed3fad4bcb65</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Pending Closure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:12:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8b1e9961b5e00504d21ed3fad4bcb30</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled by PRF</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:13:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37b1e1961b5e00504d21ed3fad4bcb8a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:51</sys_updated_on>
+            <value>Cancelled by PRF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7e1a1d61b5e00504d21ed3fad4bcb3a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-30 11:50:52</sys_updated_on>
+            <value>Cancelled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_skanska_uk_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled by TEG</label>
+            <language>en</language>
+            <name>pm_project</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-14 14:13:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ce1ed961b5e00504d21ed3fad4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-14 14:13:42</sys_updated_on>
+            <value>Cancelled by TEG</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

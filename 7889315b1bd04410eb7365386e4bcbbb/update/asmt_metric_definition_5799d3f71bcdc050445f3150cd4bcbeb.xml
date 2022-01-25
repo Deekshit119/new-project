@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>Low - Business not going to be affected</display>
+        <metric display_value="Cost/Penalty">1f04d3731bcdc050445f3150cd4bcbca</metric>
+        <normalization_input>0</normalization_input>
+        <order>300</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-18 11:29:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5799d3f71bcdc050445f3150cd4bcbeb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Low - Business not going to be affected</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>asmt_metric_definition_5799d3f71bcdc050445f3150cd4bcbeb</sys_update_name>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-03 11:42:23</sys_updated_on>
+        <unselected_image/>
+        <value>25</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=5799d3f71bcdc050445f3150cd4bcbeb"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA New Tab">10242f551b0970109cbfa68ee54bcbac</legacy_page>
+        <name>PA New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>bhanukiran.gokarla@snc</sys_created_by>
+        <sys_created_on>2021-06-29 06:23:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d4242f551b0970109cbfa68ee54bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_grid_canvas_d4242f551b0970109cbfa68ee54bcbc7</sys_update_name>
+        <sys_updated_by>bhanukiran.gokarla@snc</sys_updated_by>
+        <sys_updated_on>2021-06-29 06:23:49</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

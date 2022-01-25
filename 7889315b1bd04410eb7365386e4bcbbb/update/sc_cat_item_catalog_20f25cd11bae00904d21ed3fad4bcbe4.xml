@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="AC Adaptor for the Dell Latitude 7400 2 in 1">e8f25cd11bae00904d21ed3fad4bcbde</sc_cat_item>
+        <sc_catalog display_value="Skanska UK Service Catalog">8db5a4d41b454410445f3150cd4bcba9</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 16:10:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>20f25cd11bae00904d21ed3fad4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skanska UK Service Catalog.Copy of Monitor Dell 24"</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_20f25cd11bae00904d21ed3fad4bcbe4</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 16:10:36</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

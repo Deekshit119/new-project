@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_read_mtom">
+    <kb_uc_cannot_read_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="HR Sverige">0030444d1b28c810445f3150cd4bcb9a</kb_knowledge_base>
+        <sys_class_name>kb_uc_cannot_read_mtom</sys_class_name>
+        <sys_created_by>patrick.bordier</sys_created_by>
+        <sys_created_on>2020-01-14 09:41:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b593acda1b5240504252c8017e4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR.UK users</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>kb_uc_cannot_read_mtom_b593acda1b5240504252c8017e4bcbc2</sys_update_name>
+        <sys_updated_by>patrick.bordier</sys_updated_by>
+        <sys_updated_on>2020-01-14 09:41:33</sys_updated_on>
+        <user_criteria display_value="UK users">f053a8da1b5240504252c8017e4bcb10</user_criteria>
+    </kb_uc_cannot_read_mtom>
+</record_update>

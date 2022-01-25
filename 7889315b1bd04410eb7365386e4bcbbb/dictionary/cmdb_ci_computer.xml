@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="cmdb_ci_hardware" label="Dator" max_length="40" name="cmdb_ci_computer" sizeclass="7309" text_index="true" type="collection">
+        <element label="AD_OU" max_length="255" name="x_sksw_uk_itsm_ad_ou" type="string"/>
+        <element label="Computer Domain" max_length="100" name="x_sksw_uk_itsm_computer_domain" type="string"/>
+        <element label="Contract#" max_length="100" name="x_sksw_uk_itsm_contract" type="string"/>
+        <element choice="1" label="HDD Type" max_length="40" name="x_sksw_uk_itsm_hdd_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HDD" value="HDD"/>
+                <element inactive_on_update="false" label="SAS" value="SAS"/>
+                <element inactive_on_update="false" label="SSD" value="SSD"/>
+            </choice>
+        </element>
+        <element label="Last HW Scan" max_length="40" name="x_sksw_uk_itsm_last_hw_scan" type="glide_date"/>
+        <element label="Last Login" max_length="40" name="x_sksw_uk_itsm_last_login" type="glide_date"/>
+        <element label="Last SW Scan" max_length="40" name="x_sksw_uk_itsm_last_sw_scan" type="glide_date"/>
+        <element label="Monthly Cost" max_length="20" name="x_sksw_uk_itsm_monthly_cost" type="currency"/>
+        <element label="Patching Group" max_length="255" name="x_sksw_uk_itsm_patching_group" type="string"/>
+        <element label="Win NT" max_length="255" name="x_sksw_uk_itsm_win_nt" type="string"/>
+    </element>
+</database>

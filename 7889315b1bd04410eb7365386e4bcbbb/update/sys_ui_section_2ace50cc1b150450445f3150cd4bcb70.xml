@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2ace50cc1b150450445f3150cd4bcb70" sys_domain="global" table="problem" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>bace50cc1b150450445f3150cd4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>1</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>76ce50cc1b150450445f3150cd4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>2</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>face50cc1b150450445f3150cd4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_offering</element>
+            <position>3</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>3ace50cc1b150450445f3150cd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>bece50cc1b150450445f3150cd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>36ce50cc1b150450445f3150cd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>6</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>bace50cc1b150450445f3150cd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>7</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>32ce50cc1b150450445f3150cd4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>8</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>b6ce50cc1b150450445f3150cd4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <position>9</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>3ece50cc1b150450445f3150cd4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>urgency</element>
+            <position>10</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>b2ce50cc1b150450445f3150cd4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_vendor</element>
+            <position>11</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>3ace50cc1b150450445f3150cd4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_vendor_ref</element>
+            <position>12</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>bece50cc1b150450445f3150cd4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>36ce50cc1b150450445f3150cd4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>14</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>bace50cc1b150450445f3150cd4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>15</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>32ce50cc1b150450445f3150cd4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_around</element>
+            <position>16</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>b6ce50cc1b150450445f3150cd4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attached_knowledge</element>
+            <position>17</position>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_id>3ece50cc1b150450445f3150cd4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Attached Knowledge">cfa76e850a0a0b1f01446f67c8538d00</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="problem" sys_domain="global" view="NULL">2ace50cc1b150450445f3150cd4bcb70</sys_ui_section>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>problem</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-18 16:31:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ace50cc1b150450445f3150cd4bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>problem</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_2ace50cc1b150450445f3150cd4bcb70</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-18 16:31:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view/>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

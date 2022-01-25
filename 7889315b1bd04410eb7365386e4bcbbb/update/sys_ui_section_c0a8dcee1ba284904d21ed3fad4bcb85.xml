@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Information" section_id="c0a8dcee1ba284904d21ed3fad4bcb85" sys_domain="global" table="cmdb_hardware_product_model" version="3" view="skanska_uk">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>power_consumption</element>
+            <position>0</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:47:49</sys_created_on>
+            <sys_id>84a8dcee1ba284904d21ed3fad4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="cmdb_hardware_product_model" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">c0a8dcee1ba284904d21ed3fad4bcb85</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:47:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rack_units</element>
+            <position>1</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:47:49</sys_created_on>
+            <sys_id>0ca8dcee1ba284904d21ed3fad4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="cmdb_hardware_product_model" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">c0a8dcee1ba284904d21ed3fad4bcb85</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:47:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>flow_rate</element>
+            <position>2</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:47:49</sys_created_on>
+            <sys_id>80a8dcee1ba284904d21ed3fad4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="cmdb_hardware_product_model" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">c0a8dcee1ba284904d21ed3fad4bcb85</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:47:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:47:49</sys_created_on>
+            <sys_id>08a8dcee1ba284904d21ed3fad4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="cmdb_hardware_product_model" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">c0a8dcee1ba284904d21ed3fad4bcb85</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:47:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sound_power</element>
+            <position>4</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:47:49</sys_created_on>
+            <sys_id>8ca8dcee1ba284904d21ed3fad4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="cmdb_hardware_product_model" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">c0a8dcee1ba284904d21ed3fad4bcb85</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:47:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weight</element>
+            <position>5</position>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:47:49</sys_created_on>
+            <sys_id>04a8dcee1ba284904d21ed3fad4bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="cmdb_hardware_product_model" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">c0a8dcee1ba284904d21ed3fad4bcb85</sys_ui_section>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:47:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Information</caption>
+            <header>false</header>
+            <name>cmdb_hardware_product_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bc966073</sys_created_by>
+            <sys_created_on>2020-01-27 13:47:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0a8dcee1ba284904d21ed3fad4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_hardware_product_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_section_c0a8dcee1ba284904d21ed3fad4bcb85</sys_update_name>
+            <sys_updated_by>bc966073</sys_updated_by>
+            <sys_updated_on>2020-01-27 13:47:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

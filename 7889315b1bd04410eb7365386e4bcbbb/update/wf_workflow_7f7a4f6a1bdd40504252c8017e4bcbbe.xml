@@ -1,0 +1,3633 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["3c5592d21b9e40504252c8017e4bcbc2"],"stages":{"a85512d21b9e40504252c8017e4bcb15":{"duration":"1 Day","order":100,"stageId":"a85512d21b9e40504252c8017e4bcb15","name":"Waiting for Approval","value":"waiting_for_approval"},"205512d21b9e40504252c8017e4bcb16":{"duration":"1 Day","order":120,"stageId":"205512d21b9e40504252c8017e4bcb16","name":"Fulfillment","value":"fulfillment"},"285512d21b9e40504252c8017e4bcb15":{"duration":"","order":1100,"stageId":"285512d21b9e40504252c8017e4bcb15","name":"Completed","value":"complete"}},"activities":{"785512d21b9e40504252c8017e4bcb1c":"a85512d21b9e40504252c8017e4bcb15","745592d21b9e40504252c8017e4bcbcd":"205512d21b9e40504252c8017e4bcb16","3c5592d21b9e40504252c8017e4bcbc2":"285512d21b9e40504252c8017e4bcb15","e85512d21b9e40504252c8017e4bcb16":"a85512d21b9e40504252c8017e4bcb15","f85592d21b9e40504252c8017e4bcbce":"a85512d21b9e40504252c8017e4bcb15","785592d21b9e40504252c8017e4bcbd1":"285512d21b9e40504252c8017e4bcb15"},"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>785592d21b9e40504252c8017e4bcbd0,385592d21b9e40504252c8017e4bcbca,f45592d21b9e40504252c8017e4bcbc0,385592d21b9e40504252c8017e4bcbc3,b45592d21b9e40504252c8017e4bcbc8,f45592d21b9e40504252c8017e4bcbc7,385592d21b9e40504252c8017e4bcbc4,345592d21b9e40504252c8017e4bcbcc,745592d21b9e40504252c8017e4bcbcd</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>785592d21b9e40504252c8017e4bcbd0,385592d21b9e40504252c8017e4bcbca,f45592d21b9e40504252c8017e4bcbc0,385592d21b9e40504252c8017e4bcbc3,b45592d21b9e40504252c8017e4bcbc8,f85592d21b9e40504252c8017e4bcbce,f45592d21b9e40504252c8017e4bcbc7,b45592d21b9e40504252c8017e4bcbc5,385592d21b9e40504252c8017e4bcbc4,b45592d21b9e40504252c8017e4bcbcb,345592d21b9e40504252c8017e4bcbcc,b85592d21b9e40504252c8017e4bcbc9,745592d21b9e40504252c8017e4bcbcd,785592d21b9e40504252c8017e4bcbd1,3c5592d21b9e40504252c8017e4bcbc2,b85592d21b9e40504252c8017e4bcbc1</full_sequences>
+        <journal/>
+        <max_activity_count>800</max_activity_count>
+        <name>Skanska UK Service Catalog Item Request</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">785592d21b9e40504252c8017e4bcbd0</start>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:27</sys_created_on>
+        <sys_id>205512d21b9e40504252c8017e4bcb14</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>bc974129</sys_updated_by>
+        <sys_updated_on>2020-01-15 11:47:36</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Skanska UK Service Catalog Item Request">7f7a4f6a1bdd40504252c8017e4bcbbe</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Skanska UK Service Catalog Item Request</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-26 23:26:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f7a4f6a1bdd40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skanska UK Service Catalog Item Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>wf_workflow_7f7a4f6a1bdd40504252c8017e4bcbbe</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-11-26 23:26:28</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:27</sys_created_on>
+        <sys_id>285512d21b9e40504252c8017e4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:27</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:27</sys_created_on>
+        <sys_id>a05512d21b9e40504252c8017e4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:27</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:27</sys_created_on>
+        <sys_id>205512d21b9e40504252c8017e4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:27</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:27</sys_created_on>
+        <sys_id>ac5512d21b9e40504252c8017e4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:27</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Received</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:27</sys_created_on>
+        <sys_id>2c5512d21b9e40504252c8017e4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:27</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:27</sys_created_on>
+        <sys_id>a85512d21b9e40504252c8017e4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:27</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Coordinator">283e8bb80a2581021d036a052ffc3433</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>true</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Waiting for Approval">a85512d21b9e40504252c8017e4bcb15</stage>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f85592d21b9e40504252c8017e4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>825</x>
+        <y>33</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=f85592d21b9e40504252c8017e4bcbce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f85592d21b9e40504252c8017e4bcbce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>345592d21b9e40504252c8017e4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>all</value>
+        <variable display_value="Wait for">3ed1be150a258102168813ade4dbe140</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f85592d21b9e40504252c8017e4bcbce</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>705592d21b9e40504252c8017e4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Return '', 'approved' or 'rejected' to indicate the overall approval status of the child approvals for this approval manager.&#13;
+//&#13;
+// When called, the following variable is available to the script:&#13;
+//&#13;
+//        counts.total = total number of child approval activities that are part of this approval&#13;
+//        counts.approved = # of child approval activities that approved so far&#13;
+//        counts.rejected = # of child approval activities that rejected so far&#13;
+//        counts.requested = # of child approval activities that are pending approval&#13;
+//&#13;
+</value>
+        <variable display_value="Approval script">3f2e14bd0a2581024de81c293a49a8d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f85592d21b9e40504252c8017e4bcbce</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f45592d21b9e40504252c8017e4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When a rejection occurs">4fd870a60a6a803f7c2c7bf4728b5997</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f85592d21b9e40504252c8017e4bcbce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>345592d21b9e40504252c8017e4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>all</value>
+        <variable display_value="Wait for">3ed1be150a258102168813ade4dbe140</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f85592d21b9e40504252c8017e4bcbce</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f45592d21b9e40504252c8017e4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When a rejection occurs">4fd870a60a6a803f7c2c7bf4728b5997</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f85592d21b9e40504252c8017e4bcbce</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>705592d21b9e40504252c8017e4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Return '', 'approved' or 'rejected' to indicate the overall approval status of the child approvals for this approval manager.&#13;
+//&#13;
+// When called, the following variable is available to the script:&#13;
+//&#13;
+//        counts.total = total number of child approval activities that are part of this approval&#13;
+//        counts.approved = # of child approval activities that approved so far&#13;
+//        counts.rejected = # of child approval activities that rejected so far&#13;
+//        counts.requested = # of child approval activities that are pending approval&#13;
+//&#13;
+</value>
+        <variable display_value="Approval script">3f2e14bd0a2581024de81c293a49a8d7</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">f85592d21b9e40504252c8017e4bcbce</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">3f30b9260a2581024e5883cce9b951f2</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>10</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>305592d21b9e40504252c8017e4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">f85592d21b9e40504252c8017e4bcbce</activity>
+        <condition>activity.result == 'cancelled'</condition>
+        <condition_default display_value="Cancelled">3f317d3e0a2581026e63f4eb11a80600</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Cancelled</name>
+        <order>30</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>bc5592d21b9e40504252c8017e4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">f85592d21b9e40504252c8017e4bcbce</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">3f3136280a25810247748510aa132ea4</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>20</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b05592d21b9e40504252c8017e4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent display_value="">f85592d21b9e40504252c8017e4bcbce</parent>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Waiting for Approval">a85512d21b9e40504252c8017e4bcb15</stage>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e85512d21b9e40504252c8017e4bcb16</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x/>
+        <y/>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e85512d21b9e40504252c8017e4bcb16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>205512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>245512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>245512d21b9e40504252c8017e4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+&#13;
+answer = [];&#13;
+var userarray = [];&#13;
+var orders = workflow.scratchpad.orders;&#13;
+var catitemappuser = new GlideRecord("x_sksw_uk_itsm_catalog_item_approvals");&#13;
+catitemappuser.addQuery('sc_cat_item',current.cat_item);&#13;
+catitemappuser.addQuery('active',true);&#13;
+catitemappuser.addQuery('order',orders[workflow.scratchpad.order]);&#13;
+catitemappuser.query();&#13;
+while(catitemappuser.next()){&#13;
+	if(catitemappuser.user!=''){&#13;
+	if(catitemappuser.approval_condition!=''){&#13;
+	var match = GlideFilter.checkRecord(current,catitemappuser.approval_condition);&#13;
+	if(match){&#13;
+		&#13;
+	userarray = catitemappuser.user;&#13;
+	var user = userarray.split(',');&#13;
+	for(var i=0;i&lt;user.length;i++){&#13;
+		answer.push(user[i]+'');&#13;
+	}&#13;
+	}&#13;
+	}else{&#13;
+	userarray = catitemappuser.user;&#13;
+	var user = userarray.split(',');&#13;
+	for(var i=0;i&lt;user.length;i++){&#13;
+		answer.push(user[i]+'');&#13;
+	}&#13;
+	}&#13;
+	&#13;
+}&#13;
+}&#13;
+//workflow.info('user answer='+answer);&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="Additional approvers script">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>285512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>2c5512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>605512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>605512d21b9e40504252c8017e4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>645512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>685512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>6c5512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>a05512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>a45512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Approval Journal Column">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>a85512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Document ID">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>a85512d21b9e40504252c8017e4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>ac5512d21b9e40504252c8017e4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="Approval Script">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>ac5512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>all</value>
+        <variable display_value="Wait for">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e05512d21b9e40504252c8017e4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e05512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Users">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e45512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Column">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e45512d21b9e40504252c8017e4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e85512d21b9e40504252c8017e4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e85512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Document Table">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>ec5512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>ec5512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>ac5512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>all</value>
+        <variable display_value="Wait for">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e45512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Column">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>a85512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Document ID">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e85512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Document Table">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e05512d21b9e40504252c8017e4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e45512d21b9e40504252c8017e4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>6c5512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e05512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Users">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>685512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>a45512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Approval Journal Column">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>285512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>605512d21b9e40504252c8017e4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>2c5512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>a05512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>645512d21b9e40504252c8017e4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>605512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>a85512d21b9e40504252c8017e4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>245512d21b9e40504252c8017e4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>205512d21b9e40504252c8017e4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>ac5512d21b9e40504252c8017e4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="Approval Script">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>e85512d21b9e40504252c8017e4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e85512d21b9e40504252c8017e4bcb16</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>245512d21b9e40504252c8017e4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+&#13;
+answer = [];&#13;
+var userarray = [];&#13;
+var orders = workflow.scratchpad.orders;&#13;
+var catitemappuser = new GlideRecord("x_sksw_uk_itsm_catalog_item_approvals");&#13;
+catitemappuser.addQuery('sc_cat_item',current.cat_item);&#13;
+catitemappuser.addQuery('active',true);&#13;
+catitemappuser.addQuery('order',orders[workflow.scratchpad.order]);&#13;
+catitemappuser.query();&#13;
+while(catitemappuser.next()){&#13;
+	if(catitemappuser.user!=''){&#13;
+	if(catitemappuser.approval_condition!=''){&#13;
+	var match = GlideFilter.checkRecord(current,catitemappuser.approval_condition);&#13;
+	if(match){&#13;
+		&#13;
+	userarray = catitemappuser.user;&#13;
+	var user = userarray.split(',');&#13;
+	for(var i=0;i&lt;user.length;i++){&#13;
+		answer.push(user[i]+'');&#13;
+	}&#13;
+	}&#13;
+	}else{&#13;
+	userarray = catitemappuser.user;&#13;
+	var user = userarray.split(',');&#13;
+	for(var i=0;i&lt;user.length;i++){&#13;
+		answer.push(user[i]+'');&#13;
+	}&#13;
+	}&#13;
+	&#13;
+}&#13;
+}&#13;
+//workflow.info('user answer='+answer);&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="Additional approvers script">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>863</x>
+        <y>427</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b45592d21b9e40504252c8017e4bcbcb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbcb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>385592d21b9e40504252c8017e4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="Action">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbcb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>385592d21b9e40504252c8017e4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="Action">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">b45592d21b9e40504252c8017e4bcbcb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>35</x>
+        <y>228</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b45592d21b9e40504252c8017e4bcbc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="Action">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="Action">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">b45592d21b9e40504252c8017e4bcbc8</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f05592d21b9e40504252c8017e4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">205512d21b9e40504252c8017e4bcb16</stage>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>745592d21b9e40504252c8017e4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>614</x>
+        <y>262</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=745592d21b9e40504252c8017e4bcbcd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>745592d21b9e40504252c8017e4bcbcd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>745592d21b9e40504252c8017e4bcbcd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+&#13;
+answer = false;&#13;
+&#13;
+var sctask = new GlideRecord('sc_task');&#13;
+sctask.addEncodedQuery('stateIN-5,1,2^request_item='+current.sys_id.toString());&#13;
+sctask.setLimit(1);&#13;
+sctask.query();&#13;
+if(sctask.hasNext()) answer = false;&#13;
+else answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>745592d21b9e40504252c8017e4bcbcd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>745592d21b9e40504252c8017e4bcbcd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+&#13;
+answer = false;&#13;
+&#13;
+var sctask = new GlideRecord('sc_task');&#13;
+sctask.addEncodedQuery('stateIN-5,1,2^request_item='+current.sys_id.toString());&#13;
+sctask.setLimit(1);&#13;
+sctask.query();&#13;
+if(sctask.hasNext()) answer = false;&#13;
+else answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">745592d21b9e40504252c8017e4bcbcd</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f05592d21b9e40504252c8017e4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - Group">354e911f0a0a029a00e6a0e6ad74206f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent display_value="">f85592d21b9e40504252c8017e4bcbce</parent>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Waiting for Approval">a85512d21b9e40504252c8017e4bcb15</stage>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785512d21b9e40504252c8017e4bcb1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x/>
+        <y/>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=785512d21b9e40504252c8017e4bcb1c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>305592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>345592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">1bd4c8c00a0a0b26635e191420fd194c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>385592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>705592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>745592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">c35dc8950a0a0ba96248a70936f964a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a8a29434c0a80066575097078b386f8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b05512d21b9e40504252c8017e4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b05592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       var answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+&#13;
+&#13;
+var answer = [];&#13;
+var grouparray = [];&#13;
+var orders = workflow.scratchpad.orders;&#13;
+var catitemappgroup = new GlideRecord("x_sksw_uk_itsm_catalog_item_approvals");&#13;
+catitemappgroup.addQuery('sc_cat_item',current.cat_item);&#13;
+catitemappgroup.addQuery('active',true);&#13;
+catitemappgroup.addQuery('order',orders[workflow.scratchpad.order]);&#13;
+catitemappgroup.query();&#13;
+while(catitemappgroup.next()){&#13;
+	if(catitemappgroup.group!=''){&#13;
+	if(catitemappgroup.approval_condition!=''){&#13;
+	var match = GlideFilter.checkRecord(current,catitemappgroup.approval_condition);&#13;
+	if(match){&#13;
+		var grouparray = [];&#13;
+	grouparray = catitemappgroup.group;&#13;
+	var group = grouparray.split(',');&#13;
+	for(var i=0;i&lt;group.length;i++){&#13;
+		answer.push(group[i]+'');&#13;
+	}&#13;
+	}&#13;
+	}else{&#13;
+	&#13;
+ 	grouparray = catitemappgroup.group;&#13;
+ 	var group = grouparray.split(',');&#13;
+ 	for(var i=0;i&lt;group.length;i++){&#13;
+ 		answer.push(group[i]+'');&#13;
+ 	}}&#13;
+ 	}&#13;
+	&#13;
+}&#13;
+workflow.info('group answer='+answer);</value>
+        <variable display_value="Additional groups script">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>bc5592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f05592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>any_each</value>
+        <variable display_value="Wait for">0698d53c0a0a0b2627f7cf654de211b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f45592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f85592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a8a16056c0a800660449c1bbc94d797f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5512d21b9e40504252c8017e4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a8a89323c0a80066046c6c1fd0df6475</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&#13;
+//&#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&#13;
+// returning the overall approval state for all of the group(s).&#13;
+//&#13;
+// When called, the following variables are available to the script:&#13;
+//&#13;
+//    Overall for all of the groups that are part of this approval activity:&#13;
+//        counts.total = total number of groups that are part of this approval&#13;
+//        counts.approved = # of groups that approved so far&#13;
+//        counts.rejected = # of groups that rejected so far&#13;
+//        counts.requested = # of groups that are pending approval&#13;
+//        counts.not_requested = # of groups that are not pending approval&#13;
+//        counts.not_required = # of groups that approval is not required&#13;
+//&#13;
+//    And for each group:&#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&#13;
+//        groups[group_id].approved = # of users that approved so far&#13;
+//        groups[group_id].rejected = # of users that rejected so far&#13;
+//        groups[group_id].requested = # of users that are pending approval&#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&#13;
+//        groups[group_id].not_required = # of users that approval is not required&#13;
+//&#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&#13;
+//&#13;
+//        Note: Iterate the groups using:&#13;
+//            for (var id in groups) {&#13;
+//                 var group = groups[id];&#13;
+//                 ...  group.total ...&#13;
+//            }&#13;
+</value>
+        <variable display_value="Approval script">069e81530a0a0b264289c1e23fe52558</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>345592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">1bd4c8c00a0a0b26635e191420fd194c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f05592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>any_each</value>
+        <variable display_value="Wait for">0698d53c0a0a0b2627f7cf654de211b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5512d21b9e40504252c8017e4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a8a89323c0a80066046c6c1fd0df6475</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a8a29434c0a80066575097078b386f8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>385592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>745592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">c35dc8950a0a0ba96248a70936f964a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>bc5592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>305592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>705592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f45592d21b9e40504252c8017e4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b05592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f85592d21b9e40504252c8017e4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a8a16056c0a800660449c1bbc94d797f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&#13;
+//&#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&#13;
+// returning the overall approval state for all of the group(s).&#13;
+//&#13;
+// When called, the following variables are available to the script:&#13;
+//&#13;
+//    Overall for all of the groups that are part of this approval activity:&#13;
+//        counts.total = total number of groups that are part of this approval&#13;
+//        counts.approved = # of groups that approved so far&#13;
+//        counts.rejected = # of groups that rejected so far&#13;
+//        counts.requested = # of groups that are pending approval&#13;
+//        counts.not_requested = # of groups that are not pending approval&#13;
+//        counts.not_required = # of groups that approval is not required&#13;
+//&#13;
+//    And for each group:&#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&#13;
+//        groups[group_id].approved = # of users that approved so far&#13;
+//        groups[group_id].rejected = # of users that rejected so far&#13;
+//        groups[group_id].requested = # of users that are pending approval&#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&#13;
+//        groups[group_id].not_required = # of users that approval is not required&#13;
+//&#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&#13;
+//&#13;
+//        Note: Iterate the groups using:&#13;
+//            for (var id in groups) {&#13;
+//                 var group = groups[id];&#13;
+//                 ...  group.total ...&#13;
+//            }&#13;
+</value>
+        <variable display_value="Approval script">069e81530a0a0b264289c1e23fe52558</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b05512d21b9e40504252c8017e4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785512d21b9e40504252c8017e4bcb1c</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       var answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+&#13;
+&#13;
+var answer = [];&#13;
+var grouparray = [];&#13;
+var orders = workflow.scratchpad.orders;&#13;
+var catitemappgroup = new GlideRecord("x_sksw_uk_itsm_catalog_item_approvals");&#13;
+catitemappgroup.addQuery('sc_cat_item',current.cat_item);&#13;
+catitemappgroup.addQuery('active',true);&#13;
+catitemappgroup.addQuery('order',orders[workflow.scratchpad.order]);&#13;
+catitemappgroup.query();&#13;
+while(catitemappgroup.next()){&#13;
+	if(catitemappgroup.group!=''){&#13;
+	if(catitemappgroup.approval_condition!=''){&#13;
+	var match = GlideFilter.checkRecord(current,catitemappgroup.approval_condition);&#13;
+	if(match){&#13;
+		var grouparray = [];&#13;
+	grouparray = catitemappgroup.group;&#13;
+	var group = grouparray.split(',');&#13;
+	for(var i=0;i&lt;group.length;i++){&#13;
+		answer.push(group[i]+'');&#13;
+	}&#13;
+	}&#13;
+	}else{&#13;
+	&#13;
+ 	grouparray = catitemappgroup.group;&#13;
+ 	var group = grouparray.split(',');&#13;
+ 	for(var i=0;i&lt;group.length;i++){&#13;
+ 		answer.push(group[i]+'');&#13;
+ 	}}&#13;
+ 	}&#13;
+	&#13;
+}&#13;
+workflow.info('group answer='+answer);</value>
+        <variable display_value="Additional groups script">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+    </sys_variable_value>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Log Message">396807940a0a0b5c00afd9f67d9fd7a2</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Completed">285512d21b9e40504252c8017e4bcb15</stage>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>523</x>
+        <y>397</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=785592d21b9e40504252c8017e4bcbd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785592d21b9e40504252c8017e4bcbd1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>Your request has been completed. Please contact the service desk for any questions.</value>
+        <variable display_value="Message">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>785592d21b9e40504252c8017e4bcbd1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>Your request has been completed. Please contact the service desk for any questions.</value>
+        <variable display_value="Message">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">785592d21b9e40504252c8017e4bcbd1</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=785592d21b9e40504252c8017e4bcbd0"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">785592d21b9e40504252c8017e4bcbd0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>705592d21b9e40504252c8017e4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Completed">285512d21b9e40504252c8017e4bcb15</stage>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>915</x>
+        <y>610</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=3c5592d21b9e40504252c8017e4bcbc2"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Get Task Order</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>345592d21b9e40504252c8017e4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>383</x>
+        <y>265</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=345592d21b9e40504252c8017e4bcbcc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>345592d21b9e40504252c8017e4bcbcc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>activity.result  = ifreturncheck();&#13;
+&#13;
+function ifreturncheck(){&#13;
+	&#13;
+	&#13;
+	workflow.scratchpad.catitemtaskorder = workflow.scratchpad.catitemtaskorder+1;&#13;
+	&#13;
+	//workflow.info('workflow.scratchpad.catitemtaskorder='+workflow.scratchpad.catitemtaskorder);&#13;
+	&#13;
+	if(workflow.scratchpad.catitemtaskorder&gt;workflow.scratchpad.catitemtaskordercount) return 0;&#13;
+		else{&#13;
+		var orders = workflow.scratchpad.catitemtaskorders;&#13;
+		var catitemttask = new GlideRecord("x_sksw_uk_itsm_catalog_item_task");&#13;
+		catitemttask.addEncodedQuery('active=true^sc_cat_item='+current.cat_item+'^order='+orders[workflow.scratchpad.catitemtaskorder]);&#13;
+		catitemttask.query();&#13;
+		while(catitemttask.next()){&#13;
+			var sctask = new GlideRecord('sc_task');&#13;
+			if(catitemttask.condition!=''){&#13;
+				var match = GlideFilter.checkRecord(current,catitemttask.condition);&#13;
+				if(match){&#13;
+					sctask.initialize();&#13;
+					sctask.request_item = current.sys_id.toString();&#13;
+					sctask.description = catitemttask.description;&#13;
+					sctask.short_description = catitemttask.short_description;&#13;
+					sctask.assigned_to = catitemttask.assigned_to;&#13;
+					sctask.assignment_group = catitemttask.assignment_group;&#13;
+					sctask.x_sksw_uk_itsm_assignment_group = catitemttask.assignment_group;&#13;
+					sctask.x_sksw_uk_itsm_uk_assigned_to = catitemttask.assigned_to;&#13;
+					sctask.insert();&#13;
+				}&#13;
+			}else{&#13;
+				sctask.initialize();&#13;
+				sctask.request_item = current.sys_id.toString();&#13;
+				sctask.description = catitemttask.description;&#13;
+				sctask.short_description = catitemttask.short_description;&#13;
+				sctask.assigned_to = catitemttask.assigned_to;&#13;
+				sctask.assignment_group = catitemttask.assignment_group;&#13;
+				sctask.x_sksw_uk_itsm_assignment_group = catitemttask.assignment_group;&#13;
+				sctask.x_sksw_uk_itsm_uk_assigned_to = catitemttask.assigned_to;&#13;
+				sctask.insert();&#13;
+			}	&#13;
+		}&#13;
+		return 1;}&#13;
+	}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>345592d21b9e40504252c8017e4bcbcc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>activity.result  = ifreturncheck();&#13;
+&#13;
+function ifreturncheck(){&#13;
+	&#13;
+	&#13;
+	workflow.scratchpad.catitemtaskorder = workflow.scratchpad.catitemtaskorder+1;&#13;
+	&#13;
+	//workflow.info('workflow.scratchpad.catitemtaskorder='+workflow.scratchpad.catitemtaskorder);&#13;
+	&#13;
+	if(workflow.scratchpad.catitemtaskorder&gt;workflow.scratchpad.catitemtaskordercount) return 0;&#13;
+		else{&#13;
+		var orders = workflow.scratchpad.catitemtaskorders;&#13;
+		var catitemttask = new GlideRecord("x_sksw_uk_itsm_catalog_item_task");&#13;
+		catitemttask.addEncodedQuery('active=true^sc_cat_item='+current.cat_item+'^order='+orders[workflow.scratchpad.catitemtaskorder]);&#13;
+		catitemttask.query();&#13;
+		while(catitemttask.next()){&#13;
+			var sctask = new GlideRecord('sc_task');&#13;
+			if(catitemttask.condition!=''){&#13;
+				var match = GlideFilter.checkRecord(current,catitemttask.condition);&#13;
+				if(match){&#13;
+					sctask.initialize();&#13;
+					sctask.request_item = current.sys_id.toString();&#13;
+					sctask.description = catitemttask.description;&#13;
+					sctask.short_description = catitemttask.short_description;&#13;
+					sctask.assigned_to = catitemttask.assigned_to;&#13;
+					sctask.assignment_group = catitemttask.assignment_group;&#13;
+					sctask.x_sksw_uk_itsm_assignment_group = catitemttask.assignment_group;&#13;
+					sctask.x_sksw_uk_itsm_uk_assigned_to = catitemttask.assigned_to;&#13;
+					sctask.insert();&#13;
+				}&#13;
+			}else{&#13;
+				sctask.initialize();&#13;
+				sctask.request_item = current.sys_id.toString();&#13;
+				sctask.description = catitemttask.description;&#13;
+				sctask.short_description = catitemttask.short_description;&#13;
+				sctask.assigned_to = catitemttask.assigned_to;&#13;
+				sctask.assignment_group = catitemttask.assignment_group;&#13;
+				sctask.x_sksw_uk_itsm_assignment_group = catitemttask.assignment_group;&#13;
+				sctask.x_sksw_uk_itsm_uk_assigned_to = catitemttask.assigned_to;&#13;
+				sctask.insert();&#13;
+			}	&#13;
+		}&#13;
+		return 1;}&#13;
+	}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Task Order">345592d21b9e40504252c8017e4bcbcc</activity>
+        <condition>activity.result == 0</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Exit Loop</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f85592d21b9e40504252c8017e4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Task Order">345592d21b9e40504252c8017e4bcbcc</activity>
+        <condition>activity.result == 1</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Loop</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Get Task Template Order</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f45592d21b9e40504252c8017e4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>17</x>
+        <y>329</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=f45592d21b9e40504252c8017e4bcbc7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f45592d21b9e40504252c8017e4bcbc7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>var orders = [];&#13;
+var catitemttask = new GlideRecord("x_sksw_uk_itsm_catalog_item_task");&#13;
+catitemttask.addEncodedQuery('active=true^sc_cat_item='+current.cat_item);&#13;
+catitemttask.query();&#13;
+while(catitemttask.next()){	&#13;
+	if(catitemttask.condition!=''){&#13;
+	var match = GlideFilter.checkRecord(current,catitemttask.condition);&#13;
+	if(match) orders.push(catitemttask.order+'');&#13;
+	}else{&#13;
+		orders.push(catitemttask.order+'');&#13;
+	}&#13;
+}&#13;
+&#13;
+&#13;
+var skanskataskorders = new global.ArrayUtil().unique(orders);&#13;
+workflow.scratchpad.catitemtaskorders = skanskataskorders.sort();&#13;
+workflow.scratchpad.catitemtaskordercount = skanskataskorders.length;&#13;
+workflow.scratchpad.catitemtaskorder = -1;&#13;
+&#13;
+//workflow.info('workflow.scratchpad.catitemtaskorders='+workflow.scratchpad.catitemtaskorders);&#13;
+</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f45592d21b9e40504252c8017e4bcbc7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>var orders = [];&#13;
+var catitemttask = new GlideRecord("x_sksw_uk_itsm_catalog_item_task");&#13;
+catitemttask.addEncodedQuery('active=true^sc_cat_item='+current.cat_item);&#13;
+catitemttask.query();&#13;
+while(catitemttask.next()){	&#13;
+	if(catitemttask.condition!=''){&#13;
+	var match = GlideFilter.checkRecord(current,catitemttask.condition);&#13;
+	if(match) orders.push(catitemttask.order+'');&#13;
+	}else{&#13;
+		orders.push(catitemttask.order+'');&#13;
+	}&#13;
+}&#13;
+&#13;
+&#13;
+var skanskataskorders = new global.ArrayUtil().unique(orders);&#13;
+workflow.scratchpad.catitemtaskorders = skanskataskorders.sort();&#13;
+workflow.scratchpad.catitemtaskordercount = skanskataskorders.length;&#13;
+workflow.scratchpad.catitemtaskorder = -1;&#13;
+&#13;
+//workflow.info('workflow.scratchpad.catitemtaskorders='+workflow.scratchpad.catitemtaskorders);&#13;
+</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Task Template Order">f45592d21b9e40504252c8017e4bcbc7</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>bc5592d21b9e40504252c8017e4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Get User/Goup Approver Order</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f45592d21b9e40504252c8017e4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>242</x>
+        <y>120</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=f45592d21b9e40504252c8017e4bcbc0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f45592d21b9e40504252c8017e4bcbc0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f85592d21b9e40504252c8017e4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>var orders = [];&#13;
+// var catitemappuser = new GlideRecord("sc_cat_item_app_user");&#13;
+// catitemappuser.addQuery('sc_cat_item',current.cat_item);&#13;
+// catitemappuser.query();&#13;
+// while(catitemappuser.next()){	&#13;
+// 	orders.push(catitemappuser.u_order+'');&#13;
+// }&#13;
+&#13;
+var catitemapp = new GlideRecord("x_sksw_uk_itsm_catalog_item_approvals");&#13;
+//catitemapp.addQuery('u_sc_cat_item',current.cat_item);&#13;
+catitemapp.addEncodedQuery('sc_cat_item='+current.cat_item+'^active=true');&#13;
+workflow.info('current.cat_item='+current.cat_item);&#13;
+catitemapp.query();&#13;
+while(catitemapp.next()){	&#13;
+	if(catitemapp.approval_condition!=''){&#13;
+	var match = GlideFilter.checkRecord(current,catitemapp.approval_condition);&#13;
+	if(match) orders.push(catitemapp.order+'');&#13;
+	}else{&#13;
+		workflow.info('catitemapp.order='+catitemapp.order);&#13;
+		orders.push(catitemapp.order+'');&#13;
+	}&#13;
+}&#13;
+&#13;
+&#13;
+var skanskaorders = new global.ArrayUtil().unique(orders);&#13;
+workflow.info('skanskaorders='+skanskaorders);&#13;
+workflow.scratchpad.orders = skanskaorders.sort();&#13;
+workflow.scratchpad.ordercount = skanskaorders.length;&#13;
+workflow.scratchpad.order = -1;&#13;
+&#13;
+//workflow.info('workflow.scratchpad.orders='+workflow.scratchpad.orders);&#13;
+//workflow.info('workflow.scratchpad.userordercount='+workflow.scratchpad.userordercount);&#13;
+//workflow.info('workflow.scratchpad.userorder='+workflow.scratchpad.userorder);&#13;
+</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f45592d21b9e40504252c8017e4bcbc0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f85592d21b9e40504252c8017e4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>var orders = [];&#13;
+// var catitemappuser = new GlideRecord("sc_cat_item_app_user");&#13;
+// catitemappuser.addQuery('sc_cat_item',current.cat_item);&#13;
+// catitemappuser.query();&#13;
+// while(catitemappuser.next()){	&#13;
+// 	orders.push(catitemappuser.u_order+'');&#13;
+// }&#13;
+&#13;
+var catitemapp = new GlideRecord("x_sksw_uk_itsm_catalog_item_approvals");&#13;
+//catitemapp.addQuery('u_sc_cat_item',current.cat_item);&#13;
+catitemapp.addEncodedQuery('sc_cat_item='+current.cat_item+'^active=true');&#13;
+workflow.info('current.cat_item='+current.cat_item);&#13;
+catitemapp.query();&#13;
+while(catitemapp.next()){	&#13;
+	if(catitemapp.approval_condition!=''){&#13;
+	var match = GlideFilter.checkRecord(current,catitemapp.approval_condition);&#13;
+	if(match) orders.push(catitemapp.order+'');&#13;
+	}else{&#13;
+		workflow.info('catitemapp.order='+catitemapp.order);&#13;
+		orders.push(catitemapp.order+'');&#13;
+	}&#13;
+}&#13;
+&#13;
+&#13;
+var skanskaorders = new global.ArrayUtil().unique(orders);&#13;
+workflow.info('skanskaorders='+skanskaorders);&#13;
+workflow.scratchpad.orders = skanskaorders.sort();&#13;
+workflow.scratchpad.ordercount = skanskaorders.length;&#13;
+workflow.scratchpad.order = -1;&#13;
+&#13;
+//workflow.info('workflow.scratchpad.orders='+workflow.scratchpad.orders);&#13;
+//workflow.info('workflow.scratchpad.userordercount='+workflow.scratchpad.userordercount);&#13;
+//workflow.info('workflow.scratchpad.userorder='+workflow.scratchpad.userorder);&#13;
+</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get User/Goup Approver Order">f45592d21b9e40504252c8017e4bcbc0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b05592d21b9e40504252c8017e4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Get User/Goup Approver Order 2</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>385592d21b9e40504252c8017e4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>459</x>
+        <y>41</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=385592d21b9e40504252c8017e4bcbc3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>385592d21b9e40504252c8017e4bcbc3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>activity.result  = ifreturncheck();&#13;
+&#13;
+function ifreturncheck(){&#13;
+	var groupapp=false;&#13;
+	var userapp=false;&#13;
+	&#13;
+	workflow.scratchpad.order = workflow.scratchpad.order+1;&#13;
+	&#13;
+	// Make sure wf_activity of the last approval is removed&#13;
+	// to avoid the deletion of the record&#13;
+	var sysid_current = current.sys_id.toString();&#13;
+	&#13;
+	var grApproval = new GlideRecord('sysapproval_approver');&#13;
+	// Get the aproved approval in question (any where wf_activity is set)&#13;
+	// We do not need to identify the "last" because all should have an empty entry in wf_activity&#13;
+	grApproval.addEncodedQuery('state=approved^wf_activity!=NULL^sysapproval=' + sysid_current );&#13;
+	grApproval.query();&#13;
+	&#13;
+	while (grApproval.next())&#13;
+		{&#13;
+		workflow.info('grApproval='+grApproval);&#13;
+		grApproval.setValue('wf_activity','');&#13;
+		grApproval.update();&#13;
+	}&#13;
+	&#13;
+	&#13;
+	var groupApproval = new GlideRecord('sysapproval_group');&#13;
+groupApproval.addEncodedQuery('approval=approved^wf_activity!=NULL^parent='+ sysid_current);&#13;
+groupApproval.query();&#13;
+&#13;
+while (groupApproval.next())&#13;
+	{&#13;
+	groupApproval.setValue('wf_activity','');&#13;
+	groupApproval.update();&#13;
+}&#13;
+	&#13;
+	&#13;
+	var orders = workflow.scratchpad.orders;&#13;
+	&#13;
+	&#13;
+	if(workflow.scratchpad.order&gt;workflow.scratchpad.ordercount) return 0;&#13;
+	else return 1;&#13;
+	}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>385592d21b9e40504252c8017e4bcbc3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>activity.result  = ifreturncheck();&#13;
+&#13;
+function ifreturncheck(){&#13;
+	var groupapp=false;&#13;
+	var userapp=false;&#13;
+	&#13;
+	workflow.scratchpad.order = workflow.scratchpad.order+1;&#13;
+	&#13;
+	// Make sure wf_activity of the last approval is removed&#13;
+	// to avoid the deletion of the record&#13;
+	var sysid_current = current.sys_id.toString();&#13;
+	&#13;
+	var grApproval = new GlideRecord('sysapproval_approver');&#13;
+	// Get the aproved approval in question (any where wf_activity is set)&#13;
+	// We do not need to identify the "last" because all should have an empty entry in wf_activity&#13;
+	grApproval.addEncodedQuery('state=approved^wf_activity!=NULL^sysapproval=' + sysid_current );&#13;
+	grApproval.query();&#13;
+	&#13;
+	while (grApproval.next())&#13;
+		{&#13;
+		workflow.info('grApproval='+grApproval);&#13;
+		grApproval.setValue('wf_activity','');&#13;
+		grApproval.update();&#13;
+	}&#13;
+	&#13;
+	&#13;
+	var groupApproval = new GlideRecord('sysapproval_group');&#13;
+groupApproval.addEncodedQuery('approval=approved^wf_activity!=NULL^parent='+ sysid_current);&#13;
+groupApproval.query();&#13;
+&#13;
+while (groupApproval.next())&#13;
+	{&#13;
+	groupApproval.setValue('wf_activity','');&#13;
+	groupApproval.update();&#13;
+}&#13;
+	&#13;
+	&#13;
+	var orders = workflow.scratchpad.orders;&#13;
+	&#13;
+	&#13;
+	if(workflow.scratchpad.order&gt;workflow.scratchpad.ordercount) return 0;&#13;
+	else return 1;&#13;
+	}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get User/Goup Approver Order 2">385592d21b9e40504252c8017e4bcbc3</activity>
+        <condition>activity.result == 0</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Exit Loop</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>705592d21b9e40504252c8017e4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get User/Goup Approver Order 2">385592d21b9e40504252c8017e4bcbc3</activity>
+        <condition>activity.result == 1</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Send Approval</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Rejection Notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>830</x>
+        <y>320</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b45592d21b9e40504252c8017e4bcbc5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>305592d21b9e40504252c8017e4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>Click here to view request: ${URI}&#13;
+&lt;p&gt;&#13;
+Number: ${number}&#13;
+Opened: ${opened_at}&#13;
+Item: ${cat_item}&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+Additional comments: &#13;
+${comments}&#13;
+&lt;/p&gt;</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>${request.requested_for}</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f05592d21b9e40504252c8017e4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>Your requested item ${number} for ${cat_item} has been rejected</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>${request.requested_for}</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f05592d21b9e40504252c8017e4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>Your requested item ${number} for ${cat_item} has been rejected</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b45592d21b9e40504252c8017e4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>Click here to view request: ${URI}&#13;
+&lt;p&gt;&#13;
+Number: ${number}&#13;
+Opened: ${opened_at}&#13;
+Item: ${cat_item}&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+Additional comments: &#13;
+${comments}&#13;
+&lt;/p&gt;</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b45592d21b9e40504252c8017e4bcbc5</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>305592d21b9e40504252c8017e4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Rejection Notification">b45592d21b9e40504252c8017e4bcbc5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>305592d21b9e40504252c8017e4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Assignment Group from Fulfillment Group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>385592d21b9e40504252c8017e4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>139</x>
+        <y>13</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=385592d21b9e40504252c8017e4bcbca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>385592d21b9e40504252c8017e4bcbca</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>current.x_sksw_uk_itsm_assignment_group = current.cat_item.group;&#13;
+current.assignment_group = current.cat_item.group;</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>385592d21b9e40504252c8017e4bcbca</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>current.x_sksw_uk_itsm_assignment_group = current.cat_item.group;&#13;
+current.assignment_group = current.cat_item.group;</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Assignment Group from Fulfillment Group">385592d21b9e40504252c8017e4bcbca</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set State to Closed Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>611</x>
+        <y>528</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b85592d21b9e40504252c8017e4bcbc1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b85592d21b9e40504252c8017e4bcbc1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>bc5592d21b9e40504252c8017e4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b85592d21b9e40504252c8017e4bcbc1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>bc5592d21b9e40504252c8017e4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set State to Closed Complete">b85592d21b9e40504252c8017e4bcbc1</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>745592d21b9e40504252c8017e4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>18</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set State to Closed Skipped</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>877</x>
+        <y>513</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b85592d21b9e40504252c8017e4bcbc9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b85592d21b9e40504252c8017e4bcbc9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>state=7^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b85592d21b9e40504252c8017e4bcbc9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>3c5592d21b9e40504252c8017e4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>state=7^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set State to Closed Skipped">b85592d21b9e40504252c8017e4bcbc9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>705592d21b9e40504252c8017e4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set State to WIP</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>385592d21b9e40504252c8017e4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+        <x>197</x>
+        <y>357</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=385592d21b9e40504252c8017e4bcbc4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>385592d21b9e40504252c8017e4bcbc4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>385592d21b9e40504252c8017e4bcbc4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b85592d21b9e40504252c8017e4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set State to WIP">385592d21b9e40504252c8017e4bcbc4</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">305592d21b9e40504252c8017e4bcbd0</condition>
+        <from display_value="">f85592d21b9e40504252c8017e4bcbce</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>305592d21b9e40504252c8017e4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Get User/Goup Approver Order 2">385592d21b9e40504252c8017e4bcbc3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">305592d21b9e40504252c8017e4bcbc7</condition>
+        <from display_value="Rejection Notification">b45592d21b9e40504252c8017e4bcbc5</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>305592d21b9e40504252c8017e4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="">b45592d21b9e40504252c8017e4bcbcb</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Cancelled">bc5592d21b9e40504252c8017e4bcbcf</condition>
+        <from display_value="">f85592d21b9e40504252c8017e4bcbce</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>345592d21b9e40504252c8017e4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Rejection Notification">b45592d21b9e40504252c8017e4bcbc5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">f05592d21b9e40504252c8017e4bcbce</condition>
+        <from display_value="">745592d21b9e40504252c8017e4bcbcd</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>345592d21b9e40504252c8017e4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Get Task Order">345592d21b9e40504252c8017e4bcbcc</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">bc5592d21b9e40504252c8017e4bcbc7</condition>
+        <from display_value="Get Task Template Order">f45592d21b9e40504252c8017e4bcbc7</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>385592d21b9e40504252c8017e4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Set State to WIP">385592d21b9e40504252c8017e4bcbc4</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">b05592d21b9e40504252c8017e4bcbc1</condition>
+        <from display_value="Get User/Goup Approver Order">f45592d21b9e40504252c8017e4bcbc0</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>705592d21b9e40504252c8017e4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Get User/Goup Approver Order 2">385592d21b9e40504252c8017e4bcbc3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">f05592d21b9e40504252c8017e4bcbc9</condition>
+        <from display_value="">b45592d21b9e40504252c8017e4bcbc8</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>745592d21b9e40504252c8017e4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Get Task Template Order">f45592d21b9e40504252c8017e4bcbc7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">745592d21b9e40504252c8017e4bcbc2</condition>
+        <from display_value="Set State to Closed Complete">b85592d21b9e40504252c8017e4bcbc1</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="End">3c5592d21b9e40504252c8017e4bcbc2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">b45592d21b9e40504252c8017e4bcbd2</condition>
+        <from display_value="">785592d21b9e40504252c8017e4bcbd1</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>785592d21b9e40504252c8017e4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Set State to Closed Complete">b85592d21b9e40504252c8017e4bcbc1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">705592d21b9e40504252c8017e4bcbca</condition>
+        <from display_value="Set State to Closed Skipped">b85592d21b9e40504252c8017e4bcbc9</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="End">3c5592d21b9e40504252c8017e4bcbc2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Loop">7c5592d21b9e40504252c8017e4bcbcc</condition>
+        <from display_value="Get Task Order">345592d21b9e40504252c8017e4bcbcc</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="">745592d21b9e40504252c8017e4bcbcd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Send Approval">fc5592d21b9e40504252c8017e4bcbc3</condition>
+        <from display_value="Get User/Goup Approver Order 2">385592d21b9e40504252c8017e4bcbc3</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>7c5592d21b9e40504252c8017e4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="">f85592d21b9e40504252c8017e4bcbce</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">b05592d21b9e40504252c8017e4bcbd0</condition>
+        <from display_value="">f85592d21b9e40504252c8017e4bcbce</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>b05592d21b9e40504252c8017e4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Rejection Notification">b45592d21b9e40504252c8017e4bcbc5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">fc5592d21b9e40504252c8017e4bcbc4</condition>
+        <from display_value="Set State to WIP">385592d21b9e40504252c8017e4bcbc4</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f05592d21b9e40504252c8017e4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Get Task Order">345592d21b9e40504252c8017e4bcbcc</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">fc5592d21b9e40504252c8017e4bcbca</condition>
+        <from display_value="Set Assignment Group from Fulfillment Group">385592d21b9e40504252c8017e4bcbca</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f05592d21b9e40504252c8017e4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Get User/Goup Approver Order">f45592d21b9e40504252c8017e4bcbc0</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">7c5592d21b9e40504252c8017e4bcbcb</condition>
+        <from display_value="">b45592d21b9e40504252c8017e4bcbcb</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f45592d21b9e40504252c8017e4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Set State to Closed Skipped">b85592d21b9e40504252c8017e4bcbc9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">705592d21b9e40504252c8017e4bcbd1</condition>
+        <from display_value="Begin">785592d21b9e40504252c8017e4bcbd0</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>f85592d21b9e40504252c8017e4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="Set Assignment Group from Fulfillment Group">385592d21b9e40504252c8017e4bcbca</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Exit Loop">f85592d21b9e40504252c8017e4bcbcc</condition>
+        <from display_value="Get Task Order">345592d21b9e40504252c8017e4bcbcc</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="">785592d21b9e40504252c8017e4bcbd1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Exit Loop">705592d21b9e40504252c8017e4bcbc4</condition>
+        <from display_value="Get User/Goup Approver Order 2">385592d21b9e40504252c8017e4bcbc3</from>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:28</sys_created_on>
+        <sys_id>fc5592d21b9e40504252c8017e4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:28</sys_updated_on>
+        <to display_value="">b45592d21b9e40504252c8017e4bcbc8</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-14 17:58:27</sys_created_on>
+        <sys_id>e05512d21b9e40504252c8017e4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-14 17:58:27</sys_updated_on>
+        <workflow_version display_value="Skanska UK Service Catalog Item Request">205512d21b9e40504252c8017e4bcb14</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=7f7a4f6a1bdd40504252c8017e4bcbbe^sys_id!=205512d21b9e40504252c8017e4bcb14">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

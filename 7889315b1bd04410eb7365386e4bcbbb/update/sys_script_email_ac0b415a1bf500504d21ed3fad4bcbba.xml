@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>uk.email.button.reject.insert</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+var img = "/ukReject.png";
+
+var response = "approve";
+
+var emailbod = "I reject this record.";
+
+template.print(UK_RenderMailtoButton(img, response, emailbod));
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-20 16:02:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac0b415a1bf500504d21ed3fad4bcbba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>uk.email.button.reject.insert</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_email_ac0b415a1bf500504d21ed3fad4bcbba</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-22 13:48:37</sys_updated_on>
+    </sys_script_email>
+</record_update>

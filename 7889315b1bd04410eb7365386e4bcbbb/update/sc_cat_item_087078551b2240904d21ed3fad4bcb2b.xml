@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Lync Accessories">7ee87cbd1be540904252c8017e4bcb63</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Lync Jabra Speak 410</strong></p>
+<p><strong>ID : 7410-109</strong></p>
+<p><strong>£53.14</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Lync Jabra Speak 410</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>10c0f4d51b2240904d21ed3fad4bcbe3</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=087078551b2240904d21ed3fad4bcb2b&amp;sysparm_preview=true", "summary");</preview>
+        <price>72.11</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Lync Jabra Speak 410</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:19:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>087078551b2240904d21ed3fad4bcb2b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Lync Jabra Speak 410</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_087078551b2240904d21ed3fad4bcb2b</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:20:50</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>7410-109</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="GN NETCOM">a6fb94a81bee0c504d21ed3fad4bcb9e</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=087078551b2240904d21ed3fad4bcb2b"/>
+    <fx_price action="delete_multiple" query="id=087078551b2240904d21ed3fad4bcb2b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>53.14</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>087078551b2240904d21ed3fad4bcb2b</id>
+        <parent/>
+        <reference_amount>69.7486</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:19:27</sys_created_on>
+        <sys_id>c47070d51b2240904d21ed3fad4bcbe9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:20:51</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>087078551b2240904d21ed3fad4bcb2b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:19:27</sys_created_on>
+        <sys_id>007070d51b2240904d21ed3fad4bcbea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:19:29</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#50505</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>99</image_height>
+        <image_width>99</image_width>
+        <size_bytes>1634</size_bytes>
+        <size_compressed>1397</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:20:50</sys_created_on>
+        <sys_id>10c0f4d51b2240904d21ed3fad4bcbe3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:20:52</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>087078551b2240904d21ed3fad4bcb2b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="10c0f4d51b2240904d21ed3fad4bcbe3">10c0f4d51b2240904d21ed3fad4bcbe3</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:20:50</sys_created_on>
+        <sys_id>50c0f4d51b2240904d21ed3fad4bcbe3</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>pdF5ONR5HAfw329+c5jDZpgZ17gGOdcx424skxi1RQdNpbYtVlPZMEIUE1qlpzAshc09U5KwIdGKsGOkHFs5opqMa8Qi96pZevb4Z//Ybd/f5/3X5/N8n+f1fGQ9steAwha3zW4ACILA16sPkL0AXAA5JBKFRMihUCg0Wg6DI8jjsFicqqLSOoKGmpamhhqZrK1nZqBNMdUlkw1tjUwtLK2srLQM7B3tqHQzmhV17RMQjUbjsDgVeXkVqg5Zh/qfI6sH8HKAL+ALgRQAhgchPChrArQAAESAHwP8ERAGwRFIlBwag11dqFQAYCAEweAQAgGHr06jVucAHI9Q1LFkIJV2HEJRggnUGF6enO7G8gbizs4pPdphTiwaQ1JWUVXTX29gaGRsZW1ja2fv4LLJ1Y3pvnnLLi/v3aw9e/f5+n3jf4R99FjIydCw8FMRkXHnvos/fyHhYkrq92npV65mZOYXFPIF128U3fzxTkVl1d3qezUPG5uafxa2iFq7fnn67Hl3T2+f+M2gZGh4ZHRMOj3zbnZufmFxaXnNBQIQ+Gf+0YVfdcHgcAiOWnOBsPC1BTwcoWOJVGTsQB0KVqJQY+QIG3l55Q1oXdrOKeJhTieGpGcl1p9eo32U/TtY7CfJ/oL97eoDcBC4ejwIDzgBC8uG+Wcxn1jd7FMleRHX0ygJyJHwAIRm4XypQ3edJbuGHVqW8CtmelipnDbR/2FjWZ2D9Mp8Tm96HGesq7iWSKefTVzXocB8usxKeGTeJ0aQlXfbb+UoQ7zxV2OLHah8KZe8wqDx/NLnG/ssuC45I/sftzcfVO63P3SrXUEGCJjQzG0zluS9MV4bfqS82V2Du2L6QBl68iAimVtn/Ky0OUnFp27w1jYzB7SHa1D2YV5OriAiLnugKOZtJktYwlHG3nBF1NtJhJeiIa0nP9EaZQBp1nE/pX+48+prdw/Jiqf3ClOzciY848lpX2J54SProjCOt09+9ofZDq0AV9OQppRN0lGp6l4PBqraanmmNNaBPzGfVvSircuafz9BQtpVQRqohhaNhAG/dd/sAF0J29eKsh5MwhlcPOOkL2jp89vwRjHq+Rfn5lTnNEyGtoU3Ku/zni3LTTfKD6ArTbVyX45GhQgHD7JZsStBU9G5mZmLOVvDFERqwrCCZNVIS5WxRFo7oyPEWZM0HkRsE4vglyYGUie570O3tzBGo8Y9ji95vZlEyvcW6GqNTAvUHx0N0rtXix11rl+5rG3SvC4zZqZ64RrhgyAH02ArIvLbUuax68VLiPbxfTZ3SS4U+0RPT4vBOQNiLZLvC6NzpLx6WEreD63qPQGvkoSEelHc5mfkVFJ6wB5xOWXJV7em4rxuqetKcd5Ud4z5XNaiWIfvLyk84yv1ZLQLjCuUji3UuiUVeEzXWVq3EnflTMac5R7knw58mASXLuuljjvMTnanNg8x0eqb2O56E4MnwhJ77Yav1U/SzXMZ4pLPNL4ACgLbhkJihbdpfVXs/GQEYYfzxzLp+P0Ppx6riZSKWMztLlADXLNSnwC+Eza1x/PYXVklpqY21KpRXkGryYLbiVxycHtp9H3/GP4o6wrMSYFtWxVM0h4YW3DHOw9uWI/SjUtRp2uajPtksc0/l9y9l6Af72o8Xd1a5njB8TiPGx8JG2OpnbQZackYmG99GzaJTcPJRT2gSE6MkDtQNMEZhalzzzsP+Hz1ZWig8XnmC2wx1BF3J1NakRP/UqMzK7SkHBeZfCNDBtR5eb9CL+52wvT1+zSY+hv5vYMHu3l7LTjRLPWmRY7F+bmYsJoDl3nygd+qWQxGU3tmRSNEzkVDIP//FZL1/g6+O1/cYgYAAA==</data>
+        <length>1852</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="10c0f4d51b2240904d21ed3fad4bcbe3">10c0f4d51b2240904d21ed3fad4bcbe3</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:20:50</sys_created_on>
+        <sys_id>d0c0f4d51b2240904d21ed3fad4bcbe3</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_sksw_uk_itsm.UK_RenderMailtoButton</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>UK_RenderMailtoButton</name>
+        <script><![CDATA[function UK_RenderMailtoButton(image, response, emailbod){
+	
+	var instance = gs.getProperty("instance_name");
+	var link = "https://" + instance + ".service-now.com";
+	var mark = email.watermark;
+	var number = current.number;
+	var emailAddress = instance + "@service-now.com";
+	if (current.getTableName().indexOf("sysapproval") != -1){
+		number = current.sysapproval.number;
+		}
+		var mailLink = '<a href="mailto:'+ emailAddress + '?subject=Re:' + number + ' - ' + response +'&body=' +  emailbod + '         '+  mark + '"><img src="' + link + image + '"></a>';
+	
+	return mailLink;
+	
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-20 15:50:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c428cd161bf500504d21ed3fad4bcb08</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>UK_RenderMailtoButton</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_include_c428cd161bf500504d21ed3fad4bcb08</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-22 13:43:17</sys_updated_on>
+    </sys_script_include>
+</record_update>

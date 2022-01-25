@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>uk_request.general</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+
+template.print("<p style='margin: 0cm; margin-bottom: .0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial',sans-serif;'><span style='font-size: 15px; line-height: 120%;'>Requested items:</span></p>\n");
+	
+var gr = new GlideRecord("sc_req_item");
+gr.addQuery("request", current.getUniqueValue());
+gr.query();
+while(gr.next()) {
+	
+var stage = gr.stage.getDisplayValue();
+//if (JSUtil.nil(stage))
+//stage = gr.stage.getChoiceValue();
+template.print("\n" + gr.number + ": " + gr.cat_item.getDisplayValue() + ", Stage: " + stage + "\n");
+}
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-11 16:50:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2b4cfe9b1b6540104252c8017e4bcbde</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>uk_request.general</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_email_2b4cfe9b1b6540104252c8017e4bcbde</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-11 17:20:06</sys_updated_on>
+    </sys_script_email>
+</record_update>

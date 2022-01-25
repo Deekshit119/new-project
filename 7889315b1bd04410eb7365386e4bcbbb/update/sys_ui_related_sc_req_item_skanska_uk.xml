@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sc_req_item" version="2" view="skanska_uk">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - Skanska UK" name="sc_req_item" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">cc012d3e1bc684904d21ed3fad4bcb00</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sc_task.request_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 17:11:08</sys_created_on>
+            <sys_id>18012d3e1bc684904d21ed3fad4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 17:11:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - Skanska UK" name="sc_req_item" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">cc012d3e1bc684904d21ed3fad4bcb00</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 17:11:08</sys_created_on>
+            <sys_id>90012d3e1bc684904d21ed3fad4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 17:11:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - Skanska UK" name="sc_req_item" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">cc012d3e1bc684904d21ed3fad4bcb00</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sysapproval_group.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 17:11:08</sys_created_on>
+            <sys_id>18012d3e1bc684904d21ed3fad4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 17:11:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - Skanska UK" name="sc_req_item" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">cc012d3e1bc684904d21ed3fad4bcb00</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 17:11:08</sys_created_on>
+            <sys_id>9c012d3e1bc684904d21ed3fad4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 17:11:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - Skanska UK" name="sc_req_item" related_list="NULL" sys_domain="global" view="e8be7fcd1bf88850eb7365386e4bcbbd">cc012d3e1bc684904d21ed3fad4bcb00</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>change_request.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 17:11:08</sys_created_on>
+            <sys_id>14012d3e1bc684904d21ed3fad4bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 17:11:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Requested Item - Skanska UK</calculated_name>
+            <filter/>
+            <name>sc_req_item</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2020-01-03 17:11:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc012d3e1bc684904d21ed3fad4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested Item - Skanska UK</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_ui_related_sc_req_item_skanska_uk</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2020-01-03 17:11:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Skanska UK" name="skanska_uk">e8be7fcd1bf88850eb7365386e4bcbbd</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

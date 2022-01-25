@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Lync Accessories">7ee87cbd1be540904252c8017e4bcb63</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Lync Jabra Speak 510</strong></p>
+<p><strong>ID : 7510-109</strong></p>
+<p><strong>£63.27</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Lync Jabra Speak 510</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>6b21bcd51b2240904d21ed3fad4bcb51</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d9d038d51b2240904d21ed3fad4bcb6e&amp;sysparm_preview=true", "summary");</preview>
+        <price>85.85</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Lync Jabra Speak 510</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:21:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d9d038d51b2240904d21ed3fad4bcb6e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Lync Jabra Speak 510</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_d9d038d51b2240904d21ed3fad4bcb6e</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:22:42</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>7510-109</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="GN NETCOM">a6fb94a81bee0c504d21ed3fad4bcb9e</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=d9d038d51b2240904d21ed3fad4bcb6e"/>
+    <fx_price action="delete_multiple" query="id=d9d038d51b2240904d21ed3fad4bcb6e"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>63.27</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>d9d038d51b2240904d21ed3fad4bcb6e</id>
+        <parent/>
+        <reference_amount>83.0447</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:21:11</sys_created_on>
+        <sys_id>5dd038d51b2240904d21ed3fad4bcb71</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:22:42</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>d9d038d51b2240904d21ed3fad4bcb6e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:21:11</sys_created_on>
+        <sys_id>95d038d51b2240904d21ed3fad4bcb72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:21:12</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#191a1c</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>91</image_height>
+        <image_width>134</image_width>
+        <size_bytes>2727</size_bytes>
+        <size_compressed>2586</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:22:42</sys_created_on>
+        <sys_id>6b21bcd51b2240904d21ed3fad4bcb51</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 18:22:43</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>d9d038d51b2240904d21ed3fad4bcb6e</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="6b21bcd51b2240904d21ed3fad4bcb51">6b21bcd51b2240904d21ed3fad4bcb51</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:22:42</sys_created_on>
+        <sys_id>ab21bcd51b2240904d21ed3fad4bcb51</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3436</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="6b21bcd51b2240904d21ed3fad4bcb51">6b21bcd51b2240904d21ed3fad4bcb51</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 18:22:42</sys_created_on>
+        <sys_id>2f21bcd51b2240904d21ed3fad4bcb51</sys_id>
+    </sys_attachment_doc>
+</record_update>

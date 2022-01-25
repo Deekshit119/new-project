@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Change Management - Standard Change Catalog" source="com.snc.change_management.standard_change_catalog">46818f64dbb52200dab5338ffe9619dd</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-13 15:30:20</sys_created_on>
+        <sys_id>e2d0a6d61b4d4c10445f3150cd4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-11-13 15:30:20</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

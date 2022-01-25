@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_carrier_imei" label="Carrier IMEI" language="en" table="x_sksw_uk_itsm_import_communication_device">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_carrier_imei</element>
+            <help/>
+            <hint/>
+            <label>Carrier IMEI</label>
+            <language>en</language>
+            <name>x_sksw_uk_itsm_import_communication_device</name>
+            <plural>Carrier IMEIs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-05 17:25:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>137ea5b31bf8c010445f3150cd4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Carrier IMEI</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_documentation_x_sksw_uk_itsm_import_communication_device_u_carrier_imei_en</sys_update_name>
+            <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-05 17:25:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

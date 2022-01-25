@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>tatu.pallasoja@skanska.fi</sys_created_by>
+        <sys_created_on>2021-04-09 10:06:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>175e47571b5b68105e1d639ce54bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_leno_identity_an_iam_request</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_scope_privilege_175e47571b5b68105e1d639ce54bcbec</sys_update_name>
+        <sys_updated_by>tatu.pallasoja@skanska.fi</sys_updated_by>
+        <sys_updated_on>2021-04-09 10:06:41</sys_updated_on>
+        <target_name>x_leno_identity_an_iam_request</target_name>
+        <target_scope display_value="IGAmore">38e2cb954f2a8f008ef74fa18110c78f</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

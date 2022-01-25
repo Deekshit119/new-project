@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[$j(function() {
+	$j( "#fiscal_year" ).change(function() {
+		var fiscalYear = $j('#fiscal_year').val();
+		if(fiscalYear == ''){
+			$j('#year-field').addClass('form-submitted');
+		}
+		else{
+			$j('#year-field').removeClass('form-submitted');
+			getBudgetCosts();
+		}
+	});
+	$j("#capex_budget").change(function(){
+		this.value=formatNumber(this.value);
+		if(this.value == ''){
+			this.value = 0;
+		}
+		getTotalBudget();
+	});
+	$j("#opex_budget").change(function(){
+		this.value=formatNumber(this.value);
+		if(this.value == ''){
+			this.value = 0;
+		}
+		getTotalBudget();
+	});
+	var fiscalYearId = $j('#fiscalyear_id').val();
+	if(fiscalYearId && fiscalYearId != ''){
+		$j('#fiscal_year').val(fiscalYearId);
+	}
+	getBudgetCosts();
+	
+});
+
+function getTotalBudget(){
+	
+	var result = getCapexBudgetAndOpexBudgetCosts();
+	var currencySymbol = $j('#currency_symbol').val();
+	
+	var totalBudget = result.capex+result.opex;
+	totalBudget = totalBudget.toString().replace(/\./g, getDecimalSeparator());
+	totalBudget = formatNumber(totalBudget);
+	
+	$j('#total_budget').val(currencySymbol + totalBudget);
+	
+}
+
+function getBudgetCosts(){
+	var fiscalYear = $j('#fiscal_year').val();
+	var ga = new GlideAjax('PPMBudgetingAndPlanningAJAX');
+	ga.addParam('sysparm_name','getBudgetOrEstimatedCostForEntity');
+	ga.addParam('sysparm_entity', $j('#entity_type').val());
+	ga.addParam('sysparm_fiscal_year_id', fiscalYear);
+	ga.addParam('sysparm_entity_id',$j('#entity_id').val());
+	
+	ga.getXML(populateBudgetAmounts);
+}
+
+function populateBudgetAmounts(response){
+	var responseObj = response.responseXML.getElementsByTagName("response");
+	var costData = JSON.parse(responseObj[0].getAttribute("data"));
+	
+	
+	var capex = costData.capex;
+	capex = capex.toString().replace(/\./g, getDecimalSeparator());
+	capex = formatNumber(capex);
+	$j('#capex_budget').val(capex);
+	
+	var opex = costData.opex;
+	opex = opex.toString().replace(/\./g, getDecimalSeparator());
+	opex = formatNumber(opex);
+	$j('#opex_budget').val(opex);
+	
+	
+	var currencySymbol = $j('#currency_symbol').val();
+	
+	var totalBudget = costData.total;
+	totalBudget = totalBudget.toString().replace(/\./g, getDecimalSeparator());
+	totalBudget = formatNumber(totalBudget);
+	$j('#total_budget').val(currencySymbol + totalBudget);
+}
+
+function hasError(){
+	var error = 'form-submitted';
+	if($j('#year-field').hasClass(error))
+		return true;
+	return false;
+}
+
+function onCancel() {
+	var c = gel('cancelled');
+	c.value = "true";
+	GlideDialogWindow.get().destroy();
+	return false;
+}
+
+function onSubmit() {
+	if(hasError()){
+		return false;
+	}
+	showLoadMask();
+	
+	var result = getCapexBudgetAndOpexBudgetCosts();
+	$j('#capex_budget_value').val(result.capex);
+	$j('#opex_budget_value').val(result.opex);
+	return true;
+}
+
+function getCapexBudgetAndOpexBudgetCosts() {
+    var capexBudget = trim($j('#capex_budget').val());
+    var opexBudget = trim($j('#opex_budget').val());
+    
+    var capex = formatClean(capexBudget);
+    if(getDecimalSeparator() != '.')
+        capex = capex.replace(new RegExp(getDecimalSeparator(), 'g'), '.');
+    capex = parseFloat(capex);
+    
+    var opex = formatClean(opexBudget);
+    if(getDecimalSeparator() != '.')
+        opex = opex.replace(new RegExp(getDecimalSeparator(), 'g'), '.');
+    opex = parseFloat(opex);
+    
+    return {'capex':capex, 'opex':opex};
+}
+function showLoadMask() {
+	var loadMask = document.getElementsByClassName('load_mask_container')[0];
+	loadMask.style.display = 'flex';
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_sksw_uk_itsm_uk_entity_funding.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+    <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+		<g:requires name="scripts/formatting.js" />
+		<g:evaluate var="jvar_currency">
+			var currencyCode = 'GBP'
+			var gr = new GlideRecord('fx_currency');
+			gr.get('code', currencyCode);
+			gr.symbol;
+		</g:evaluate>
+        <g:ui_form>	
+			<div class="form-horizontal" id="budget-form">
+				<g:ppm_fiscal_year/>
+				<div id="capex-field">
+					<div class="form-group is-filled is-required">
+						<div nowrap="true" type="string" choice="0" data-type="label">
+							<label class="col-sm-12 col-md-4 control-label">
+								<span class="required-marker label_description"></span>
+								<span class="label-text">${gs.getMessage('Capex Budget')}</span>
+							</label>
+						</div>
+						<div class="col-sm-12 col-md-6 form-field input_controls">
+							<div class="input-group">
+								<span class="input-group-addon input-group-select" style="min-width:20px;">
+									<span style="position:relative; display:inline-block">
+										<select name="currency_type" class="form-control" style="min-width:20px;" disabled="disabled">
+											<option>${jvar_currency}</option>
+										</select>
+									</span>
+								</span>
+								<input name="capex_budget" id="capex_budget" class="form-control decimal"/>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-2 form-field-addons"></div>
+					</div>
+				</div>
+				<div id="opex-field">
+					<div class="form-group is-filled">
+						<div nowrap="true" type="string" choice="0" data-type="label">
+							<label class="col-sm-12 col-md-4 control-label">
+								<span class="required-marker label_description"></span>
+								<span class="label-text">${gs.getMessage('Opex Budget')}</span>
+							</label>
+						</div>
+						<div class="col-sm-12 col-md-6 form-field input_controls">
+							<div class="input-group">
+								<span class="input-group-addon input-group-select" style="min-width:20px;">
+									<span style="position:relative; display:inline-block">
+										<select name="currency_type" class="form-control" style="min-width:20px;" disabled="disabled">
+											<option>${jvar_currency}</option>
+										</select>
+									</span>
+								</span>
+								<input name="opex_budget" id="opex_budget" class="form-control decimal"/>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-2 form-field-addons"></div>
+					</div>
+				</div>
+				<div class="form-group">
+			        <div nowrap="true" type="string" choice="0" data-type="label">
+			            <label class="col-sm-12 col-md-4 control-label">
+			                <span class="label-text">${gs.getMessage('Total Budget')}</span>
+			            </label>
+			        </div>
+			        <div class="col-sm-12 col-md-6 form-field input_controls">
+			            <input name="total_budget" id="total_budget" class="form-control disabled decimal" readonly="readonly" />
+			        </div>
+			        <div class="col-sm-12 col-md-2 form-field-addons"></div>
+    			</div>
+				<div class="form-group pull-right" id="dialog-btns">
+					<g:dialog_buttons_ok_cancel ok="return onSubmit();" cancel="return onCancel();"/>
+				</div>
+				<input type="hidden" name="entity_id" id="entity_id" value="${sysparm_entity_id}"/>
+				<input type="hidden" name="entity_type" id="entity_type" value="${sysparm_entity_type}"/>
+				<input type="hidden" name="fiscalyear_id" id="fiscalyear_id" value="${sysparm_fiscal_year_id}"/>
+				<input type="hidden" name="budget_redirect_url" id="budget_redirect_url" value="${sysparm_redirect_url}"/>
+				<input type="hidden" name="currency_symbol" id="currency_symbol" value="${jvar_currency}"/>
+				<input type="hidden" id="cancelled" name="cancelled" value="false"/>
+				<input type="hidden" name="capex_budget_value" id="capex_budget_value"/>
+				<input type="hidden" name="opex_budget_value" id="opex_budget_value"/>
+			</div>
+	    </g:ui_form>
+	    <div class="load_mask_container" style="display: none;">
+            <span class="icon icon-loading"></span>
+        </div>
+        <style>
+            .load_mask_container {
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                height: 100%;
+                width: 100%;
+                background-color: #ffffff;
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0.80;
+                z-index: 1000;
+                align-items: center;
+                -ms-flex-align: center;
+                justify-content: center;
+                -ms-flex-pack: center;
+            }
+
+            #dialog-btns {
+                margin: 16px 12px 8px 0px;
+            }
+			
+			#budget-form{
+				overflow: hidden;
+			}
+        </style>
+</j:jelly>]]></html>
+        <name>uk_entity_funding</name>
+        <processing_script><![CDATA[if (cancelled == "false") {
+	var fundManager = new PPMFundManager();
+	fundManager.overrideCapexAndOpexFund(entity_type, entity_id, fiscal_year, capex_budget_value, opex_budget_value);
+	if(budget_redirect_url && budget_redirect_url!=''){
+		response.sendRedirect(budget_redirect_url);
+	}else{
+		var urlOnStack = GlideSession.get().getStack().bottom();
+		response.sendRedirect(urlOnStack);
+	}
+	
+}]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-20 04:06:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f5c6ae421bb1cc104d21ed3fad4bcb11</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>uk_entity_funding</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_ui_page_f5c6ae421bb1cc104d21ed3fad4bcb11</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-20 04:08:23</sys_updated_on>
+    </sys_ui_page>
+</record_update>

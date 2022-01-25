@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="User to Cost Code Mapping" max_length="40" name="x_sksw_uk_itsm_user_to_cost_code_mapping" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Confirmed Cost Centre" label="Confirmed Cost Centre" max_length="40" name="u_confirmed_cost_centre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Final Cost" max_length="40" name="u_final_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="firstname" max_length="40" name="u_firstname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="fk_manager" max_length="40" name="u_fk_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LLU BC" label="LLU BC" max_length="40" name="u_llu_bc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LLU Name" label="LLU Name" max_length="40" name="u_llu_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Lookup" max_length="40" name="u_lookup" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OU" max_length="40" name="u_ou" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="sAMAccountName" max_length="40" name="u_samaccountname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="surname" max_length="40" name="u_surname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup" max_length="40" name="u_vlookup" type="string"/>
+    </element>
+</database>

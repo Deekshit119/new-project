@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sys_email</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sys_email">target_table=issue^type=send-ready^EQ<item endquery="false" field="target_table" goto="false" newquery="false" operator="=" or="false" value="issue"/>
+            <item display_value="send-ready" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="send-ready"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>FF_EP_STRY0013676_1</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+var issue = new GlideRecord(current.target_table);
+issue.addQuery('sys_id',current.instance.toString());
+issue.addQuery('x_sksw_uk_itsm_scope','Skanska UK');
+issue.query();
+
+if (issue.next())
+{
+	
+issue.comments = 'Sent By: '+current.sys_created_by+'[code] <br /> <br /> Recipients: '+current.recipients+'[/code]'+'[code] <br /> <br />'+current.body+'[/code]';
+	
+issue.update();
+}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-13 15:52:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2895c9081bb904104252c8017e4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FF_EP_STRY0013676_1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_2895c9081bb904104252c8017e4bcb0c</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-13 15:52:18</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=2895c9081bb904104252c8017e4bcb0c"/>
+</record_update>

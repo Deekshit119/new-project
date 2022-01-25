@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_ctask2_email_to_storm" label="CTASK2 Email to Storm" language="en" table="x_sksw_uk_itsm_eol_pc_refresh">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_ctask2_email_to_storm</element>
+            <help/>
+            <hint/>
+            <label>CTASK2 Email to Storm</label>
+            <language>en</language>
+            <name>x_sksw_uk_itsm_eol_pc_refresh</name>
+            <plural>CTASK2 Email to Storms</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-12 15:59:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b20e190a1b414c10eb7365386e4bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CTASK2 Email to Storm</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_documentation_x_sksw_uk_itsm_eol_pc_refresh_u_ctask2_email_to_storm_en</sys_update_name>
+            <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-12 15:59:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

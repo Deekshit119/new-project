@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function doesn't run on Sunday, Saturday.
+
+function checkWeekdays() {
+
+
+var now = new Date();
+
+
+var day = now.getDay();
+
+
+var result = false;
+
+
+if(day != 0 && day != 6) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkWeekdays();]]></condition>
+        <conditional>true</conditional>
+        <entered_time/>
+        <name>[UK JW] HCM/Taleo Integration File Processing Check</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>4</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'HCM/Taleo Integration File Processing Check',   
+	
+'description': "Task no 4 refers - Daily HCM/Taleo Integration file processing checks                               Check twice daily 'iTrent to HCM Automation process completed. No errors reported' emails are received in the iTrent.Support  mailbox at approx 03.30 and 12.30 noon. If no email check in HR-RESTRICTED R: drive L & D Reports - Unrestricted\HCM Talent Integration folder to check whether report has been processed or not. Liaise with Eamon McIntosh/Ramesh Hirani if an issue and routine needs to be run manually. Additionally, review any [PRD] Exception in the Integration - HrBu - Country:GB - EmployeeNumber:XXXXXX emails from workflow@skanska.net generated from Sweden's part of the integration process when received and forward to Eamon McIntosh as appropriate.                                    NB on Mondays ensure check for Saturday & Sunday emails.",
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-09 10:22:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c0db2e41b9608104d21ed3fad4bcbf3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>[UK JW] HCM/Taleo Integration File Processing Check</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_6c0db2e41b9608104d21ed3fad4bcbf3</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:11:11</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

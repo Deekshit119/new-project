@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:00fc795a1b1240504d21ed3fad4bcbbe=true^EQ</condition>
+        <guide display_value="Dell Latitude 5401 Laptop">c0fc395a1b1240504d21ed3fad4bcb28</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Dell Dock Type-C">2d7c985d1bae00904d21ed3fad4bcb35</item>
+        <order>70</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-14 16:11:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>20fcb95a1b1240504d21ed3fad4bcb74</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>c0fc395a1b1240504d21ed3fad4bcb28</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_20fcb95a1b1240504d21ed3fad4bcb74</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 20:03:51</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

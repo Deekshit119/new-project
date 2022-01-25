@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Model : ZBook Studio G5</strong></p>
+<p><strong>ID : 30894643/N9k76AA</strong></p>
+<p><strong>Processor : Intel Core i7-8850H vPro</strong></p>
+<p><strong>Memory : 32GB DDR4 RAM</strong></p>
+<p><strong>HDD Size : 1TB PCle SSD</strong></p>
+<p><strong>OS : Microsoft Windows 10 Enterprise</strong></p>
+<p><strong>Notes:</strong></p>
+<p><strong>£2275.11</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>ZBook Studio G5 </name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>true</no_order>
+        <no_order_now>true</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>233681111ba240904d21ed3fad4bcbdc</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2db50ddd1b6240904d21ed3fad4bcb1a&amp;sysparm_preview=true", "summary");</preview>
+        <price>3087.16</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>ZBook Studio G5 </short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:52:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2db50ddd1b6240904d21ed3fad4bcb1a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ZBook Studio G5 </sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_2db50ddd1b6240904d21ed3fad4bcb1a</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-24 10:49:18</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr>Hardware</u_type_of_sr>
+        <u_x_sksw_fi_atea_int_item_id>30894643/N9k76AA</u_x_sksw_fi_atea_int_item_id>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor display_value="HP">c1158c021b34cc50445f3150cd4bcb74</vendor>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Skanska UK E-Procurement Order">74efce5f1ba588504d21ed3fad4bcbc8</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=2db50ddd1b6240904d21ed3fad4bcb1a"/>
+    <fx_price action="delete_multiple" query="id=2db50ddd1b6240904d21ed3fad4bcb1a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>2275.11</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>2db50ddd1b6240904d21ed3fad4bcb1a</id>
+        <parent/>
+        <reference_amount>2986.1828</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:52:24</sys_created_on>
+        <sys_id>21b50ddd1b6240904d21ed3fad4bcb1e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-24 10:49:18</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>2db50ddd1b6240904d21ed3fad4bcb1a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:52:24</sys_created_on>
+        <sys_id>69b50ddd1b6240904d21ed3fad4bcb1e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:52:26</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#b5b42</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>192</image_height>
+        <image_width>262</image_width>
+        <size_bytes>5073</size_bytes>
+        <size_compressed>4888</size_compressed>
+        <state>available</state>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:54:43</sys_created_on>
+        <sys_id>233681111ba240904d21ed3fad4bcbdc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-23 19:54:44</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>2db50ddd1b6240904d21ed3fad4bcb1a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="233681111ba240904d21ed3fad4bcbdc">233681111ba240904d21ed3fad4bcbdc</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:54:43</sys_created_on>
+        <sys_id>633681111ba240904d21ed3fad4bcbdc</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6504</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="233681111ba240904d21ed3fad4bcbdc">233681111ba240904d21ed3fad4bcbdc</sys_attachment>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2020-01-23 19:54:43</sys_created_on>
+        <sys_id>e33681111ba240904d21ed3fad4bcbdc</sys_id>
+    </sys_attachment_doc>
+</record_update>

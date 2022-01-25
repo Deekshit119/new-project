@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_sksw_uk_itsm_scope" table="sc_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_sksw_uk_itsm_scope</element>
+            <name>sc_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-05 14:34:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>075781bb1bf4c010445f3150cd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sksw_uk_itsm_scope</sys_name>
+            <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+            <sys_update_name>sys_choice_sc_task_x_sksw_uk_itsm_scope</sys_update_name>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-05 14:34:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sksw_uk_itsm_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Skanska UK</label>
+            <language>en</language>
+            <name>sc_task</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+            <sys_created_on>2019-11-05 14:34:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b45749bb1bf4c010445f3150cd4bcb67</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jesse.haddad@flyform.com</sys_updated_by>
+            <sys_updated_on>2019-11-08 13:39:24</sys_updated_on>
+            <value>Skanska UK</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

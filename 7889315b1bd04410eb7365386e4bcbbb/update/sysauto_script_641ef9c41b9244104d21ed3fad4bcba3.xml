@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>[UK JW] Weekly Batch Processes Check in LIVE DEV UAT PILOT</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Pearson (bc959045)">f00ecc8bdbcad700b44772b10f9619a4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1971-01-01 00:00:00</run_period>
+        <run_start>2020-08-01 08:00:00</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+ 
+//Set  Catalog Item's variables
+
+'short_description': 'Weekly Batch Processes check in Live & Dev',           
+
+		'description': "Task no 11 - refers - Monday document located in R:\ITSD Applications\Scheduled Tasks.      Check the weekly (Saturday) batch processes have run successfully in LIVE, DEV1, DEV2, UAT & PILOT: Batch Processing>Batch processes>Search for All, select first one and Schedule history.                                 Aborted Worflow Cleardown 08.00                                                                                     Audit Archive 12.00                                                                                                 Batch Audit Archive Cleardown 09.00                                                                                 Batch Logs Cleardown 10.00                                                                                          Batch Process Logs Cleardown 10.30                                                                                  Batch Report Tables Cleardown 11.00                                                                                 Batch Workflow Audit Cleardown 11.30                                                                              Holiday Calculation 13.00                                                                                          Update Weekly Batch Monitoring Live & Dev spreadsheet located in R:\ITSD Applications. Additionally, the 'Workflows & Batches Log' email and report is scheduled to batch daily to the iTrent.Support mailbox, check tab 3.",
+
+	'assignment_group': '35e316751b7c8c50445f3150cd4bcb54',
+
+	'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-07 16:30:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>641ef9c41b9244104d21ed3fad4bcba3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>[UK JW] Weekly Batch Processes Check in LIVE DEV UAT PILOT</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_641ef9c41b9244104d21ed3fad4bcba3</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:20:12</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

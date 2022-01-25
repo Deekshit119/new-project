@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_sksw_uk_itsm_eol_pc_refresh</collection>
+        <condition table="x_sksw_uk_itsm_eol_pc_refresh">u_reminder_emails_sent_datesVALCHANGES^EQ<item endquery="false" field="u_reminder_emails_sent_dates" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>aaaaaaa.dummy.event</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<table style="width: 393px; border-collapse: collapse; margin-left: 6.75pt; margin-right: calc(23%); height: 352px;" border="0" width="545" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td width="57">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td colspan="2" width="307">
+<p><img src="/sys_attachment.do?sys_id=8d200a531b6d00104252c8017e4bcbfd" width="157" height="54" /></p>
+</td>
+<td style="width: 136.4pt; padding: 4.25pt 5.4pt;" colspan="2" width="33.333333333333336%">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial', sans-serif;"><span style="font-size: 19px; line-height: 120%;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 396.95pt; background: #293e6b none repeat scroll 0% 0%; padding: 4.25pt 5.4pt;" colspan="4" width="97.06422018348624%">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial', sans-serif; text-align: right;"><span style="font-size: 15px; line-height: 120%; color: #f2efed;">IT Notification &nbsp; &nbsp;&nbsp;</span></p>
+</td>
+<td style="width: 12.15pt; background: #293e6b none repeat scroll 0% 0%; padding: 4.25pt 5.4pt;" width="2.9357798165137616%">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial', sans-serif; text-align: right;"><span style="font-size: 15px; line-height: 120%;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 409.1pt; padding: 4.25pt 5.4pt; vertical-align: top;" colspan="5" valign="top" width="100%">
+<p>Dear ${u_user_id.name},</p>
+<p>The warranty on your machine has nearly expired and you are due a replacement device.</p>
+<p>You must now arrange for the return and/or replacement of the following device:</p>
+<p><strong>Device Details:</strong></p>
+<p>Model ID: ${device.model_id}</p>
+<p>Asset Tag: ${device.asset_tag}</p>
+<p>Warranty Expiry Date: ${device.warranty_expiration}</p>
+<p>Please click this&nbsp;<a title="link" href="https://skanskaprod.service-now.com/uksp?id=sc_category&amp;sys_id=ea1adee41b51c450445f3150cd4bcb18">link</a> in order to return or replace your device.</p>
+<p>Your department will receive charges if the device is not returned by the end of its warranty &ndash; in order to avoid these, please action this request ASAP.</p>
+<p>Kind Regards,</p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: Arial, sans-serif;">IT Procurement </p>
+</td>
+</tr>
+<tr>
+<td style="width: 204.55pt; background: #e6e6e6 none repeat scroll 0% 0%; padding: 4.25pt 5.4pt; vertical-align: top;" colspan="2" valign="top" width="50%">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial', sans-serif;"><span style="color: black;">Contact Us: <span style="text-decoration: underline;">Self Service</span>&nbsp;</span></p>
+</td>
+<td style="width: 204.55pt; background: #e6e6e6 none repeat scroll 0% 0%; padding: 4.25pt 5.4pt; vertical-align: top;" colspan="3" valign="top" width="50%">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial', sans-serif; text-align: right;"><span style="color: black;">Unsubscribe | Notification Preferences</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 396.95pt; background: #293e6b none repeat scroll 0% 0%; padding: 4.25pt 5.4pt;" colspan="4" width="97.06422018348624%">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial', sans-serif;"><span style="font-size: 9px; line-height: 120%; color: #f2efed;">Skanska Plc, Registered Office: Maple Cross House, Denham Way, Maple Cross, Herts. WD3 9SW. Registered in England &ndash; Registrations Number: 784752</span></p>
+</td>
+<td style="width: 12.15pt; background: #293e6b none repeat scroll 0% 0%; padding: 4.25pt 5.4pt;" width="2.9357798165137616%">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 120%; font-size: 13px; font-family: 'Arial', sans-serif; text-align: right;"><span style="font-size: 15px; line-height: 120%;">&nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>FF RQ STRY0013713-EOL PC Refresh Remind</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_user_id</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Invite to Replace Your Skanska Computer </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-05 15:47:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>45a73f1d1bedcc504252c8017e4bcb7e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>FF RQ STRY0013713-EOL PC Refresh Remind</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysevent_email_action_45a73f1d1bedcc504252c8017e4bcb7e</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-31 10:37:33</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Import Computer Skanska UK">1acda4e31b748010445f3150cd4bcb16</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	var state = source.u_sub_state;
+	
+	
+	if(state == 'Collection in Transit' || state == 'Collection in Progress' || state == 'Return in Progress' || state == 'Recovered to VAR'  || state == 'Returned') return 'Available';	
+	
+	else return state;
+	   
+	
+
+})(source);]]></source_script>
+        <source_table>x_sksw_uk_itsm_import_computer</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>erdinc.pinar@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-04 18:42:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>83b4b06b1b748010445f3150cd4bcbd5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_transform_entry_83b4b06b1b748010445f3150cd4bcbd5</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2020-01-17 01:58:23</sys_updated_on>
+        <target_field>substatus</target_field>
+        <target_table>alm_hardware</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

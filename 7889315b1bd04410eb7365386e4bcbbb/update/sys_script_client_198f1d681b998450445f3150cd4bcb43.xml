@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set Missing CI to Mandatory when CI is set to 'Not in CMDB' item</description>
+        <field>x_sksw_uk_itsm_cmdb_ci</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>FF_JH_STRY0013597_2</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+  if(newValue == '462bf5921b3c0090445f3150cd4bcbb3'){
+	var myScope = "x_sksw_uk_itsm";
+	var field = "x_sksw_uk_itsm_missing_ci";
+	var fElement = g_form.getGlideUIElement(field);
+	var originalScope = fElement.getScope() + "";
+	
+	fElement.scope = myScope;
+	g_form.setMandatory(field, true);
+	fElement.scope = originalScope;
+  }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>jesse.haddad@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-20 10:35:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>198f1d681b998450445f3150cd4bcb43</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FF_JH_STRY0013597_2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_client_198f1d681b998450445f3150cd4bcb43</sys_update_name>
+        <sys_updated_by>erdinc.pinar@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-10 14:02:20</sys_updated_on>
+        <table>problem</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view>skanska_uk</view>
+    </sys_script_client>
+</record_update>

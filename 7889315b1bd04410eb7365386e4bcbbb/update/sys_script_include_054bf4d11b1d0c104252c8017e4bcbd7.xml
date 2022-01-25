@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sksw_uk_itsm.EOLgetLocation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>EOLgetLocation</name>
+        <script><![CDATA[var EOLgetLocation = Class.create();
+EOLgetLocation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getStreet : function()
+	{
+		
+		var loc = this.getParameter('location');
+		var street = new GlideRecord('cmn_location');
+		street.addQuery('sys_id',loc);
+		street.query();
+		if (street.next())
+			{
+			return street.getValue('street');
+		}
+	},
+	
+	
+	getCity : function()
+	{
+		
+		var loc = this.getParameter('location');
+		var city = new GlideRecord('cmn_location');
+		city.addQuery('sys_id',loc);
+		city.query();
+		if (city.next())
+			{
+			return city.getValue('city');
+		}
+	},
+	
+	
+	getCounty : function()
+	{
+		
+		var loc = this.getParameter('location');
+		var county = new GlideRecord('cmn_location');
+		county.addQuery('sys_id',loc);
+		county.query();
+		if (county.next())
+			{
+			return county.getValue('state');
+		}
+	},
+	
+	
+	
+	getZip : function()
+	{
+		
+		var loc = this.getParameter('location');
+		var zip = new GlideRecord('cmn_location');
+		zip.addQuery('sys_id',loc);
+		zip.query();
+		if (zip.next())
+			{
+			return zip.getValue('zip');
+		}
+	},
+	
+	type: 'EOLgetLocation'
+	
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-11-22 15:48:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>054bf4d11b1d0c104252c8017e4bcbd7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>EOLgetLocation</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sys_script_include_054bf4d11b1d0c104252c8017e4bcbd7</sys_update_name>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-11-22 16:57:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

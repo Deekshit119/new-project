@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide">
+    <sc_cat_item_guide action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <cascade>true</cascade>
+        <category display_value="Order Desktop/Laptop/Tablet">6fb8a3621b05cc10445f3150cd4bcb3b</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong>Include Monitor, Headset, Case and Docking Station</strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>aeaf25221bd2c0504d21ed3fad4bcb68</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <include_items>true</include_items>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Dell Latitude 7400 2 in 1 Tablet</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <order_to_cart>false</order_to_cart>
+        <ordered_item_link/>
+        <owner/>
+        <picture>019f256e1b92c0504d21ed3fad4bcbbc</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;sysparm_initial=true&amp;sysparm_guide=29097dc71be5c4904252c8017e4bcb54&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>8db5a4d41b454410445f3150cd4bcba9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script/>
+        <short_description>Please tick to include Monitor, Headset, Case and Docking Station</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_guide</sys_class_name>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-10 17:03:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29097dc71be5c4904252c8017e4bcb54</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Dell Latitude 7400 2 in 1 Tablet</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sc_cat_item_guide_29097dc71be5c4904252c8017e4bcb54</sys_update_name>
+        <sys_updated_by>bc913849</sys_updated_by>
+        <sys_updated_on>2020-01-15 09:52:25</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <two_step>false</two_step>
+        <type>item</type>
+        <u_business_service/>
+        <u_require_license>false</u_require_license>
+        <u_service_offering/>
+        <u_type_of_sr/>
+        <u_x_sksw_fi_atea_int_item_id/>
+        <use_sc_layout>true</use_sc_layout>
+        <validator/>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_guide>
+    <sys_translated_text action="delete_multiple" query="documentkey=29097dc71be5c4904252c8017e4bcb54"/>
+    <fx_price action="delete_multiple" query="id=29097dc71be5c4904252c8017e4bcb54"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>29097dc71be5c4904252c8017e4bcb54</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-10 17:03:11</sys_created_on>
+        <sys_id>21097dc71be5c4904252c8017e4bcb58</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-10 17:03:12</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>recurring_price</field>
+        <id>29097dc71be5c4904252c8017e4bcb54</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rizwan.quadri@flyform.com</sys_created_by>
+        <sys_created_on>2019-12-10 17:03:11</sys_created_on>
+        <sys_id>ed097dc71be5c4904252c8017e4bcb58</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rizwan.quadri@flyform.com</sys_updated_by>
+        <sys_updated_on>2019-12-10 17:03:13</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#889fbf</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash/>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>5724</size_bytes>
+        <size_compressed>5434</size_compressed>
+        <state>available</state>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-15 09:52:01</sys_created_on>
+        <sys_id>019f256e1b92c0504d21ed3fad4bcbbc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-01-15 09:52:03</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_guide</table_name>
+        <table_sys_id>29097dc71be5c4904252c8017e4bcb54</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="019f256e1b92c0504d21ed3fad4bcbbc">019f256e1b92c0504d21ed3fad4bcbbc</sys_attachment>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-15 09:52:01</sys_created_on>
+        <sys_id>419f256e1b92c0504d21ed3fad4bcbbc</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>7232</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="019f256e1b92c0504d21ed3fad4bcbbc">019f256e1b92c0504d21ed3fad4bcbbc</sys_attachment>
+        <sys_created_by>bc913849</sys_created_by>
+        <sys_created_on>2020-01-15 09:52:01</sys_created_on>
+        <sys_id>c19f256e1b92c0504d21ed3fad4bcbbc</sys_id>
+    </sys_attachment_doc>
+</record_update>

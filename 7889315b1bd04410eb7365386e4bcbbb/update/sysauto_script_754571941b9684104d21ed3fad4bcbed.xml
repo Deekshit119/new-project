@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//This function runs the script from Monday to Friday.
+
+function checkWeekdays() {
+
+
+var now = new Date();
+
+
+var day = now.getDay();
+
+
+var result = false;
+
+
+if(day != 0 && day != 6) {
+
+
+result = true;
+
+
+}
+
+
+return result;
+
+
+}
+
+
+checkWeekdays();
+
+]]></condition>
+        <conditional>true</conditional>
+        <entered_time/>
+        <name>[UK JW] myDetails and People Manager User Accounts</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Joshua Welbelove (bc966073)">776128c3db4ed700b44772b10f96199b</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>14</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-01-06 15:41:50</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[createRequest();
+ 
+function createRequest() {           
+                
+var cart = new sn_sc.CartJS();
+ 
+var item =
+{
+'sysparm_id': '729897791b3d4c104d21ed3fad4bcbcb', //Catalog Item sys_id (SD Generic Request Catalog Item's sys_id 729897791b3d4c104d21ed3fad4bcbcb)
+ 
+'sysparm_quantity': '1',
+ 
+'variables':
+{
+
+//Set  Catalog Item's variables
+
+'short_description': 'myDetails and People Manager User Accounts',   
+	
+'description': "Task no 3 refers - Daily User Accounts document located in R:\ITSD Applications\Scheduled Tasks. Run the BI report under under ITSD>(P)Live Reports>General Admin>Self Service User, refresh and save to excel (this report checks the person is a current employee and in Active Directory).  Attach this spreadsheet to the call, check iTrent and GAL and set up the new User accounts accordingly if aligned. Then run the BI report under ITSD>(P)Live Reports>General Admin>Users without People Manager GY, refresh and save to excel and update iTrent User accounts with People Manager Role. To find out if they do have direct reports look in Org Structure>People>find person>Employment>Positions>Reporting hierarchy.",
+
+'assignment_group': '35e316751b7c8c50445f3150cd4bcb54',
+
+'x_sksw_uk_itsm_u_sr_type': 'Information/Data'
+}
+                
+};
+ 
+var cartDetails = cart.addToCart(item);
+var checkoutInfo = cart.checkoutCart();
+return(checkoutInfo.request_number);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bc966073</sys_created_by>
+        <sys_created_on>2020-01-08 10:30:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>754571941b9684104d21ed3fad4bcbed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[UK JW] myDetails and People Manager User Accounts</sys_name>
+        <sys_package display_value="UK ITSM" source="x_sksw_uk_itsm">7889315b1bd04410eb7365386e4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UK ITSM">7889315b1bd04410eb7365386e4bcbbb</sys_scope>
+        <sys_update_name>sysauto_script_754571941b9684104d21ed3fad4bcbed</sys_update_name>
+        <sys_updated_by>bc966073</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:16:13</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
