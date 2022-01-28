@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_me_123.admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>true</scoped_admin>
+        <suffix>admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>deekshitulu.malladi@snc</sys_created_by>
+        <sys_created_on>2022-01-05 11:01:33</sys_created_on>
+        <sys_id>d7a1cfae1bfc85105dafdb9edc4bcba8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_me_123.admin</sys_name>
+        <sys_package display_value="me 123" source="x_snc_me_123">b50183ae1bfc85105dafdb9edc4bcb22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="me 123">b50183ae1bfc85105dafdb9edc4bcb22</sys_scope>
+        <sys_update_name>sys_user_role_d7a1cfae1bfc85105dafdb9edc4bcba8</sys_update_name>
+        <sys_updated_by>deekshitulu.malladi@snc</sys_updated_by>
+        <sys_updated_on>2022-01-05 11:02:10</sys_updated_on>
+    </sys_user_role>
+</record_update>

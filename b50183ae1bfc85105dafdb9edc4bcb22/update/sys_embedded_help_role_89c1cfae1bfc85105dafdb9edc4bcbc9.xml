@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_snc_me_123.admin" name="x_snc_me_123.admin">d7a1cfae1bfc85105dafdb9edc4bcba8</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>deekshitulu.malladi@snc</sys_created_by>
+        <sys_created_on>2022-01-05 11:01:33</sys_created_on>
+        <sys_id>89c1cfae1bfc85105dafdb9edc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d7a1cfae1bfc85105dafdb9edc4bcba8</sys_name>
+        <sys_package display_value="me 123" source="x_snc_me_123">b50183ae1bfc85105dafdb9edc4bcb22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="me 123">b50183ae1bfc85105dafdb9edc4bcb22</sys_scope>
+        <sys_update_name>sys_embedded_help_role_89c1cfae1bfc85105dafdb9edc4bcbc9</sys_update_name>
+        <sys_updated_by>deekshitulu.malladi@snc</sys_updated_by>
+        <sys_updated_on>2022-01-05 11:01:33</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
